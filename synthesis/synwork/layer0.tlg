@@ -1,5 +1,13 @@
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
+Post processing for work.uart_reader.architecture_uart_reader
+Running optimization stage 1 on uart_reader .......
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
+Post processing for work.default_values.architecture_default_values
+Running optimization stage 1 on default_values .......
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -46,18 +54,10 @@ Running optimization stage 1 on COREUART_C0 .......
 Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 0 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 1 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 2 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 3 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 4 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 5 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 6 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 7 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
 Extracted state machine for register xmit_state
@@ -71,7 +71,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
 Extracted state machine for register rx_state
@@ -85,6 +85,39 @@ Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 ..
 Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on COREUART_C0 .......
 Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on default_values .......
+@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BIT8 is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit ODD_N_EVEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit OEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit PARITY_EN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit WEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(1) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(2) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(3) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(5) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(6) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(7) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(1) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(2) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(3) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(5) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(6) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(7) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(8) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(9) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(10) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(11) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(12) is always 0.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":25:4:25:6|Input CLK is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":26:4:26:6|Input RST is unused.
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on uart_reader .......
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on top_level .......
 Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 

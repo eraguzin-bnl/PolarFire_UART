@@ -1,4 +1,7 @@
 # Microsemi Corp.
-# Date: 2022-Oct-24 13:36:32
+# Date: 2022-Oct-24 17:59:35
+# This file was generated based on the following SDC source files:
+#   /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/user.sdc
 #
 
+create_clock -name {clk_main} -period 20 -waveform {0 10 } [ get_ports { clk } ]

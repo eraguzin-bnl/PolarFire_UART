@@ -1,0 +1,99 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2022.2 2022.2.0.10
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Mon Oct 24 17:55:20 2022 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name LED1  \
+    -pin_name G17       \
+    -fixed true         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED2  \
+    -pin_name K23       \
+    -fixed true         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED3  \
+    -pin_name L23       \
+    -fixed true         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name LED4  \
+    -pin_name B25       \
+    -fixed true         \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name button1  \
+    -pin_name AK20         \
+    -fixed true            \
+    -DIRECTION INPUT
+
+
+set_io -port_name clk  \
+    -pin_name AL26     \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name rstn  \
+    -pin_name AL27      \
+    -fixed true         \
+    -DIRECTION INPUT
+
+
+set_io -port_name rx  \
+    -pin_name AL23    \
+    -fixed true       \
+    -DIRECTION INPUT
+
+
+set_io -port_name tx   \
+    -pin_name AL24     \
+    -fixed true        \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

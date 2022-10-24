@@ -1,4 +1,4 @@
-# Mon Oct 24 13:36:35 2022
+# Mon Oct 24 17:59:38 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -55,19 +55,11 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
+@W: MO129 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":47:8:47:9|Sequential instance uart_reader_i.LED3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Removing sequential instance tx_hold_reg[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":82:30:82:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":311:6:311:7|Removing sequential instance rxrdy_xhdl4 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":194:6:194:7|Removing sequential instance overflow_xhdl1 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":399:6:399:7|Removing sequential instance parity_err_xhdl2 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":218:6:218:7|Removing sequential instance framing_error_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance rx_byte_xhdl5[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":498:6:498:12|Removing instance make_RX (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance stop_strobe_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance overflow_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance framing_error_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance receive_full_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":333:6:333:7|Removing sequential instance rx_shift[8:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: FP130 |Promoting Net clk on CLKINT  I_1 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
 
@@ -78,24 +70,22 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 ******************
 
-          Start             Requested     Requested     Clock        Clock          Clock
-Level     Clock             Frequency     Period        Type         Group          Load 
------------------------------------------------------------------------------------------
-0 -       top_level|clk     100.0 MHz     10.000        inferred     (multiple)     31   
-=========================================================================================
+          Start        Requested     Requested     Clock        Clock                Clock
+Level     Clock        Frequency     Period        Type         Group                Load 
+------------------------------------------------------------------------------------------
+0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     79   
+==========================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                  Clock     Source        Clock Pin                                          Non-clock Pin     Non-clock Pin
-Clock             Load      Pin           Seq Example                                        Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------------------------------------
-top_level|clk     31        clk(port)     UART.COREUART_C0_0.make_TX.xmit_bit_sel[3:0].C     -                 I_1.A(CLKINT)
-============================================================================================================================
-
-@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found inferred clock top_level|clk which controls 31 sequential elements including UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+             Clock     Source        Clock Pin                Non-clock Pin     Non-clock Pin
+Clock        Load      Pin           Seq Example              Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------
+clk_main     79        clk(port)     uart_reader_i.LED2.C     -                 I_1.A(CLKINT)
+=============================================================================================
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -111,6 +101,13 @@ original code -> new code
    00000000000000000000000000000011 -> 001000
    00000000000000000000000000000100 -> 010000
    00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
@@ -122,6 +119,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 24 13:36:36 2022
+# Mon Oct 24 17:59:38 2022
 
 ###########################################################]

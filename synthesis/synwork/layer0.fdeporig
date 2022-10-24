@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-mixedhdl|-top|work.top_level|-layerid|0|-orig_srs|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/top_level_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work"
+#OPTIONS:"|-mixedhdl|-top|work.top_level|-layerid|0|-orig_srs|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/top_level_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
@@ -19,7 +19,9 @@
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666632989
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1666645972
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1666645689
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666646223
 0 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd" vhdl
 1 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd" vhdl
 2 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd" vhdl
@@ -28,7 +30,9 @@
 5 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd" vhdl
 6 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd" vhdl
 7 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd" vhdl
-8 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd" vhdl
+8 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd" vhdl
+9 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd" vhdl
+10 "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
@@ -39,7 +43,9 @@
 5 0 2 1 3 4 
 6 -1
 7 5 6 
-8 7 
+8 -1
+9 -1
+10 7 8 9 
 
 # Dependency Lists (Users Of)
 0 5 
@@ -49,8 +55,10 @@
 4 5 
 5 7 
 6 7 
-7 8 
-8 -1
+7 10 
+8 10 
+9 10 
+10 -1
 
 # Design Unit to File Association
 arch coreuart_lib coreuart_c0_coreuart_c0_0_clock_gen rtl 0
@@ -69,8 +77,12 @@ arch coreuart_lib coreuart_c0_coreuart_c0_0_coreuart translated 5
 module coreuart_lib coreuart_c0_coreuart_c0_0_coreuart 5
 arch work coreuart_c0 rtl 7
 module work coreuart_c0 7
-arch work top_level architecture_top_level 8
-module work top_level 8
+arch work default_values architecture_default_values 8
+module work default_values 8
+arch work uart_reader architecture_uart_reader 9
+module work uart_reader 9
+arch work top_level architecture_top_level 10
+module work top_level 10
 
 # Unbound Instances to File Association
 inst coreuart_lib coreuart_c0_coreuart_c0_0_ram256x8_g5 ram1k20 3

@@ -2,10 +2,15 @@
 ===============================================================================.
 
 Info: Global design data:
-      Total globals:                       0
+      Total globals:                       1
       Globals that cannot be demoted:      0
-      Globals considered for demotion:     0
+      Globals considered for demotion:     1
 
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    56     0      0      'I_1'
 
 Info: Demotion information:
 Info: [127205381]:  CMPPF_302: Added 0 row global instances.
@@ -13,7 +18,3 @@ Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
 
 ===============================================================================.
 
-Info: BLK014: Adding interface buffers. Port processed: 4, Added buffers: 0.
-Error:  The command 'compile' failed.
-Error:  Line 70
-Error running script

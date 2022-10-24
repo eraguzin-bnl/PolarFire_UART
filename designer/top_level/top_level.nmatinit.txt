@@ -1,0 +1,146 @@
+# Microsemi NMAT TXT File
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: top_level 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152 , Speed grade: -1 
+
+# Date generated: Mon Oct 24 18:01:21 2022 
+
+
+#
+# I/O constraints
+#
+
+set_io LED1 G17
+set_io LED2 K23
+set_io LED3 L23
+set_io LED4 B25
+set_io button1 AK20
+set_io clk AL26
+set_io rstn AL27
+set_io rx AL23
+set_io tx AL24
+
+#
+# Core cell constraints
+#
+
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_1 2102 192
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[6] 2090 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[1] 2092 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[5] 2093 187
+set_location uart_i/COREUART_C0_0/make_RX/framing_error_int 2120 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m16_2 2117 189
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[5] 2109 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m16_1_1 2121 186
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt[0] 2105 190
+set_location rstn_1 2089 186
+set_location uart_i/COREUART_C0_0/make_RX/parity_err_xhdl2_1_sqmuxa_i 2102 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_shift.rx_bit_cnt_4[2] 2110 189
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_2_120_i_a5_1 2116 186
+set_location uart_i/COREUART_C0_0/make_RX/receive_count_RNO[2] 2114 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_count_RNO[0] 2123 189
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[1] 2105 193
+set_location uart_i/COREUART_C0_0/make_RX/receive_count[0] 2123 190
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa 2122 192
+set_location uart_i/COREUART_C0_0/make_RX/un1_samples8_2_0 2103 189
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[0] 2104 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[1] 2108 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[2] 2103 187
+set_location uart_i/COREUART_C0_0/make_RX/un1_rx_bit_cnt_1_1.CO1 2100 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_shift.rx_bit_cnt_4[1] 2101 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[0] 2099 187
+set_location uart_i/COREUART_C0_0/make_RX/samples[2] 2116 190
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[0] 2109 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[7] 2096 187
+set_location uart_i/COREUART_C0_0/make_RX/receive_count[1] 2118 190
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt[2] 2110 190
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_i_a5[0] 2120 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[4] 2100 187
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[10] 2114 193
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_2_120_i_a5 2118 186
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m10 2117 186
+set_location I_1 1164 162
+set_location uart_i/COREUART_C0_0/make_RX/receive_count[3] 2113 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[4] 2091 187
+set_location uart_reader_i/led42lto7 2095 186
+set_location uart_i/COREUART_C0_0/make_RX/framing_error_i_RNO 2118 192
+set_location uart_i/COREUART_C0_0/make_RX/samples[0] 2115 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2 2116 189
+set_location uart_i/COREUART_C0_0/make_RX/framing_error_int_0_sqmuxa_0_a5 2120 186
+set_location uart_i/COREUART_C0_0/make_RX/receive_full_int 2122 193
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_8 2100 192
+set_location uart_i/COREUART_C0_0/make_RX/receive_shift.rx_bit_cnt_4[3] 2107 189
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_i_a5_0[3] 2115 186
+set_location uart_i/COREUART_C0_0/make_RX/overflow_xhdl1_0_sqmuxa 2117 192
+set_location uart_reader_i/LED4 2095 187
+set_location uart_reader_i/LED2 2106 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_s1_0_a5 2121 192
+set_location uart_i/COREUART_C0_0/make_RX/overflow_int 2093 193
+set_location uart_i/COREUART_C0_0/make_RX/parity_err_xhdl2_RNO 2123 186
+set_location uart_i/COREUART_C0_0/RXRDY_NEW.un1_rx_fifo 2105 186
+set_location uart_i/COREUART_C0_0/make_RX/un1_samples8_2_2 2111 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt_0_sqmuxa_0_a2 2119 192
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m16_1 2113 189
+set_location uart_i/COREUART_C0_0/make_RX/overflow_xhdl1 2117 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt[3] 2107 190
+set_location uart_i/COREUART_C0_0/make_RX/framing_error_int_0_sqmuxa_0_a5_2 2122 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_count_RNO[1] 2118 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_parity_calc 2122 187
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_i_o5[0] 2112 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_state[1] 2119 190
+set_location uart_reader_i/LED1 2099 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[3] 2094 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[7] 2101 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_state[0] 2117 190
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[11] 2115 193
+set_location uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0 2106 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_shift.rx_bit_cnt_4[0] 2105 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[6] 2107 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_par_calc.rx_parity_calc_3_u 2122 186
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int 2103 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt[1] 2101 190
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[3] 2107 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_statece[1] 2123 192
+set_location uart_reader_i/led42lto4 2094 186
+set_location uart_i/COREUART_C0_0/make_RX/rx_filtered_i_o2 2119 186
+set_location uart_i/COREUART_C0_0/make_RX/stop_strobe_i_1_sqmuxa_0_a5 2114 186
+set_location uart_i/COREUART_C0_0/make_RX/rcv_cnt.receive_count_3_i_a2_1_0[0] 2121 189
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[12] 2116 193
+set_location uart_reader_i/led42lto4_1 2088 186
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m18 2119 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_count[2] 2114 190
+set_location uart_i/COREUART_C0_0/make_RX/make_parity_err.un87_baud_clock_0_a5 2108 189
+set_location uart_i/COREUART_C0_0/make_RX/receive_full_int_1_sqmuxa_1_i 2109 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5[2] 2088 187
+set_location uart_i/COREUART_C0_0/make_RX/stop_strobe_i 2114 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[3] 2110 187
+set_location uart_i/COREUART_C0_0/make_RX/samples[1] 2112 187
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_7 2101 192
+set_location I_1/U0_RGB1 1746 204
+set_location uart_i/COREUART_C0_0/make_RX/parity_err_xhdl2 2123 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[5] 2104 187
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[7] 2111 193
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[8] 2112 193
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[6] 2110 193
+set_location uart_i/COREUART_C0_0/rxrdy_xhdl4 2105 187
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_s2_0_o2 2120 192
+set_location uart_i/COREUART_C0_0/make_RX/rx_bit_cnt_RNI2O091[1] 2104 189
+set_location uart_i/COREUART_C0_0/make_RX/rx_shift[8] 2102 187
+set_location uart_i/COREUART_C0_0/make_RX/receive_count_RNO[3] 2113 186
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[4] 2108 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m8 2115 189
+set_location uart_i/COREUART_C0_0/make_RX/framing_error_i 2118 193
+set_location uart_i/COREUART_C0_0/make_RX/rx_state_ns_1_0_.m14 2112 186
+set_location uart_reader_i/parity_err 2099 192
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[9] 2113 193
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[2] 2106 193
+set_location uart_i/COREUART_C0_0/make_RX/rcv_sm.overflow_int_3 2093 192
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_1_RNIE7FM1 2103 192
+set_location I_1/U0_RGB1_RGB0 1746 177
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_1_RNIE7FM1_CC_0 2103 194
+set_location uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10.make_baud_cntr2.un2_baud_cntr_1_RNIE7FM1_CC_1 2112 194

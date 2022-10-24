@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
 
-Modified Files: 20
+Modified Files: 22
 FID:  path (prevtimestamp, timestamp)
 0        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42)
 1        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd (N/A, 2022-10-24 13:07:42)
@@ -27,61 +27,69 @@ FID:  path (prevtimestamp, timestamp)
 5        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd (N/A, 2022-10-24 13:07:42)
 6        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd (N/A, 2022-10-24 13:07:42)
 7        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd (N/A, 2022-10-24 13:07:42)
-8        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29)
-9        /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd (N/A, 2022-06-23 08:48:07)
-10       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd (N/A, 2022-06-23 08:48:08)
-11       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd (N/A, 2022-06-23 08:48:08)
-12       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/umr_capim.vhd (N/A, 2022-06-23 08:48:08)
-13       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/arith.vhd (N/A, 2022-06-23 08:48:08)
-14       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map (N/A, 2022-06-23 08:48:08)
-15       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/numeric.vhd (N/A, 2022-06-23 08:48:08)
-16       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd (N/A, 2022-06-23 08:48:08)
-17       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd (N/A, 2022-06-23 08:48:08)
-18       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std_textio.vhd (N/A, 2022-06-23 08:48:08)
-19       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/unsigned.vhd (N/A, 2022-06-23 08:48:08)
+8        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd (N/A, 2022-10-24 17:12:52)
+9        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03)
+10       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd (N/A, 2022-10-24 17:08:09)
+11       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd (N/A, 2022-06-23 08:48:07)
+12       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd (N/A, 2022-06-23 08:48:08)
+13       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd (N/A, 2022-06-23 08:48:08)
+14       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/umr_capim.vhd (N/A, 2022-06-23 08:48:08)
+15       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/arith.vhd (N/A, 2022-06-23 08:48:08)
+16       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map (N/A, 2022-06-23 08:48:08)
+17       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/numeric.vhd (N/A, 2022-06-23 08:48:08)
+18       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd (N/A, 2022-06-23 08:48:08)
+19       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd (N/A, 2022-06-23 08:48:08)
+20       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std_textio.vhd (N/A, 2022-06-23 08:48:08)
+21       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/unsigned.vhd (N/A, 2022-06-23 08:48:08)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 9
+Modules that may have changed as a result of file changes: 11
 MID:  lib.cell.view
 0        coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 2        coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 4        coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_256x8.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 6        coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_ctrl_256.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 8        coreuart_lib.coreuart_c0_coreuart_c0_0_ram256x8_g5.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 10       coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 12       coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd (N/A, 2022-10-24 13:07:42) <-- (may instantiate this module)
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
 14       work.coreuart_c0.rtl may have changed because the following files changed:
                         /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (N/A, 2022-10-24 13:07:42) <-- (architecture and entity definition)
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (may instantiate this module)
-16       work.top_level.architecture_top_level may have changed because the following files changed:
-                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 13:36:29) <-- (architecture and entity definition)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
+16       work.default_values.architecture_default_values may have changed because the following files changed:
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd (N/A, 2022-10-24 17:12:52) <-- (architecture and entity definition)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
+18       work.top_level.architecture_top_level may have changed because the following files changed:
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (architecture and entity definition)
+20       work.uart_reader.architecture_uart_reader may have changed because the following files changed:
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (N/A, 2022-10-24 17:17:03) <-- (may instantiate this module)
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd (N/A, 2022-10-24 17:08:09) <-- (architecture and entity definition)
 
 *******************************************************************
 Unmodified files: 0

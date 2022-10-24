@@ -14,7 +14,11 @@ KEY VendorTechnology_Package "fcg1152"
 KEY VendorTechnology_Speed "-1"
 KEY VendorTechnology_DieVoltage "1.0"
 KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -40,9 +44,18 @@ KEY LossOfDataDRCSeverity "TRUE"
 KEY IdWidthMismatchDRCSeverity "TRUE"
 KEY SimulationType "VHDL"
 KEY Vendor "Actel"
+KEY ActiveRoot "top_level::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
 CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREUART_LIB
+ENDLIST
+LIST LIBRARY_COREUART_LIB
+ALIAS=COREUART_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
 ENDLIST
 LIST GlobalIncludeFileList
 ENDLIST
@@ -179,19 +192,104 @@ MODULE_UNDER_TEST="testbnch"
 SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>/constraint/io/user1.pdc,io_pdc"
+STATE="utd"
+TIME="1666648520"
+SIZE="1581"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>/constraint/user.sdc,sdc"
+STATE="utd"
+TIME="1666645913"
+SIZE="118"
+ENDFILE
+VALUE "<project>/hdl/default_values.vhd,hdl"
+STATE="utd"
+TIME="1666645972"
+SIZE="1582"
+ENDFILE
 VALUE "<project>/hdl/top_level.vhd,hdl"
 STATE="utd"
-TIME="1666631229"
-SIZE="1234"
+TIME="1666646223"
+SIZE="3313"
+ENDFILE
+VALUE "<project>/hdl/uart_reader.vhd,hdl"
+STATE="utd"
+TIME="1666645689"
+SIZE="1935"
+ENDFILE
+VALUE "<project>/synthesis/top_level.so,so"
+STATE="utd"
+TIME="1666646231"
+SIZE="238"
+ENDFILE
+VALUE "<project>/synthesis/top_level.vm,syn_vm"
+STATE="utd"
+TIME="1666648779"
+SIZE="32712"
+ENDFILE
+VALUE "<project>/synthesis/top_level_syn.prj,prj"
+STATE="utd"
+TIME="1666646231"
+SIZE="4094"
+ENDFILE
+VALUE "<project>/synthesis/top_level_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1666646230"
+SIZE="847"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "top_level::work"
+FILE "<project>/hdl/top_level.vhd,hdl"
+LIST SynthesisConstraints
+VALUE "<project>/constraint/user.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>/constraint/user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/user.sdc,sdc"
+VALUE "<project>/constraint/io/user1.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/top_level.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib"
+FILE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd,hdl"
+LIST Other_Association
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/tbpack.vhd,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vhdl.do,do"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 ENDLIST
 LIST Other_Association
+LIST COREUART_C0_COREUART_C0_0_COREUART
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/tbpack.vhd,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd,tb_hdl"
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vhdl.do,do"
+ENDLIST
 ENDLIST
 LIST SimulationOptions
 UseAutomaticDoFile=true
@@ -231,7 +329,7 @@ GenerateHDLAfterPhySynthesis=FALSE
 RunDRCAfterSynthesis=FALSE
 AutoCheckConstraints=TRUE
 UpdateModelSimIni=TRUE
-NoIOMode=TRUE
+NoIOMode=FALSE
 PeriInitStandalone=FALSE
 OnDemandBuildDH=TRUE
 EnableViewDraw=FALSE
@@ -244,7 +342,7 @@ DisplayFanoutLimit=10
 AbortFlowOnPDCErrorsOn=TRUE
 AbortFlowOnSDCErrorsOn=TRUE
 AbortFlowOn3.3V_IO_ON=FALSE
-InstantiateInSmartDesign=TRUE
+InstantiateInSmartDesign=FALSE
 FlashProInputFile=pdb
 SmartGenCompileReport=T
 ENDLIST
@@ -264,8 +362,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -289,6 +387,18 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "top_level::work"
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/top_level.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -303,22 +413,75 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Project Summary:uart.log
+ReportsCurrentItem;Run Programming Action:top_level_PROGRAM.log
 HDL;hdl/top_level.vhd;0
+HDL;hdl/default_values.vhd;0
+HDL;hdl/uart_reader.vhd;0
+Constraint Manager;Constraint Manager;0
+HDL;constraint/io/user1.pdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl/top_level.vhd
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
-LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.cxf","TRUE","FALSE"
+LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd","FALSE","FALSE"
+ENDLIST
+LIST "default_values::work","hdl/default_values.vhd","FALSE","FALSE"
+ENDLIST
+LIST "top_level::work","hdl/top_level.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"
+SUBBLOCK "default_values::work","hdl/default_values.vhd","FALSE","FALSE"
+SUBBLOCK "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
+ENDLIST
+LIST "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Clock_gen::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_components::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Clock_gen::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Rx_async::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Tx_async::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_256x8::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_coreuart_pkg::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_256x8::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_ram256x8_g5::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_ram256x8_g5::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Rx_async::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Tx_async::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreparameters::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "misc::coreuart_lib","component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "tbpack::coreuart_lib","component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/tbpack.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbnch::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd","FALSE","TRUE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd","FALSE","FALSE"
+ENDLIST
+LIST "textio::coreuart_lib","component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "textio_test::coreuart_lib","component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd","FALSE","TRUE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList
 ENDLIST
 LIST IOTabList
+VALUE "constraint/io/user1.pdc"
 ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "constraint/user.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST

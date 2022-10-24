@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/run_options.txt
-#--  Written on Mon Oct 24 13:36:34 2022
+#--  Written on Mon Oct 24 17:59:36 2022
 
 
 #project files
@@ -14,6 +14,8 @@ add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects
 add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd"
 add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd"
 add_file -fpga_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
 
@@ -57,7 +59,7 @@ set_option -async_globalthreshold 800
 set_option -globalthreshold 5000
 set_option -low_power_ram_decomp 0
 set_option -seqshift_to_uram 1
-set_option -disable_io_insertion 1
+set_option -disable_io_insertion 0
 set_option -opcond COMTC
 set_option -retiming 0
 set_option -report_path 4000

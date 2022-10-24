@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Mon Oct 24 13:36:36 2022
+# Written on Mon Oct 24 17:59:38 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -28,7 +28,7 @@ Constraint File(s):      "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/de
 
 ##### SUMMARY ############################################################
 
-Found 0 issues in 0 out of 0 constraints
+Found 0 issues in 0 out of 1 constraints
 
 
 ##### DETAILS ############################################################
@@ -38,10 +38,10 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting          Ending            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
------------------------------------------------------------------------------------------------------------------------------------------------
-top_level|clk     top_level|clk     |     10.000           |     No paths         |     No paths         |     No paths                         
-===============================================================================================================================================
+Starting     Ending       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------
+clk_main     clk_main     |     20.000           |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -49,6 +49,11 @@ top_level|clk     top_level|clk     |     10.000           |     No paths       
 Unconstrained Start/End Points
 ******************************
 
+p:LED1
+p:LED2
+p:LED3
+p:LED4
+p:button1
 p:rstn
 p:rx
 p:tx

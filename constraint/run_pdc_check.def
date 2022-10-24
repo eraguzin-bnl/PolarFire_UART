@@ -1,0 +1,8 @@
+DESIGN=top_level
+DESDIR=/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level
+TARGET_DIR=/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level
+FAM=PolarFire
+DIE=PA5M300T
+PACKAGE=fcg1152
+SPEED=-1
+PDC_FILE=/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/io/user.pdc,,

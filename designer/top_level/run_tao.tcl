@@ -7,8 +7,11 @@ read_vhdl -mode vhdl_2008 -lib COREUART_LIB {/home/eraguzin/nextcloud/LuSEE/Libe
 read_vhdl -mode vhdl_2008 -lib COREUART_LIB {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd}
 read_vhdl -mode vhdl_2008 -lib COREUART_LIB {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd}
+read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd}
+read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd}
 set_top_level {top_level}
 map_netlist
+read_sdc {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/user.sdc}
 check_constraints {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/synthesis_sdc_errors.log}
 write_fdc {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc}

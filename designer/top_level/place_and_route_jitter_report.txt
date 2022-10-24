@@ -1,0 +1,30 @@
+Jitter Estimation Report
+========================
+
+Date           : Mon Oct 24 17:59:46 2022
+Libero version : 2022.2.0.10
+Design         : top_level
+Family         : PolarFire
+Die            : MPF300T
+Speed grade    : -1
+Data state     : Production
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    clk_main
+System jitter (worst aggressor):  0.000 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: clk_main
+
+ (1) System jitter (worst aggressor):              0.000 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.000 ns
+
+

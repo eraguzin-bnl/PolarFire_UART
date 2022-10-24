@@ -1,2 +1,4 @@
 |work.COREUART_C0|work.COREUART_C0.rtl|
+|work.default_values|work.default_values.architecture_default_values|
+|work.uart_reader|work.uart_reader.architecture_uart_reader|
 |work.top_level|work.top_level.architecture_top_level|

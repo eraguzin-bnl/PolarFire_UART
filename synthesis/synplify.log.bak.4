@@ -1,0 +1,70 @@
+
+                               Synplify Pro (R) 
+
+               Version S-2021.09M-SP1 for RHEL64 - Jun 14, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/mbin/synbatch
+Install:     /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+Hostname:    eric-manjaro
+Date:        Mon Oct 24 17:12:37 2022
+Version:     S-2021.09M-SP1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log top_level_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server iolicense2.inst.bnl.gov 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.srr"
+Running: synthesis in foreground
+
+Running top_level_syn|synthesis
+
+Running Flow: compile (Compile) on top_level_syn|synthesis
+# Mon Oct 24 17:12:37 2022
+
+Running Flow: compile_flow (Compile Process) on top_level_syn|synthesis
+# Mon Oct 24 17:12:37 2022
+
+Running: compiler (Compile Input) on top_level_syn|synthesis
+# Mon Oct 24 17:12:37 2022
+compiler exited with errors
+Job failed on: top_level_syn|synthesis
+
+Job: "compiler" terminated with error status: 2
+See log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synlog/top_level_compiler.srr"
+# Mon Oct 24 17:12:37 2022
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on top_level_syn|synthesis
+Complete: Compile on top_level_syn|synthesis
+Complete: Logic Synthesis on top_level_syn|synthesis
+Error: At line 2 while processing "top_level_syn.tcl"
+2
+TCL script complete: "top_level_syn.tcl"
+TCL script had errors: "top_level_syn.tcl"
+exit status=9
+exit status=9
+License checkin: synplifypro_actel

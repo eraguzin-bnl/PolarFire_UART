@@ -3,7 +3,7 @@
 #OS: Linux 
 #Hostname: eric-manjaro
 
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:36 2022
 
 #Implementation: synthesis
 
@@ -56,18 +56,19 @@ Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 1
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-Options changed - recompiling
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
 
 
 Process completed successfully.
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:36 2022
 
 ###########################################################]
 ###########################################################[
@@ -246,7 +247,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:36 2022
 
 ###########################################################]
 ###########################################################[
@@ -258,12 +259,22 @@ Process completed successfully.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
+Post processing for work.uart_reader.architecture_uart_reader
+Running optimization stage 1 on uart_reader .......
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
+Post processing for work.default_values.architecture_default_values
+Running optimization stage 1 on default_values .......
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -310,18 +321,10 @@ Running optimization stage 1 on COREUART_C0 .......
 Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 0 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 1 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 2 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 3 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 4 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 5 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 6 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 7 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
 Extracted state machine for register xmit_state
@@ -335,7 +338,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
 Extracted state machine for register rx_state
@@ -349,6 +352,39 @@ Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 ..
 Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on COREUART_C0 .......
 Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on default_values .......
+@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BIT8 is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit ODD_N_EVEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit OEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit PARITY_EN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit WEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(1) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(2) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(3) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(5) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(6) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(7) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(1) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(2) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(3) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(5) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(6) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(7) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(8) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(9) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(10) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(11) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(12) is always 0.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":25:4:25:6|Input CLK is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":26:4:26:6|Input RST is unused.
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on uart_reader .......
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on top_level .......
 Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 
@@ -361,7 +397,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:37 2022
 
 ###########################################################]
 ###########################################################[
@@ -391,7 +427,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:37 2022
 
 ###########################################################]
 
@@ -406,7 +442,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 24 13:36:34 2022
+# Mon Oct 24 17:59:37 2022
 
 ###########################################################]
 ###########################################################[
@@ -436,12 +472,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 24 13:36:35 2022
+# Mon Oct 24 17:59:38 2022
 
 ###########################################################]
 Premap Report
 
-# Mon Oct 24 13:36:35 2022
+# Mon Oct 24 17:59:38 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -498,19 +534,11 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
+@W: MO129 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":47:8:47:9|Sequential instance uart_reader_i.LED3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Removing sequential instance tx_hold_reg[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":82:30:82:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":311:6:311:7|Removing sequential instance rxrdy_xhdl4 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":194:6:194:7|Removing sequential instance overflow_xhdl1 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":399:6:399:7|Removing sequential instance parity_err_xhdl2 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":218:6:218:7|Removing sequential instance framing_error_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance rx_byte_xhdl5[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":498:6:498:12|Removing instance make_RX (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance stop_strobe_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance overflow_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance framing_error_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance receive_full_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":333:6:333:7|Removing sequential instance rx_shift[8:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: FP130 |Promoting Net clk on CLKINT  I_1 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
 
@@ -521,24 +549,22 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 ******************
 
-          Start             Requested     Requested     Clock        Clock          Clock
-Level     Clock             Frequency     Period        Type         Group          Load 
------------------------------------------------------------------------------------------
-0 -       top_level|clk     100.0 MHz     10.000        inferred     (multiple)     31   
-=========================================================================================
+          Start        Requested     Requested     Clock        Clock                Clock
+Level     Clock        Frequency     Period        Type         Group                Load 
+------------------------------------------------------------------------------------------
+0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     79   
+==========================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                  Clock     Source        Clock Pin                                          Non-clock Pin     Non-clock Pin
-Clock             Load      Pin           Seq Example                                        Seq Example       Comb Example 
-----------------------------------------------------------------------------------------------------------------------------
-top_level|clk     31        clk(port)     UART.COREUART_C0_0.make_TX.xmit_bit_sel[3:0].C     -                 I_1.A(CLKINT)
-============================================================================================================================
-
-@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found inferred clock top_level|clk which controls 31 sequential elements including UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+             Clock     Source        Clock Pin                Non-clock Pin     Non-clock Pin
+Clock        Load      Pin           Seq Example              Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------
+clk_main     79        clk(port)     uart_reader_i.LED2.C     -                 I_1.A(CLKINT)
+=============================================================================================
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -554,6 +580,13 @@ original code -> new code
    00000000000000000000000000000011 -> 001000
    00000000000000000000000000000100 -> 010000
    00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
@@ -565,12 +598,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 24 13:36:36 2022
+# Mon Oct 24 17:59:38 2022
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Oct 24 13:36:36 2022
+# Mon Oct 24 17:59:38 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -634,28 +667,39 @@ original code -> new code
    00000000000000000000000000000011 -> 001000
    00000000000000000000000000000100 -> 010000
    00000000000000000000000000000101 -> 100000
-@W: MO129 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Sequential instance UART.COREUART_C0_0.make_TX.xmit_state[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Sequential instance uart_i.COREUART_C0_0.make_TX.xmit_state[4] is reduced to a combinational gate by constant propagation.
 @W: MO161 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Register bit xmit_state[5] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
 @W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Register bit xmit_state[3] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Removing sequential instance xmit_state[0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
+@W: MO161 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[3] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[2] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[1] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[0] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
 
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_bit_sel[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_bit_sel[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_bit_sel[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_bit_sel[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":257:4:257:5|Removing sequential instance UART.COREUART_C0_0.make_TX.tx_xhdl2 (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@A: BN291 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":257:4:257:5|Boundary register UART.COREUART_C0_0.make_TX.tx_xhdl2 (in view: work.top_level(architecture_top_level)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_state[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_bit_sel[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_bit_sel[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_bit_sel[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":238:4:238:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_bit_sel[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":257:4:257:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.tx_xhdl2 (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@A: BN291 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":257:4:257:5|Boundary register uart_i.COREUART_C0_0.make_TX.tx_xhdl2 (in view: work.top_level(architecture_top_level)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_state[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
 
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Removing sequential instance UART.COREUART_C0_0.make_TX.xmit_state[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_clock (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Removing sequential instance uart_i.COREUART_C0_0.make_TX.xmit_state[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_clock (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
 
@@ -665,24 +709,10 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
 
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[12] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[11] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[10] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[9] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[8] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[7] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[6] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[5] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_clock_int (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":243:23:243:24|Removing sequential instance uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_cntr[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
 
@@ -691,7 +721,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		100000.00ns		   0 /         0
+   1		0h:00m:00s		    16.72ns		  79 /        56
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -711,44 +741,48 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 56 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
+================================ Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance   
+------------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 clock definition on port     56         uart_reader_i.LED2
+================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Writing Analyst data base /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/top_level_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
-@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
-
-
-Finished Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
-@W: MT420 |Found inferred clock top_level|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+@N: MT615 |Found clock clk_main with period 20.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Oct 24 13:36:36 2022
+# Timing report written on Mon Oct 24 17:59:39 2022
 #
 
 
 Top view:               top_level
-Requested Frequency:    100.0 MHz
+Requested Frequency:    50.0 MHz
 Wire load mode:         top
 Paths requested:        5
 Constraint File(s):    /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc
@@ -763,14 +797,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: NA
+Worst slack in design: 17.266
 
-                   Requested     Estimated     Requested     Estimated               Clock        Clock     
-Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
-------------------------------------------------------------------------------------------------------------
-top_level|clk      100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
-============================================================================================================
-Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clk_main           50.0 MHz      365.7 MHz     20.000        2.734         17.266     declared     default_clkgroup
+===================================================================================================================
 
 
 
@@ -779,11 +812,12 @@ Estimated period and frequency reported as NA means no slack depends directly on
 Clock Relationships
 *******************
 
-Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
---------------------------------------------------------------------------------------------------------
-Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
---------------------------------------------------------------------------------------------------------
-========================================================================================================
+Clocks              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+clk_main  clk_main  |  20.000      17.266  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -795,26 +829,136 @@ Interface Information
 No IO constraint found
 
 
+
+====================================
+Detailed Report for Clock: clk_main
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                               Starting                                            Arrival           
+Instance                                                                       Reference     Type     Pin     Net                  Time        Slack 
+                                                                               Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+uart_i.COREUART_C0_0.make_RX.rx_state[0]                                       clk_main      SLE      Q       rx_state[0]          0.218       17.266
+uart_i.COREUART_C0_0.make_RX.rx_state[1]                                       clk_main      SLE      Q       rx_state[1]          0.218       17.293
+uart_i.COREUART_C0_0.make_RX.receive_count[0]                                  clk_main      SLE      Q       CO0                  0.218       17.357
+uart_i.COREUART_C0_0.make_RX.receive_count[1]                                  clk_main      SLE      Q       receive_count[1]     0.218       17.363
+uart_i.COREUART_C0_0.make_RX.receive_count[3]                                  clk_main      SLE      Q       receive_count[3]     0.218       17.469
+uart_i.COREUART_C0_0.make_RX.receive_count[2]                                  clk_main      SLE      Q       receive_count[2]     0.218       17.473
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[6]     clk_main      SLE      Q       baud_cntr[6]         0.201       17.549
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[2]     clk_main      SLE      Q       baud_cntr[2]         0.201       17.606
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[7]     clk_main      SLE      Q       baud_cntr[7]         0.218       17.631
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[8]     clk_main      SLE      Q       baud_cntr[8]         0.218       17.676
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                Starting                                                       Required           
+Instance                                                                        Reference     Type     Pin     Net                             Time         Slack 
+                                                                                Clock                                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+uart_i.COREUART_C0_0.make_RX.receive_count[2]                                   clk_main      SLE      D       N_99_i                          20.000       17.266
+uart_i.COREUART_C0_0.make_RX.receive_count[0]                                   clk_main      SLE      D       N_95_i                          20.000       17.302
+uart_i.COREUART_C0_0.make_RX.receive_count[1]                                   clk_main      SLE      D       N_97_i                          20.000       17.302
+uart_i.COREUART_C0_0.make_RX.rx_bit_cnt[2]                                      clk_main      SLE      D       rx_bit_cnt_4[2]                 20.000       17.357
+uart_i.COREUART_C0_0.make_RX.rx_bit_cnt[3]                                      clk_main      SLE      D       rx_bit_cnt_4[3]                 20.000       17.357
+uart_i.COREUART_C0_0.make_RX.parity_err_xhdl2                                   clk_main      SLE      EN      parity_err_xhdl2_1_sqmuxa_i     19.873       17.534
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[12]     clk_main      SLE      D       baud_cntr_s[12]                 20.000       17.549
+uart_i.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[11]     clk_main      SLE      D       baud_cntr_s[11]                 20.000       17.557
+uart_i.COREUART_C0_0.make_RX.rx_bit_cnt[0]                                      clk_main      SLE      D       rx_bit_cnt_4[0]                 20.000       17.560
+uart_i.COREUART_C0_0.make_RX.rx_bit_cnt[1]                                      clk_main      SLE      D       rx_bit_cnt_4[1]                 20.000       17.560
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      2.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     17.266
+
+    Number of logic level(s):                4
+    Starting point:                          uart_i.COREUART_C0_0.make_RX.rx_state[0] / Q
+    Ending point:                            uart_i.COREUART_C0_0.make_RX.receive_count[2] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                               Pin      Pin               Arrival     No. of    
+Name                                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+uart_i.COREUART_C0_0.make_RX.rx_state[0]                            SLE      Q        Out     0.218     0.218 r     -         
+rx_state[0]                                                         Net      -        -       0.609     -           7         
+uart_i.COREUART_C0_0.make_RX.rx_state_s0_0_a2                       CFG2     B        In      -         0.827 r     -         
+uart_i.COREUART_C0_0.make_RX.rx_state_s0_0_a2                       CFG2     Y        Out     0.088     0.915 f     -         
+rx_state_s0_0_a2                                                    Net      -        -       0.563     -           4         
+uart_i.COREUART_C0_0.make_RX.rcv_cnt\.receive_count_3_i_a5_0[3]     CFG4     D        In      -         1.478 f     -         
+uart_i.COREUART_C0_0.make_RX.rcv_cnt\.receive_count_3_i_a5_0[3]     CFG4     Y        Out     0.192     1.670 f     -         
+N_122                                                               Net      -        -       0.124     -           2         
+uart_i.COREUART_C0_0.make_RX.rcv_cnt\.receive_count_3_i_o5[0]       CFG4     D        In      -         1.794 f     -         
+uart_i.COREUART_C0_0.make_RX.rcv_cnt\.receive_count_3_i_o5[0]       CFG4     Y        Out     0.192     1.986 f     -         
+N_103                                                               Net      -        -       0.547     -           3         
+uart_i.COREUART_C0_0.make_RX.receive_count_RNO[2]                   CFG4     B        In      -         2.533 f     -         
+uart_i.COREUART_C0_0.make_RX.receive_count_RNO[2]                   CFG4     Y        Out     0.084     2.616 r     -         
+N_99_i                                                              Net      -        -       0.118     -           1         
+uart_i.COREUART_C0_0.make_RX.receive_count[2]                       SLE      D        In      -         2.734 r     -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 2.734 is 0.773(28.3%) logic and 1.961(71.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
 ##### END OF TIMING REPORT #####]
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 ---------------------------------------
 Resource Usage Report for top_level 
 
 Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           14 uses
+CFG3           13 uses
+CFG4           26 uses
+
+Carry cells:
+ARI1            14 uses - used for arithmetic functions
+
 
 Sequential Cells: 
-SLE            0 uses
+SLE            56 uses
 
 DSP Blocks:    0 of 924 (0%)
 
-Total LUTs:    0
+I/O ports: 9
+I/O primitives: 9
+INBUF          4 uses
+OUTBUF         5 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    68
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -823,14 +967,14 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
-Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of SLEs after P&R:  56 + 0 + 0 + 0 = 56;
+Total number of LUTs after P&R:  68 + 0 + 0 + 0 = 68;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 24 13:36:36 2022
+# Mon Oct 24 17:59:39 2022
 
 ###########################################################]

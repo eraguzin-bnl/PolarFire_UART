@@ -73,5 +73,4 @@ compile \
     -fam PolarFire \
     -die PA5M300T \
     -pkg fcg1152 \
-    -merge_pdc 0 \
-    -block 1 
+    -merge_pdc 0
