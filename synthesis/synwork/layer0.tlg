@@ -1,0 +1,94 @@
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
+@W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:34:265:49|Signal parity_err_xhdl1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":392:9:392:22|OTHERS clause is not synthesized.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":450:13:450:24|Removing redundant assignment.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":64:24:64:25|Using sequential encoding for type receive_states.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":233:15:233:29|Removing redundant assignment.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":253:21:253:34|OTHERS clause is not synthesized.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":256:19:256:26|Removing redundant assignment.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":318:19:318:33|OTHERS clause is not synthesized.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":423:18:423:32|OTHERS clause is not synthesized.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
+@W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
+@W: CL190 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":54:7:54:19|Signal baud_cntr_one is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":439:7:439:8|Pruning unused register overflow_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":414:7:414:8|Pruning unused register rx_dout_reg_empty_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":399:6:399:7|Pruning unused register rx_dout_reg_5(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":367:6:367:7|Pruning unused register rx_state_4(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Post processing for work.coreuart_c0.rtl
+Running optimization stage 1 on COREUART_C0 .......
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Post processing for work.top_level.architecture_top_level
+Running optimization stage 1 on top_level .......
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 0 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 1 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 2 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 3 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 4 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 5 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 6 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Bit 7 of input data_in of instance UART is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 139MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 .......
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on COREUART_C0 .......
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on top_level .......
+Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/layer0.rt.csv
+

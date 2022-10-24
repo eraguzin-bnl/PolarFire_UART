@@ -1,0 +1,1 @@
+-link -encrypt -top work.top_level -osyn /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/top_level_comp.srs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/layer0.srs  -jobname linker  

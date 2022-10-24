@@ -1,0 +1,293 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std_textio.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/numeric.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/umr_capim.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/arith.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/unsigned.vhd":1655988488
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd":1666631262
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd":1655988487
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666632989
+@E8lFkRDC0_FbDCCPDH
+DLssN$FRIsH	
+M0bkR	ODRH4
+M0bkR0s#M
+R4HkMb0GRsRF4
+kk0b0GR0RC4
+MF8l8CkD
+8lFkRDCB m)zaq)_
+BjDsHLNRs$I	Fs
+bHMkA0Rq_z7eRqp4Hd
+M0bkRaAQU
+R4HkMb0pRBi
+R4HkMb01RBh
+R4HkMb0qR7aQq_h
+RUHkMb07Rm7__h he RH4
+M0bkRhm RH4
+M0bkR)uqQ_aY 4hR
+bHMk)0R a1 _4hR
+bHMk)0RX
+R4HkMb0 RWh
+R4Fbk0k70Rq_aqmRzaUk
+F00bkRqw)vtQh_) )RF4
+kk0b0eRm p)wm4WR
+0FkbRk0uQq)a Y_)4)R
+0FkbRk0)7X)Y
+R4Fbk0ka0RX
+R4Fbk0ka0RXY)7RC4
+MF8l8CkD
+8lFkRDCB m)zaq)__BjB m)zaq)__Bjjm_B)q z)Da
+HNLssO$RFksCN_s0D
+HLbNNslCC0sqRwvYQpR0HMCsoC
+sbNN0lCCasRXQ_wwHmRMo0CCbs
+NlsNCs0CR_)XwmQwR0HMCsoC
+sbNN0lCC)sRX _ptYqB_7vm MRH0CCosN
+bsCNl0RCsA7qz_peq_Bw)a h_hMRH0CCosM
+HbRk0)  1aR_h-H4
+M0bkRiBpR
+-4HkMb0 RWh4R-
+bHMkm0R -hR4M
+HbRk0BR1h-H4
+M0bkRa7qqh_QR
+-4HkMb0XR)R
+-4HkMb0qRAze7_q-pR4M
+HbRk0AUQaR
+-4HkMb0qRu)YQa_R h-H4
+M0bkR7m7_ h_eR h-H4
+M0bkRzAq7q_ep)_wqQBam-hR4k
+F00bkR)uqQ_aY R))-F4
+kk0b0eRm p)wm-WR4k
+F00bkR)aX7-YR4k
+F00bkR))X7-YR4k
+F00bkRa7qqz_ma4R-
+0FkbRk0a-XR4k
+F00bkRqw)vtQh_) )R
+-4ClM8FD8kCF
+l8CkDRsOFCskN0H_DLm3B)q z)Ba_jm_B)q z)Ba_j__jB m)zaq)
+sbNN0lCCwsRqpvQYMRH0CCosN
+bsCNl0RCsawX_QRwmHCM0o
+CsbNNslCC0sXR)_wwQmMRH0CCosN
+bsCNl0RCs)pX_ BtqYm_v7H RMo0CCbs
+NlsNCs0CRzAq7q_ep)_wB_ah HhRMo0CCHs
+M0bkR1)  ha_R
+-4HkMb0pRBi4R-
+bHMkW0R -hR4M
+HbRk0mR h-H4
+M0bkRhB1R
+-4HkMb0qR7aQq_h4R-
+bHMk)0RX4R-
+bHMkA0Rq_z7eRqp-H4
+M0bkRaAQU4R-
+bHMku0Rqa)QYh_ R
+-4HkMb07Rm7__h he R
+-4HkMb0qRAze7_qwp_)aqBQRmh-F4
+kk0b0qRu)YQa_) )R
+-4Fbk0km0Rew )pRmW-F4
+kk0b0XRa)R7Y-F4
+kk0b0XR))R7Y-F4
+kk0b0qR7amq_z-aR4k
+F00bkRRaX-F4
+kk0b0)RwqhvQt)_ )4R-
+8CMlkF8DlC
+FD8kCmRB)q z)Ba_jm_B)q z)Ba_j__js.Nl6UnG_
+o6DsHLNRs$OCFsk0Ns_LDH
+bHMk70RNR0NUk
+F00bkRUTR
+bHMkW0Rqs88CR##UM
+HbRk0)8q8s#C#RHU
+M0bkRRW 4M
+HbRk0)4 R
+bHMks0RC0#C_4MR
+bHMkW0RBODF	
+R4HkMb0BR)D	FORC4
+MF8l8CkD
+8lFkRDCOCFsk0Ns_LDH3)Bm )zqaj_B_)Bm )zqaj_B_sj_N6l.n_GUoH6
+M0bkR07NN
+RUFbk0kT0RRHU
+M0bkR8Wq8#sC#
+RUHkMb0qR)8C8s#U#R
+bHMkW0R 
+R4HkMb0 R)RH4
+M0bkR#sCCM0_RH4
+M0bkRDWBFRO	4M
+HbRk0)FBDO4	R
+8CMlkF8DlC
+FD8kCmRB)q z)Ba_jm_B)q z)Ba_j__jVFHV_sO0D6_.nH
+DLssN$FROsNCksD0_HbL
+NlsNCs0CRh1YB _)1R aHCM0o
+CsbNNslCC0sQRww7m_ ]uaR0HMCsoC
+sbNN0lCCwsRQ_wmA1QaR0HMCsoC
+sbNN0lCCwsRQ_wmWaQ7]MRH0CCosM
+HbRk0OODF	4R-
+bHMks0RC0#C_-MR4M
+HbRk08NN0_RHM-H4
+M0bkRNsC8R_M-H4
+M0bkRHIs0MC_R
+-4HkMb0 RpeR p-F4
+kk0b0NR80FN_k-0R4k
+F00bkRDVkD4R-
+0FkbRk0C0lb$4R-
+0FkbRk0EVNDR
+-4ClM8FD8kCF
+l8CkDRsOFCskN0H_DLm3B)q z)Ba_jm_B)q z)Ba_j__jVFHV_sO0D6_.nN
+bsCNl0RCs1BYh_1)  HaRMo0CCbs
+NlsNCs0CRwwQm _7uRa]HCM0o
+CsbNNslCC0sQRwwAm_QRa1HCM0o
+CsbNNslCC0sQRwwWm_Q]7aR0HMCsoC
+bHMkO0RD	FOR
+-4HkMb0CRs#_C0M4R-
+bHMk80RN_0NH-MR4M
+HbRk0s8CN_-MR4M
+HbRk0I0sHCR_M-H4
+M0bkRep  -pR4k
+F00bkR08NNk_F04R-
+0FkbRk0VDkDR
+-4Fbk0kC0Rl$b0R
+-4Fbk0kE0RNRDV-C4
+MF8l8CkD
+8lFkRDCB m)zaq)__BjB m)zaq)__BjjH_VV.F_6UnG
+LDHs$NsRsOFCskN0H_DLN
+bsCNl0RCs1BYh_1)  HaRMo0CCFs
+kk0b0mR7R
+-4HkMb0BR)pimBR
+-4HkMb0BRWpimBR
+-4HkMb0QR7R
+-4HkMb0)RWA4R-
+bHMk)0R7-AR4M
+HbRk0)  1a4R-
+0FkbRk0wpzpR
+-4Fbk0k 0RvYuaR
+-4ClM8FD8kCF
+l8CkDRsOFCskN0H_DLm3B)q z)Ba_jm_B)q z)Ba_j__jVFHV_n.6GbU
+NlsNCs0CRh1YB _)1R aHCM0o
+CsFbk0k70Rm4R-
+bHMk)0RBBpmi4R-
+bHMkW0RBBpmi4R-
+bHMk70RQ4R-
+bHMkW0R)-AR4M
+HbRk0)R7A-H4
+M0bkR1)  -aR4k
+F00bkRpwzp4R-
+0FkbRk0 avuY4R-
+8CMlkF8DlC
+FD8kCmRB)q z)Ba_jm_B)q z)Ba_j__jaNG_#O$M
+LDHs$NsRsOFCskN0H_DLN
+bsCNl0RCs1BYh_1)  HaRMo0CCbs
+NlsNCs0CR_aXwmQwR0HMCsoC
+bHMkO0RD-	R4M
+HbRk0G0lH_Dbk#-CR4M
+HbRk0sCC#0R_M-H4
+M0bkR0s#__0GC0lb$4R-
+bHMk00RGF_EDs8_C-oR4M
+HbRk008G_F_k0sRCo-H4
+M0bkRVVHFl_CbR0$-H4
+M0bkRVVHFk_VD-DR4M
+HbRk0LUH0R
+-4HkMb0NRbs$H0_RCM-H4
+M0bkR8F8_CM_PRCM-F4
+kk0b0GR0sR8$-F4
+kk0b0GR0R
+-4Fbk0kV0RH_VFs8CN_R0G-C4
+MF8l8CkD
+8lFkRDCOCFsk0Ns_LDH3)Bm )zqaj_B_)Bm )zqaj_B_aj_G#_N$
+MObNNslCC0sYR1h)B_ a1 R0HMCsoC
+sbNN0lCCasRXQ_wwHmRMo0CCHs
+M0bkR	ODR
+-4HkMb0lRGHb0_kCD#R
+-4HkMb0CRs#_C0M4R-
+bHMks0R#00_Gl_CbR0$-H4
+M0bkR_0GE8FD_osCR
+-4HkMb0GR0_k8F0C_so4R-
+bHMkV0RH_VFC0lb$4R-
+bHMkV0RH_VFVDkDR
+-4HkMb0HRL0-UR4M
+HbRk0bHNs0C$_M4R-
+bHMkF0R8M8__CCPM4R-
+0FkbRk008Gs$4R-
+0FkbRk00-GR4k
+F00bkRVVHFC_sN08_G4R-
+8CMlkF8DlC
+FD8kCmRB)q z)Ba_jm_B)q z)Ba_j__j)NG_#O$M
+LDHs$NsRsOFCskN0H_DLN
+bsCNl0RCs1BYh_1)  HaRMo0CCbs
+NlsNCs0CR_)XwmQwR0HMCsoC
+bHMkO0RD-	R4M
+HbRk0L8Nk_FODO-	R4M
+HbRk0sCC#0R_M-H4
+M0bkR0LHU4R-
+bHMkb0RN0sH$M_CR
+-4HkMb08RF8__MCMPCR
+-4HkMb0CRsNs8_G$_L0-CR4M
+HbRk0ONDCsN_bs$H0R
+-4HkMb0DROC_NsVlsNH_MoCFsss4R-
+bHMks0RG4R-
+0FkbRk0FsPCVIDFR
+-4Fbk0kb0RN0sH$s_Cs4R-
+0FkbRk0VlsNH_MoCFsss4R-
+0FkbRk0sHG_8_DCFRk0-F4
+kk0b00R#F#b_0LsFC4R-
+0FkbRk0ONDCss_VNMlHos_Cs_FsC-MR4k
+F00bkRCODNbs_N0sH$M_CR
+-4Fbk0ks0RCHOCPVC_kRDD-F4
+kk0b0GRs_0L$C4R-
+0FkbRk0VFHV_HIs0-CR4M
+C88lFk
+DClkF8DOCRFksCN_s0D3HLB m)zaq)__BjB m)zaq)__BjjG_)_$N#MbO
+NlsNCs0CRh1YB _)1R aHCM0o
+CsbNNslCC0sXR)_wwQmMRH0CCosM
+HbRk0ORD	-H4
+M0bkRkLN8D_OFRO	-H4
+M0bkR#sCCM0_R
+-4HkMb0HRL0-UR4M
+HbRk0bHNs0C$_M4R-
+bHMkF0R8M8__CCPM4R-
+bHMks0RC_N8sLG_$R0C-H4
+M0bkRCODNbs_N0sH$4R-
+bHMkO0RDsCN_NVsloHM_sCsF-sR4M
+HbRk0s-GR4k
+F00bkRCFPsFVDI4R-
+0FkbRk0bHNs0C$_s-sR4k
+F00bkRNVsloHM_sCsF-sR4k
+F00bkR_sGHC8D_0FkR
+-4Fbk0k#0R0_Fb#F0sL-CR4k
+F00bkRCODNVs_sHNlMCo_sssF_RCM-F4
+kk0b0DROC_NsbHNs0C$_M4R-
+0FkbRk0sCCOH_PCVDkDR
+-4Fbk0ks0RG$_L0-CR4k
+F00bkRVVHFs_IHR0C-C4
+MF8l8CkD
+8lFkRDCB m)zaq)__BjB m)zaq)__BjjD_BF_O	o
+CMDsHLNRs$OCFsk0Ns_LDH
+sbNN0lCCAsRq_z7e_qpwa)Bhh_ R0HMCsoC
+sbNN0lCC1sRY_hB)  1aMRH0CCosM
+HbRk0ORD	-H4
+M0bkR#sCCM0_R
+-4HkMb0NRLkP8_N-DR4M
+HbRk0A7qz_peq_qw)BmaQh4R-
+0FkbRk0L8Nk_FODO-	R4k
+F00bkRHGl0k_bDR#C-C4
+MF8l8CkD
+8lFkRDCOCFsk0Ns_LDH3)Bm )zqaj_B_)Bm )zqaj_B_Bj_D	FO_MoC
+sbNN0lCCAsRq_z7e_qpwa)Bhh_ R0HMCsoC
+sbNN0lCC1sRY_hB)  1aMRH0CCosM
+HbRk0ORD	-H4
+M0bkR#sCCM0_R
+-4HkMb0NRLkP8_N-DR4M
+HbRk0A7qz_peq_qw)BmaQh4R-
+0FkbRk0L8Nk_FODO-	R4k
+F00bkRHGl0k_bDR#C-C4
+MF8l8CkD
+
+@ 

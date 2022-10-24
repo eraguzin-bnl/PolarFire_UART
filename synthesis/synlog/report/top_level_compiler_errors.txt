@@ -1,0 +1,4 @@
+@E: CD145 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":39:8:39:15|Formal, "baud_val", and actual agree on type but not on size
+@E: CD145 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":39:18:39:33|Formal, "baud_val", and actual agree on type but not on size
+@E::Errors while synthesizing top module work.top_level.
+

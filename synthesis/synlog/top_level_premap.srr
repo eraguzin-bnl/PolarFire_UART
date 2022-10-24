@@ -1,0 +1,127 @@
+# Mon Oct 24 13:36:35 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 12:05:51, @4302666
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+Reading constraint file: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc
+@L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_scck.rpt 
+See clock summary report "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":311:6:311:7|Removing sequential instance rxrdy_xhdl4 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":194:6:194:7|Removing sequential instance overflow_xhdl1 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":399:6:399:7|Removing sequential instance parity_err_xhdl2 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":218:6:218:7|Removing sequential instance framing_error_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance rx_byte_xhdl5[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":498:6:498:12|Removing instance make_RX (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance stop_strobe_i (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance overflow_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Removing sequential instance framing_error_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance receive_full_int (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":333:6:333:7|Removing sequential instance rx_shift[8:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+
+Clock Summary
+******************
+
+          Start             Requested     Requested     Clock        Clock          Clock
+Level     Clock             Frequency     Period        Type         Group          Load 
+-----------------------------------------------------------------------------------------
+0 -       top_level|clk     100.0 MHz     10.000        inferred     (multiple)     31   
+=========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                  Clock     Source        Clock Pin                                          Non-clock Pin     Non-clock Pin
+Clock             Load      Pin           Seq Example                                        Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------
+top_level|clk     31        clk(port)     UART.COREUART_C0_0.make_TX.xmit_bit_sel[3:0].C     -                 I_1.A(CLKINT)
+============================================================================================================================
+
+@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found inferred clock top_level|clk which controls 31 sequential elements including UART.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr[12:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 24 13:36:36 2022
+
+###########################################################]

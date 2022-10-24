@@ -1,0 +1,324 @@
+KEY LIBERO "2022.2"
+KEY CAPTURE "2022.2.0.10"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFire"
+KEY VendorTechnology_Die "PA5M300T"
+KEY VendorTechnology_Package "fcg1152"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5M300T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart"
+KEY ProjectDescription "Getting the UART communication up and running"
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1666631262"
+SIZE="994"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="13504"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/Actel/DirectCore/COREUART/5.7.100/COREUART.cxf"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/tbpack.vhd,tb_hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="17606"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/Actel/DirectCore/COREUART/5.7.100/COREUART.cxf"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="24120"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/Actel/DirectCore/COREUART/5.7.100/COREUART.cxf"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1666631263"
+SIZE="4795"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="7212"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="740"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1666631262"
+SIZE="3067"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vhdl.do,do"
+STATE="utd"
+TIME="1666631262"
+SIZE="651"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="12912"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="2678"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="22388"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="519"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="16842"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="21576"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd,hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="11219"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd,tb_hdl"
+STATE="utd"
+TIME="1666631262"
+SIZE="23663"
+LIBRARY="COREUART_LIB"
+PARENT="<project>/component/work/COREUART_C0/COREUART_C0_0/COREUART_C0_COREUART_C0_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>/hdl/top_level.vhd,hdl"
+STATE="utd"
+TIME="1666631229"
+SIZE="1234"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=/usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=TRUE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/synplify_pro"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="/usr/local/microchip/Libero_SoC_v2022.2/ModelSimPro/modeltech/linuxacoem/vsim"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="/usr/local/microchip/Libero_SoC_v2022.2/Identify/bin/identify_debugger"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:uart.log
+HDL;hdl/top_level.vhd;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl/top_level.vhd
+ENDLIST
+LIST ModuleSubBlockList
+LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.cxf","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

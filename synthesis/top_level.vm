@@ -1,0 +1,57 @@
+//
+// Written by Synplify Pro 
+// Product Version "S-2021.09M-SP1"
+// Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+// Mon Oct 24 13:36:36 2022
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd "
+// file 1 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd "
+// file 2 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd "
+// file 3 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std_textio.vhd "
+// file 4 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/numeric.vhd "
+// file 5 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/umr_capim.vhd "
+// file 6 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/arith.vhd "
+// file 7 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/unsigned.vhd "
+// file 8 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd "
+// file 9 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd "
+// file 10 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd "
+// file 11 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd "
+// file 12 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd "
+// file 13 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd "
+// file 14 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd "
+// file 15 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd "
+// file 16 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd "
+// file 17 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd "
+// file 18 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd "
+// file 19 "\/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/nlconst.dat "
+// file 20 "\/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module top_level (
+  clk,
+  rstn,
+  rx,
+  tx
+)
+;
+input clk ;
+input rstn ;
+input rx ;
+output tx ;
+wire clk ;
+wire rstn ;
+wire rx ;
+wire tx ;
+wire VCC ;
+wire GND ;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+assign tx = VCC;
+endmodule /* top_level */
+
