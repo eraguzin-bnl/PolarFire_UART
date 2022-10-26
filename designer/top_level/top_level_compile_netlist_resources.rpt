@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Mon Oct 24 17:59:44 2022
+Date: Tue Oct 25 16:09:16 2022
 
 Device Selection
 +--------------------------------------------+-------------+
@@ -30,11 +30,11 @@ Resource Usage
 +---------------------------+------+--------+------------+
 | Type                      | Used | Total  | Percentage |
 +---------------------------+------+--------+------------+
-| 4LUT                      | 67   | 299544 | 0.02       |
-| DFF                       | 56   | 299544 | 0.02       |
+| 4LUT                      | 105  | 299544 | 0.04       |
+| DFF                       | 114  | 299544 | 0.04       |
 | I/O Register              | 0    | 1536   | 0.00       |
-| User I/O                  | 9    | 512    | 1.76       |
-| -- Single-ended I/O       | 9    | 512    | 1.76       |
+| User I/O                  | 22   | 512    | 4.30       |
+| -- Single-ended I/O       | 22   | 512    | 4.30       |
 | -- Differential I/O Pairs | 0    | 256    | 0.00       |
 | uSRAM                     | 0    | 2772   | 0.00       |
 | LSRAM                     | 0    | 952    | 0.00       |
@@ -50,11 +50,11 @@ Detailed Logic Resource Usage
 +-----------------------+------+-----+
 | Type                  | 4LUT | DFF |
 +-----------------------+------+-----+
-| Fabric Logic          | 67   | 56  |
+| Fabric Logic          | 105  | 114 |
 | uSRAM Interface Logic | 0    | 0   |
 | LSRAM Interface Logic | 0    | 0   |
 | Math Interface Logic  | 0    | 0   |
-| Total Used            | 67   | 56  |
+| Total Used            | 105  | 114 |
 +-----------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -64,12 +64,19 @@ Detailed Carry Chains Resource Usage
 | Total  | 1    |
 +--------+------+
 
+Detailed 4LUT Groups Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 2    |
+| Total  | 2    |
++--------+------+
+
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
 | Input I/O                     | 4            | 0           | 0               |
-| Output I/O                    | 5            | 0           | 0               |
+| Output I/O                    | 18           | 0           | 0               |
 | Bidirectional I/O             | 0            | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -79,7 +86,7 @@ Nets assigned to chip global resources
 +--------+---------+---------------------+
 | Fanout | Type    | Name                |
 +--------+---------+---------------------+
-| 56     | INT_NET | Net   : NN_1        |
+| 114    | INT_NET | Net   : NN_1        |
 |        |         | Driver: I_1/U0_RGB1 |
 |        |         | Source: NETLIST     |
 +--------+---------+---------------------+
@@ -94,51 +101,51 @@ High fanout nets
 +--------+---------+--------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                 |
 +--------+---------+--------------------------------------------------------------------------------------+
-| 53     | INT_NET | Net   : rstn_1_Z                                                                     |
-|        |         | Driver: rstn_1                                                                       |
-| 20     | INT_NET | Net   : uart_i/COREUART_C0_0/baud_clock                                              |
+| 87     | INT_NET | Net   : rstn_1                                                                       |
+|        |         | Driver: uart_reader_i/rstn_1                                                         |
+| 25     | INT_NET | Net   : uart_i/COREUART_C0_0/baud_clock                                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int |
+| 17     | INT_NET | Net   : oen_s                                                                        |
+|        |         | Driver: uart_reader_i/OEN                                                            |
+| 13     | INT_NET | Net   : rstn_c                                                                       |
+|        |         | Driver: rstn_ibuf                                                                    |
+| 13     | INT_NET | Net   : uart_i/COREUART_C0_0/xmit_pulse                                              |
+|        |         | Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse     |
 | 12     | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2_Z                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2                                |
-| 10     | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[1]                              |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[1]                                |
-| 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[2]                              |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[2]                                |
 | 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0_Z                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0                                |
 | 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/CO0                                             |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[0]                                |
-| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[1]                                   |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state[1]                                     |
-| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa_Z                        |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa                          |
-| 7      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[0]                                   |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state[0]                                     |
+| 8      | INT_NET | Net   : uart_reader_i/DATA_IN_0_sqmuxa                                               |
+|        |         | Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2                                          |
+| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]                                 |
+|        |         | Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]                                   |
 +--------+---------+--------------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+--------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                 |
 +--------+---------+--------------------------------------------------------------------------------------+
-| 53     | INT_NET | Net   : rstn_1_Z                                                                     |
-|        |         | Driver: rstn_1                                                                       |
-| 20     | INT_NET | Net   : uart_i/COREUART_C0_0/baud_clock                                              |
+| 87     | INT_NET | Net   : rstn_1                                                                       |
+|        |         | Driver: uart_reader_i/rstn_1                                                         |
+| 25     | INT_NET | Net   : uart_i/COREUART_C0_0/baud_clock                                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int |
+| 17     | INT_NET | Net   : oen_s                                                                        |
+|        |         | Driver: uart_reader_i/OEN                                                            |
+| 13     | INT_NET | Net   : rstn_c                                                                       |
+|        |         | Driver: rstn_ibuf                                                                    |
+| 13     | INT_NET | Net   : uart_i/COREUART_C0_0/xmit_pulse                                              |
+|        |         | Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse     |
 | 12     | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2_Z                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2                                |
-| 10     | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[1]                              |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[1]                                |
-| 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[2]                              |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[2]                                |
 | 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0_Z                              |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0                                |
 | 9      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/CO0                                             |
 |        |         | Driver: uart_i/COREUART_C0_0/make_RX/receive_count[0]                                |
-| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[1]                                   |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state[1]                                     |
-| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa_Z                        |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa                          |
-| 7      | INT_NET | Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[0]                                   |
-|        |         | Driver: uart_i/COREUART_C0_0/make_RX/rx_state[0]                                     |
+| 8      | INT_NET | Net   : uart_reader_i/DATA_IN_0_sqmuxa                                               |
+|        |         | Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2                                          |
+| 8      | INT_NET | Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]                                 |
+|        |         | Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]                                   |
 +--------+---------+--------------------------------------------------------------------------------------+
 

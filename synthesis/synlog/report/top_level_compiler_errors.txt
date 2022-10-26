@@ -1,3 +1,4 @@
-@E: CD297 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:16:47:23|Width mismatch, location has width 14, value 13
-@E::Errors while synthesizing top module work.top_level.
+@E: CD204 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":89:20:89:23|Expecting sequential statement
+@E: Parse errors encountered - exiting
+@E::VHDL compiler failed
 

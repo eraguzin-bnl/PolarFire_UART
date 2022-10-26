@@ -32,7 +32,11 @@
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":103:20:103:33|OTHERS clause is not synthesized.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":42:25:42:26|Using sequential encoding for type uart_state_type.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":392:9:392:22|OTHERS clause is not synthesized.
@@ -53,33 +57,27 @@
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BIT8 is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit ODD_N_EVEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit OEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit PARITY_EN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit WEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(0) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(1) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(2) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(3) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(4) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(5) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(6) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(7) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(0) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(1) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(2) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(3) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(4) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(5) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(6) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(7) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(8) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(9) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(10) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(11) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(12) is always 0.
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":25:4:25:6|Input CLK is unused.
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":26:4:26:6|Input RST is unused.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit ODD_N_EVEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit PARITY_EN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(1) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(2) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(3) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(5) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(6) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(7) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(8) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(9) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(10) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(11) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(12) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(1) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(2) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(3) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(4) is always 0.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Trying to extract state machine for register uart_wr_state.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
 @N|Running in 64-bit mode
 

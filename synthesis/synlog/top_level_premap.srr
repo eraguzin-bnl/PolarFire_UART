@@ -1,4 +1,4 @@
-# Mon Oct 24 17:59:38 2022
+# Tue Oct 25 16:09:09 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -45,6 +45,14 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.DATA_IN_1[7:5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.DATA_IN_1[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Removing sequential instance uart_reader_i.WEN because it is equivalent to instance uart_reader_i.OEN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.OEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED1 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED3 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 
 #### START OF SSF LOG MESSAGES ####
 
@@ -55,11 +63,13 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
-@W: MO129 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":47:8:47:9|Sequential instance uart_reader_i.LED3 is reduced to a combinational gate by constant propagation.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Removing sequential instance tx_hold_reg[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":82:30:82:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[0] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[7:5] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance WEN (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance uart_wr_state[0:1] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
 @N: FP130 |Promoting Net clk on CLKINT  I_1 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
 
@@ -73,7 +83,7 @@ Clock Summary
           Start        Requested     Requested     Clock        Clock                Clock
 Level     Clock        Frequency     Period        Type         Group                Load 
 ------------------------------------------------------------------------------------------
-0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     79   
+0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     121  
 ==========================================================================================
 
 
@@ -81,11 +91,11 @@ Level     Clock        Frequency     Period        Type         Group           
 Clock Load Summary
 ***********************
 
-             Clock     Source        Clock Pin                Non-clock Pin     Non-clock Pin
-Clock        Load      Pin           Seq Example              Seq Example       Comb Example 
----------------------------------------------------------------------------------------------
-clk_main     79        clk(port)     uart_reader_i.LED2.C     -                 I_1.A(CLKINT)
-=============================================================================================
+             Clock     Source        Clock Pin             Non-clock Pin     Non-clock Pin
+Clock        Load      Pin           Seq Example           Seq Example       Comb Example 
+------------------------------------------------------------------------------------------
+clk_main     121       clk(port)     framing_err_out.C     -                 I_1.A(CLKINT)
+==========================================================================================
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -108,6 +118,11 @@ original code -> new code
    10 -> 10
    11 -> 11
 @N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
+Encoding state machine uart_wr_state[0:2] (in view: work.uart_reader(architecture_uart_reader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
@@ -119,6 +134,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Oct 24 17:59:38 2022
+# Tue Oct 25 16:09:10 2022
 
 ###########################################################]

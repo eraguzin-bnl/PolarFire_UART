@@ -6,7 +6,7 @@
 
 # Family: PolarFire , Die: MPF300T , Package: FCG1152
 
-# Date generated: Mon Oct 24 17:55:20 2022 
+# Date generated: Tue Oct 25 14:30:44 2022 
 
 
 # 
@@ -55,10 +55,82 @@ set_io -port_name button1  \
     -DIRECTION INPUT
 
 
+#set_io -port_name button2  \
+    #-pin_name AM27         \
+    #-fixed true            \
+    #-DIRECTION INPUT
+
+
 set_io -port_name clk  \
     -pin_name AL26     \
     -fixed true        \
     -DIRECTION INPUT
+
+
+set_io -port_name {data_out[0]}  \
+    -pin_name G9                 \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[1]}  \
+    -pin_name F9                 \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[2]}  \
+    -pin_name H13                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[3]}  \
+    -pin_name H12                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[4]}  \
+    -pin_name H14                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[5]}  \
+    -pin_name G14                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[6]}  \
+    -pin_name E10                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {data_out[7]}  \
+    -pin_name E11                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name framing_err_out  \
+    -pin_name G10                  \
+    -fixed true                    \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name overflow_err_out  \
+    -pin_name F10                   \
+    -fixed true                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name parity_err_out  \
+    -pin_name G5                  \
+    -fixed true                   \
+    -DIRECTION OUTPUT
 
 
 set_io -port_name rstn  \
@@ -68,14 +140,26 @@ set_io -port_name rstn  \
 
 
 set_io -port_name rx  \
-    -pin_name AL23    \
+    -pin_name AL24    \
     -fixed true       \
     -DIRECTION INPUT
 
 
+set_io -port_name rxrdy_out  \
+    -pin_name F5             \
+    -fixed true              \
+    -DIRECTION OUTPUT
+    
+
 set_io -port_name tx   \
-    -pin_name AL24     \
+    -pin_name AL23     \
     -fixed true        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name txrdy_out  \
+    -pin_name J14            \
+    -fixed true              \
     -DIRECTION OUTPUT
 
 

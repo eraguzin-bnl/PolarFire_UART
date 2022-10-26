@@ -6,7 +6,7 @@ The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'MPF300T'.
 The 'enable_device' command succeeded.
 PPD file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.ppd' has been loaded successfully.
-DESIGN : top_level;  CHECKSUM : 454A;  PDB_VERSION : 1.0
+DESIGN : top_level;  CHECKSUM : 27BD;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer 'E2006ZGY1U' : Scan Chain...
@@ -22,16 +22,16 @@ programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT CRCERR[1] = 0
 programmer 'E2006ZGY1U' : device 'MPF300T' : Programming Mode: JTAG
 programmer 'E2006ZGY1U' : device 'MPF300T' : Programming FPGA Array and sNVM...
 programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT BITS component bitstream digest[256] = e628346f15f57b0bb57f2a9a7ba39a841126caa067b4873fa03d218c2fd0001c
-programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT Fabric component bitstream digest[256] = 0888970742d409c9077c2131e3c13865f6416214fc4df8c083532b1c3b7c359b
-programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT sNVM component bitstream digest[256] = 2dba95e11bcf2528e88af41a5b72901fb9fc84c26500d808df1e2cdd85ddd02a
-programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT EOB component bitstream digest[256] = 74fcab6cca3640290708d200af924f3ce56c57b6015e2ed8e2cf2f2276f4485b
+programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT Fabric component bitstream digest[256] = d75db47bed0de2541ef0f3fc1b447d71f287bdaab65f26a90873a59a85731c17
+programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT sNVM component bitstream digest[256] = db61bfca664d016b048e77cd2484a71c4f0339c49745274e39ec99abf6d8af4c
+programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT EOB component bitstream digest[256] = 5e449e925dbcf99b31843f91fdc6fc852d776599d417ba089f28605b632cf066
 programmer 'E2006ZGY1U' : device 'MPF300T' : ===================================================================================
 programmer 'E2006ZGY1U' : device 'MPF300T' : EXPORT DSN[128] = 6e2e18569187f978e18dd560d7ed78c6
 programmer 'E2006ZGY1U' : device 'MPF300T' : ===================================================================================
-programmer 'E2006ZGY1U' : device 'MPF300T' : Finished: Mon Oct 24 18:11:17 2022 (Elapsed time 00:02:23)
+programmer 'E2006ZGY1U' : device 'MPF300T' : Finished: Tue Oct 25 16:16:40 2022 (Elapsed time 00:02:25)
 programmer 'E2006ZGY1U' : device 'MPF300T' : Executing action PROGRAM PASSED.
 programmer 'E2006ZGY1U' : Chain programming PASSED.
-Chain Programming Finished: Mon Oct 24 18:11:17 2022 (Elapsed time 00:02:23)
+Chain Programming Finished: Tue Oct 25 16:16:40 2022 (Elapsed time 00:02:25)
 
                         o - o - o - o - o - o
 

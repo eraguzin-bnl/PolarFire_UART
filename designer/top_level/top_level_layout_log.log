@@ -23,13 +23,13 @@ INFO: Reading User PDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/
 
 Running the I/O Bank and Globals Assigner.
 Info:  Globals Assigner found no global involed in the problem.
-Info:  I/O Bank and Globals Assigner identified 9 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 22 fixed I/O macros, 0 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
 Placer V5.0 - 2022.2.0
-Design: top_level                       Started: Mon Oct 24 18:00:09 2022
+Design: top_level                       Started: Tue Oct 25 16:09:40 2022
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -40,26 +40,26 @@ End of placement.
 Placer Runtime Summary   :
 Clustering (1 pass)      : 0 seconds
 Placement                : 4 seconds
-Improvement              : 0 seconds
+Improvement              : 1 seconds
 
 Placer completed successfully.
 
 Design: top_level
-Finished: Mon Oct 24 18:00:44 2022
-Total CPU Time:     00:00:36            Total Elapsed Time: 00:00:35
-Total Memory Usage: 1505.3 Mbytes
+Finished: Tue Oct 25 16:10:16 2022
+Total CPU Time:     00:00:36            Total Elapsed Time: 00:00:36
+Total Memory Usage: 1509.3 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: top_level                       Started: Mon Oct 24 18:00:50 2022
+Design: top_level                       Started: Tue Oct 25 16:10:22 2022
 
 
 Router completed successfully.
 
 Design: top_level
-Finished: Mon Oct 24 18:01:20 2022
-Total CPU Time:     00:01:25            Total Elapsed Time: 00:00:30
+Finished: Tue Oct 25 16:10:51 2022
+Total CPU Time:     00:00:58            Total Elapsed Time: 00:00:29
 Total Memory Usage: 6043.6 Mbytes
                         o - o - o - o - o - o
 
@@ -67,17 +67,17 @@ Resource Usage
 +---------------+------+--------+------------+
 | Type          | Used | Total  | Percentage |
 +---------------+------+--------+------------+
-| 4LUT          | 67   | 299544 | 0.02       |
-| DFF           | 56   | 299544 | 0.02       |
+| 4LUT          | 105  | 299544 | 0.04       |
+| DFF           | 114  | 299544 | 0.04       |
 | I/O Register  | 0    | 510    | 0.00       |
-| Logic Element | 83   | 299544 | 0.03       |
+| Logic Element | 149  | 299544 | 0.05       |
 +---------------+------+--------+------------+
 
 I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  9    | 100.00%    |
+| Locked |  22   | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

@@ -1,3 +1,4 @@
+Warning: [127205465]:  CMPPF_007: Top level port button2 is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
 
 ===============================================================================.
 
@@ -10,7 +11,7 @@ Info: Global design data:
 Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name
     ---    ----   ----   -------------
-    56     0      0      'I_1'
+    114    0      0      'I_1'
 
 Info: Demotion information:
 Info: [127205381]:  CMPPF_302: Added 0 row global instances.

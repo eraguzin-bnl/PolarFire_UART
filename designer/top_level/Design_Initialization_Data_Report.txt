@@ -3,7 +3,7 @@ Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2
 Family: PolarFire
 Die: MPF300T
 Package: FCG1152
-Date: Mon Oct 24 18:04:39 2022
+Date: Tue Oct 25 16:12:45 2022
 
 Report path: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/Design_Initialization_Data_Report.txt
 

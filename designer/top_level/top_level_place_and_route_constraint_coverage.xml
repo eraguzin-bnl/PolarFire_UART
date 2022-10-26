@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 2022.2.0.10</text>
 <text>Microsemi Corporation - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Mon Oct 24 18:00:01 2022 </text>
+Date: Tue Oct 25 16:09:33 2022 </text>
 <table>
 <header>
 </header>
@@ -50,52 +50,52 @@ Date: Mon Oct 24 18:00:01 2022 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>           96</cell>
- <cell>            1</cell>
- <cell>           97</cell>
+ <cell>          191</cell>
+ <cell>            7</cell>
+ <cell>          198</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>           53</cell>
- <cell>           53</cell>
+ <cell>           87</cell>
+ <cell>           87</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>            3</cell>
- <cell>            3</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>           96</cell>
- <cell>           57</cell>
- <cell>          153</cell>
+ <cell>          191</cell>
+ <cell>          111</cell>
+ <cell>          302</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>           96</cell>
- <cell>            1</cell>
- <cell>           97</cell>
+ <cell>          191</cell>
+ <cell>            7</cell>
+ <cell>          198</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>           53</cell>
- <cell>           53</cell>
+ <cell>           87</cell>
+ <cell>           87</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>            3</cell>
- <cell>            3</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>           96</cell>
- <cell>           57</cell>
- <cell>          153</cell>
+ <cell>          191</cell>
+ <cell>          111</cell>
+ <cell>          302</cell>
 </row>
 </table>
 <section>
@@ -111,52 +111,52 @@ Date: Mon Oct 24 18:00:01 2022 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>           96</cell>
- <cell>            1</cell>
- <cell>           97</cell>
+ <cell>          191</cell>
+ <cell>            7</cell>
+ <cell>          198</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>           53</cell>
- <cell>           53</cell>
+ <cell>           87</cell>
+ <cell>           87</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>            3</cell>
- <cell>            3</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>           96</cell>
- <cell>           57</cell>
- <cell>          153</cell>
+ <cell>          191</cell>
+ <cell>          111</cell>
+ <cell>          302</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>           96</cell>
- <cell>            1</cell>
- <cell>           97</cell>
+ <cell>          191</cell>
+ <cell>            7</cell>
+ <cell>          198</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>           53</cell>
- <cell>           53</cell>
+ <cell>           87</cell>
+ <cell>           87</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>            3</cell>
- <cell>            3</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>           96</cell>
- <cell>           57</cell>
- <cell>          153</cell>
+ <cell>          191</cell>
+ <cell>          111</cell>
+ <cell>          302</cell>
 </row>
 </table>
 <section>
@@ -184,7 +184,21 @@ Date: Mon Oct 24 18:00:01 2022 </text>
 <list>
  <item>LED1</item>
  <item>LED2</item>
- <item>LED4</item>
+ <item>LED3</item>
+ <item>data_out[0]</item>
+ <item>data_out[1]</item>
+ <item>data_out[2]</item>
+ <item>data_out[3]</item>
+ <item>data_out[4]</item>
+ <item>data_out[5]</item>
+ <item>data_out[6]</item>
+ <item>data_out[7]</item>
+ <item>framing_err_out</item>
+ <item>overflow_err_out</item>
+ <item>parity_err_out</item>
+ <item>rxrdy_out</item>
+ <item>tx</item>
+ <item>txrdy_out</item>
 </list>
 <text></text>
 <text> - Min output delay constraint missing on ports:</text>
@@ -192,14 +206,34 @@ Date: Mon Oct 24 18:00:01 2022 </text>
 <list>
  <item>LED1</item>
  <item>LED2</item>
- <item>LED4</item>
+ <item>LED3</item>
+ <item>data_out[0]</item>
+ <item>data_out[1]</item>
+ <item>data_out[2]</item>
+ <item>data_out[3]</item>
+ <item>data_out[4]</item>
+ <item>data_out[5]</item>
+ <item>data_out[6]</item>
+ <item>data_out[7]</item>
+ <item>framing_err_out</item>
+ <item>overflow_err_out</item>
+ <item>parity_err_out</item>
+ <item>rxrdy_out</item>
+ <item>tx</item>
+ <item>txrdy_out</item>
 </list>
 <text></text>
 <text></text>
-<text> - Setup unconstrained for the following pin:</text>
+<text> - Setup unconstrained for the following pins:</text>
 <text>   </text>
 <list>
  <item>uart_i/COREUART_C0_0/make_RX/samples[2]:D</item>
+ <item>uart_reader_i/LED1:SLn</item>
+ <item>uart_reader_i/LED2:SLn</item>
+ <item>uart_reader_i/LED3:SLn</item>
+ <item>uart_reader_i/OEN:SLn</item>
+ <item>uart_reader_i/uart_wr_state[0]:EN</item>
+ <item>uart_reader_i/uart_wr_state[1]:EN</item>
 </list>
 <text></text>
 <text> - Recovery unconstrained for the following pins:</text>
@@ -219,6 +253,11 @@ Date: Mon Oct 24 18:00:01 2022 </text>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[7]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[8]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[9]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_clock:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[3]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/framing_error_i:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/framing_error_int:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/overflow_int:ALn</item>
@@ -257,13 +296,48 @@ Date: Mon Oct 24 18:00:01 2022 </text>
  <item>uart_i/COREUART_C0_0/make_RX/samples[1]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/samples[2]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/stop_strobe_i:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[5]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[6]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[7]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_parity:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_xhdl2:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/txrdy_int:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[5]:ALn</item>
  <item>uart_i/COREUART_C0_0/rxrdy_xhdl4:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[5]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[6]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[7]:ALn</item>
 </list>
 <text></text>
-<text> - Hold unconstrained for the following pin:</text>
+<text> - Hold unconstrained for the following pins:</text>
 <text>   </text>
 <list>
  <item>uart_i/COREUART_C0_0/make_RX/samples[2]:D</item>
+ <item>uart_reader_i/LED1:SLn</item>
+ <item>uart_reader_i/LED2:SLn</item>
+ <item>uart_reader_i/LED3:SLn</item>
+ <item>uart_reader_i/OEN:SLn</item>
+ <item>uart_reader_i/uart_wr_state[0]:EN</item>
+ <item>uart_reader_i/uart_wr_state[1]:EN</item>
 </list>
 <text></text>
 <text> - Removal unconstrained for the following pins:</text>
@@ -283,6 +357,11 @@ Date: Mon Oct 24 18:00:01 2022 </text>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[7]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[8]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_cntr[9]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_clock:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_cntr[3]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/framing_error_i:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/framing_error_int:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/overflow_int:ALn</item>
@@ -321,7 +400,36 @@ Date: Mon Oct 24 18:00:01 2022 </text>
  <item>uart_i/COREUART_C0_0/make_RX/samples[1]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/samples[2]:ALn</item>
  <item>uart_i/COREUART_C0_0/make_RX/stop_strobe_i:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[5]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[6]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_byte[7]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_parity:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/tx_xhdl2:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/txrdy_int:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_bit_sel[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/make_TX/xmit_state[5]:ALn</item>
  <item>uart_i/COREUART_C0_0/rxrdy_xhdl4:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[0]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[1]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[2]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[3]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[4]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[5]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[6]:ALn</item>
+ <item>uart_i/COREUART_C0_0/tx_hold_reg[7]:ALn</item>
 </list>
 <text></text>
 </section>

@@ -69,6 +69,10 @@
 @W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
 @W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
 @W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":65:11:65:17|Signal start_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":46:11:46:16|Signal data_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:34:265:49|Signal parity_err_xhdl1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
@@ -84,5 +88,6 @@
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
-@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@W: CL279 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Pruning register bits 4 to 1 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 

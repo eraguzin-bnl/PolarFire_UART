@@ -22,10 +22,11 @@ data VCCI_2.5_VOLTR EXT
 data VCCI_3.3_VOLTR EXT
 data FLOW_TYPE NEW
 data PLANNER_IOMODE 1
-data AFL '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/COMPILE/top_level.afl'
+data AFL '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.afl'
 data ADL '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.adl'
-data LOC '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/COMPILE/top_level.loc'
-data SEG '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/COMPILE/top_level.seg'
+data LOC '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.loc'
+data SEG '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.seg'
+data NMAT_TXT '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/top_level.nmatinit.txt'
 
 data IO_PDC_0 '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/io/user1.pdc'
 data TARGET_IOPDC  '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/constraint/io/user1.pdc'

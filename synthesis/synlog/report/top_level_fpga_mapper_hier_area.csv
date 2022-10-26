@@ -1,8 +1,9 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
-. top_level, 56, 54, 14, 0, 0, 0, 0, 1, 9
-.	. COREUART_C0, 53, 49, 14, 0, 0, 0, 0, 0, 0
-.	.	. COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0, 53, 49, 14, 0, 0, 0, 0, 0, 0
-.	.	.	. COREUART_C0_COREUART_C0_0_Clock_gen_0_0, 14, 3, 14, 0, 0, 0, 0, 0, 0
-.	.	.	. COREUART_C0_COREUART_C0_0_Rx_async_0_0, 38, 45, 0, 0, 0, 0, 0, 0, 0
-.	. uart_reader, 3, 4, 0, 0, 0, 0, 0, 0, 0
+. top_level, 114, 88, 18, 0, 0, 0, 0, 1, 22
+.	. COREUART_C0, 87, 77, 18, 0, 0, 0, 0, 0, 0
+.	.	. COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0, 87, 77, 18, 0, 0, 0, 0, 0, 0
+.	.	.	. COREUART_C0_COREUART_C0_0_Clock_gen_0_0, 19, 10, 14, 0, 0, 0, 0, 0, 0
+.	.	.	. COREUART_C0_COREUART_C0_0_Rx_async_0_0, 38, 47, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREUART_C0_COREUART_C0_0_Tx_async_0_0, 21, 19, 4, 0, 0, 0, 0, 0, 0
+.	. uart_reader, 14, 11, 0, 0, 0, 0, 0, 0, 0

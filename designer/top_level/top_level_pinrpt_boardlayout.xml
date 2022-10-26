@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Mon Oct 24 18:01:25 2022</cell>
+ <cell>Tue Oct 25 16:10:56 2022</cell>
  <cell>Designer</cell>
  <cell>v2022.2</cell>
  <cell>2022.2.0.10</cell>
@@ -182,7 +182,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>A7</cell>
@@ -10300,34 +10300,8 @@
 </row>
 <row>
  <cell>AL23</cell>
- <cell>rx</cell>
- <cell>HSIO83PB1</cell>
- <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Input</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>Up</cell>
- <cell>No</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>120</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>rx</cell>
-</row>
-<row>
- <cell>AL24</cell>
  <cell>tx</cell>
- <cell>HSIO83NB1</cell>
+ <cell>HSIO83PB1</cell>
  <cell>Bank1</cell>
  <cell>Fixed</cell>
  <cell>LVCMOS18</cell>
@@ -10349,6 +10323,32 @@
  <cell>---</cell>
  <cell>OFF</cell>
  <cell>tx</cell>
+</row>
+<row>
+ <cell>AL24</cell>
+ <cell>rx</cell>
+ <cell>HSIO83NB1</cell>
+ <cell>Bank1</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Input</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>Up</cell>
+ <cell>No</cell>
+ <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>120</cell>
+ <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>rx</cell>
 </row>
 <row>
  <cell>AL25</cell>
@@ -13286,7 +13286,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>B4</cell>
@@ -14352,7 +14352,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>C11</cell>
@@ -15158,7 +15158,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>D8</cell>
@@ -15964,7 +15964,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>E5</cell>
@@ -16098,55 +16098,55 @@
 </row>
 <row>
  <cell>E10</cell>
- <cell>---</cell>
+ <cell>data_out[6]</cell>
  <cell>GPIO20PB2/DQS</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[6]</cell>
 </row>
 <row>
  <cell>E11</cell>
- <cell>---</cell>
+ <cell>data_out[7]</cell>
  <cell>GPIO20NB2/DQS</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[7]</cell>
 </row>
 <row>
  <cell>E12</cell>
@@ -16224,7 +16224,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>E15</cell>
@@ -16770,7 +16770,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>F2</cell>
@@ -16852,29 +16852,29 @@
 </row>
 <row>
  <cell>F5</cell>
- <cell>---</cell>
+ <cell>rxrdy_out</cell>
  <cell>GPIO11NB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>rxrdy_out</cell>
 </row>
 <row>
  <cell>F6</cell>
@@ -16956,55 +16956,55 @@
 </row>
 <row>
  <cell>F9</cell>
- <cell>---</cell>
+ <cell>data_out[1]</cell>
  <cell>GPIO6NB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[1]</cell>
 </row>
 <row>
  <cell>F10</cell>
- <cell>---</cell>
+ <cell>overflow_err_out</cell>
  <cell>GPIO21NB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>overflow_err_out</cell>
 </row>
 <row>
  <cell>F11</cell>
@@ -17030,7 +17030,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>F12</cell>
@@ -17736,29 +17736,29 @@
 </row>
 <row>
  <cell>G5</cell>
- <cell>---</cell>
+ <cell>parity_err_out</cell>
  <cell>GPIO11PB2/CLKIN_S_7</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>parity_err_out</cell>
 </row>
 <row>
  <cell>G6</cell>
@@ -17836,59 +17836,59 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>G9</cell>
- <cell>---</cell>
+ <cell>data_out[0]</cell>
  <cell>GPIO6PB2/CLKIN_S_4</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[0]</cell>
 </row>
 <row>
  <cell>G10</cell>
- <cell>---</cell>
+ <cell>framing_err_out</cell>
  <cell>GPIO21PB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>framing_err_out</cell>
 </row>
 <row>
  <cell>G11</cell>
@@ -17970,29 +17970,29 @@
 </row>
 <row>
  <cell>G14</cell>
- <cell>---</cell>
+ <cell>data_out[5]</cell>
  <cell>GPIO3NB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[5]</cell>
 </row>
 <row>
  <cell>G15</cell>
@@ -18802,81 +18802,81 @@
 </row>
 <row>
  <cell>H12</cell>
- <cell>---</cell>
+ <cell>data_out[3]</cell>
  <cell>GPIO1NB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[3]</cell>
 </row>
 <row>
  <cell>H13</cell>
- <cell>---</cell>
+ <cell>data_out[2]</cell>
  <cell>GPIO1PB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[2]</cell>
 </row>
 <row>
  <cell>H14</cell>
- <cell>---</cell>
+ <cell>data_out[4]</cell>
  <cell>GPIO3PB2</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>data_out[4]</cell>
 </row>
 <row>
  <cell>H15</cell>
@@ -18902,7 +18902,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>H16</cell>
@@ -19708,7 +19708,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>J13</cell>
@@ -19738,29 +19738,29 @@
 </row>
 <row>
  <cell>J14</cell>
- <cell>---</cell>
+ <cell>txrdy_out</cell>
  <cell>GPIO2PB2/DQS</cell>
  <cell>Bank2</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Output</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>None</cell>
+ <cell>No</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
+ <cell>120</cell>
  <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>8</cell>
  <cell>---</cell>
+ <cell>5</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF</cell>
+ <cell>OFF</cell>
+ <cell>txrdy_out</cell>
 </row>
 <row>
  <cell>J15</cell>
@@ -20774,7 +20774,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>K20</cell>
@@ -21580,7 +21580,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Due to Probe: 2.5v/3.3v</cell>
+ <cell>1.8v</cell>
 </row>
 <row>
  <cell>L17</cell>
@@ -22464,7 +22464,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Must connect VDDAUX2 to 2.5v/3.3v or to VSS through resistor (10K ohm)</cell>
+ <cell>2.5v</cell>
 </row>
 <row>
  <cell>M17</cell>
@@ -22516,7 +22516,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Must connect VDDAUX2 to 2.5v/3.3v or to VSS through resistor (10K ohm)</cell>
+ <cell>2.5v</cell>
 </row>
 <row>
  <cell>M19</cell>
@@ -22568,7 +22568,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Must connect VDDAUX2 to 2.5v/3.3v or to VSS through resistor (10K ohm)</cell>
+ <cell>2.5v</cell>
 </row>
 <row>
  <cell>M21</cell>
@@ -23374,7 +23374,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Must connect VDDAUX2 to 2.5v/3.3v or to VSS through resistor (10K ohm)</cell>
+ <cell>2.5v</cell>
 </row>
 <row>
  <cell>N18</cell>
@@ -23426,7 +23426,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>Must connect VDDAUX2 to 2.5v/3.3v or to VSS through resistor (10K ohm)</cell>
+ <cell>2.5v</cell>
 </row>
 <row>
  <cell>N20</cell>

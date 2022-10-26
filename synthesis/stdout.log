@@ -1,0 +1,164 @@
+
+                               Synplify Pro (R) 
+
+               Version S-2021.09M-SP1 for RHEL64 - Jun 14, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/mbin/synplify
+Install:     /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+Hostname:    eric-manjaro
+Date:        Wed Oct 26 11:04:57 2022
+Version:     S-2021.09M-SP1
+
+Arguments:   -product synplify_pro top_level_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server iolicense2.inst.bnl.gov 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "top_level_syn.tcl"
+Current license requires a separate Identify license to launch Identify.
+Current license requires a separate Identify license to launch Identify.
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+Note: Opening integrated instrumentor
+@N: Check out instrumentor license 'identinstrumentor_actel'
+Running: identify_ui_flow in background
+
+Running Flow: identify_ui_flow
+# Wed Oct 26 11:11:11 2022
+
+Running: identify_db_generator (Identify Database Generator)
+# Wed Oct 26 11:11:11 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Wed Oct 26 11:11:12 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+Instrumentor%
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'synthesis_1' to the project
+. has been added to search path.
+Loading instrumentation 'synthesis_1'
+Warning: Could not open IDC file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc'.
+Complete: identify_ui_flow
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=8
+@N Implementation '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj|synthesis' design hierarchy loaded from database
+Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Instrument Signal /tx for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 1, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 1, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /rx for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 2, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 2, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /txrdy_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 3, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /rxrdy_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 4, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 4, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /parity_err_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 5, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 5, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /overflow_err_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 6, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /framing_err_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 7, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 7, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /data_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 15, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 15, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /led4 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 16, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 16, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /led3 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 17, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 17, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /led2 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 18, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 18, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /led1 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 19, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 19, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /button2 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 20, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 20, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /button1 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 21, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /rstn for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 22, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 22, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 21, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)

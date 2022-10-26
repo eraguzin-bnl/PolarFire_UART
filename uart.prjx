@@ -194,8 +194,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/user1.pdc,io_pdc"
 STATE="utd"
-TIME="1666648520"
-SIZE="1581"
+TIME="1666725092"
+SIZE="3370"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/constraint/user.sdc,sdc"
@@ -205,18 +205,18 @@ SIZE="118"
 ENDFILE
 VALUE "<project>/hdl/default_values.vhd,hdl"
 STATE="utd"
-TIME="1666645972"
-SIZE="1582"
+TIME="1666721622"
+SIZE="2320"
 ENDFILE
 VALUE "<project>/hdl/top_level.vhd,hdl"
 STATE="utd"
-TIME="1666646223"
-SIZE="3313"
+TIME="1666724969"
+SIZE="4100"
 ENDFILE
 VALUE "<project>/hdl/uart_reader.vhd,hdl"
 STATE="utd"
-TIME="1666645689"
-SIZE="1935"
+TIME="1666728501"
+SIZE="3277"
 ENDFILE
 VALUE "<project>/synthesis/top_level.so,so"
 STATE="utd"
@@ -224,9 +224,9 @@ TIME="1666646231"
 SIZE="238"
 ENDFILE
 VALUE "<project>/synthesis/top_level.vm,syn_vm"
-STATE="utd"
-TIME="1666648779"
-SIZE="32712"
+STATE="ood"
+TIME="1666724977"
+SIZE="55711"
 ENDFILE
 VALUE "<project>/synthesis/top_level_syn.prj,prj"
 STATE="utd"
@@ -253,18 +253,6 @@ ENDLIST
 LIST PNRConstraints
 VALUE "<project>/constraint/user.sdc,sdc"
 VALUE "<project>/constraint/io/user1.pdc,io_pdc"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSYNTHESIS(<project>/synthesis/top_level.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
 ENDLIST
 ENDLIST
 LIST "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib"
@@ -387,18 +375,6 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "top_level::work"
-LIST Impl1
-ideSYNTHESIS(<project>/synthesis/top_level.vm,syn_vm)=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -420,7 +396,7 @@ HDL;hdl/uart_reader.vhd;0
 Constraint Manager;Constraint Manager;0
 HDL;constraint/io/user1.pdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;hdl/uart_reader.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"

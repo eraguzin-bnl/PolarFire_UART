@@ -1,7 +1,8 @@
 Detailed Resource Usage
 Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals
-Primitives/Primitives,1,0,9,1
-uart_i/COREUART_C0_0/Primitives,1,1,0,0
-uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/Primitives,17,14,0,0
-uart_i/COREUART_C0_0/make_RX/Primitives,44,38,0,0
-uart_reader_i/Primitives,4,3,0,0
+Primitives/Primitives,1,13,22,1
+uart_i/COREUART_C0_0/Primitives,1,9,0,0
+uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/Primitives,24,19,0,0
+uart_i/COREUART_C0_0/make_RX/Primitives,46,38,0,0
+uart_i/COREUART_C0_0/make_TX/Primitives,23,21,0,0
+uart_reader_i/Primitives,10,14,0,0

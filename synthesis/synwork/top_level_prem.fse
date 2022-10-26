@@ -26,3 +26,13 @@ fsm_state_encoding {1026462642} rx_stop_bit {10}
 fsm_state_encoding {1026462642} rx_wait_state {11}
 
 fsm_registers {1026462642} {rx_state[1]}  {rx_state[0]} 
+
+fsm_encoding {17538534} sequential
+
+fsm_state_encoding {17538534} s_idle {00}
+
+fsm_state_encoding {17538534} s_start {01}
+
+fsm_state_encoding {17538534} s_send {10}
+
+fsm_registers {17538534} {uart_wr_state[1]}  {uart_wr_state[0]} 

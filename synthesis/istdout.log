@@ -1,0 +1,7 @@
+argv 1 top_level_syn.prj
+argv 1 /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib
+argv 2 -tsl
+argv 4 -idb
+argv 6 -prj
+argv 8 -curimpl
+argv 10 -product

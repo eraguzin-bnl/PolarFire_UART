@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Mon Oct 24 17:59:44 2022
+<text>Date: Tue Oct 25 16:09:16 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -78,15 +78,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>67</cell>
+ <cell>105</cell>
  <cell>299544</cell>
- <cell>0.02</cell>
+ <cell>0.04</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>56</cell>
+ <cell>114</cell>
  <cell>299544</cell>
- <cell>0.02</cell>
+ <cell>0.04</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -96,15 +96,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>9</cell>
+ <cell>22</cell>
  <cell>512</cell>
- <cell>1.76</cell>
+ <cell>4.30</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>9</cell>
+ <cell>22</cell>
  <cell>512</cell>
- <cell>1.76</cell>
+ <cell>4.30</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -170,8 +170,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>67</cell>
- <cell>56</cell>
+ <cell>105</cell>
+ <cell>114</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -190,8 +190,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>67</cell>
- <cell>56</cell>
+ <cell>105</cell>
+ <cell>114</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -211,6 +211,23 @@
  <cell>1</cell>
 </row>
 </table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>2</cell>
+</row>
+</table>
 <section><name>I/O Function</name></section>
 <table>
 <header>
@@ -227,7 +244,7 @@
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>5</cell>
+ <cell>18</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -258,7 +275,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>56</cell>
+ <cell>114</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -289,17 +306,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>53</cell>
+ <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1_Z</cell>
+ <cell>Net   : rstn_1</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rstn_1</cell>
+ <cell>Driver: uart_reader_i/rstn_1</cell>
 </row>
 <row>
- <cell>20</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
  <cell>Net   : uart_i/COREUART_C0_0/baud_clock</cell>
 </row>
@@ -307,6 +324,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : oen_s</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: uart_reader_i/OEN</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : rstn_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: rstn_ibuf</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : uart_i/COREUART_C0_0/xmit_pulse</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse</cell>
 </row>
 <row>
  <cell>12</cell>
@@ -317,26 +364,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2</cell>
-</row>
-<row>
- <cell>10</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[1]</cell>
-</row>
-<row>
- <cell>9</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[2]</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -361,32 +388,22 @@
 <row>
  <cell>8</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[1]</cell>
+ <cell>Net   : uart_reader_i/DATA_IN_0_sqmuxa</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state[1]</cell>
+ <cell>Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2</cell>
 </row>
 <row>
  <cell>8</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa_Z</cell>
+ <cell>Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state[0]</cell>
+ <cell>Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -397,17 +414,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>53</cell>
+ <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1_Z</cell>
+ <cell>Net   : rstn_1</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rstn_1</cell>
+ <cell>Driver: uart_reader_i/rstn_1</cell>
 </row>
 <row>
- <cell>20</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
  <cell>Net   : uart_i/COREUART_C0_0/baud_clock</cell>
 </row>
@@ -415,6 +432,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : oen_s</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: uart_reader_i/OEN</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : rstn_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: rstn_ibuf</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : uart_i/COREUART_C0_0/xmit_pulse</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse</cell>
 </row>
 <row>
  <cell>12</cell>
@@ -425,26 +472,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2</cell>
-</row>
-<row>
- <cell>10</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[1]</cell>
-</row>
-<row>
- <cell>9</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/receive_count_Z[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[2]</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -469,32 +496,22 @@
 <row>
  <cell>8</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[1]</cell>
+ <cell>Net   : uart_reader_i/DATA_IN_0_sqmuxa</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state[1]</cell>
+ <cell>Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2</cell>
 </row>
 <row>
  <cell>8</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa_Z</cell>
+ <cell>Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_byte_xhdl5_1_sqmuxa</cell>
-</row>
-<row>
- <cell>7</cell>
- <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_Z[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state[0]</cell>
+ <cell>Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]</cell>
 </row>
 </table>
 </doc>

@@ -59,7 +59,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 
 
 Process completed successfully.
-# Mon Oct 24 17:59:36 2022
+# Tue Oct 25 16:09:09 2022
 
 ###########################################################]
 ###########################################################[
@@ -238,12 +238,19 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Mon Oct 24 17:59:36 2022
+# Tue Oct 25 16:09:09 2022
 
 ###########################################################]
 ###########################################################[
 @N|stack limit increased to max
 @N:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Top entity is set to top_level.
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd'.
@@ -258,13 +265,21 @@ Process completed successfully.
 VHDL syntax check successful!
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
+@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":65:11:65:17|Signal start_s is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":103:20:103:33|OTHERS clause is not synthesized.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":46:11:46:16|Signal data_s is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.uart_reader.architecture_uart_reader
 Running optimization stage 1 on uart_reader .......
-Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":42:25:42:26|Using sequential encoding for type uart_state_type.
 Post processing for work.default_values.architecture_default_values
 Running optimization stage 1 on default_values .......
+@W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
 Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
@@ -344,37 +359,41 @@ Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (
 Running optimization stage 2 on COREUART_C0 .......
 Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on default_values .......
-@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Removing register 'CSN' because it is only assigned 0 or its original value.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BIT8 is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit ODD_N_EVEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit OEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit PARITY_EN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit WEN is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(0) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(1) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(2) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(3) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(4) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(5) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(6) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit DATA_IN(7) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(0) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(1) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(2) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(3) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(4) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(5) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(6) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(7) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(8) is always 1.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(9) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(10) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(11) is always 0.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":45:8:45:9|Register bit BAUD_VAL(12) is always 0.
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":25:4:25:6|Input CLK is unused.
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":26:4:26:6|Input RST is unused.
+@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit ODD_N_EVEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit PARITY_EN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(1) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(2) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(3) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(5) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(6) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(7) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(8) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(9) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(10) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(11) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(12) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(1) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(2) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(3) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(4) is always 0.
+@W: CL279 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Pruning register bits 4 to 1 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Trying to extract state machine for register uart_wr_state.
+Extracted state machine for register uart_wr_state
+State machine has 2 reachable states with original encodings of:
+   00
+   10
 Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on uart_reader .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
+Extracted state machine for register uart_wr_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
 Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on top_level .......
 Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
@@ -384,11 +403,11 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synwork/layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 140MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
 
 
 Process completed successfully.
-# Mon Oct 24 17:59:37 2022
+# Tue Oct 25 16:09:09 2022
 
 ###########################################################]
 ###########################################################[
@@ -413,12 +432,15 @@ Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun
 
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 121MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 24 17:59:37 2022
+# Tue Oct 25 16:09:09 2022
 
 ###########################################################]
 
@@ -433,6 +455,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 24 17:59:37 2022
+# Tue Oct 25 16:09:09 2022
 
 ###########################################################]

@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Mon Oct 24 17:59:38 2022
+# Written on Tue Oct 25 16:09:10 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -54,9 +54,23 @@ p:LED2
 p:LED3
 p:LED4
 p:button1
+p:button2
+p:data_out[0]
+p:data_out[1]
+p:data_out[2]
+p:data_out[3]
+p:data_out[4]
+p:data_out[5]
+p:data_out[6]
+p:data_out[7]
+p:framing_err_out
+p:overflow_err_out
+p:parity_err_out
 p:rstn
 p:rx
+p:rxrdy_out
 p:tx
+p:txrdy_out
 
 
 Inapplicable constraints
