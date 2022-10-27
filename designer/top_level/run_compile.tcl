@@ -62,7 +62,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.vm"}
+    -value {"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Limit the number of high fanout nets to display to"} \

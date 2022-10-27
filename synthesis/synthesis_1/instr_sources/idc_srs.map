@@ -1,0 +1,16 @@
+/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 i:uart_reader_i.ident_hs_ident_breakpoint_2753
+/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:97 i:uart_reader_i.ident_hs_ident_breakpoint_2835
+/architecture_top_level/uart_reader_i/data_in i:uart_reader_i.ident_hs_DATA_IN
+/architecture_top_level/uart_reader_i/data_out i:uart_reader_i.ident_hs_DATA_OUT
+/architecture_top_level/uart_reader_i/framing_err i:uart_reader_i.ident_hs_FRAMING_ERR
+/architecture_top_level/uart_reader_i/led1 i:uart_reader_i.ident_hs_LED1
+/architecture_top_level/uart_reader_i/led2 i:uart_reader_i.ident_hs_LED2
+/architecture_top_level/uart_reader_i/led3 i:uart_reader_i.ident_hs_LED3
+/architecture_top_level/uart_reader_i/led4 i:uart_reader_i.ident_hs_LED4
+/architecture_top_level/uart_reader_i/oen i:uart_reader_i.ident_hs_OEN
+/architecture_top_level/uart_reader_i/overflow i:uart_reader_i.ident_hs_OVERFLOW
+/architecture_top_level/uart_reader_i/parity_err i:uart_reader_i.ident_hs_PARITY_ERR
+/architecture_top_level/uart_reader_i/rst i:uart_reader_i.ident_hs_RST
+/architecture_top_level/uart_reader_i/rxrdy i:uart_reader_i.ident_hs_RXRDY
+/architecture_top_level/uart_reader_i/txrdy i:uart_reader_i.ident_hs_TXRDY
+/architecture_top_level/uart_reader_i/wen i:uart_reader_i.ident_hs_WEN

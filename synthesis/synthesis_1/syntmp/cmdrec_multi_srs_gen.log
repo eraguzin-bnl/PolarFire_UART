@@ -1,0 +1,8 @@
+/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/syn_nfilter  -link  -top  work.top_level  -multisrs  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs  -osyn  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs  -log  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/syn_nfilter -link -top work.top_level -multisrs ../synwork/top_level_comp.srs -osyn ../synwork/top_level_mult.srs -log ../synlog/top_level_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/top_level_comp.srs|io:i|time:1666893396|size:27822|exec:0|csum:97F6A9BBD4FEF68A98FA29531FEA15B7
+file:../synwork/top_level_mult.srs|io:o|time:1666893397|size:4968|exec:0|csum:
+file:../synlog/top_level_multi_srs_gen.srr|io:o|time:1666893397|size:1275|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1655988490|size:12113536|exec:1|csum:50CCA552F064E76C4FE00CDE77677B06
+file:/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/syn_nfilter|io:i|time:1655988480|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

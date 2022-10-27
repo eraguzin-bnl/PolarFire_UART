@@ -1,0 +1,59 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2022.2 2022.2.0.10
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Thu Oct 27 15:48:58 2022 
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+# 
+# User Locked I/O settings
+# 
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io -port_name atck  \
+    -pin_name J10       \
+    -DIRECTION INPUT
+
+
+set_io -port_name atdi  \
+    -pin_name K11       \
+    -DIRECTION INPUT
+
+
+set_io -port_name atdo  \
+    -pin_name K9        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name atms  \
+    -pin_name J9        \
+    -DIRECTION INPUT
+
+
+set_io -port_name atrstb  \
+    -pin_name N14         \
+    -DIRECTION INPUT
+
+

@@ -6,7 +6,7 @@
 
 # Family: PolarFire , Die: MPF300T , Package: FCG1152
 
-# Date generated: Tue Oct 25 14:30:44 2022 
+# Date generated: Thu Oct 27 15:48:58 2022 
 
 
 # 
@@ -51,12 +51,6 @@ set_io -port_name LED4  \
 
 set_io -port_name button1  \
     -pin_name AK20         \
-    -fixed true            \
-    -DIRECTION INPUT
-
-
-set_io -port_name button2  \
-    -pin_name AM27         \
     -fixed true            \
     -DIRECTION INPUT
 
@@ -149,12 +143,6 @@ set_io -port_name rxrdy_out  \
     -pin_name F5             \
     -fixed true              \
     -DIRECTION OUTPUT
-
-
-set_io -port_name start  \
-    -pin_name J13        \
-    -fixed true          \
-    -DIRECTION INPUT
 
 
 set_io -port_name tx   \

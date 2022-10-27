@@ -1,0 +1,17 @@
+uart_reader_i.wen
+uart_reader_i.data_in
+uart_reader_i.txrdy
+uart_reader_i.rxrdy
+uart_reader_i.parity_err
+uart_reader_i.overflow
+uart_reader_i.framing_err
+uart_reader_i.data_out
+uart_reader_i.rst
+uart_reader_i.clk
+uart_reader_i.led4
+uart_reader_i.led3
+uart_reader_i.led2
+uart_reader_i.led1
+uart_reader_i.oen
+#breakpoint {/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95}
+#breakpoint {/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:97}

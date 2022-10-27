@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Tue Oct 25 16:09:16 2022
+<text>Date: Thu Oct 27 13:56:49 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -56,7 +56,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.vm</cell>
+ <cell>/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -78,15 +78,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>105</cell>
+ <cell>451</cell>
  <cell>299544</cell>
- <cell>0.04</cell>
+ <cell>0.15</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>114</cell>
+ <cell>584</cell>
  <cell>299544</cell>
- <cell>0.04</cell>
+ <cell>0.19</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -120,9 +120,9 @@
 </row>
 <row>
  <cell>LSRAM</cell>
- <cell>0</cell>
+ <cell>1</cell>
  <cell>952</cell>
- <cell>0.00</cell>
+ <cell>0.11</cell>
 </row>
 <row>
  <cell>Math</cell>
@@ -132,9 +132,9 @@
 </row>
 <row>
  <cell>H-Chip Global</cell>
- <cell>1</cell>
+ <cell>4</cell>
  <cell>48</cell>
- <cell>2.08</cell>
+ <cell>8.33</cell>
 </row>
 <row>
  <cell>PLL</cell>
@@ -149,6 +149,12 @@
  <cell>0.00</cell>
 </row>
 <row>
+ <cell>UJTAG</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
  <cell>Transceiver Lanes</cell>
  <cell>0</cell>
  <cell>16</cell>
@@ -160,6 +166,12 @@
  <cell>2</cell>
  <cell>0.00</cell>
 </row>
+<row>
+ <cell>ICB_CLKINT</cell>
+ <cell>1</cell>
+ <cell>72</cell>
+ <cell>1.39</cell>
+</row>
 </table>
 <section><name>Detailed Logic Resource Usage</name></section>
 <table>
@@ -170,8 +182,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>105</cell>
- <cell>114</cell>
+ <cell>415</cell>
+ <cell>548</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -180,8 +192,8 @@
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
- <cell>0</cell>
- <cell>0</cell>
+ <cell>36</cell>
+ <cell>36</cell>
 </row>
 <row>
  <cell>Math Interface Logic</cell>
@@ -190,8 +202,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>105</cell>
- <cell>114</cell>
+ <cell>451</cell>
+ <cell>584</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -203,12 +215,16 @@
  <cell>Used</cell>
 </row>
 <row>
+ <cell>8</cell>
+ <cell>2</cell>
+</row>
+<row>
  <cell>14</cell>
  <cell>1</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>1</cell>
+ <cell>3</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -275,7 +291,22 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>114</cell>
+ <cell>273</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>256</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -283,6 +314,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: I_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/hcr_update</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -308,7 +369,7 @@
 <row>
  <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1</cell>
+ <cell>Net   : rstn_1_i</cell>
 </row>
 <row>
  <cell></cell>
@@ -316,94 +377,94 @@
  <cell>Driver: uart_reader_i/rstn_1</cell>
 </row>
 <row>
- <cell>25</cell>
+ <cell>64</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/baud_clock</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
 <row>
- <cell>17</cell>
+ <cell>52</cell>
  <cell>INT_NET</cell>
- <cell>Net   : oen_s</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/OEN</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]</cell>
 </row>
 <row>
- <cell>13</cell>
+ <cell>44</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_c</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rstn_ibuf</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
- <cell>13</cell>
+ <cell>36</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/xmit_pulse</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
 </row>
 <row>
- <cell>12</cell>
+ <cell>33</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2_Z</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa</cell>
 </row>
 <row>
- <cell>9</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0_Z</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_101</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_101</cell>
 </row>
 <row>
- <cell>9</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/CO0</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[0]</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
 </row>
 <row>
- <cell>8</cell>
+ <cell>31</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_reader_i/DATA_IN_0_sqmuxa</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[35]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[35]</cell>
 </row>
 <row>
- <cell>8</cell>
+ <cell>31</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -416,7 +477,7 @@
 <row>
  <cell>87</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1</cell>
+ <cell>Net   : rstn_1_i</cell>
 </row>
 <row>
  <cell></cell>
@@ -424,94 +485,94 @@
  <cell>Driver: uart_reader_i/rstn_1</cell>
 </row>
 <row>
- <cell>25</cell>
+ <cell>64</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/baud_clock</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/baud_clock_int</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
 <row>
- <cell>17</cell>
+ <cell>52</cell>
  <cell>INT_NET</cell>
- <cell>Net   : oen_s</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/OEN</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]</cell>
 </row>
 <row>
- <cell>13</cell>
+ <cell>44</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_c</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rstn_ibuf</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
- <cell>13</cell>
+ <cell>36</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/xmit_pulse</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/xmit_pulse</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
 </row>
 <row>
- <cell>12</cell>
+ <cell>33</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2_Z</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/rx_state_s0_0_a2</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa</cell>
 </row>
 <row>
- <cell>9</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0_Z</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_101</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/un1_samples8_1_0</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_101</cell>
 </row>
 <row>
- <cell>9</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_RX/CO0</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_RX/receive_count[0]</cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
 </row>
 <row>
- <cell>8</cell>
+ <cell>31</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_reader_i/DATA_IN_0_sqmuxa</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[35]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/DATA_IN_0_sqmuxa_0_a2</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[35]</cell>
 </row>
 <row>
- <cell>8</cell>
+ <cell>31</cell>
  <cell>INT_NET</cell>
- <cell>Net   : uart_i/COREUART_C0_0/make_TX/xmit_state_Z[2]</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_i/COREUART_C0_0/make_TX/xmit_state[2]</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
 </row>
 </table>
 </doc>

@@ -1,0 +1,7 @@
+/usr/local/microchip/Libero_SoC_v2022.2/Identify/bin/identify_debugger  -idb  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db  -synplify_install  /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro  -synplify_tool  synplify_pro  -log  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log  -family  POLARFIRE  -prj  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2021.09  -jobname  "identify_debugger" 
+relcom:/usr/local/microchip/Libero_SoC_v2022.2/Identify/bin/identify_debugger -idb ../identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log ../synlog/top_level_identify_debugger.log -family POLARFIRE -prj ../../top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname "identify_debugger"
+rc:-1 success:1 runtime:0
+file:../identify.db|io:i|time:1666797072|size:102773|exec:0|csum:EBD940E00A800BA4903EF18E99C2D2A1
+file:../synlog/top_level_identify_debugger.log|io:o|time:1666893351|size:5508|exec:0|csum:
+file:../../top_level_syn.prj|io:i|time:1666819172|size:6411|exec:0|csum:F918ECDF6E0CB341F1B043E68709834A
+file:/usr/local/microchip/Libero_SoC_v2022.2/Identify/bin/identify_debugger|io:i|time:1659979722|size:1027|exec:1|csum:CD0C8F18FE511296912884190ED27ECA

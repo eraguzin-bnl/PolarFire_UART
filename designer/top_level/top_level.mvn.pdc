@@ -8,7 +8,7 @@
 
 # Family: PolarFire , Die: MPF300T , Package: FCG1152 , Speed grade: -1 
 
-# Date generated: Tue Oct 25 16:09:16 2022 
+# Date generated: Thu Oct 27 13:56:49 2022 
 
 
 #
@@ -26,11 +26,31 @@ set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
 # I/O constraints
 #
 
+set_io -port_name atck -DIRECTION INPUT -pin_name J10
+set_io -port_name atdi -DIRECTION INPUT -pin_name K11
+set_io -port_name atdo -DIRECTION OUTPUT -pin_name K9
+set_io -port_name atms -DIRECTION INPUT -pin_name J9
+set_io -port_name atrstb -DIRECTION INPUT -pin_name N14
 
 #
 # Ports using Dedicated Pins
 #
 
+set_io -port_name atck  \
+    -pin_name J10       \
+    -DIRECTION INPUT
+set_io -port_name atdi  \
+    -pin_name K11       \
+    -DIRECTION INPUT
+set_io -port_name atdo  \
+    -pin_name K9        \
+    -DIRECTION OUTPUT
+set_io -port_name atms  \
+    -pin_name J9        \
+    -DIRECTION INPUT
+set_io -port_name atrstb  \
+    -pin_name N14         \
+    -DIRECTION INPUT
 
 #
 # Core cell constraints

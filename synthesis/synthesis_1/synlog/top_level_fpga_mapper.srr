@@ -1,0 +1,1007 @@
+# Thu Oct 27 13:56:39 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 12:05:51, @4302666
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5333:7:5333:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5528:22:5528:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+Dissolving instances under view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) (flattening)
+
+
+Available hyper_sources - for debug and ip models
+HyperSrc tag uart_reader_i.ident_ihs_clk
+HyperSrc tag uart_reader_i.ident_ihs_data_in
+HyperSrc tag uart_reader_i.ident_ihs_data_out
+HyperSrc tag uart_reader_i.ident_ihs_framing_err
+HyperSrc tag uart_reader_i.ident_ihs_led1
+HyperSrc tag uart_reader_i.ident_ihs_led2
+HyperSrc tag uart_reader_i.ident_ihs_led3
+HyperSrc tag uart_reader_i.ident_ihs_led4
+HyperSrc tag uart_reader_i.ident_ihs_oen
+HyperSrc tag uart_reader_i.ident_ihs_overflow
+HyperSrc tag uart_reader_i.ident_ihs_parity_err
+HyperSrc tag uart_reader_i.ident_ihs_rst
+HyperSrc tag uart_reader_i.ident_ihs_rxrdy
+HyperSrc tag uart_reader_i.ident_ihs_txrdy
+HyperSrc tag uart_reader_i.ident_ihs_wen
+HyperSrc tag uart_reader_i.bpsig_2753
+HyperSrc tag uart_reader_i.bpsig_2835
+HyperSrc tag ident_coreinst.IICE_INST.ident_ihs_IICE_master_clock
+HyperSrc tag ident_coreinst.IICE_INST.Identify_IICE_trigger_ext
+HyperSrc tag ident_coreinst.IICE_INST.b3_SoW.identify_sampler_ready
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_uireg
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_urstb
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrupd
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrck
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrcap
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrsh
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_utdi
+
+Making connections to hyper_source modules
+@W: BN401 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":210:20:210:44|Missing syn_hyper_source with tag ujtag_wrapper_utdo. Connecting to default value '0'
+Deleting unused hyper source sample_clock_hs (in view: VhdlGenLib.IICE_x(verilog))
+Deleting unused hyper source trigger_hs (in view: VhdlGenLib.IICE_x(verilog))
+Deleting unused hyper source hypers_sampler_ready (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_uireg (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_urstb (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrupd (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrck (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrcap (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrsh (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_utdi (in view: VhdlGenLib.jtag_interface_x(verilog))
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5469:2:5469:7|Removing sequential instance b13_PSyil9s_FMZ_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found counter in view:coreuart_lib.COREUART_C0_COREUART_C0_0_Clock_gen_0_0(rtl) instance baud_cntr[12:0] 
+Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
+@W: MO161 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[3] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[2] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[1] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":241:7:241:8|Register bit last_bit[0] (in view view:coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine uart_wr_state[0:2] (in view: work.uart_reader(architecture_uart_reader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4777:3:4777:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance genblk4\.b7_nYhI39s[6:0] 
+@N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance b13_nAzGfFM_sLsv3_i[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[1].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[2].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[3].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[4].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[5].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk2\.b3_nUT[6].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[0].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[1].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[2].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[3].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[4].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[0].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[1].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[2].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[3].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[4].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[5].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[6].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[7].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[8].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[9].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[10].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[11].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[12].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[13].
+@W: FX107 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2737:4:2737:9|RAM b3_SoW.b3_SoW[28:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[35] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[34] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[33] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[32] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[31] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[30] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
+
+@W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4191:2:4191:7|Removing instance ident_coreinst.IICE_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKG.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4191:2:4191:7|Removing instance ident_coreinst.IICE_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKF.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4810:2:4810:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_x(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 270MB peak: 270MB)
+
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4472:3:4472:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b8_uUT_CqMr[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4500:3:4500:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 271MB peak: 271MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 278MB peak: 278MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     3.11ns		 414 /       577
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[5] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[6] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[7] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[8] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[9] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[10] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[11] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[12] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[13] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[14] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[15] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[16] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[17] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[18] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[19] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[20] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[21] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[22] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[23] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[24] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[25] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[26] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[27] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[28] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 529 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 21 clock pin(s) of sequential element(s)
+0 instances converted, 21 sequential instances remain driven by gated/generated clocks
+
+====================================================================== Non-Gated/Non-Generated Clocks ======================================================================
+Clock Tree ID     Driving Element                                       Drive Element Type              Fanout     Sample Instance                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     UJTAG                           265        ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]    
+@K:CKID0004       clk                                                   clock definition on port        256        overflow_err_out                                         
+@K:CKID0005       ident_coreinst.comm_block_INST.dr2_tck_keep           clock definition on keepbuf     8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]
+============================================================================================================================================================================
+=========================================================================================================== Gated/Generated Clocks ===========================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                                          Explanation                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3       CFG2                   13         ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[6]         No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3     CFG2                   8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     No gated clock conversion method for cell cell:ACG4.SLE
+==============================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+Writing Analyst data base /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: BW278 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck source pin ident_coreinst.comm_block_INST.dr2_tck_keep.OUT[0]
+@N: BW279 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck drive pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.Y
+@N: BW280 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on drive pins would add that clock to 265 clock pins including ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0.A_CLK
+@W: BW295 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotation of clocks to input pins not allowed for this technology. Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on driving pins
+@W: BW156 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":3:0:3:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+@N: MT615 |Found clock clk_main with period 20.00ns 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@W: MT420 |Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.identify_clk_int.
+@W: MT420 |Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX.
+@W: MT420 |Found inferred clock jtag_interface_x|b9_nv_oQwfYF with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Oct 27 13:56:40 2022
+#
+
+
+Top view:               top_level
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc
+                       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.663
+
+                                                     Requested     Estimated      Requested     Estimated                 Clock        Clock                
+Starting Clock                                       Frequency     Frequency      Period        Period        Slack       Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk_main                                             50.0 MHz      246.0 MHz      20.000        4.065         15.935      declared     default_clkgroup     
+ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       2922.3 MHz     1000.000      0.342         999.658     declared     identify_jtag_group1 
+jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     508.9 MHz      10.000        1.965         8.035       inferred     Inferred_clkgroup_0_3
+jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     225.2 MHz      10.000        4.440         5.560       inferred     Inferred_clkgroup_0_2
+jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     217.1 MHz      10.000        4.606         5.394       inferred     Inferred_clkgroup_0_1
+System                                               100.0 MHz     208.8 MHz      10.000        4.790         5.210       system       system_clkgroup      
+============================================================================================================================================================
+@W: Z241 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                          Ending                                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                            System                                            |  10.000      5.210    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    997.738  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      4.663    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b10_8Kz_rKlrtX                   |  10.000      8.215    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b9_nv_oQwfYF                     |  10.000      6.786    |  No paths    -      |  No paths    -      |  No paths    -    
+clk_main                                          clk_main                                          |  20.000      15.935   |  No paths    -      |  No paths    -      |  No paths    -    
+clk_main                                          jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            System                                            |  1000.000    998.361  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    999.658  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            jtag_interface_x|b10_8Kz_rKlrtX                   |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  System                                            |  10.000      7.032    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      5.394    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   System                                            |  10.000      5.560    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|b9_nv_oQwfYF                     |  10.000      8.035    |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_main
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                 Arrival           
+Instance                                                      Reference     Type     Pin     Net                       Time        Slack 
+                                                              Clock                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                   clk_main      SLE      Q       b3_nfs[2]                 0.218       15.935
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[3]                   clk_main      SLE      Q       b3_nfs[3]                 0.218       15.999
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[4]                   clk_main      SLE      Q       b3_nfs[4]                 0.218       16.032
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0]                   clk_main      SLE      Q       b3_nfs[0]                 0.218       16.150
+ident_coreinst.IICE_INST.b5_nUTGT.b8_vABZ3qsY                 clk_main      SLE      Q       b8_vABZ3qsY               0.201       16.562
+ident_coreinst.IICE_INST.b5_nUTGT.runstart_d                  clk_main      SLE      Q       runstart_d                0.218       16.597
+ident_coreinst.IICE_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[10]       clk_main      SLE      Q       b13_nAzGfFM_sLsv3[10]     0.201       16.734
+ident_coreinst.IICE_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[11]       clk_main      SLE      Q       b13_nAzGfFM_sLsv3[11]     0.201       16.790
+ident_coreinst.IICE_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[1]        clk_main      SLE      Q       b13_nAzGfFM_sLsv3[1]      0.218       16.805
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b10_nYhI3_umjB     clk_main      SLE      Q       b10_nYhI3_umjB            0.218       17.338
+=========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                           Required           
+Instance                                                     Reference     Type     Pin     Net                 Time         Slack 
+                                                             Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]     clk_main      SLE      D       b7_nYhI39s_s[6]     20.000       15.935
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[5]     clk_main      SLE      D       b7_nYhI39s_s[5]     20.000       15.943
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4]     clk_main      SLE      D       b7_nYhI39s_s[4]     20.000       15.951
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[3]     clk_main      SLE      D       b7_nYhI39s_s[3]     20.000       15.959
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[2]     clk_main      SLE      D       b7_nYhI39s_s[2]     20.000       15.967
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[1]     clk_main      SLE      D       b7_nYhI39s_s[1]     20.000       15.975
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[0]     clk_main      SLE      EN      b7_nYhI39se         19.873       16.294
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[1]     clk_main      SLE      EN      b7_nYhI39se         19.873       16.294
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[2]     clk_main      SLE      EN      b7_nYhI39se         19.873       16.294
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[3]     clk_main      SLE      EN      b7_nYhI39se         19.873       16.294
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.065
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.935
+
+    Number of logic level(s):                11
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                      SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                        Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                                   Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                      Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                            Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                      Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]             ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]             ARI1     FCO      Out     0.492     3.607 f     -         
+b7_nYhI39s_cry[0]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     FCI      In      -         3.607 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     FCO      Out     0.008     3.615 f     -         
+b7_nYhI39s_cry[1]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCI      In      -         3.615 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCO      Out     0.008     3.623 f     -         
+b7_nYhI39s_cry[2]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCI      In      -         3.623 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCO      Out     0.008     3.631 f     -         
+b7_nYhI39s_cry[3]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCI      In      -         3.631 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCO      Out     0.008     3.639 f     -         
+b7_nYhI39s_cry[4]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCI      In      -         3.639 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCO      Out     0.008     3.647 f     -         
+b7_nYhI39s_cry[5]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     FCI      In      -         3.647 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     S        Out     0.300     3.947 r     -         
+b7_nYhI39s_s[6]                                                  Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]         SLE      D        In      -         4.065 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 4.065 is 1.458(35.9%) logic and 2.608(64.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.dr2_tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                        Arrival            
+Instance                                                      Reference                                  Type     Pin     Net                 Time        Slack  
+                                                              Clock                                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[0]     0.218       998.361
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[1]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[2]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[3]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[4]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[5]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[6]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[7]     0.218       999.658
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                          Required            
+Instance                                                      Reference                                  Type      Pin      Net                 Time         Slack  
+                                                              Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             ident_coreinst.comm_block_INST.dr2_tck     UJTAG     UTDO     b9_PLF_6lNa2        1000.000     998.361
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[1]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[2]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[3]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[4]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[5]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[6]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[7]     1000.000     999.658
+====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      1.639
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 998.361
+
+    Number of logic level(s):                2
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     SLE       Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[0]                                               Net       -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF              CFG3      C        In      -         0.342 r     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF              CFG3      Y        Out     0.148     0.490 r     -         
+b6_PLF_Bq                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2             CFG4      B        In      -         0.608 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2             CFG4      Y        Out     0.083     0.691 r     -         
+b9_PLF_6lNa2                                                  Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             UJTAG     UTDO     In      -         1.639 r     -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 1.639 is 0.449(27.4%) logic and 1.190(72.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b9_nv_oQwfYF
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                       Starting                                                               Arrival          
+Instance                                                               Reference                         Type     Pin     Net                 Time        Slack
+                                                                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]       jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b6_nfs_IF[1]        0.218       8.035
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b11_vABZ3qsY_qH     0.218       9.066
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                                              Required          
+Instance                                                               Reference                         Type     Pin     Net                Time         Slack
+                                                                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      SLn     b6_nfs_IF_i[1]     9.944        8.035
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      D       b8_vABZ3qsY_0      10.000       8.676
+===============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.056
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.944
+
+    - Propagation time:                      1.909
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.035
+
+    Number of logic level(s):                1
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / SLn
+    The start point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]             SLE      Q        Out     0.218     0.218 r     -         
+b6_nfs_IF[1]                                                                 Net      -        -       0.756     -           20        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF8[1]     CFG1     A        In      -         0.974 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF8[1]     CFG1     Y        Out     0.046     1.020 f     -         
+b6_nfs_IF_i[1]                                                               Net      -        -       0.889     -           33        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY           SLE      SLn      In      -         1.909 f     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 1.965 is 0.320(16.3%) logic and 1.645(83.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b10_8Kz_rKlrtX
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                         Starting                                                                      Arrival          
+Instance                                                                 Reference                           Type     Pin     Net                      Time        Slack
+                                                                         Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[4]     0.218       5.560
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[6]     0.218       5.605
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[1]        0.218       5.630
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b11_uRrc_WYOFjZ[0]       0.201       5.742
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[4]        0.201       5.804
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[3]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[3]     0.201       5.934
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[1]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[5]        0.218       6.061
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b12_ORbIwXaEF_bd         0.218       7.524
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                Required          
+Instance                                              Reference                           Type      Pin      Net              Time         Slack
+                                                      Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     jtag_interface_x|b10_8Kz_rKlrtX     UJTAG     UTDO     b9_PLF_6lNa2     10.000       5.560
+================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.440
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.560
+
+    Number of logic level(s):                8
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     SLE       Q        Out     0.218     0.218 r     -         
+b13_nvmFL_fx2rbuQ[4]                                                     Net       -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      C        In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.132     0.897 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         1.021 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     1.069 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.663 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.711 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.290 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.482 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.599 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.791 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.909 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.101 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.219 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.296 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.414 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.492 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.440 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.440 is 1.175(26.5%) logic and 3.264(73.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|identify_clk_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                  Arrival          
+Instance                                                                        Reference                                            Type     Pin     Net                 Time        Slack
+                                                                                Clock                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.201       5.394
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[5]     0.218       5.424
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[3]     0.218       5.443
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[1]     0.201       5.445
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[2]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[2]     0.218       5.505
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[4]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[4]     0.218       5.774
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[6]                        jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[6]     0.218       5.807
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM[0]                          jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b7_nYJ_BFM[0]       0.201       6.403
+ident_coreinst.IICE_INST.b3_SoW.virOut.genblk1\.b13_PLF_2grFt_FH9[0]            jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b4_ycsM             0.218       7.032
+ident_coreinst.IICE_INST.b3_SoW.samplerStatus.genblk1\.b13_PLF_2grFt_FH9[0]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       ttdo                0.218       7.112
+===========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                              Required          
+Instance                                                     Reference                                            Type        Pin            Net                   Time         Slack
+                                                             Clock                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.394
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.394
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[4]     9.385        5.523
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[8]      b9_v_mzCDYXs_4[3]     9.385        5.601
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[5]      b9_v_mzCDYXs_4[0]     9.385        5.958
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[6]      b9_v_mzCDYXs_4[1]     9.385        6.133
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[7]      b9_v_mzCDYXs_4[2]     9.385        6.133
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]     jtag_interface_x|identify_clk_int_inferred_clock     SLE         D              b9_v_mzCDYXsc_1       10.000       6.800
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[6]     jtag_interface_x|identify_clk_int_inferred_clock     SLE         D              b9_v_mzCDYXsc_2       10.000       6.800
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[4]     jtag_interface_x|identify_clk_int_inferred_clock     SLE         D              b9_v_mzCDYXsc_0       10.000       7.001
+=====================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.991
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.394
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]             SLE         Q              Out     0.201     0.201 f     -         
+b9_v_mzCDYXs[0]                                                      Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        D              In      -         0.764 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.192     0.956 f     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.074 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.192     1.266 f     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.829 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.130     1.959 r     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.077 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.168     2.245 r     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        B              In      -         2.824 r     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        Y              Out     0.083     2.907 r     -         
+b9_v_mzCDYXs_c5                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        C              In      -         3.031 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        Y              Out     0.148     3.179 r     -         
+b9_v_mzCDYXs_4[5]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[10]     In      -         3.991 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.606 is 1.728(37.5%) logic and 2.878(62.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                   Arrival          
+Instance                                              Reference     Type      Pin          Net                   Time        Slack
+                                                      Clock                                                                       
+----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[2]     b6_uS_MrX[1]          0.000       4.663
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[5]     b6_uS_MrX[4]          0.000       4.814
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[1]     b6_uS_MrX[0]          0.000       4.854
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[3]     b6_uS_MrX[2]          0.000       5.130
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[4]     b6_uS_MrX[3]          0.000       5.171
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[6]     b3_1Um                0.000       5.267
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UDRSH        b5_OvyH3              0.000       6.044
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UDRCAP       b7_nFG0rDY            0.000       6.442
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UTDI         IICE_comm2iice[7]     0.000       9.190
+==================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                         Starting                                                                           Required          
+Instance                                                                 Reference     Type        Pin            Net                                       Time         Slack
+                                                                         Clock                                                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[5]      b9_v_mzCDYXs_4[0]                         9.385        4.663
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[4]                         9.385        4.811
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[6]      b9_v_mzCDYXs_4[1]                         9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[7]      b9_v_mzCDYXs_4[2]                         9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[8]      b9_v_mzCDYXs_4[3]                         9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]                         9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                 System        RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]                         9.385        4.837
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        System        UJTAG       UTDO           b9_PLF_6lNa2                              10.000       5.210
+ident_coreinst.IICE_INST.b3_SoW.virOut.genblk1\.b13_PLF_2grFt_FH9[0]     System        SLE         EN             un1_b13_PLF_2grFt_FH911_i_a2_RNI6IFM1     9.873        5.749
+ident_coreinst.IICE_INST.b3_SoW.virOut.genblk1\.b13_PLF_2grFt_FH9[1]     System        SLE         EN             un1_b13_PLF_2grFt_FH911_i_a2_RNI6IFM1     9.873        5.749
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.722
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     4.663
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[2]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[5]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[2]      Out     0.000     0.000 r     -         
+b6_uS_MrX[1]                                                         Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        C             In      -         0.547 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.132     0.679 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.273 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.419 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B             In      -         2.013 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y             Out     0.077     2.091 f     -         
+N_171_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D             In      -         2.638 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y             Out     0.192     2.829 f     -         
+N_171_i                                                              Net         -             -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        D             In      -         3.503 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        Y             Out     0.232     3.735 r     -         
+b9_v_mzCDYXsc_3                                                      Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        A             In      -         3.859 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        Y             Out     0.051     3.910 r     -         
+b9_v_mzCDYXs_4[0]                                                    Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[5]     In      -         4.722 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.337 is 1.445(27.1%) logic and 3.893(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+---------------------------------------
+Resource Usage Report for top_level 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          4 uses
+UJTAG           1 use
+CFG1           6 uses
+CFG2           73 uses
+CFG3           119 uses
+CFG4           157 uses
+
+Carry cells:
+ARI1            30 uses - used for arithmetic functions
+ARI1            4 uses - used for Wide-Mux implementation
+Total ARI1      34 uses
+
+
+Sequential Cells: 
+SLE            548 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 28
+I/O primitives: 22
+INBUF          4 uses
+OUTBUF         18 uses
+
+
+Global Clock Buffers: 4
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K20) : 1 of 952 (0%)
+
+Total LUTs:    389
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 36; LUTs = 36;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  548 + 0 + 36 + 0 = 584;
+Total number of LUTs after P&R:  389 + 0 + 36 + 0 = 425;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 278MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Oct 27 13:56:40 2022
+
+###########################################################]

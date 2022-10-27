@@ -14,11 +14,12 @@ max user processes: 514587
 max stack size: 8388608 (bytes)
 
 
-Implementation : synthesis
+Implementation : synthesis_1
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
 
-Modified Files: 0
+Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
+22       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc (2022-10-27 12:53:20, 2022-10-27 13:56:35)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 0

@@ -1,0 +1,52 @@
+#OPTIONS:"|-modgen|-top|syn_identify_core|-devicelib|/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000"
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_ver":1655988490
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.v":1655988487
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/umr_capim.v":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_objects.v":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1655988488
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":1666893398
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work b9_ORbIwXaEF 0
+module work jtag_interface 0
+module work b16_Rcmi_qlx9_yHpm7y 0
+module work comm_block 0
+module work KeepHighSampler 0
+module work b11_OFWNT9s_FMZ 0
+module work b18_nczQ_DYg_rbYq_Amnd 0
+module work b15_SF3c_EfOsX_ikAR 0
+module work b14_oLzK_rCK1V_ONu 0
+module work b14_oLzs_rCK1V_OCt 0
+module work b13_vFW_xNywD_bwR 0
+module work b19_nczQ_DYg_YFaRM_oUoP 0
+module work b11_SoWyP0zEFKY 0
+module work b11_8FGZ_vC8f9Z 0
+module work b11_OFWNT9s_8tZ 0
+module work b13_vFW_xNywD_EdR 0
+module work b14_dSm3_rCK1V_azA 0
+module work b13_8FGZ_CuHFrZHx 0
+module work b10_8cD_xDrxLX 0
+module work b19_OFWNT9_EF3_iwnKczDJ 0
+module work b3_uKr 0
+module work b7_yFJNJCP 0
+module work b8_1LbcQDr1 0
+module work b5_nvmFL 0
+module work b11_jFJtLvYY9qh 0
+module work b9_O2yyf_fG2 0
+module work b14_CRGcTCua_eH4_2 0
+module work b8_O2yyf_yE 0
+module work b13_CRGcTCua_xF_j 0
+module work b13_PSyil9s1fkJ_K 0
+module work b8_PfFzrNYI 0
+module work b16_n2FydH_ab_FH9_K4 0
+module work b7_OCByLXC 0
+module work b8_nR_ymqrG 0
+module work IICE 0
+module work syn_identify_core 0

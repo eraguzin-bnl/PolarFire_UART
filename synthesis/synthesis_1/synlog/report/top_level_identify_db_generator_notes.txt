@@ -1,0 +1,3 @@
+@N::"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_compile.log"|
+@N|Running in 64-bit mode
+

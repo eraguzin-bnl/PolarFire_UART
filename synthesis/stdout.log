@@ -162,3 +162,549 @@ Instrument Signal /rstn for sample in IICE
 		Group wise instrumentation in bits: 
 					Group NM:Sample Only 21, Sample and trigger 0
 		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+License reconnected
+License reconnected
+Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 21, Trigger Only 0, Sample and trigger 0
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc referenced by implementation synthesis_1 was automatically added to project.
+Note: Opening integrated instrumentor
+Only one instrumentor view can be open at the same time. First close the active instrumentor view or IDC file.
+License checkin: identinstrumentor_actel
+@N: Check in instrumentor license 'identinstrumentor_actel'
+Unloading current instrumentation 'synthesis_1'
+log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srr"
+Running: synthesis_1 in foreground
+
+Running synthesis_1
+
+Running Flow: compile (Compile) on synthesis_1
+# Wed Oct 26 17:21:58 2022
+
+Running Flow: compile_flow (Compile Process) on synthesis_1
+# Wed Oct 26 17:21:58 2022
+
+Running: identify_db_generator (Identify Database Generator) on synthesis_1
+# Wed Oct 26 17:21:58 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Wed Oct 26 17:21:58 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: identify_compile (Identify Compile) on synthesis_1
+# Wed Oct 26 17:21:58 2022
+
+identify_compile completed
+# Wed Oct 26 17:21:59 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: compiler (Compile Input) on synthesis_1
+# Wed Oct 26 17:21:59 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+
+compiler completed
+# Wed Oct 26 17:22:01 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on synthesis_1
+# Wed Oct 26 17:22:01 2022
+
+multi_srs_gen completed
+# Wed Oct 26 17:22:01 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+Complete: Compile Process on synthesis_1
+
+Running: premap (Premap) on synthesis_1
+# Wed Oct 26 17:22:01 2022
+premap exited with errors
+Job failed on: top_level_syn|synthesis_1
+
+Job: "premap" terminated with error status: 2
+See log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_premap.srr"
+# Wed Oct 26 17:22:01 2022
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile on synthesis_1
+Complete: Logic Synthesis on synthesis_1
+2Opening object source file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srr
+Note: Opening integrated instrumentor
+@N: Check out instrumentor license 'identinstrumentor_actel'
+Instrumentor%
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'synthesis_1' to the project
+Loading instrumentation 'synthesis'
+Warning: Could not open IDC file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/identify.idc'.
+License checkin: identinstrumentor_actel
+@N: Check in instrumentor license 'identinstrumentor_actel'
+Unloading current instrumentation 'synthesis'
+Note: Opening integrated instrumentor
+@N: Check out instrumentor license 'identinstrumentor_actel'
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/backup/top_level.srr
+Running: identify_ui_flow in background
+
+Running Flow: identify_ui_flow
+# Wed Oct 26 17:47:28 2022
+
+Running: identify_db_generator (Identify Database Generator)
+# Wed Oct 26 17:47:28 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Wed Oct 26 17:47:28 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Instrumentor%
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'synthesis_1' to the project
+Loading instrumentation 'synthesis_1'
+Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Complete: identify_ui_flow
+License checkin: identinstrumentor_actel
+@N: Check in instrumentor license 'identinstrumentor_actel'
+Unloading current instrumentation 'synthesis_1'
+Note: Opening integrated instrumentor
+@N: Check out instrumentor license 'identinstrumentor_actel'
+Running: identify_ui_flow in background
+
+Running Flow: identify_ui_flow
+# Wed Oct 26 17:51:46 2022
+
+Running: identify_db_generator (Identify Database Generator)
+# Wed Oct 26 17:51:46 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Wed Oct 26 17:51:46 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Instrumentor%
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'synthesis_1' to the project
+Loading instrumentation 'synthesis_1'
+Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Complete: identify_ui_flow
+S-2021.09M-SP1License reconnected
+License reconnected
+Setting IICE sample clock to '/architecture_top_level/uart_reader_i/clk' for IICE named 'IICE'
+Instrument Signal /architecture_top_level/uart_reader_i/rxrdy for trigger and sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 21, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 20, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 20, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 19, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 19, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 18, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 18, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 17, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 17, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 16, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 16, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 15, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 15, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 14, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 14, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 6, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 5, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 5, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 4, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 4, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 3, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 2, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 2, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 1, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 1, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 0, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 0, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Unloading current instrumentation 'synthesis_1'
+Loading instrumentation 'synthesis'
+Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Setting IICE sample clock to '/architecture_top_level/uart_reader_i/clk' for IICE named 'IICE'
+Unloading current instrumentation 'synthesis'
+Loading instrumentation 'synthesis_1'
+Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Setting IICE sample clock to '/architecture_top_level/uart_reader_i/clk' for IICE named 'IICE'
+Instrument Signal /architecture_top_level/uart_reader_i/txrdy for trigger and sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 0, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 1, Sample and trigger 1
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 0, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/rst for trigger and sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 0, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/data_out for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 8, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 8, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/framing_err for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 9, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 9, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/overflow for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 10, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 10, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/parity_err for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 11, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 11, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/data_in for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 19, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 19, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/wen for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 20, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 20, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/led4 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 21, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/led3 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 22, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 22, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/led2 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 23, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 23, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/led1 for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 24, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 24, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /architecture_top_level/uart_reader_i/oen for sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 25, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Breakpoint /architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 for trigger and sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 3
+					Group s1:Sample Only 4, Sample and trigger 1
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Breakpoint /architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:97 for trigger and sample in IICE
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 4
+					Group s1:Sample Only 4, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 4
+					Group s1:Sample Only 4, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 4
+					Group s1:Sample Only 4, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 25, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 4
+					Group s1:Sample Only 4, Sample and trigger 2
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srr"
+Running: synthesis_1 in foreground
+
+Running synthesis_1
+
+Running Flow: compile (Compile) on synthesis_1
+# Thu Oct 27 12:53:19 2022
+
+Running Flow: compile_flow (Compile Process) on synthesis_1
+# Thu Oct 27 12:53:19 2022
+
+Running: identify_db_generator (Identify Database Generator) on synthesis_1
+# Thu Oct 27 12:53:19 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Thu Oct 27 12:53:19 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: identify_compile (Identify Compile) on synthesis_1
+# Thu Oct 27 12:53:19 2022
+
+identify_compile completed
+# Thu Oct 27 12:53:20 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: compiler (Compile Input) on synthesis_1
+# Thu Oct 27 12:53:20 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+
+compiler completed
+# Thu Oct 27 12:53:21 2022
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on synthesis_1
+# Thu Oct 27 12:53:21 2022
+
+multi_srs_gen completed
+# Thu Oct 27 12:53:21 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+Complete: Compile Process on synthesis_1
+
+Running: premap (Premap) on synthesis_1
+# Thu Oct 27 12:53:21 2022
+Warning: The design file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs has been modified.
+As a result the open design d:4 is out of date.
+Continued use can yield inconsistent results.
+
+
+premap completed with warnings
+# Thu Oct 27 12:53:32 2022
+
+Return Code: 1
+Run Time:00h:00m:11s
+Complete: Compile on synthesis_1
+
+Running Flow: map (Map) on synthesis_1
+# Thu Oct 27 12:53:32 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on synthesis_1
+# Thu Oct 27 12:53:32 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_m.srm to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srm
+
+fpga_mapper completed with warnings
+# Thu Oct 27 12:53:33 2022
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on synthesis_1
+Complete: Logic Synthesis on synthesis_1
+0Running: identify_ui_flow in foreground
+
+Running Flow: identify_ui_flow
+# Thu Oct 27 13:54:39 2022
+
+Running: identify_debugger (Identify Debugger)
+# Thu Oct 27 13:54:39 2022
+
+
+# Thu Oct 27 13:54:39 2022
+
+Return Code: -1
+Run Time:00h:00m:00s
+Complete: identify_ui_flow
+log file: "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srr"
+Running: synthesis_1 in foreground
+
+Running synthesis_1
+
+Running Flow: compile (Compile) on synthesis_1
+# Thu Oct 27 13:56:35 2022
+
+Running Flow: compile_flow (Compile Process) on synthesis_1
+# Thu Oct 27 13:56:35 2022
+
+Running: identify_db_generator (Identify Database Generator) on synthesis_1
+# Thu Oct 27 13:56:35 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_db_generator.srr to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.srr
+
+identify_db_generator completed
+# Thu Oct 27 13:56:35 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: identify_compile (Identify Compile) on synthesis_1
+# Thu Oct 27 13:56:35 2022
+
+identify_compile completed
+# Thu Oct 27 13:56:35 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: compiler (Compile Input) on synthesis_1
+# Thu Oct 27 13:56:35 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+
+compiler completed
+# Thu Oct 27 13:56:37 2022
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on synthesis_1
+# Thu Oct 27 13:56:37 2022
+
+multi_srs_gen completed
+# Thu Oct 27 13:56:37 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srs
+Complete: Compile Process on synthesis_1
+
+Running: premap (Premap) on synthesis_1
+# Thu Oct 27 13:56:37 2022
+
+premap completed with warnings
+# Thu Oct 27 13:56:38 2022
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on synthesis_1
+
+Running Flow: map (Map) on synthesis_1
+# Thu Oct 27 13:56:38 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on synthesis_1
+# Thu Oct 27 13:56:38 2022
+Copied /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_m.srm to /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.srm
+
+fpga_mapper completed with warnings
+# Thu Oct 27 13:56:40 2022
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on synthesis_1
+Complete: Logic Synthesis on synthesis_1
+0Running: identify_ui_flow in foreground
+
+Running Flow: identify_ui_flow
+# Thu Oct 27 13:57:09 2022
+
+Running: identify_debugger (Identify Debugger)
+# Thu Oct 27 13:57:09 2022
+
+
+# Thu Oct 27 13:57:09 2022
+
+Return Code: -1
+Run Time:00h:00m:00s
+Complete: identify_ui_flow
+Note: Opening integrated instrumentor
+Only one instrumentor view can be open at the same time. First close the active instrumentor view or IDC file.
+Note: Opening integrated instrumentor
+Only one instrumentor view can be open at the same time. First close the active instrumentor view or IDC file.

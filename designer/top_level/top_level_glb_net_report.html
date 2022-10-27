@@ -31,7 +31,7 @@
     <body>
         <h1 align="center">Global Net Report</h1>
         <p>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</p>
-        <p>Date: Tue Oct 25 16:10:16 2022
+        <p>Date: Thu Oct 27 12:55:19 2022
 </p>
         <h2>Global Nets Information</h2>
         <table cellpadding="4">
@@ -44,10 +44,31 @@
             </tr>
             <tr>
                 <td>1</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</td>
+                <td>(1152, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</td>
+                <td>273</td>
+            </tr>
+            <tr>
+                <td>2</td>
                 <td>I_1/U0</td>
-                <td>(1164, 162)</td>
+                <td>(1153, 162)</td>
                 <td>I_1/U0_Y</td>
-                <td>114</td>
+                <td>256</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</td>
+                <td>(1155, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_Y</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</td>
+                <td>(1154, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_Y</td>
+                <td>8</td>
             </tr>
         </table>
         <p/>
@@ -80,7 +101,45 @@
         </table>
         <p/>
         <h2>Fabric to GB Connections</h2>
-        <p>(none)</p>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_Rcmi_KsDw:UDRCK</td>
+                <td>(504, 2)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/identify_clk_int</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_3:Y</td>
+                <td>(662, 12)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_3:Y</td>
+                <td>(663, 9)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
         <h2>CCC to GB Connections</h2>
         <p>(none)</p>
         <h2>CCC Input Connections</h2>
@@ -101,13 +160,43 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td>I_1/U0</td>
-                <td>(1164, 162)</td>
-                <td>I_1/U0_Y</td>
-                <td>114</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</td>
+                <td>(1152, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</td>
+                <td>273</td>
                 <td/>
-                <td>(1740, 12)</td>
-                <td>114</td>
+                <td>(582, 12)</td>
+                <td>273</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>I_1/U0</td>
+                <td>(1153, 162)</td>
+                <td>I_1/U0_Y</td>
+                <td>256</td>
+                <td/>
+                <td>(585, 12)</td>
+                <td>256</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</td>
+                <td>(1155, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_Y</td>
+                <td>13</td>
+                <td/>
+                <td>(586, 14)</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</td>
+                <td>(1154, 162)</td>
+                <td>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_Y</td>
+                <td>8</td>
+                <td/>
+                <td>(583, 14)</td>
+                <td>8</td>
             </tr>
         </table>
         <p/>
@@ -116,19 +205,19 @@
             <tr/>
             <tr>
                 <td>The number of clock signals through  H-Chip Global resources</td>
-                <td>1</td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>The number of clock signals through     Row Global resources</td>
-                <td>1</td>
+                <td>4</td>
             </tr>
             <tr>
                 <td>The number of clock signals through  Sector Global resources</td>
-                <td>2</td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>The number of clock signals through Cluster Global resources</td>
-                <td>13</td>
+                <td>70</td>
             </tr>
         </table>
         <p/>

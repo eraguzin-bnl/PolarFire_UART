@@ -1,0 +1,37 @@
+@P:  Worst Slack : 4.663
+@P:  clk_main - Estimated Frequency : 246.0 MHz
+@P:  clk_main - Requested Frequency : 50.0 MHz
+@P:  clk_main - Estimated Period : 4.065
+@P:  clk_main - Requested Period : 20.000
+@P:  clk_main - Slack : 15.935
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Frequency : 2922.3 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Frequency : 1.0 MHz
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Estimated Period : 0.342
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Requested Period : 1000.000
+@P:  ident_coreinst.comm_block_INST.dr2_tck - Slack : 999.658
+@P:  jtag_interface_x|b9_nv_oQwfYF - Estimated Frequency : 508.9 MHz
+@P:  jtag_interface_x|b9_nv_oQwfYF - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|b9_nv_oQwfYF - Estimated Period : 1.965
+@P:  jtag_interface_x|b9_nv_oQwfYF - Requested Period : 10.000
+@P:  jtag_interface_x|b9_nv_oQwfYF - Slack : 8.035
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Estimated Frequency : 225.2 MHz
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Estimated Period : 4.440
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Requested Period : 10.000
+@P:  jtag_interface_x|b10_8Kz_rKlrtX - Slack : 5.560
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Estimated Frequency : 217.1 MHz
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Estimated Period : 4.606
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Requested Period : 10.000
+@P:  jtag_interface_x|identify_clk_int_inferred_clock - Slack : 5.394
+@P:  System - Estimated Frequency : 208.8 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 4.790
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 5.210
+@P: top_level Part : mpf300tfcg1152-1
+@P: top_level Register bits  : 548 
+@P: top_level DSP Blocks  : 0
+@P: top_level I/O primitives : 22
+@P: top_level RAM1K20 :  1
+@P:  CPU Time : 0h:00m:01s

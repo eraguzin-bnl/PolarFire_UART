@@ -1,0 +1,1 @@
+ -link  -top  work.top_level  -multisrs  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs  -osyn  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs  -log  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_multi_srs_gen.srr 

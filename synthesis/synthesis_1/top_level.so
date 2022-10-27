@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>top_level</design>
+	<target_verilog>/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.vm</target_verilog>
+</SynplifyOutput>

@@ -16,6 +16,7 @@ add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hd
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd"
 add_file -fpga_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
+add_file -ident_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc"
 
 
 #implementation: "synthesis_1"

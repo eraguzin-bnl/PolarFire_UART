@@ -1,0 +1,532 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
+
+@N|Running in 64-bit mode
+@N::Reading compiler constraint file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc
+@N|stack limit increased to max
+@N:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Top entity is set to top_level.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+
+
+Process completed successfully.
+# Thu Oct 27 13:56:36 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
+
+@N|Running in 64-bit mode
+@N::Reading compiler constraint file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc
+@I::"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4252:13:4252:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4436:13:4436:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4477:13:4477:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4503:13:4503:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4520:13:4520:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":4597:13:4597:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":5361:13:5361:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":6171:13:6171:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":6280:13:6280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":6318:13:6318:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":6391:13:6391:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":7280:13:7280:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":8337:13:8337:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":9296:13:9296:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10032:13:10032:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10747:13:10747:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10781:13:10781:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10817:13:10817:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10864:13:10864:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":10898:13:10898:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":11764:13:11764:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12807:13:12807:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12819:15:12819:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 137MB)
+
+
+Process completed successfully.
+# Thu Oct 27 13:56:36 2022
+
+###########################################################]
+###########################################################[
+@N::Reading compiler constraint file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc
+@N|stack limit increased to max
+@N:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Top entity is set to top_level.
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
+VHDL syntax check successful!
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
+@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":65:11:65:17|Signal start_s is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":103:20:103:33|OTHERS clause is not synthesized.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":46:11:46:16|Signal data_s is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Post processing for work.uart_reader.architecture_uart_reader
+Running optimization stage 1 on uart_reader .......
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":42:25:42:26|Using sequential encoding for type uart_state_type.
+Post processing for work.default_values.architecture_default_values
+Running optimization stage 1 on default_values .......
+@W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
+@W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:34:265:49|Signal parity_err_xhdl1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":392:9:392:22|OTHERS clause is not synthesized.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":450:13:450:24|Removing redundant assignment.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":64:24:64:25|Using sequential encoding for type receive_states.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":233:15:233:29|Removing redundant assignment.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":253:21:253:34|OTHERS clause is not synthesized.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":256:19:256:26|Removing redundant assignment.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":318:19:318:33|OTHERS clause is not synthesized.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":423:18:423:32|OTHERS clause is not synthesized.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
+@W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
+@N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
+@W: CL190 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
+@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":54:7:54:19|Signal baud_cntr_one is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":439:7:439:8|Pruning unused register overflow_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":414:7:414:8|Pruning unused register rx_dout_reg_empty_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":399:6:399:7|Pruning unused register rx_dout_reg_5(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":367:6:367:7|Pruning unused register rx_state_4(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Post processing for work.coreuart_c0.rtl
+Running optimization stage 1 on COREUART_C0 .......
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Post processing for work.top_level.architecture_top_level
+Running optimization stage 1 on top_level .......
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 140MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 140MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 .......
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on COREUART_C0 .......
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on default_values .......
+@W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit ODD_N_EVEN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit PARITY_EN is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(0) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(1) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(2) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(3) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(4) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(5) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(6) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(7) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(8) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(9) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(10) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(11) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BAUD_VAL(12) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(1) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(2) is always 0.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(3) is always 1.
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit DATA_IN(4) is always 0.
+@W: CL279 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Pruning register bits 4 to 1 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Trying to extract state machine for register uart_wr_state.
+Extracted state machine for register uart_wr_state
+State machine has 2 reachable states with original encodings of:
+   00
+   10
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_oen .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_wen .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in .......
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out .......
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rst .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rst (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_clk .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_bpsig_2835 .......
+Finished optimization stage 2 on syn_hyper_source_1_bpsig_2835 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on syn_hyper_source_1_bpsig_2753 .......
+Finished optimization stage 2 on syn_hyper_source_1_bpsig_2753 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on uart_reader .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
+Extracted state machine for register uart_wr_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Running optimization stage 2 on top_level .......
+Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Process completed successfully.
+# Thu Oct 27 13:56:36 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
+
+@N|Running in 64-bit mode
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Oct 27 13:56:36 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 42MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Oct 27 13:56:36 2022
+
+###########################################################]

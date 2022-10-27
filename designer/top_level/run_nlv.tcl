@@ -12,5 +12,5 @@ addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {/home/eraguzin/nex
 addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd}
 addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd}
 addfile -view RTL -lib work -type VHDL -mode vhdl_2008 -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd}
-addfile -view HIER -lib work -type VLOG -mode system_verilog -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level.vm}
+addfile -view HIER -lib work -type VLOG -mode system_verilog -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.vm}
 addfile -view FLAT -lib work -type AFL -mode NONE -name {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/COMPILE/top_level.afl}

@@ -1,0 +1,229 @@
+# Thu Oct 27 13:56:37 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 12:05:51, @4302666
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+Reading constraint file: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc
+Reading constraint file: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.sdc
+@L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_scck.rpt 
+See clock summary report "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.DATA_IN_1[7:5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.DATA_IN_1[0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Found instance default_values_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Removing sequential instance uart_reader_i.WEN because it is equivalent to instance uart_reader_i.OEN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.OEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED1 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED3 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Making connections to hyper_source modules
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell" -srs_gen_hw "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" -prj "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs" -idb "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db" -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log  -tsl JhrVKipd -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":64:2:64:7|Found instance b3_ORb[32:1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_FZFFLXYE[6:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2581:10:2581:15|Found instance genblk9.b7_nYJ_BFM[35:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4777:3:4777:8|Found instance genblk4.b10_nYhI3_umjB with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5223:6:5223:11|Found instance genblk4.b9_ibScJX_E2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5194:6:5194:11|Found instance genblk3.b8_vABZ3qsY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4500:3:4500:8|Found instance b4_oYh0[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4483:3:4483:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4472:3:4472:8|Found instance b8_uUT_CqMr[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4500:3:4500:8|Found instance b4_oYh0[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4483:3:4483:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4472:3:4472:8|Found instance b8_uUT_CqMr[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+Reading constraint file: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc
+
+Making connections to hyper_source modules
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5736:28:5736:51|Connected syn_hyper_connect ident_coreinst.ident_hyperc_wen_IICE_24, tag uart_reader_i.ident_ihs_wen to syn_hyper_source uart_reader_i.ident_hs_WEN
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5729:28:5729:53|Connected syn_hyper_connect ident_coreinst.ident_hyperc_txrdy_IICE_29, tag uart_reader_i.ident_ihs_txrdy to syn_hyper_source uart_reader_i.ident_hs_TXRDY
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5722:28:5722:53|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rxrdy_IICE_28, tag uart_reader_i.ident_ihs_rxrdy to syn_hyper_source uart_reader_i.ident_hs_RXRDY
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5715:28:5715:51|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rst_IICE_27, tag uart_reader_i.ident_ihs_rst to syn_hyper_source uart_reader_i.ident_hs_RST
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5708:28:5708:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_parity_err_IICE_23, tag uart_reader_i.ident_ihs_parity_err to syn_hyper_source uart_reader_i.ident_hs_PARITY_ERR
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5701:28:5701:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_overflow_IICE_22, tag uart_reader_i.ident_ihs_overflow to syn_hyper_source uart_reader_i.ident_hs_OVERFLOW
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5694:28:5694:51|Connected syn_hyper_connect ident_coreinst.ident_hyperc_oen_IICE_21, tag uart_reader_i.ident_ihs_oen to syn_hyper_source uart_reader_i.ident_hs_OEN
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5687:28:5687:52|Connected syn_hyper_connect ident_coreinst.ident_hyperc_led4_IICE_20, tag uart_reader_i.ident_ihs_led4 to syn_hyper_source uart_reader_i.ident_hs_LED4
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5680:28:5680:52|Connected syn_hyper_connect ident_coreinst.ident_hyperc_led3_IICE_19, tag uart_reader_i.ident_ihs_led3 to syn_hyper_source uart_reader_i.ident_hs_LED3
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5673:28:5673:52|Connected syn_hyper_connect ident_coreinst.ident_hyperc_led2_IICE_18, tag uart_reader_i.ident_ihs_led2 to syn_hyper_source uart_reader_i.ident_hs_LED2
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5666:28:5666:52|Connected syn_hyper_connect ident_coreinst.ident_hyperc_led1_IICE_17, tag uart_reader_i.ident_ihs_led1 to syn_hyper_source uart_reader_i.ident_hs_LED1
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5659:28:5659:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_framing_err_IICE_16, tag uart_reader_i.ident_ihs_framing_err to syn_hyper_source uart_reader_i.ident_hs_FRAMING_ERR
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5652:28:5652:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_data_out_IICE_8, tag uart_reader_i.ident_ihs_data_out to syn_hyper_source uart_reader_i.ident_hs_DATA_OUT
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5645:28:5645:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_data_in_IICE_0, tag uart_reader_i.ident_ihs_data_in to syn_hyper_source uart_reader_i.ident_hs_DATA_IN
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5638:28:5638:48|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_IICE, tag uart_reader_i.ident_ihs_clk to syn_hyper_source uart_reader_i.ident_hs_CLK
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5631:28:5631:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_bpsig_2835_IICE_26, tag uart_reader_i.bpsig_2835 to syn_hyper_source uart_reader_i.ident_hs_ident_breakpoint_2835
+@N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5624:28:5624:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_bpsig_2753_IICE_25, tag uart_reader_i.bpsig_2753 to syn_hyper_source uart_reader_i.ident_hs_ident_breakpoint_2753
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Making connections to hyper_source modules
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5333:7:5333:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5528:22:5528:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5223:6:5223:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s_x(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[0] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[7:5] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance WEN (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5249:2:5249:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s_x(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance uart_wr_state[0:1] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+@W: Z241 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
+
+
+Clock Summary
+******************
+
+          Start                                                Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          296  
+                                                                                                                                       
+0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      8    
+                                                                                                                                       
+0 -       System                                               100.0 MHz     10.000        system       system_clkgroup           0    
+                                                                                                                                       
+0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     306  
+                                                                                                                                       
+0 -       jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     10.000        inferred     Inferred_clkgroup_0_3     13   
+                                                                                                                                       
+0 -       jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     10.000        inferred     Inferred_clkgroup_0_2     8    
+=======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                     Clock     Source                                                             Clock Pin                                                                    Non-clock Pin     Non-clock Pin                                                
+Clock                                                Load      Pin                                                                Seq Example                                                                  Seq Example       Comb Example                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk_main                                             296       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
+                                                                                                                                                                                                                                                                                              
+ident_coreinst.comm_block_INST.dr2_tck               8         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7:0].C                -                 -                                                            
+                                                                                                                                                                                                                                                                                              
+System                                               0         -                                                                  -                                                                            -                 -                                                            
+                                                                                                                                                                                                                                                                                              
+jtag_interface_x|identify_clk_int_inferred_clock     306       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[32:1].C                   -                 ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
+                                                                                                                                                                                                                                                                                              
+jtag_interface_x|b9_nv_oQwfYF                        13        ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3.OUT(and)       ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY.C         -                 ident_coreinst.comm_block_INST.jtagi.I_1.A(CLKINT)           
+                                                                                                                                                                                                                                                                                              
+jtag_interface_x|b10_8Kz_rKlrtX                      8         ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3.OUT(and)     ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7:0].C     -                 ident_coreinst.comm_block_INST.jtagi.I_2.A(CLKINT)           
+==============================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4500:3:4500:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 306 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":342:6:342:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 8 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5176:6:5176:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 13 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[6:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+
+Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
+Encoding state machine uart_wr_state[0:2] (in view: work.uart_reader(architecture_uart_reader))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Oct 27 13:56:38 2022
+
+###########################################################]

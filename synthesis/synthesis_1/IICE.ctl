@@ -1,0 +1,23 @@
+*-5.0 220.000000 220.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+@421
+top_level.identify_cycle
+@28
+top_level.identify_sampleclock
+@820
+top_level.architecture_top_level.uart_reader_i.oen
+top_level.architecture_top_level.uart_reader_i.led3
+top_level.architecture_top_level.uart_reader_i.framing_err
+@28
+top_level.architecture_top_level.uart_reader_i.data_in[7:0]
+@820
+top_level.architecture_top_level.uart_reader_i.wen
+top_level.architecture_top_level.uart_reader_i.rxrdy
+@28
+top_level.architecture_top_level.uart_reader_i.data_out[7:0]
+@820
+top_level.architecture_top_level.uart_reader_i.led1
+top_level.architecture_top_level.uart_reader_i.led4
+top_level.architecture_top_level.uart_reader_i.led2
+top_level.architecture_top_level.uart_reader_i.parity_err
+top_level.architecture_top_level.uart_reader_i.overflow
+top_level.architecture_top_level.uart_reader_i.rst

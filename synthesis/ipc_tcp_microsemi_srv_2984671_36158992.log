@@ -1,0 +1,7 @@
+1666893434 -13:57:14 -17629453 -ipcServer::ipcServer params
+Port:      58109
+Logfile:   /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/ipc_tcp_microsemi_srv_2984671_36158992.log
+Reconnect: 0
+Use ipv6:  0
+
+1666899891 -15:44:51 -1 -ipcServer.RunServer, loop stopped normal.
