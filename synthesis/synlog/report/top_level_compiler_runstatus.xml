@@ -14,11 +14,11 @@ The file contains the job information from compiler to be displayed as part of t
   </job_status>
 <job_info> 
 			<info name="Notes">
-  <data>82</data>
+  <data>86</data>
   <report_link name="more"><data>/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synlog/report/top_level_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>92</data>
+  <data>91</data>
   <report_link name="more"><data>/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synlog/report/top_level_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -35,7 +35,7 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1666728549</data>
+  <data type="timestamp">1667943156</data>
   </info>
 			</job_info>
 </job_run_status>

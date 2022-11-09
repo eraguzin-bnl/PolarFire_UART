@@ -1,6 +1,6 @@
-#OPTIONS:"|-mixedhdl|-top|work.top_level|-layerid|0|-orig_srs|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-mixedhdl|-top|work.top_level|-layerid|0|-orig_srs|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1666893395
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1668013805
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1655988488
@@ -18,11 +18,27 @@
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd":1655988487
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1666721622
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1666728504
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1667856477
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":1667943000
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1668009620
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":1668013779
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666724969
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1668009820
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
+#CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd":1655988488
 0			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd" vhdl
 1			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd" vhdl
 2			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd" vhdl
@@ -32,8 +48,10 @@
 6			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd" vhdl
 7			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd" vhdl
 8			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd" vhdl
-9			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd" vhdl
-10			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd" vhdl
+9			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd" vhdl
+10			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd" vhdl
+11			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd" vhdl
+12			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -45,7 +63,9 @@
 7 6 5
 8 -1
 9 -1
-10 9 8 7
+10 -1
+11 -1
+12 11 10 8 7 9
 #Dependency Lists(Users Of)
 0 5
 1 5
@@ -54,15 +74,21 @@
 4 5
 5 7
 6 7
-7 10
-8 10
-9 10
-10 -1
+7 12
+8 12
+9 12
+10 12
+11 12
+12 -1
 #Design Unit to File Association
-module work top_level 10
-arch work top_level architecture_top_level 10
-module work uart_reader 9
-arch work uart_reader architecture_uart_reader 9
+module work top_level 12
+arch work top_level architecture_top_level 12
+module work uart_writer 11
+arch work uart_writer architecture_uart_writer 11
+module work uart_reader 10
+arch work uart_reader architecture_uart_reader 10
+module work sys_init 9
+arch work sys_init sys_init_arch 9
 module work default_values 8
 arch work default_values architecture_default_values 8
 module work coreuart_c0 7

@@ -1,14 +1,14 @@
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri4 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5367:14:5367:146|Tristate driver un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) on net un1_txrdy_IICE_29_tri3 (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5333:7:5333:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5528:22:5528:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5469:2:5469:7|Removing sequential instance b13_PSyil9s_FMZ_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5319:7:5319:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5544:22:5544:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5488:2:5488:7|Removing sequential instance b13_PSyil9s_FMZ_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MO106 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":78:56:78:67|Found ROM DATA_IN_1_1[6:0] (in view: work.uart_writer(architecture_uart_writer)) with 12 words by 7 bits.
 @N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found counter in view:coreuart_lib.COREUART_C0_COREUART_C0_0_Clock_gen_0_0(rtl) instance baud_cntr[12:0] 
 @N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
-@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4777:3:4777:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance genblk4\.b7_nYhI39s[6:0] 
+@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|There are no possible illegal states for state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer)); safe FSM implementation is not required.
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4729:3:4729:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance genblk4\.b7_nYhI39s[6:0] 
 @N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
 @N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.
 @N: FX493 |Applying initial value "0" on instance b13_nAzGfFM_sLsv3_i[0].
@@ -24,23 +24,50 @@
 @N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[2].
 @N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[3].
 @N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[4].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[0].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[1].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[2].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[0].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[1].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[2].
 @N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[3].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[4].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[5].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[4].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[5].
 @N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[6].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[7].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[8].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[9].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[10].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[11].
-@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[12].
-@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[13].
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4810:2:4810:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_x(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4472:3:4472:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b8_uUT_CqMr[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
-@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4500:3:4500:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[7].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[8].
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4762:2:4762:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_x(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4424:3:4424:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b8_uUT_CqMr[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4452:3:4452:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[3] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[5] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[6] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[7] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[8] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[9] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[10] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[11] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[12] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[13] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[14] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[15] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[16] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[17] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[18] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[19] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[20] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[21] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[22] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[23] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[24] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[25] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[26] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[27] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[28] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[29] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[30] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[31] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
@@ -70,11 +97,22 @@
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[26] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[27] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[28] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[29] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[30] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[31] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[32] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[33] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[34] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[35] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[36] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[37] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[38] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_OLDA[39] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @N: BW278 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck source pin ident_coreinst.comm_block_INST.dr2_tck_keep.OUT[0]
 @N: BW279 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck drive pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.Y
-@N: BW280 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on drive pins would add that clock to 265 clock pins including ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0.A_CLK
+@N: BW280 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on drive pins would add that clock to 347 clock pins including ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0.A_CLK
 @N: MT615 |Found clock clk_main with period 20.00ns 
 @N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.

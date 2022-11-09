@@ -1,5 +1,5 @@
 // available hyper connections - for debug and ip models
-// timestamp: 1666893399
+// timestamp: 1668013808
 
 
 `ifndef SYN_HYPER_CONNECT
@@ -16,9 +16,109 @@ endmodule
 module top_level_hyper_debug(dummy);
 input dummy; /* avoid compiler error for no ports */
 
+wire [12:0] ident_ihs_baud_val_s_0;
+syn_hyper_connect ident_ihs_baud_val_s_connect_0(ident_ihs_baud_val_s_0);
+defparam ident_ihs_baud_val_s_connect_0.w = 13;
+defparam ident_ihs_baud_val_s_connect_0.tag = "ident_ihs_baud_val_s";
+
+
+wire ident_ihs_bit8_s_0;
+syn_hyper_connect ident_ihs_bit8_s_connect_0(ident_ihs_bit8_s_0);
+defparam ident_ihs_bit8_s_connect_0.tag = "ident_ihs_bit8_s";
+
+
+wire ident_ihs_csn_s_0;
+syn_hyper_connect ident_ihs_csn_s_connect_0(ident_ihs_csn_s_0);
+defparam ident_ihs_csn_s_connect_0.tag = "ident_ihs_csn_s";
+
+
+wire [7:0] ident_ihs_data_in_s_0;
+syn_hyper_connect ident_ihs_data_in_s_connect_0(ident_ihs_data_in_s_0);
+defparam ident_ihs_data_in_s_connect_0.w = 8;
+defparam ident_ihs_data_in_s_connect_0.tag = "ident_ihs_data_in_s";
+
+
+wire [7:0] ident_ihs_data_out_s_0;
+syn_hyper_connect ident_ihs_data_out_s_connect_0(ident_ihs_data_out_s_0);
+defparam ident_ihs_data_out_s_connect_0.w = 8;
+defparam ident_ihs_data_out_s_connect_0.tag = "ident_ihs_data_out_s";
+
+
+wire ident_ihs_framing_err_s_0;
+syn_hyper_connect ident_ihs_framing_err_s_connect_0(ident_ihs_framing_err_s_0);
+defparam ident_ihs_framing_err_s_connect_0.tag = "ident_ihs_framing_err_s";
+
+
+wire ident_ihs_odd_n_even_s_0;
+syn_hyper_connect ident_ihs_odd_n_even_s_connect_0(ident_ihs_odd_n_even_s_0);
+defparam ident_ihs_odd_n_even_s_connect_0.tag = "ident_ihs_odd_n_even_s";
+
+
+wire ident_ihs_oen_s_0;
+syn_hyper_connect ident_ihs_oen_s_connect_0(ident_ihs_oen_s_0);
+defparam ident_ihs_oen_s_connect_0.tag = "ident_ihs_oen_s";
+
+
+wire ident_ihs_overflow_s_0;
+syn_hyper_connect ident_ihs_overflow_s_connect_0(ident_ihs_overflow_s_0);
+defparam ident_ihs_overflow_s_connect_0.tag = "ident_ihs_overflow_s";
+
+
+wire ident_ihs_parity_en_s_0;
+syn_hyper_connect ident_ihs_parity_en_s_connect_0(ident_ihs_parity_en_s_0);
+defparam ident_ihs_parity_en_s_connect_0.tag = "ident_ihs_parity_en_s";
+
+
+wire ident_ihs_parity_err_s_0;
+syn_hyper_connect ident_ihs_parity_err_s_connect_0(ident_ihs_parity_err_s_0);
+defparam ident_ihs_parity_err_s_connect_0.tag = "ident_ihs_parity_err_s";
+
+
+wire ident_ihs_rx_0;
+syn_hyper_connect ident_ihs_rx_connect_0(ident_ihs_rx_0);
+defparam ident_ihs_rx_connect_0.tag = "ident_ihs_rx";
+
+wire ident_ihs_rx_1;
+syn_hyper_connect ident_ihs_rx_connect_1(ident_ihs_rx_1);
+defparam ident_ihs_rx_connect_1.tag = "uart_i.ident_ihs_rx";
+
+
+wire ident_ihs_rxrdy_s_0;
+syn_hyper_connect ident_ihs_rxrdy_s_connect_0(ident_ihs_rxrdy_s_0);
+defparam ident_ihs_rxrdy_s_connect_0.tag = "ident_ihs_rxrdy_s";
+
+
+wire ident_ihs_tx_0;
+syn_hyper_connect ident_ihs_tx_connect_0(ident_ihs_tx_0);
+defparam ident_ihs_tx_connect_0.tag = "ident_ihs_tx";
+
+wire ident_ihs_tx_1;
+syn_hyper_connect ident_ihs_tx_connect_1(ident_ihs_tx_1);
+defparam ident_ihs_tx_connect_1.tag = "uart_i.ident_ihs_tx";
+
+
+wire ident_ihs_txrdy_s_0;
+syn_hyper_connect ident_ihs_txrdy_s_connect_0(ident_ihs_txrdy_s_0);
+defparam ident_ihs_txrdy_s_connect_0.tag = "ident_ihs_txrdy_s";
+
+
+wire ident_ihs_wen_s_0;
+syn_hyper_connect ident_ihs_wen_s_connect_0(ident_ihs_wen_s_0);
+defparam ident_ihs_wen_s_connect_0.tag = "ident_ihs_wen_s";
+
+
 wire ident_ihs_clk_0;
 syn_hyper_connect ident_ihs_clk_connect_0(ident_ihs_clk_0);
-defparam ident_ihs_clk_connect_0.tag = "uart_reader_i.ident_ihs_clk";
+defparam ident_ihs_clk_connect_0.tag = "uart_i.ident_ihs_clk";
+
+
+wire ident_ihs_rxrdy_0;
+syn_hyper_connect ident_ihs_rxrdy_connect_0(ident_ihs_rxrdy_0);
+defparam ident_ihs_rxrdy_connect_0.tag = "uart_i.ident_ihs_rxrdy";
+
+wire ident_ihs_rxrdy_1;
+syn_hyper_connect ident_ihs_rxrdy_connect_1(ident_ihs_rxrdy_1);
+defparam ident_ihs_rxrdy_connect_1.tag = "uart_reader_i.ident_ihs_rxrdy";
 
 
 wire [7:0] ident_ihs_data_in_0;
@@ -78,11 +178,6 @@ syn_hyper_connect ident_ihs_rst_connect_0(ident_ihs_rst_0);
 defparam ident_ihs_rst_connect_0.tag = "uart_reader_i.ident_ihs_rst";
 
 
-wire ident_ihs_rxrdy_0;
-syn_hyper_connect ident_ihs_rxrdy_connect_0(ident_ihs_rxrdy_0);
-defparam ident_ihs_rxrdy_connect_0.tag = "uart_reader_i.ident_ihs_rxrdy";
-
-
 wire ident_ihs_txrdy_0;
 syn_hyper_connect ident_ihs_txrdy_connect_0(ident_ihs_txrdy_0);
 defparam ident_ihs_txrdy_connect_0.tag = "uart_reader_i.ident_ihs_txrdy";
@@ -91,16 +186,6 @@ defparam ident_ihs_txrdy_connect_0.tag = "uart_reader_i.ident_ihs_txrdy";
 wire ident_ihs_wen_0;
 syn_hyper_connect ident_ihs_wen_connect_0(ident_ihs_wen_0);
 defparam ident_ihs_wen_connect_0.tag = "uart_reader_i.ident_ihs_wen";
-
-
-wire bpsig_2753_0;
-syn_hyper_connect bpsig_2753_connect_0(bpsig_2753_0);
-defparam bpsig_2753_connect_0.tag = "uart_reader_i.bpsig_2753";
-
-
-wire bpsig_2835_0;
-syn_hyper_connect bpsig_2835_connect_0(bpsig_2835_0);
-defparam bpsig_2835_connect_0.tag = "uart_reader_i.bpsig_2835";
 
 
 wire ident_ihs_IICE_master_clock_0;

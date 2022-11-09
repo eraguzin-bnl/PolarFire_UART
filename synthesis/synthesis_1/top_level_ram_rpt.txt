@@ -5,7 +5,8 @@
 
 INSTANTIATED     RTL_INSTANCE                                            PRIMITIVE_TYPE     USER_ATTRIBUTE               MAPPED_INSTANCE                                              DEPTH_X_WIDTH(A/B)     LOW-POWER_MODE     ECC     A_DOUT_PIPE_REG(EN/ARST/SRST)     B_DOUT_PIPE_REG(EN/ARST/SRST)     WRITE_MODE(A/B)           COMMENTS                                                          
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-NO               ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW[34:0]     RAM                syn_ramstyle=no_rw_check     ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     512X40_512X40          0                  0       1(0/0/0)                          1(0/0/0)                          (NO_CHANGE/NO_CHANGE)     RAM instance meets the required threshold for mapping using LSRAM.
+NO               ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW[77:0]     RAM                syn_ramstyle=no_rw_check     ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     512X40_512X40          0                  0       1(0/0/0)                          1(0/0/0)                          (NO_CHANGE/NO_CHANGE)     RAM instance meets the required threshold for mapping using LSRAM.
+                                                                                                                         ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     512X40_512X40          0                  0       1(0/0/0)                          1(0/0/0)                          (NO_CHANGE/NO_CHANGE)                                                                       
 ========================================================================================================================================================================================================================================================================================================================================================================================================
 
 #####  URAM REPORT  #####
@@ -16,9 +17,10 @@ INSTANTIATED     RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     MAPPED_I
 
 #####  REG/LOGIC REPORT  #####
 
-RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS
----------------------------------------------------------------
-===============================================================
+RTL_INSTANCE                       PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+uart_writer_i.DATA_IN_1_1[6:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+=============================================================================================================================================================
 
 #####  END OF RAM REPORT  #####
 

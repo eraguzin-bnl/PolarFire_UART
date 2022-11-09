@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-Arguments:   -tsl GkmQDmhc -af _CMD_IDENTIFY_COMPILE.CML
+Arguments:   -tsl VdsKGlsr -af _CMD_IDENTIFY_COMPILE.CML
 ProductType: identify_instrumentor
 
 
@@ -29,13 +29,20 @@ Added instrumentation 'synthesis_1' to the project
 . has been added to search path.
 Loading instrumentation 'synthesis_1'
 Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
-Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Setting IICE sample clock to '/architecture_top_level/uart_i/clk' for IICE named 'IICE'
+Warning: Unable to instrument next breakpoints:
+  /architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95
+Possible cause: wrong RTL path.
+Warning: Unable to instrument next breakpoints:
+  /architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:97
+Possible cause: wrong RTL path.
 Instrumenting design `top_level' in directory /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1
 Current instrumentation information: 	IICE=IICE 
 		FPGA=regular 
-		Total instrumentation in bits: Sample Only 21, Trigger Only 0, Sample and trigger 0
+		Total instrumentation in bits: Sample Only 70, Trigger Only 1, Sample and trigger 2
 		Group wise instrumentation in bits: 
-					Group NM:Sample Only 21, Sample and trigger 0
+					Group NM:Sample Only 21, Sample and trigger 2
+					Group s1:Sample Only 49, Sample and trigger 0
 		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
 exit status=0
 Unloading current instrumentation 'synthesis_1'

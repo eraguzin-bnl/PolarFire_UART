@@ -1,0 +1,1626 @@
+# Mon Nov  7 17:27:10 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro
+OS: Manjaro Linux
+Hostname: eric-manjaro
+max virtual memory: unlimited (bytes)
+max user processes: 514587
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis_1
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 12:05:51, @4302666
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 221MB peak: 221MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 232MB peak: 232MB)
+
+
+Start Timing Analyst (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+@N: MT615 |Found clock clk_main with period 20.00ns 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@W: MT420 |Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.identify_clk_int.
+@W: MT420 |Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX.
+@W: MT420 |Found inferred clock jtag_interface_x|b9_nv_oQwfYF with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Nov  7 17:27:10 2022
+#
+
+
+Top view:               top_level
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.663
+
+                                                     Requested     Estimated      Requested     Estimated                 Clock        Clock                
+Starting Clock                                       Frequency     Frequency      Period        Period        Slack       Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk_main                                             50.0 MHz      246.0 MHz      20.000        4.065         15.935      declared     default_clkgroup     
+ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       2922.3 MHz     1000.000      0.342         999.658     declared     identify_jtag_group1 
+jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     508.9 MHz      10.000        1.965         8.035       inferred     Inferred_clkgroup_0_3
+jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     225.2 MHz      10.000        4.440         5.560       inferred     Inferred_clkgroup_0_2
+jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     217.1 MHz      10.000        4.606         5.394       inferred     Inferred_clkgroup_0_1
+System                                               100.0 MHz     208.8 MHz      10.000        4.790         5.210       system       system_clkgroup      
+============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                          Ending                                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                            System                                            |  10.000      5.210    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    997.738  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      4.663    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b10_8Kz_rKlrtX                   |  10.000      8.215    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b9_nv_oQwfYF                     |  10.000      6.786    |  No paths    -      |  No paths    -      |  No paths    -    
+clk_main                                          clk_main                                          |  20.000      15.935   |  No paths    -      |  No paths    -      |  No paths    -    
+clk_main                                          jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            System                                            |  1000.000    998.361  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    999.658  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            jtag_interface_x|b10_8Kz_rKlrtX                   |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  System                                            |  10.000      7.032    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      5.394    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   System                                            |  10.000      5.560    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|b9_nv_oQwfYF                     |  10.000      8.035    |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_main
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                  Starting                                       Arrival           
+Instance                                          Reference     Type     Pin     Net             Time        Slack 
+                                                  Clock                                                            
+-------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]       clk_main      SLE      Q       b3_nfs[2]       0.218       15.935
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[3]       clk_main      SLE      Q       b3_nfs[3]       0.218       15.999
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[4]       clk_main      SLE      Q       b3_nfs[4]       0.218       16.032
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0]       clk_main      SLE      Q       b3_nfs[0]       0.218       16.150
+ident_coreinst.IICE_INST.b5_nUTGT.b8_vABZ3qsY     clk_main      SLE      Q       b8_vABZ3qsY     0.201       16.562
+===================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                           Required           
+Instance                                                     Reference     Type     Pin     Net                 Time         Slack 
+                                                             Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]     clk_main      SLE      D       b7_nYhI39s_s[6]     20.000       15.935
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[5]     clk_main      SLE      D       b7_nYhI39s_s[5]     20.000       15.943
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4]     clk_main      SLE      D       b7_nYhI39s_s[4]     20.000       15.951
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[3]     clk_main      SLE      D       b7_nYhI39s_s[3]     20.000       15.959
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[2]     clk_main      SLE      D       b7_nYhI39s_s[2]     20.000       15.967
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.065
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.935
+
+    Number of logic level(s):                11
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                      SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                        Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                                   Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                      Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                            Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                      Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]             ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]             ARI1     FCO      Out     0.492     3.607 f     -         
+b7_nYhI39s_cry[0]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     FCI      In      -         3.607 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     FCO      Out     0.008     3.615 f     -         
+b7_nYhI39s_cry[1]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCI      In      -         3.615 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCO      Out     0.008     3.623 f     -         
+b7_nYhI39s_cry[2]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCI      In      -         3.623 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCO      Out     0.008     3.631 f     -         
+b7_nYhI39s_cry[3]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCI      In      -         3.631 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCO      Out     0.008     3.639 f     -         
+b7_nYhI39s_cry[4]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCI      In      -         3.639 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCO      Out     0.008     3.647 f     -         
+b7_nYhI39s_cry[5]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     FCI      In      -         3.647 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     S        Out     0.300     3.947 r     -         
+b7_nYhI39s_s[6]                                                  Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]         SLE      D        In      -         4.065 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 4.065 is 1.458(35.9%) logic and 2.608(64.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.057
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.943
+
+    Number of logic level(s):                10
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                      SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                        Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                                   Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                      Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                            Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                      Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]             ARI1     FCO      Out     0.492     3.607 r     -         
+b7_nYhI39s_cry[1]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCI      In      -         3.607 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCO      Out     0.008     3.615 r     -         
+b7_nYhI39s_cry[2]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCI      In      -         3.615 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCO      Out     0.008     3.623 r     -         
+b7_nYhI39s_cry[3]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCI      In      -         3.623 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCO      Out     0.008     3.631 r     -         
+b7_nYhI39s_cry[4]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCI      In      -         3.631 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCO      Out     0.008     3.639 r     -         
+b7_nYhI39s_cry[5]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     FCI      In      -         3.639 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     S        Out     0.300     3.939 r     -         
+b7_nYhI39s_s[6]                                                  Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]         SLE      D        In      -         4.057 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 4.057 is 1.450(35.7%) logic and 2.608(64.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.057
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.943
+
+    Number of logic level(s):                10
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[5] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                  SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                    Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1             CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1             CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                               Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                  Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]          CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]          CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                        Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3           CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3           CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                  Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]         ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]         ARI1     FCO      Out     0.492     3.607 f     -         
+b7_nYhI39s_cry[0]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]         ARI1     FCI      In      -         3.607 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]         ARI1     FCO      Out     0.008     3.615 f     -         
+b7_nYhI39s_cry[1]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]         ARI1     FCI      In      -         3.615 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]         ARI1     FCO      Out     0.008     3.623 f     -         
+b7_nYhI39s_cry[2]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]         ARI1     FCI      In      -         3.623 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]         ARI1     FCO      Out     0.008     3.631 f     -         
+b7_nYhI39s_cry[3]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]         ARI1     FCI      In      -         3.631 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]         ARI1     FCO      Out     0.008     3.639 f     -         
+b7_nYhI39s_cry[4]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]         ARI1     FCI      In      -         3.639 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]         ARI1     S        Out     0.300     3.939 r     -         
+b7_nYhI39s_s[5]                                              Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[5]     SLE      D        In      -         4.057 r     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 4.057 is 1.450(35.7%) logic and 2.608(64.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.049
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.951
+
+    Number of logic level(s):                9
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                            Pin      Pin               Arrival     No. of    
+Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                      SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                        Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1                 CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                                   Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                    CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                      Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                            Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                      Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]             ARI1     FCO      Out     0.492     3.607 r     -         
+b7_nYhI39s_cry[2]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCI      In      -         3.607 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]             ARI1     FCO      Out     0.008     3.615 r     -         
+b7_nYhI39s_cry[3]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCI      In      -         3.615 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]             ARI1     FCO      Out     0.008     3.623 r     -         
+b7_nYhI39s_cry[4]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCI      In      -         3.623 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIGPV1J[5]             ARI1     FCO      Out     0.008     3.631 r     -         
+b7_nYhI39s_cry[5]                                                Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     FCI      In      -         3.631 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     S        Out     0.300     3.931 r     -         
+b7_nYhI39s_s[6]                                                  Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]         SLE      D        In      -         4.049 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 4.049 is 1.442(35.6%) logic and 2.608(64.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      20.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.000
+
+    - Propagation time:                      4.049
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.951
+
+    Number of logic level(s):                9
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4] / D
+    The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                  SLE      Q        Out     0.218     0.218 r     -         
+b3_nfs[2]                                                    Net      -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1             CFG3     C        In      -         0.797 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2_1             CFG3     Y        Out     0.148     0.945 r     -         
+un1_b3_nfs_2_1                                               Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                CFG4     B        In      -         1.063 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_nUT_fF11                CFG4     Y        Out     0.083     1.146 r     -         
+b6_nUT_fF11                                                  Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]          CFG2     A        In      -         1.693 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]          CFG2     Y        Out     0.046     1.739 f     -         
+N_146                                                        Net      -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3           CFG4     C        In      -         2.348 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3           CFG4     Y        Out     0.130     2.479 r     -         
+b8_nUT_TJfx                                                  Net      -        -       0.637     -           9         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]         ARI1     D        In      -         3.115 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI3KSV4[0]         ARI1     FCO      Out     0.492     3.607 f     -         
+b7_nYhI39s_cry[0]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]         ARI1     FCI      In      -         3.607 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI84TP7[1]         ARI1     FCO      Out     0.008     3.615 f     -         
+b7_nYhI39s_cry[1]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]         ARI1     FCI      In      -         3.615 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIFMTJA[2]         ARI1     FCO      Out     0.008     3.623 f     -         
+b7_nYhI39s_cry[2]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]         ARI1     FCI      In      -         3.623 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIOAUDD[3]         ARI1     FCO      Out     0.008     3.631 f     -         
+b7_nYhI39s_cry[3]                                            Net      -        -       0.000     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]         ARI1     FCI      In      -         3.631 f     -         
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI31V7G[4]         ARI1     S        Out     0.300     3.931 r     -         
+b7_nYhI39s_s[4]                                              Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4]     SLE      D        In      -         4.049 r     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 4.049 is 1.442(35.6%) logic and 2.608(64.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.dr2_tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                        Arrival            
+Instance                                                      Reference                                  Type     Pin     Net                 Time        Slack  
+                                                              Clock                                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[0]     0.218       998.361
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[1]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[2]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[3]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[4]     0.218       999.658
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                          Required            
+Instance                                                      Reference                                  Type      Pin      Net                 Time         Slack  
+                                                              Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             ident_coreinst.comm_block_INST.dr2_tck     UJTAG     UTDO     b9_PLF_6lNa2        1000.000     998.361
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[1]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[2]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[3]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[4]     1000.000     999.658
+====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      1.639
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 998.361
+
+    Number of logic level(s):                2
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     SLE       Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[0]                                               Net       -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF              CFG3      C        In      -         0.342 r     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF              CFG3      Y        Out     0.148     0.490 r     -         
+b6_PLF_Bq                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2             CFG4      B        In      -         0.608 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2             CFG4      Y        Out     0.083     0.691 r     -         
+b9_PLF_6lNa2                                                  Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             UJTAG     UTDO     In      -         1.639 r     -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 1.639 is 0.449(27.4%) logic and 1.190(72.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.342
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 999.658
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     SLE      Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[1]                                               Net      -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     SLE      D        In      -         0.342 r     -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 0.342 is 0.218(63.8%) logic and 0.124(36.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.342
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 999.658
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     SLE      Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[2]                                               Net      -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     SLE      D        In      -         0.342 r     -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 0.342 is 0.218(63.8%) logic and 0.124(36.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.342
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 999.658
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     SLE      Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[3]                                               Net      -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     SLE      D        In      -         0.342 r     -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 0.342 is 0.218(63.8%) logic and 0.124(36.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.342
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 999.658
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     SLE      Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[4]                                               Net      -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     SLE      D        In      -         0.342 r     -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 0.342 is 0.218(63.8%) logic and 0.124(36.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b9_nv_oQwfYF
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                       Starting                                                               Arrival          
+Instance                                                               Reference                         Type     Pin     Net                 Time        Slack
+                                                                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]       jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b6_nfs_IF[1]        0.218       8.035
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b11_vABZ3qsY_qH     0.218       9.066
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                                              Required          
+Instance                                                               Reference                         Type     Pin     Net                Time         Slack
+                                                                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      SLn     b6_nfs_IF_i[1]     9.944        8.035
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      D       b8_vABZ3qsY_0      10.000       8.676
+===============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.056
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.944
+
+    - Propagation time:                      1.909
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.035
+
+    Number of logic level(s):                1
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / SLn
+    The start point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]             SLE      Q        Out     0.218     0.218 r     -         
+b6_nfs_IF[1]                                                                 Net      -        -       0.756     -           20        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF8[1]     CFG1     A        In      -         0.974 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF8[1]     CFG1     Y        Out     0.046     1.020 f     -         
+b6_nfs_IF_i[1]                                                               Net      -        -       0.889     -           33        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY           SLE      SLn      In      -         1.909 f     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 1.965 is 0.320(16.3%) logic and 1.645(83.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.324
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.676
+
+    Number of logic level(s):                1
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / D
+    The start point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]         SLE      Q        Out     0.218     0.218 r     -         
+b6_nfs_IF[1]                                                             Net      -        -       0.756     -           20        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY_0     CFG4     D        In      -         0.974 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY_0     CFG4     Y        Out     0.232     1.206 r     -         
+b8_vABZ3qsY_0                                                            Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY       SLE      D        In      -         1.324 r     -         
+===================================================================================================================================
+Total path delay (propagation time + setup) of 1.324 is 0.450(34.0%) logic and 0.874(66.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      0.934
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 9.066
+
+    Number of logic level(s):                1
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / D
+    The start point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY       SLE      Q        Out     0.218     0.218 r     -         
+b11_vABZ3qsY_qH                                                          Net      -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY_0     CFG4     A        In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY_0     CFG4     Y        Out     0.051     0.816 r     -         
+b8_vABZ3qsY_0                                                            Net      -        -       0.118     -           1         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY       SLE      D        In      -         0.934 r     -         
+===================================================================================================================================
+Total path delay (propagation time + setup) of 0.934 is 0.269(28.8%) logic and 0.665(71.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b10_8Kz_rKlrtX
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                         Starting                                                                      Arrival          
+Instance                                                                 Reference                           Type     Pin     Net                      Time        Slack
+                                                                         Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[4]     0.218       5.560
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[6]     0.218       5.605
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[1]        0.218       5.630
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b11_uRrc_WYOFjZ[0]       0.201       5.742
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[4]        0.201       5.804
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                Required          
+Instance                                              Reference                           Type      Pin      Net              Time         Slack
+                                                      Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     jtag_interface_x|b10_8Kz_rKlrtX     UJTAG     UTDO     b9_PLF_6lNa2     10.000       5.560
+================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.440
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.560
+
+    Number of logic level(s):                8
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     SLE       Q        Out     0.218     0.218 r     -         
+b13_nvmFL_fx2rbuQ[4]                                                     Net       -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      C        In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.132     0.897 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         1.021 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     1.069 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.663 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.711 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.290 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.482 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.599 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.791 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.909 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.101 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.219 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.296 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.414 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.492 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.440 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.440 is 1.175(26.5%) logic and 3.264(73.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.395
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.605
+
+    Number of logic level(s):                8
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     SLE       Q        Out     0.218     0.218 r     -         
+b13_nvmFL_fx2rbuQ[6]                                                     Net       -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      B        In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.088     0.853 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         0.977 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     1.024 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.619 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.666 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.245 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.437 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.555 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.747 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.865 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.056 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.174 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.252 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.370 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.447 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.395 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.395 is 1.131(25.7%) logic and 3.264(74.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.370
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.630
+
+    Number of logic level(s):                8
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     SLE       Q        Out     0.218     0.218 r     -         
+IICE_comm2iice[1]                                                        Net       -        -       0.563     -           4         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      A        In      -         0.782 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.046     0.828 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         0.952 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     0.999 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.594 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.641 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.220 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.412 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.530 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.722 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.840 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.031 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.150 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.227 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.345 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.422 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.370 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.370 is 1.089(24.9%) logic and 3.281(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.279
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.721
+
+    Number of logic level(s):                8
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     SLE       Q        Out     0.218     0.218 r     -         
+b13_nvmFL_fx2rbuQ[4]                                                     Net       -        -       0.547     -           3         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      C        In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.132     0.897 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         1.021 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     1.069 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.663 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.711 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                          CFG4      B        In      -         2.290 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                          CFG4      Y        Out     0.077     2.367 f     -         
+b3_PLF_0_1                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      C        In      -         2.485 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.145     2.631 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.749 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     2.940 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.058 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.136 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.254 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.331 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.279 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.279 is 1.015(23.7%) logic and 3.264(76.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.258
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.742
+
+    Number of logic level(s):                7
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     SLE       Q        Out     0.201     0.201 f     -         
+b11_uRrc_WYOFjZ[0]                                                       Net       -        -       0.609     -           7         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      B        In      -         0.810 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.077     0.887 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.482 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.529 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.108 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.300 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.418 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.610 f     -         
+b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.728 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     2.919 f     -         
+b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.037 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.115 f     -         
+b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      B        In      -         3.233 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.077     3.310 f     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.258 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.258 is 1.055(24.8%) logic and 3.203(75.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|identify_clk_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                             Starting                                                                                  Arrival          
+Instance                                                     Reference                                            Type     Pin     Net                 Time        Slack
+                                                             Clock                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.201       5.394
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[5]     0.218       5.424
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[3]     0.218       5.443
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[1]     0.201       5.445
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[2]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[2]     0.218       5.505
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                              Required          
+Instance                                                     Reference                                            Type        Pin            Net                   Time         Slack
+                                                             Clock                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.394
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.394
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[4]     9.385        5.523
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[8]      b9_v_mzCDYXs_4[3]     9.385        5.601
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[5]      b9_v_mzCDYXs_4[0]     9.385        5.958
+=====================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.991
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.394
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]             SLE         Q              Out     0.201     0.201 f     -         
+b9_v_mzCDYXs[0]                                                      Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        D              In      -         0.764 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.192     0.956 f     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.074 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.192     1.266 f     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.829 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.130     1.959 r     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.077 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.168     2.245 r     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        B              In      -         2.824 r     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        Y              Out     0.083     2.907 r     -         
+b9_v_mzCDYXs_c5                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        C              In      -         3.031 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        Y              Out     0.148     3.179 r     -         
+b9_v_mzCDYXs_4[5]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[10]     In      -         3.991 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.606 is 1.728(37.5%) logic and 2.878(62.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.991
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.394
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[11]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]             SLE         Q              Out     0.201     0.201 f     -         
+b9_v_mzCDYXs[0]                                                      Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        D              In      -         0.764 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.192     0.956 f     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.074 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.192     1.266 f     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.829 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.130     1.959 r     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.077 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.168     2.245 r     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_9      CFG3        B              In      -         2.824 r     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_9      CFG3        Y              Out     0.083     2.907 r     -         
+b9_v_mzCDYXs_c6                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_5       CFG4        C              In      -         3.031 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_5       CFG4        Y              Out     0.148     3.179 r     -         
+b9_v_mzCDYXs_4[6]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[11]     In      -         3.991 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.606 is 1.728(37.5%) logic and 2.878(62.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.961
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.424
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]             SLE         Q              Out     0.218     0.218 r     -         
+b9_v_mzCDYXs[5]                                                      Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        C              In      -         0.782 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.148     0.929 r     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.048 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.168     1.215 r     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.778 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.132     1.911 f     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.029 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.192     2.220 f     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        B              In      -         2.800 f     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        Y              Out     0.077     2.877 f     -         
+b9_v_mzCDYXs_c5                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        C              In      -         3.001 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        Y              Out     0.148     3.149 r     -         
+b9_v_mzCDYXs_4[5]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[10]     In      -         3.961 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.576 is 1.698(37.1%) logic and 2.878(62.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.961
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.424
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[11]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]             SLE         Q              Out     0.218     0.218 r     -         
+b9_v_mzCDYXs[5]                                                      Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        C              In      -         0.782 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.148     0.929 r     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.048 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.168     1.215 r     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.778 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.132     1.911 f     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.029 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.192     2.220 f     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_9      CFG3        B              In      -         2.800 f     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_9      CFG3        Y              Out     0.077     2.877 f     -         
+b9_v_mzCDYXs_c6                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_5       CFG4        C              In      -         3.001 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_5       CFG4        Y              Out     0.148     3.149 r     -         
+b9_v_mzCDYXs_4[6]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[11]     In      -         3.961 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.576 is 1.698(37.1%) logic and 2.878(62.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      3.942
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.443
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]             SLE         Q              Out     0.218     0.218 r     -         
+b9_v_mzCDYXs[3]                                                      Net         -              -       0.609     -           7         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        B              In      -         0.827 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4            CFG4        Y              Out     0.083     0.910 r     -         
+b9_v_mzCDYXs13_4                                                     Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        D              In      -         1.028 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13              CFG4        Y              Out     0.168     1.196 r     -         
+b9_v_mzCDYXs13                                                       Net         -              -       0.563     -           4         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        C              In      -         1.759 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIE1M42     CFG4        Y              Out     0.132     1.891 f     -         
+un1_m6_0_a2_6                                                        Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        D              In      -         2.009 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIO8KG2[0]      CFG4        Y              Out     0.192     2.201 f     -         
+b9_v_mzCDYXs_c3                                                      Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        B              In      -         2.780 f     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7      CFG3        Y              Out     0.077     2.858 f     -         
+b9_v_mzCDYXs_c5                                                      Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        C              In      -         2.982 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        Y              Out     0.148     3.130 r     -         
+b9_v_mzCDYXs_4[5]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[10]     In      -         3.942 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 4.557 is 1.633(35.8%) logic and 2.924(64.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                              Arrival          
+Instance                                              Reference     Type      Pin          Net              Time        Slack
+                                                      Clock                                                                  
+-----------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[2]     b6_uS_MrX[1]     0.000       4.663
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[5]     b6_uS_MrX[4]     0.000       4.814
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[1]     b6_uS_MrX[0]     0.000       4.854
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[3]     b6_uS_MrX[2]     0.000       5.130
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[4]     b6_uS_MrX[3]     0.000       5.171
+=============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                      Required          
+Instance                                                     Reference     Type        Pin           Net                   Time         Slack
+                                                             Clock                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[5]     b9_v_mzCDYXs_4[0]     9.385        4.663
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[9]     b9_v_mzCDYXs_4[4]     9.385        4.811
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[6]     b9_v_mzCDYXs_4[1]     9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[7]     b9_v_mzCDYXs_4[2]     9.385        4.837
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[8]     b9_v_mzCDYXs_4[3]     9.385        4.837
+=============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.722
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     4.663
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[2]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[5]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[2]      Out     0.000     0.000 r     -         
+b6_uS_MrX[1]                                                         Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        C             In      -         0.547 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.132     0.679 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.273 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.419 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B             In      -         2.013 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y             Out     0.077     2.091 f     -         
+N_171_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D             In      -         2.638 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y             Out     0.192     2.829 f     -         
+N_171_i                                                              Net         -             -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        D             In      -         3.503 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        Y             Out     0.232     3.735 r     -         
+b9_v_mzCDYXsc_3                                                      Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        A             In      -         3.859 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        Y             Out     0.051     3.910 r     -         
+b9_v_mzCDYXs_4[0]                                                    Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[5]     In      -         4.722 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.337 is 1.445(27.1%) logic and 3.893(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.574
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.811
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[2]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[9]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[2]      Out     0.000     0.000 r     -         
+b6_uS_MrX[1]                                                         Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        C             In      -         0.547 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.132     0.679 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.273 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.419 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B             In      -         2.013 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y             Out     0.077     2.091 f     -         
+N_171_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D             In      -         2.638 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y             Out     0.192     2.829 f     -         
+N_171_i                                                              Net         -             -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_0             CFG4        B             In      -         3.503 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_0             CFG4        Y             Out     0.084     3.587 r     -         
+b9_v_mzCDYXsc_0                                                      Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_3       CFG2        A             In      -         3.711 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_3       CFG2        Y             Out     0.051     3.762 r     -         
+b9_v_mzCDYXs_4[4]                                                    Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[9]     In      -         4.574 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.189 is 1.297(25.0%) logic and 3.893(75.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.570
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.814
+
+    Number of logic level(s):                7
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[5]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[5]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[5]      Out     0.000     0.000 r     -         
+b6_uS_MrX[4]                                                         Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_2          CFG2        B             In      -         0.124 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_2          CFG2        Y             Out     0.088     0.212 f     -         
+b9_96_cLqgOF5_0                                                      Net         -             -       0.124     -           2         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        D             In      -         0.336 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.192     0.527 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.122 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.267 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B             In      -         1.862 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y             Out     0.077     1.939 f     -         
+N_171_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D             In      -         2.486 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y             Out     0.192     2.678 f     -         
+N_171_i                                                              Net         -             -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        D             In      -         3.352 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_3             CFG4        Y             Out     0.232     3.584 r     -         
+b9_v_mzCDYXsc_3                                                      Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        A             In      -         3.708 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO         CFG2        Y             Out     0.051     3.758 r     -         
+b9_v_mzCDYXs_4[0]                                                    Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[5]     In      -         4.570 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.186 is 1.592(30.7%) logic and 3.594(69.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.547
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.837
+
+    Number of logic level(s):                5
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[2]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[8]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[2]      Out     0.000     0.000 r     -         
+b6_uS_MrX[1]                                                         Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        C             In      -         0.547 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.132     0.679 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.273 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.419 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B             In      -         2.013 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y             Out     0.077     2.091 f     -         
+N_171_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D             In      -         2.638 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y             Out     0.192     2.829 f     -         
+N_171_i                                                              Net         -             -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_2       CFG4        D             In      -         3.503 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_2       CFG4        Y             Out     0.232     3.735 r     -         
+b9_v_mzCDYXs_4[3]                                                    Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[8]     In      -         4.547 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.163 is 1.394(27.0%) logic and 3.769(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.547
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.837
+
+    Number of logic level(s):                5
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[2]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                                                 Type        Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[2]       Out     0.000     0.000 r     -         
+b6_uS_MrX[1]                                                         Net         -              -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        C              In      -         0.547 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y              Out     0.132     0.679 f     -         
+b9_96_cLqgOF5                                                        Net         -              -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C              In      -         1.273 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y              Out     0.145     1.419 f     -         
+N_68                                                                 Net         -              -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        B              In      -         2.013 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_159_a2_1                           CFG3        Y              Out     0.077     2.091 f     -         
+N_171_i_1                                                            Net         -              -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        D              In      -         2.638 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG4        Y              Out     0.192     2.829 f     -         
+N_171_i                                                              Net         -              -       0.674     -           12        
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        D              In      -         3.503 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0_RNO_4       CFG4        Y              Out     0.232     3.735 r     -         
+b9_v_mzCDYXs_4[5]                                                    Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[10]     In      -         4.547 r     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 5.163 is 1.394(27.0%) logic and 3.769(73.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+Writing Analyst data base /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_ta.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov  7 17:27:11 2022
+
+###########################################################]

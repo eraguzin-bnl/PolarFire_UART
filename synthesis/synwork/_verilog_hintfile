@@ -1,5 +1,5 @@
 %%% protect protected_file
-#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
@@ -17,11 +17,12 @@
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd":1655988487
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1666721622
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1666728504
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1667856477
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":1667943000
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1667928061
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666724969
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1667939944
 @E8lFkRDC0_FbDCCPDH
 DLssN$FRIsH	
 M0bkR	ODRH4
@@ -132,6 +133,13 @@ F00bkR7p 4
 R4Fbk0kp0R R7.4k
 F00bkR7p d
 R4Fbk0kp0R R7c4M
+C88lFk
+DClkF8D#CR$H#_M
+H0DsHLNRs$I	Fs
+bHMkO0RD4	R
+bHMks0RC0#C_RHM4k
+F00bkRN#0s40R
+0FkbRk0)_1amRza4M
 C88lFk
 DClkF8D8CRCkVNDP0_NCDk#H
 DLssN$FRIsH	

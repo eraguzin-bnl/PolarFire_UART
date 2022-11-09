@@ -1,4 +1,5 @@
 Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:A'.
+Warning: [127205465]:  CMPPF_007: Top level port button1 is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
 Warning: [127205465]:  CMPPF_007: Top level port button2 is not connected to any I/O pad. Check whether I/O buffer insertion is disabled in Synthesis or whether Block Flow is enabled.
 
 ===============================================================================.
@@ -12,12 +13,12 @@ Info: Global design data:
 Info: List of globals that cannot be demoted:
     CLK    ASYN   DATA   Instance Name
     ---    ----   ----   -------------
-    273    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim'
+    355    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim'
 
 Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name
     ---    ----   ----   -------------
-    256    0      0      'I_1'
+    378    0      0      'I_1'
     13     0      0      'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3'
     8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE'
 

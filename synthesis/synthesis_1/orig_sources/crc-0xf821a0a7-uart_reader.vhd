@@ -26,6 +26,8 @@ port (
     CLK : IN std_logic;
     RST : IN std_logic;
     
+    START : IN std_logic;
+    
 	DATA_OUT : IN  std_logic_vector(7 downto 0); -- example
     FRAMING_ERR : IN  std_logic; -- example
     OVERFLOW : IN  std_logic; -- example
@@ -43,8 +45,6 @@ port (
 );
 end uart_reader;
 architecture architecture_uart_reader of uart_reader is
-    signal data_s : std_logic_vector(7 downto 0);
-    
     type uart_state_type is (s_idle, s_start, s_send);
     signal uart_wr_state : uart_state_type;
     
@@ -75,10 +75,11 @@ begin
                 LED4 <= '1';
                 OEN <= '1';
                 WEN <= '1';
+                uart_wr_state <= s_idle;
             else
                 case uart_wr_state is
                     when s_idle =>
-                        if (RXRDY = '1') then
+                        if (RXRDY = '1' and TXRDY = '1') then
                             OEN <= '0';
                             WEN <= '0';
                             DATA_IN <= DATA_OUT;
@@ -105,5 +106,6 @@ begin
                 end case;
             end if;
         end if;
-   end process;
+    end process;
+
 end architecture_uart_reader;

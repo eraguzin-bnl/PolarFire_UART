@@ -1,0 +1,9 @@
+@E: CD242 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":72:31:72:31|Expecting ;
+@E: CD169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":72:31:72:31|Illegal declaration
+@E: CD415 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":85:28:85:28|Expecting keyword is
+@E: CD632 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":94:24:94:24|duplicate entity name work
+@E: CD632 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":118:34:118:34|duplicate entity name work
+@E: CD632 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":135:31:135:31|duplicate entity name work
+@E: Parse errors encountered - exiting
+@E::VHDL compiler failed
+

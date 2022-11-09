@@ -1,0 +1,380 @@
+m255
+K4
+z2
+!s11e vcom 2022.2 2022.04, Apr 26 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/simulation
+Ecoreuart_c0_coreuart_c0_0_clock_gen
+Z1 w1666631262
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z3 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 224
+R0
+Z6 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+Z7 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+l0
+L35 1
+VGX@Z80<XX;fVD]QaHKlOf2
+!s100 4@ofEWZ400TAen7MY>cGo1
+Z8 OW;C;2022.2;75
+33
+Z9 !s110 1668013674
+!i10b 1
+Z10 !s108 1668013674.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd|
+Z12 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd|
+!i113 1
+Z13 o-2008 -explicit -work COREUART_LIB -O0
+Z14 tCvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 35 coreuart_c0_coreuart_c0_0_clock_gen 0 22 GX@Z80<XX;fVD]QaHKlOf2
+!i122 224
+l58
+L47 221
+VINUmCzQkYn0d^Xa`kj<a53
+!s100 Cg2d8lzYzMh76UXBDC<n<2
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Pcoreuart_c0_coreuart_c0_0_components
+R4
+R5
+!i122 230
+R1
+R0
+8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+l0
+L5 50
+Vo[U1dWND^2Rn=8Tj2Me1n3
+!s100 2<U:4VmMZ5I>bDO8cClo20
+R8
+33
+Z15 !s110 1668013675
+!i10b 1
+Z16 !s108 1668013675.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd|
+!s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd|
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_coreuart
+R1
+Z17 DPx4 work 38 coreuart_c0_coreuart_c0_0_coreuart_pkg 0 22 eMMee7WzfIMeBJa3O4F_Q2
+R2
+R3
+R4
+R5
+!i122 229
+R0
+Z18 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+Z19 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+l0
+Z20 L34 1
+VUkHlY;maR[_Fm5mbWMb>e1
+!s100 3YfnK9>k5H[Kl^OLR]^1>0
+R8
+33
+R15
+!i10b 1
+R16
+Z21 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd|
+Z22 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R17
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_coreuart 0 22 UkHlY;maR[_Fm5mbWMb>e1
+!i122 229
+l224
+L67 502
+VgKT6lHDcle7jTnfX534B>2
+!s100 c]f0fNU5Og==29XBJ]5dC0
+R8
+33
+R15
+!i10b 1
+R16
+R21
+R22
+!i113 1
+R13
+R14
+Pcoreuart_c0_coreuart_c0_0_coreuart_pkg
+!i122 228
+R1
+R0
+Z23 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+Z24 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+l0
+L1 3
+VeMMee7WzfIMeBJa3O4F_Q2
+!s100 7X>`B3KPco;GYNFn1Y?jE1
+R8
+33
+b1
+R15
+!i10b 1
+R16
+Z25 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd|
+Z26 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd|
+!i113 1
+R13
+R14
+Bbody
+R17
+!i122 228
+l0
+L5 14
+VG]H?:YDA2YcU:9eLTaE4A3
+!s100 f2<fXnXWG2o`1^<U;X9hY0
+R8
+33
+R15
+!i10b 1
+R16
+R25
+R26
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_fifo_256x8
+R1
+R4
+R5
+!i122 227
+R0
+Z27 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd
+Z28 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd
+l0
+R20
+VFS^;[Nlc2:Z^@ofjSEGX:1
+!s100 0WmRl2;QgBnQHW2bbe6:b1
+R8
+33
+R15
+!i10b 1
+R16
+Z29 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd|
+Z30 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R4
+R5
+DEx4 work 36 coreuart_c0_coreuart_c0_0_fifo_256x8 0 22 FS^;[Nlc2:Z^@ofjSEGX:1
+!i122 227
+l78
+L48 50
+VH1JBR6jddK6C8=5ZL2<890
+!s100 ebeDf2I:dm5W3`P^b^b^90
+R8
+33
+R15
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_fifo_ctrl_256
+R1
+R3
+R2
+R4
+R5
+!i122 227
+R0
+R27
+R28
+l0
+L121 1
+VnN7]9z9lHQ5lP=WPJYGD^2
+!s100 bGkm^jg]5YH<XGT`@NnEl0
+R8
+33
+R15
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R13
+R14
+Atranslated
+R3
+R2
+R4
+R5
+DEx4 work 39 coreuart_c0_coreuart_c0_0_fifo_ctrl_256 0 22 nN7]9z9lHQ5lP=WPJYGD^2
+!i122 227
+l188
+L144 154
+V;[Z>6FDfcYgR`YX9eoc>[1
+!s100 6eiLHDX^gS9ZgY:dh:^J40
+R8
+33
+R15
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_ram256x8_g5
+R1
+R4
+R5
+!i122 227
+R0
+R27
+R28
+l0
+L304 1
+V:akPhOC@:kKZIa43HPO;U0
+!s100 WP32dIiCMWe<DW0hJc]932
+R8
+33
+R15
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R13
+R14
+Atranslated
+R4
+R5
+DEx4 work 37 coreuart_c0_coreuart_c0_0_ram256x8_g5 0 22 :akPhOC@:kKZIa43HPO;U0
+!i122 227
+l376
+L317 113
+VO:2Q^bJik[OPGnShize:_1
+!s100 DOX2?1RL:H=UZJRn4;e]G1
+R8
+33
+R15
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_rx_async
+R1
+R2
+R3
+R4
+R5
+!i122 225
+R0
+Z31 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+Z32 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+l0
+Z33 L33 1
+VD10I[iePOa_>AFC6MMEY60
+!s100 2I<FTH=0E1YOCD@3e1jKb0
+R8
+33
+R15
+!i10b 1
+R16
+Z34 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd|
+Z35 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_rx_async 0 22 D10I[iePOa_>AFC6MMEY60
+!i122 225
+l97
+L61 451
+VZCEGRb:46^me`7@I<k8C21
+!s100 CRLQ7>5=^TNQEzWA;zdle0
+R8
+33
+R15
+!i10b 1
+R16
+R34
+R35
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_tx_async
+R1
+R2
+R3
+R4
+R5
+!i122 226
+R0
+Z36 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+Z37 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+l0
+R33
+VLMogOBlBX@mV5V4SJLJP53
+!s100 5ac]ez4<Y4BXfQ[l`o1=g3
+R8
+33
+R15
+!i10b 1
+R16
+Z38 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd|
+Z39 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_tx_async 0 22 LMogOBlBX@mV5V4SJLJP53
+!i122 226
+l95
+L56 267
+VHNgg5NgmGn6zLF[;a>QSk1
+!s100 EgoG>Ig5Hdm0<@2Ej=Y4A0
+R8
+33
+R15
+!i10b 1
+R16
+R38
+R39
+!i113 1
+R13
+R14

@@ -1,0 +1,113 @@
+
+                             Identify (R) Debugger 
+
+               Version S-2021.09M-SP1 for RHEL64 - Jun 14, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /usr/local/microchip/Libero_SoC_v2022.2/Identify/linux_a_64/mbin/identify_debugger
+Install:     /usr/local/microchip/Libero_SoC_v2022.2/Identify
+Hostname:    eric-manjaro
+Date:        Tue Nov  8 15:42:58 2022
+Version:     S-2021.09M-SP1
+
+Arguments:   -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log -family PolarFire -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname identify_debugger -ppid 618606
+ProductType: identify_debugger
+
+License checkout: identdebugger_actel
+License: identdebugger_actel from server iolicense2.inst.bnl.gov 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Note: Opening debugger view for project '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj'
+Note: Opening project /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj, implementation synthesis_1
+Note: The debugger obtained its own license
+Setting up hardware driver ...
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+ok.
+Checking debug IP state...
+ok.
+Checking device chain setup ...
+Auto-detecting port names...
+E2006ZGY1U 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPF300"
+
+Physical   Device ID     IICEs  Signature     
+Partition                                     
+--------------------------------------------
+regular    dev_0_MPF300  IICE   0x940f462c    
+============================================
+IICE 'IICE' configured, waiting for trigger ... 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (75) 
+depth: 128  taddr_m: 12  m_rtrigger_position: 66  
+Warning: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+Error: Execute fails: '' 'verdi' '-nWave -nologo -ssf IICE.fsdb -play IICE_fsdb.ctl'
+Error: Verdi waveform viewer failed on execute
+couldn't execute "verdi": no such file or directoryError: Execute fails: '' 'verdi' '-nWave -nologo -ssf IICE.fsdb -play IICE_fsdb.ctl'
+Error: Verdi waveform viewer failed on execute
+couldn't execute "verdi": no such file or directorySaving activations to file 'synthesis_1.adc'
+Setting up hardware driver ...
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+ok.
+Checking debug IP state...
+ok.
+Checking device chain setup ...
+Auto-detecting port names...
+E2006ZGY1U 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+
+Physical   Device ID     IICEs  Signature     
+Partition                                     
+--------------------------------------------
+regular    dev_0_MPF300  IICE   0x940f462c    
+============================================
+IICE 'IICE' configured, waiting for trigger ... 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (67) 
+depth: 128  taddr_m: 4  m_rtrigger_position: 66  
+618916Setting up hardware driver ...
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+ok.
+Checking debug IP state...
+ok.
+Checking device chain setup ...
+Auto-detecting port names...
+E2006ZGY1U 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+
+Physical   Device ID     IICEs  Signature     
+Partition                                     
+--------------------------------------------
+regular    dev_0_MPF300  IICE   0x940f462c    
+============================================
+IICE 'IICE' configured, waiting for trigger ... 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (92) 
+depth: 128  taddr_m: 29  m_rtrigger_position: 66  
+619056Saving activations to file 'last_run.adc'
+Unloading current instrumentation 'synthesis_1'

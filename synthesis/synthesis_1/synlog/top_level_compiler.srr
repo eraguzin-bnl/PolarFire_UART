@@ -49,19 +49,22 @@ Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 1
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
 
 
 Process completed successfully.
-# Thu Oct 27 13:56:36 2022
+# Wed Nov  9 12:10:05 2022
 
 ###########################################################]
 ###########################################################[
@@ -241,7 +244,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Thu Oct 27 13:56:36 2022
+# Wed Nov  9 12:10:05 2022
 
 ###########################################################]
 ###########################################################[
@@ -252,10 +255,26 @@ File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/i
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd'.
@@ -263,64 +282,80 @@ File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd chang
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
+File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
-@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":65:11:65:17|Signal start_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":126:30:126:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":23:7:23:17|Synthesizing work.uart_writer.architecture_uart_writer.
+@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":47:29:47:30|Using sequential encoding for type sequence_state_type.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":95:20:95:33|OTHERS clause is not synthesized.
+Post processing for work.uart_writer.architecture_uart_writer
+Running optimization stage 1 on uart_writer .......
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Register bit DATA_IN(7) is always 0.
+@W: CL260 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Pruning register bit 7 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
-@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":103:20:103:33|OTHERS clause is not synthesized.
-@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":46:11:46:16|Signal data_s is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":104:20:104:33|OTHERS clause is not synthesized.
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 Post processing for work.uart_reader.architecture_uart_reader
 Running optimization stage 1 on uart_reader .......
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
-Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":42:25:42:26|Using sequential encoding for type uart_state_type.
 Post processing for work.default_values.architecture_default_values
 Running optimization stage 1 on default_values .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -337,19 +372,19 @@ Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Use
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
 @W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
 @N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
 @W: CL190 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":54:7:54:19|Signal baud_cntr_one is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":439:7:439:8|Pruning unused register overflow_reg_3. Make sure that there are no unused intermediate registers.
@@ -361,16 +396,102 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Post processing for work.coreuart_c0.rtl
 Running optimization stage 1 on COREUART_C0 .......
-Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":27:7:27:14|Synthesizing work.sys_init.sys_init_arch.
+Post processing for work.sys_init.sys_init_arch
+Running optimization stage 1 on sys_init .......
+Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 1 on syn_hyper_source .......
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
-Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_wen_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in_s .......
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out_s .......
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_en_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_en_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_oen_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_odd_n_even_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_odd_n_even_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_csn_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_csn_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_bit8_s .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_bit8_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_13_ident_ihs_baud_val_s .......
+Finished optimization stage 2 on syn_hyper_source_13_ident_ihs_baud_val_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_tx .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rx .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on sys_init .......
+Finished optimization stage 2 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_tx .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rx .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Running optimization stage 2 on syn_hyper_source_1_ident_ihs_clk .......
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 140MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 141MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
 Extracted state machine for register xmit_state
@@ -384,7 +505,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 140MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 141MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
 Extracted state machine for register rx_state
@@ -393,11 +514,11 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 .......
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on COREUART_C0 .......
-Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on default_values .......
 @W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
@@ -426,62 +547,68 @@ Extracted state machine for register uart_wr_state
 State machine has 2 reachable states with original encodings of:
    00
    10
-Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_oen .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_wen .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rst .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rst (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
-Running optimization stage 2 on syn_hyper_source_1_ident_ihs_clk .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
-Running optimization stage 2 on syn_hyper_source_1_bpsig_2835 .......
-Finished optimization stage 2 on syn_hyper_source_1_bpsig_2835 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
-Running optimization stage 2 on syn_hyper_source_1_bpsig_2753 .......
-Finished optimization stage 2 on syn_hyper_source_1_bpsig_2753 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rst (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on uart_reader .......
+@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
 Extracted state machine for register uart_wr_state
 State machine has 3 reachable states with original encodings of:
    00
    01
    10
-Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":29:4:29:8|Input START is unused.
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Running optimization stage 2 on uart_writer .......
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Trying to extract state machine for register sequence_wr_state.
+Extracted state machine for register sequence_wr_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 Running optimization stage 2 on top_level .......
-Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":29:4:29:10|Input button1 is unused.
+Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
 @L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
 
 Process completed successfully.
-# Thu Oct 27 13:56:36 2022
+# Wed Nov  9 12:10:06 2022
 
 ###########################################################]
 ###########################################################[
@@ -512,7 +639,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 27 13:56:36 2022
+# Wed Nov  9 12:10:06 2022
 
 ###########################################################]
 
@@ -527,6 +654,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Oct 27 13:56:36 2022
+# Wed Nov  9 12:10:06 2022
 
 ###########################################################]

@@ -22,10 +22,10 @@
 Starting:    /usr/local/microchip/Libero_SoC_v2022.2/Identify/linux_a_64/mbin/identify_debugger
 Install:     /usr/local/microchip/Libero_SoC_v2022.2/Identify
 Hostname:    eric-manjaro
-Date:        Thu Oct 27 13:54:39 2022
+Date:        Tue Nov  8 16:14:38 2022
 Version:     S-2021.09M-SP1
 
-Arguments:   -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log -family POLARFIRE -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname identify_debugger -ppid 2844343
+Arguments:   -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log -family PolarFire -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname identify_debugger -ppid 622558
 ProductType: identify_debugger
 
 License checkout: identdebugger_actel
@@ -38,141 +38,28 @@ License Option: actel_oem
 Note: Opening debugger view for project '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj'
 Note: Opening project /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj, implementation synthesis_1
 Note: The debugger obtained its own license
-While running 64-bit - Linux build
-
-@E::Signal 000 error in identify_debugger
-Stack trace
-ID:ui202109synp2/150/identify_debugger
-===========
-0x4d63a2
-0x4d668f
-0x9c6d1f
-0x16c7e76
-0x7f4ec8851a3f
-0xb7bc52
-0xb7bde8
-0xb7f591
-0xb7fc25
-0x7f4ecd3e84bf
-0x7f4eccd563a1
-0x7f4eccab8592
-0x7f4eccab9e72
-0x7f4eccab9f83
-0x7f4ecc7576cf
-0x7f4ecc70496b
-0x7f4ecc70b622
-0x7f4ecd3d55bc
-0x7f4ecc70ac8e
-0x7f4ecc7818b3
-0x7f4ecc77fb9d
-0x7f4ecc7a7311
-0x7f4ec9717c6a
-0x7f4ec976e000
-0x7f4ec9715391
-0x7f4ecd4036c3
-0x7f4ecc7a73b5
-0x7f4ecd3d3f70
-0x7f4ecd3d4284
-0x7f4eccbad65b
-0xb66eeb
-0xb675a3
-0x7f4ecd3e84bf
-0x7f4ecc6fee31
-0x7f4ecc6fffd6
-0x7f4ecd3e84bf
-0x7f4eccd563a1
-0x7f4eccab8592
-0x7f4eccab9e72
-0x7f4eccab9f83
-0x7f4ecc7576cf
-0x7f4ecc70496b
-0x7f4ecc70b622
-0x7f4ecd3d55bc
-0x7f4ecc70ac8e
-0x7f4ecc7818b3
-0x7f4ecc77fb9d
-0x7f4ecc7a7311
-0x7f4ec9717c6a
-0x7f4ec976e000
-0x7f4ec9715391
-0x7f4ecd4036c3
-0x7f4ecc7a73b5
-0x7f4ecd3d3f70
-0x7f4ecd3d4284
-0x7f4eccbad65b
-0xb67278
-0xb676d9
-0x7f4ecd3e84bf
-0x7f4ecc6fee31
-0x7f4ecc6fffd6
-0x7f4eccab9e31
-0x7f4eccab9f83
-0x7f4eccb73279
-0x7f4ecc7576cf
-0x7f4ecc70496b
-0x7f4ecc70b622
-0x7f4ecd3d55bc
-0x7f4ecc70ac8e
-0x7f4ecc7818b3
-0x7f4ecc77fb9d
-0x7f4ecc7a7311
-0x7f4ec9717c6a
-0x7f4ec976e000
-0x7f4ec9715391
-0x7f4ecd4036c3
-0x7f4ecc7a73b5
-0x7f4ecd3d3f70
-0x7f4ecd3d4284
-0x7f4ecd3d9888
-0x4b4ca0
-0x7f4ec883c2cf
-
-Please open a web case about this problem. A Synopsys CAE will then contact you.
-
-Instructions to open a web-case:
-1.  Go to the Synopsys support web site, https://solvnetplus.synopsys.com. 
-2.  Login with your user name and password. If you do not have an account, please register and set one up.
-3.  Click the `Enter A Call' link.
-4.  Provide a detailed description of the problem, and fill in all required fields.
-5.  Attach any test cases or archived project files required to reproduce the problem. 
 Setting up hardware driver ...
-Please open a web case about this problem. A Synopsys CAE will then contact you.
-
-Instructions to open a web-case:
-
-1.  Go to the Synopsys support web site, https://solvnetplus.synopsys.com.
-
-2.  Login with you user name and  password. If you do not have an account, please register and set it up.
-
-3.  Click the  'Enter A Call' link.
-
-4.  Provide a detailed description of the problem, and fill in all  required fields.
-
-5.  Attach any test cases or archived project files required to reproduce the problem.
-
-
  Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
  
 ok.
 Checking debug IP state...
 ok.
-Checking port I/O ...
+Checking device chain setup ...
 Auto-detecting port names...
 E2006ZGY1U 
 Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
 The hardware is responding correctly.
-ok.
-Checking device chain setup ...
 Auto-detecting the device chain...
    Device at chain position 1 is "MPF300"
-ok.
-Checking Hardware ID ...
 
 Physical   Device ID     IICEs  Signature     
 Partition                                     
 --------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
+regular    dev_0_MPF300  IICE   0x947dd346    
 ============================================
-ok.
-Checking Hardware integrity ...
-ok.
+IICE 'IICE' configured, waiting for trigger ... 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (6) 
+depth: 128  taddr_m: 71  m_rtrigger_position: 66  
+624274Saving activations to file 'last_run.adc'
+Unloading current instrumentation 'synthesis_1'

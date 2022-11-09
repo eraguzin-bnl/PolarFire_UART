@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-# Written on Thu Oct 27 13:56:37 2022
+# Written on Wed Nov  9 12:10:07 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
@@ -37,13 +37,13 @@ Clock Summary
           Start                                                Requested     Requested     Clock        Clock                     Clock
 Level     Clock                                                Frequency     Period        Type         Group                     Load 
 ---------------------------------------------------------------------------------------------------------------------------------------
-0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          296  
+0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          462  
                                                                                                                                        
 0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      8    
                                                                                                                                        
 0 -       System                                               100.0 MHz     10.000        system       system_clkgroup           0    
                                                                                                                                        
-0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     306  
+0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     430  
                                                                                                                                        
 0 -       jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     10.000        inferred     Inferred_clkgroup_0_3     13   
                                                                                                                                        
@@ -57,13 +57,13 @@ Clock Load Summary
                                                      Clock     Source                                                             Clock Pin                                                                    Non-clock Pin     Non-clock Pin                                                
 Clock                                                Load      Pin                                                                Seq Example                                                                  Seq Example       Comb Example                                                 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_main                                             296       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
+clk_main                                             462       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
                                                                                                                                                                                                                                                                                               
 ident_coreinst.comm_block_INST.dr2_tck               8         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7:0].C                -                 -                                                            
                                                                                                                                                                                                                                                                                               
 System                                               0         -                                                                  -                                                                            -                 -                                                            
                                                                                                                                                                                                                                                                                               
-jtag_interface_x|identify_clk_int_inferred_clock     306       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[32:1].C                   -                 ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
+jtag_interface_x|identify_clk_int_inferred_clock     430       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[32:1].C                   -                 ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
                                                                                                                                                                                                                                                                                               
 jtag_interface_x|b9_nv_oQwfYF                        13        ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3.OUT(and)       ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY.C         -                 ident_coreinst.comm_block_INST.jtagi.I_1.A(CLKINT)           
                                                                                                                                                                                                                                                                                               

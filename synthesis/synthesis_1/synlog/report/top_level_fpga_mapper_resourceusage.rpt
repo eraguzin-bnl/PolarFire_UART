@@ -4,39 +4,39 @@ Mapping to part: mpf300tfcg1152-1
 Cell usage:
 CLKINT          4 uses
 UJTAG           1 use
-CFG1           6 uses
-CFG2           73 uses
-CFG3           119 uses
-CFG4           157 uses
+CFG1           7 uses
+CFG2           72 uses
+CFG3           135 uses
+CFG4           225 uses
 
 Carry cells:
-ARI1            30 uses - used for arithmetic functions
+ARI1            46 uses - used for arithmetic functions
 ARI1            4 uses - used for Wide-Mux implementation
-Total ARI1      34 uses
+Total ARI1      50 uses
 
 
 Sequential Cells: 
-SLE            548 uses
+SLE            750 uses
 
 DSP Blocks:    0 of 924 (0%)
 
 I/O ports: 28
-I/O primitives: 22
-INBUF          4 uses
+I/O primitives: 21
+INBUF          3 uses
 OUTBUF         18 uses
 
 
 Global Clock Buffers: 4
 
-Total LUTs:    389
+Total LUTs:    489
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
 RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
-RAM1K20  Interface Logic : SLEs = 36; LUTs = 36;
+RAM1K20  Interface Logic : SLEs = 72; LUTs = 72;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  548 + 0 + 36 + 0 = 584;
-Total number of LUTs after P&R:  389 + 0 + 36 + 0 = 425;
+Total number of SLEs after P&R:  750 + 0 + 72 + 0 = 822;
+Total number of LUTs after P&R:  489 + 0 + 72 + 0 = 561;
 

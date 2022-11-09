@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Thu Oct 27 13:56:49 2022
+<text>Date: Wed Nov  9 12:10:16 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -78,15 +78,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>451</cell>
+ <cell>587</cell>
  <cell>299544</cell>
- <cell>0.15</cell>
+ <cell>0.20</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>584</cell>
+ <cell>822</cell>
  <cell>299544</cell>
- <cell>0.19</cell>
+ <cell>0.27</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -96,15 +96,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>22</cell>
+ <cell>21</cell>
  <cell>512</cell>
- <cell>4.30</cell>
+ <cell>4.10</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>22</cell>
+ <cell>21</cell>
  <cell>512</cell>
- <cell>4.30</cell>
+ <cell>4.10</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -120,9 +120,9 @@
 </row>
 <row>
  <cell>LSRAM</cell>
- <cell>1</cell>
+ <cell>2</cell>
  <cell>952</cell>
- <cell>0.11</cell>
+ <cell>0.21</cell>
 </row>
 <row>
  <cell>Math</cell>
@@ -182,8 +182,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>415</cell>
- <cell>548</cell>
+ <cell>515</cell>
+ <cell>750</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -192,8 +192,8 @@
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
- <cell>36</cell>
- <cell>36</cell>
+ <cell>72</cell>
+ <cell>72</cell>
 </row>
 <row>
  <cell>Math Interface Logic</cell>
@@ -202,8 +202,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>451</cell>
- <cell>584</cell>
+ <cell>587</cell>
+ <cell>822</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -223,8 +223,12 @@
  <cell>1</cell>
 </row>
 <row>
+ <cell>16</cell>
+ <cell>1</cell>
+</row>
+<row>
  <cell>Total</cell>
- <cell>3</cell>
+ <cell>4</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -254,7 +258,7 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>4</cell>
+ <cell>3</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -291,22 +295,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>273</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>256</cell>
+ <cell>378</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -314,6 +303,21 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: I_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>355</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -367,17 +371,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>87</cell>
+ <cell>109</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1_i</cell>
+ <cell>Net   : sys_init_i_RST_OUT</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/rstn_1</cell>
+ <cell>Driver: sys_init_i/RST_OUT</cell>
 </row>
 <row>
- <cell>64</cell>
+ <cell>106</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
 </row>
@@ -385,6 +389,46 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
+</row>
+<row>
+ <cell>79</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2</cell>
 </row>
 <row>
  <cell>52</cell>
@@ -407,16 +451,6 @@
  <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
- <cell>36</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
-</row>
-<row>
  <cell>33</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
@@ -429,42 +463,12 @@
 <row>
  <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_101</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_101</cell>
-</row>
-<row>
- <cell>32</cell>
- <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[35]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[35]</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -475,17 +479,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>87</cell>
+ <cell>109</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rstn_1_i</cell>
+ <cell>Net   : sys_init_i_RST_OUT</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: uart_reader_i/rstn_1</cell>
+ <cell>Driver: sys_init_i/RST_OUT</cell>
 </row>
 <row>
- <cell>64</cell>
+ <cell>106</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
 </row>
@@ -493,6 +497,46 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
+</row>
+<row>
+ <cell>79</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2</cell>
 </row>
 <row>
  <cell>52</cell>
@@ -515,16 +559,6 @@
  <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
 </row>
 <row>
- <cell>36</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
-</row>
-<row>
  <cell>33</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
@@ -537,42 +571,12 @@
 <row>
  <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_101</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_101</cell>
-</row>
-<row>
- <cell>32</cell>
- <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[35]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[35]</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
 </row>
 </table>
 </doc>

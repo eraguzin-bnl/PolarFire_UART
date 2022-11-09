@@ -1,0 +1,26 @@
+1667940920 -15:55:20 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58109
+Logfile:   /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/ipc_tcp_microsemi_621386_139732063378192.log
+Reconnect: 0
+Use ipv6:  0
+
+1667940920 -15:55:20 -115 -::HaveSocketEvent, wait for ::select
+1667940920 -15:55:20 -115 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1667940920 -15:55:20 -107 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1667940920 -15:55:20 -115 -::HaveSocketEvent, wait for ::select
+1667940920 -15:55:20 -115 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1667940921 -15:55:21 -107 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1667940921 -15:55:21 -115 -::HaveSocketEvent, wait for ::select
+1667940921 -15:55:21 -115 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1667940921 -15:55:21 -107 -ipcClient.socket or .connect
+1667940921 -15:55:21 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58109
+Logfile:   /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/ipc_tcp_microsemi_621386_139732063378192.log
+Reconnect: 0
+Use ipv6:  0
+
+1667940921 -15:55:21 -115 -::HaveSocketEvent, wait for ::select
+1667940921 -15:55:21 -115 -::HaveSocketEvent, timeout for select: tv.tv_sec: 15 tv.tv_usec: 0
+1667940921 -15:55:21 -107 -goto REPEAT, ::connect as blocked, - addr_rp->ai_next == nullptr

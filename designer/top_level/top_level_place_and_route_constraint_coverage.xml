@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2022.2.0.10</text>
+<text>Microsemi Corporation - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Wed Nov  9 12:10:33 2022 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top_level</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFire</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPF300T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          578</cell>
+ <cell>          902</cell>
+ <cell>         1480</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           87</cell>
+ <cell>           18</cell>
+ <cell>          105</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          665</cell>
+ <cell>          939</cell>
+ <cell>         1604</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          578</cell>
+ <cell>          902</cell>
+ <cell>         1480</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           87</cell>
+ <cell>           18</cell>
+ <cell>          105</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           19</cell>
+ <cell>           19</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          665</cell>
+ <cell>          939</cell>
+ <cell>         1604</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>atck</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>          822</cell>
+ <cell>          822</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>          822</cell>
+ <cell>          822</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>          822</cell>
+ <cell>          822</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>          822</cell>
+ <cell>          822</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[10]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[11]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[5]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[6]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[7]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[8]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[9]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[10]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[11]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[5]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[6]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[7]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[8]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[9]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[10]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[10]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[11]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[11]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[12]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[12]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[13]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[13]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[14]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[14]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[15]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[15]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[16]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[16]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[17]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[17]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[18]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[18]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[19]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[19]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[20]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[20]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[21]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[21]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[22]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[22]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[23]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[23]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[24]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[24]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[25]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[25]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[26]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[26]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[27]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[27]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[28]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[28]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[29]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[29]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[30]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[30]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[31]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[31]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[32]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[32]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[33]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[33]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[34]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[34]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[35]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[35]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[36]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[36]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[37]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[37]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[38]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[38]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[39]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[39]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[40]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[40]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[41]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[41]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[42]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[42]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[43]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[43]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[44]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[44]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[45]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[45]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[46]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[46]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[47]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[47]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[48]:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[10]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[11]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[5]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[6]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[7]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[8]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_0/INST_RAM1K20_IP:A_ADDR[9]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[10]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[11]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[5]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[6]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[7]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[8]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b3_SoW_b3_SoW_0_1/INST_RAM1K20_IP:A_ADDR[9]</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[10]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[10]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[11]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[11]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[12]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[12]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[13]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[13]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[14]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[14]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[15]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[15]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[16]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[16]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[17]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[17]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[18]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[18]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[19]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[19]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[20]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[20]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[21]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[21]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[22]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[22]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[23]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[23]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[24]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[24]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[25]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[25]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[26]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[26]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[27]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[27]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[28]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[28]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[29]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[29]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[30]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[30]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[31]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[31]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[32]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[32]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[33]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[33]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[34]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[34]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[35]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[35]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[36]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[36]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[37]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[37]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[38]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[38]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[39]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[39]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[40]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[40]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[41]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[41]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[42]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[42]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[43]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[43]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[44]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[44]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[45]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[45]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[46]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[46]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[47]:D</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[47]:EN</item>
+ <item>ident_coreinst/IICE_INST/b3_SoW/genblk9.b3_PfG[48]:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>clk_main</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          578</cell>
+ <cell>           38</cell>
+ <cell>          616</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           87</cell>
+ <cell>           18</cell>
+ <cell>          105</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          665</cell>
+ <cell>           73</cell>
+ <cell>          738</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          578</cell>
+ <cell>           38</cell>
+ <cell>          616</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           87</cell>
+ <cell>           18</cell>
+ <cell>          105</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           17</cell>
+ <cell>           17</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          665</cell>
+ <cell>           73</cell>
+ <cell>          738</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>rstn</item>
+ <item>rx</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>rstn</item>
+ <item>rx</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>data_out[0]</item>
+ <item>data_out[1]</item>
+ <item>data_out[2]</item>
+ <item>data_out[3]</item>
+ <item>data_out[4]</item>
+ <item>data_out[5]</item>
+ <item>data_out[6]</item>
+ <item>data_out[7]</item>
+ <item>framing_err_out</item>
+ <item>overflow_err_out</item>
+ <item>parity_err_out</item>
+ <item>rxrdy_out</item>
+ <item>tx</item>
+ <item>txrdy_out</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>LED1</item>
+ <item>LED2</item>
+ <item>LED3</item>
+ <item>data_out[0]</item>
+ <item>data_out[1]</item>
+ <item>data_out[2]</item>
+ <item>data_out[3]</item>
+ <item>data_out[4]</item>
+ <item>data_out[5]</item>
+ <item>data_out[6]</item>
+ <item>data_out[7]</item>
+ <item>framing_err_out</item>
+ <item>overflow_err_out</item>
+ <item>parity_err_out</item>
+ <item>rxrdy_out</item>
+ <item>tx</item>
+ <item>txrdy_out</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b13_nAzGfFM_sLsv3_i[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[4]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[5]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[5]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[6]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[6]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b8_vABZ3qsY:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b7_OSr_J90:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/src_ack:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/src_ack:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b7_OSr_J90:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/src_ack:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/src_ack:SLn</item>
+ <item>ident_coreinst/IICE_INST/mdiclink_reg[39]:D</item>
+ <item>ident_coreinst/IICE_INST/mdiclink_reg[68]:D</item>
+ <item>uart_i/COREUART_C0_0/make_RX/samples[2]:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>sys_init_i/RST_OUT:ALn</item>
+ <item>sys_init_i/counter[0]:ALn</item>
+ <item>sys_init_i/counter[10]:ALn</item>
+ <item>sys_init_i/counter[11]:ALn</item>
+ <item>sys_init_i/counter[12]:ALn</item>
+ <item>sys_init_i/counter[13]:ALn</item>
+ <item>sys_init_i/counter[14]:ALn</item>
+ <item>sys_init_i/counter[15]:ALn</item>
+ <item>sys_init_i/counter[1]:ALn</item>
+ <item>sys_init_i/counter[2]:ALn</item>
+ <item>sys_init_i/counter[3]:ALn</item>
+ <item>sys_init_i/counter[4]:ALn</item>
+ <item>sys_init_i/counter[5]:ALn</item>
+ <item>sys_init_i/counter[6]:ALn</item>
+ <item>sys_init_i/counter[7]:ALn</item>
+ <item>sys_init_i/counter[8]:ALn</item>
+ <item>sys_init_i/counter[9]:ALn</item>
+ <item>sys_init_i/start:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b13_nAzGfFM_sLsv3_i[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[4]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[5]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[5]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[6]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b3_nUT[6]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/b8_vABZ3qsY:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cmd_r0[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b7_OSr_J90:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/b8_uUT_CqMr[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/src_ack:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/src_ack:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b7_OSr_J90:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[0]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[1]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[2]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/b8_uUT_CqMr[3]:SLn</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/src_ack:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/src_ack:SLn</item>
+ <item>ident_coreinst/IICE_INST/mdiclink_reg[39]:D</item>
+ <item>ident_coreinst/IICE_INST/mdiclink_reg[68]:D</item>
+ <item>uart_i/COREUART_C0_0/make_RX/samples[2]:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>sys_init_i/RST_OUT:ALn</item>
+ <item>sys_init_i/counter[0]:ALn</item>
+ <item>sys_init_i/counter[10]:ALn</item>
+ <item>sys_init_i/counter[11]:ALn</item>
+ <item>sys_init_i/counter[12]:ALn</item>
+ <item>sys_init_i/counter[13]:ALn</item>
+ <item>sys_init_i/counter[14]:ALn</item>
+ <item>sys_init_i/counter[15]:ALn</item>
+ <item>sys_init_i/counter[1]:ALn</item>
+ <item>sys_init_i/counter[2]:ALn</item>
+ <item>sys_init_i/counter[3]:ALn</item>
+ <item>sys_init_i/counter[4]:ALn</item>
+ <item>sys_init_i/counter[5]:ALn</item>
+ <item>sys_init_i/counter[6]:ALn</item>
+ <item>sys_init_i/counter[7]:ALn</item>
+ <item>sys_init_i/counter[8]:ALn</item>
+ <item>sys_init_i/counter[9]:ALn</item>
+ <item>sys_init_i/start:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>           42</cell>
+ <cell>           42</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           44</cell>
+ <cell>           44</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>           42</cell>
+ <cell>           42</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           44</cell>
+ <cell>           44</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[4]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[4]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[5]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[5]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[6]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[6]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk3.b8_vABZ3qsY:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk3.b8_vABZ3qsY:SLn</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[0]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[0]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[1]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[1]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[2]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[2]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[3]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[3]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[4]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[4]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[5]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[5]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[6]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[6]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[7]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[7]:EN</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[4]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[0]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[0]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[1]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[1]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[2]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[2]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[3]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[3]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[4]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[4]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[5]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[5]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[6]:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk2.b3_nUT[6]:EN</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk3.b8_vABZ3qsY:D</item>
+ <item>ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk3.b8_vABZ3qsY:SLn</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[0]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[0]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[1]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[1]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[2]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[2]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[3]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[3]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[4]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[4]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[5]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[5]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[6]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[6]:EN</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[7]:D</item>
+ <item>ident_coreinst/comm_block_INST/b7_Rcmi_ql/genblk1.b10_dZst39_EF3[7]:EN</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

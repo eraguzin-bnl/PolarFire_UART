@@ -17,16 +17,19 @@ max stack size: 8388608 (bytes)
 Implementation : synthesis_1
 Synopsys HDL compiler and linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
 
-Modified Files: 1
+Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-22       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc (2022-10-27 12:53:20, 2022-10-27 13:56:35)
+24       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd (2022-11-09 11:40:30, 2022-11-09 12:09:39)
+22       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc (2022-11-09 11:40:40, 2022-11-09 12:10:05)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
+24       work.uart_writer.architecture_uart_writer may have changed because the following files changed:
+                        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd (2022-11-09 11:40:30, 2022-11-09 12:09:39) <-- (architecture and entity definition)
 
 *******************************************************************
-Unmodified files: 22
+Unmodified files: 23
 FID:  path (timestamp)
 0        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd (2022-10-24 13:07:42)
 1        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd (2022-10-24 13:07:42)
@@ -36,9 +39,10 @@ FID:  path (timestamp)
 5        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd (2022-10-24 13:07:42)
 6        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd (2022-10-24 13:07:42)
 7        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd (2022-10-24 13:07:42)
-8        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd (2022-10-25 14:13:42)
-9        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (2022-10-25 15:09:29)
-10       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd (2022-10-25 16:08:24)
+8        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd (2022-11-07 16:27:57)
+23       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd (2022-11-08 16:30:00)
+9        /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd (2022-11-09 11:03:40)
+10       /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd (2022-11-09 11:00:20)
 11       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd (2022-06-23 08:48:07)
 12       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd (2022-06-23 08:48:08)
 13       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd (2022-06-23 08:48:08)
@@ -52,7 +56,7 @@ FID:  path (timestamp)
 21       /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/unsigned.vhd (2022-06-23 08:48:08)
 
 *******************************************************************
-Unchanged modules: 22
+Unchanged modules: 24
 MID:  lib.cell.view
 0        coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
 1        coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.vhdl
@@ -72,6 +76,8 @@ MID:  lib.cell.view
 15       work.coreuart_c0.vhdl
 16       work.default_values.architecture_default_values
 17       work.default_values.vhdl
+22       work.sys_init.sys_init_arch
+23       work.sys_init.vhdl
 18       work.top_level.architecture_top_level
 19       work.top_level.vhdl
 20       work.uart_reader.architecture_uart_reader

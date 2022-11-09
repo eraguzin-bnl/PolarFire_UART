@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-Arguments:   -srs_gen_hw /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log -tsl GkmQDmhc -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Arguments:   -srs_gen_hw /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log -tsl MjlIFsjf -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
 ProductType: identify_instrumentor
 
 
@@ -28,11 +28,38 @@ Added instrumentation 'synthesis_1' to the project
 . has been added to search path.
 Loading instrumentation 'synthesis_1'
 Source IDC file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
-Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Setting IICE sample clock to '/architecture_top_level/uart_i/clk' for IICE named 'IICE'
 Generating SRS instrumentation file: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v
 Checking netlist '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs'
-Error: IICE 'IICE' cannot be created without triggering signals, asserts, breakpoints, or preserved bits.
-Error: Could not successfully create instrumented design.
-write instrumentation failed 
-exit status=9
+The design does not contain a UJTAG_WRAPPER instance.
+OK, the design does not contain a UJTAG instance.
+ Generating IICE 'IICE'for the following settings:
+      Design settings:
+          Device family          PolarFire
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+          Language               verilog
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  128
+          Width                  74 bits
+          RAM type               BRAM
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       off
+      Trigger controller:
+          Preconfigured          no
+          Type                   Simple Triggering
+          Total-trigger Delay    1 cycles
+ 
+Current instrumentation information: 	IICE=IICE 
+		FPGA=regular 
+		Total instrumentation in bits: Sample Only 70, Trigger Only 1, Sample and trigger 2
+		Group wise instrumentation in bits: 
+					Group NM:Sample Only 21, Sample and trigger 4
+					Group s1:Sample Only 49, Sample and trigger 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+exit status=0
 Unloading current instrumentation 'synthesis_1'

@@ -1,7 +1,6 @@
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
-@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":65:11:65:17|Signal start_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":113:30:113:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
 @N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":103:20:103:33|OTHERS clause is not synthesized.
@@ -32,7 +31,7 @@ Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Use
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
 @W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
 @N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
@@ -56,13 +55,19 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Post processing for work.coreuart_c0.rtl
 Running optimization stage 1 on COREUART_C0 .......
-Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":27:7:27:14|Synthesizing work.sys_init.sys_init_arch.
+Post processing for work.sys_init.sys_init_arch
+Running optimization stage 1 on sys_init .......
+Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
-Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Running optimization stage 2 on sys_init .......
+Finished optimization stage 2 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
 Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
@@ -88,11 +93,11 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 .......
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 Running optimization stage 2 on COREUART_C0 .......
-Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 Running optimization stage 2 on default_values .......
 @W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
@@ -121,7 +126,7 @@ Extracted state machine for register uart_wr_state
 State machine has 2 reachable states with original encodings of:
    00
    10
-Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 Running optimization stage 2 on uart_reader .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
 Extracted state machine for register uart_wr_state
@@ -129,9 +134,10 @@ State machine has 3 reachable states with original encodings of:
    00
    01
    10
-Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 Running optimization stage 2 on top_level .......
-Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":29:4:29:10|Input button1 is unused.
+Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 141MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================

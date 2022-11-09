@@ -1,5 +1,5 @@
 <html><body><samp><pre>
-<!@TC:1666893398>
+<!@TC:1668013808>
 
 Copyright (C) 1994-2021 Synopsys, Inc.
 This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
@@ -18,7 +18,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-# Written on Thu Oct 27 13:56:38 2022
+# Written on Wed Nov  9 12:10:08 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -38,7 +38,7 @@ Found 1 issues in 1 out of 3 constraints
 
 
 
-<a name=clockRelationships181></a>Clock Relationships</a>
+<a name=clockRelationships84></a>Clock Relationships</a>
 *******************
 
 Starting                                             Ending                                               |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
@@ -69,7 +69,7 @@ jtag_interface_x|b9_nv_oQwfYF                        jtag_interface_x|b9_nv_oQwf
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
 
-<a name=UnconstrainedStartEndPointsCCK182></a>Unconstrained Start/End Points</a>
+<a name=UnconstrainedStartEndPointsCCK85></a>Unconstrained Start/End Points</a>
 ******************************
 
 p:LED1
@@ -101,25 +101,25 @@ p:tx
 p:txrdy_out
 
 
-<a name=InapplicableconstraintsCCK183></a>Inapplicable constraints</a>
+<a name=InapplicableconstraintsCCK86></a>Inapplicable constraints</a>
 ************************
 
 (none)
 
 
-<a name=ApplicableConstraintsWithIssuesCCK184></a>Applicable constraints with issues</a>
+<a name=ApplicableConstraintsWithIssuesCCK87></a>Applicable constraints with issues</a>
 **********************************
 
 create_clock -name ident_coreinst.comm_block_INST.dr2_tck n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -waveform {0 500.0}
 	@W:Z241:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O
 
-<a name=ConstraintsWithMatchingWildcardExpressionsCCK185></a>Constraints with matching wildcard expressions</a>
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK88></a>Constraints with matching wildcard expressions</a>
 **********************************************
 
 (none)
 
 
-<a name=LibraryReportCCK186></a>Library Report</a>
+<a name=LibraryReportCCK89></a>Library Report</a>
 **************
 
 

@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Thu Oct 27 12:55:19 2022
+<text>Date: Wed Nov  9 12:11:23 2022
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -17,29 +17,29 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</cell>
+ <cell>I_1/U0</cell>
  <cell>(1152, 162)</cell>
- <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</cell>
- <cell>273</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell>378</cell>
 </row>
 <row>
  <cell>2</cell>
- <cell>I_1/U0</cell>
- <cell>(1153, 162)</cell>
- <cell>I_1/U0_Y</cell>
- <cell>256</cell>
+ <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</cell>
+ <cell>(1163, 162)</cell>
+ <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</cell>
+ <cell>355</cell>
 </row>
 <row>
  <cell>3</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</cell>
- <cell>(1155, 162)</cell>
+ <cell>(1154, 162)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_Y</cell>
  <cell>13</cell>
 </row>
 <row>
  <cell>4</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</cell>
- <cell>(1154, 162)</cell>
+ <cell>(1153, 162)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_Y</cell>
  <cell>8</cell>
 </row>
@@ -100,7 +100,7 @@
 <row>
  <cell>2</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_3:Y</cell>
- <cell>(662, 12)</cell>
+ <cell>(642, 18)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF</cell>
  <cell>ROUTED</cell>
@@ -109,7 +109,7 @@
 <row>
  <cell>3</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_3:Y</cell>
- <cell>(663, 9)</cell>
+ <cell>(640, 18)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX</cell>
  <cell>ROUTED</cell>
@@ -145,42 +145,42 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</cell>
+ <cell>I_1/U0</cell>
  <cell>(1152, 162)</cell>
- <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</cell>
- <cell>273</cell>
+ <cell>I_1/U0_Y</cell>
+ <cell>378</cell>
  <cell> </cell>
  <cell>(582, 12)</cell>
- <cell>273</cell>
+ <cell>378</cell>
 </row>
 <row>
  <cell>2</cell>
- <cell>I_1/U0</cell>
- <cell>(1153, 162)</cell>
- <cell>I_1/U0_Y</cell>
- <cell>256</cell>
+ <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0</cell>
+ <cell>(1163, 162)</cell>
+ <cell>ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_Y</cell>
+ <cell>355</cell>
  <cell> </cell>
- <cell>(585, 12)</cell>
- <cell>256</cell>
+ <cell>(587, 13)</cell>
+ <cell>355</cell>
 </row>
 <row>
  <cell>3</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0</cell>
- <cell>(1155, 162)</cell>
+ <cell>(1154, 162)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_Y</cell>
  <cell>13</cell>
  <cell> </cell>
- <cell>(586, 14)</cell>
+ <cell>(583, 14)</cell>
  <cell>13</cell>
 </row>
 <row>
  <cell>4</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0</cell>
- <cell>(1154, 162)</cell>
+ <cell>(1153, 162)</cell>
  <cell>ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_Y</cell>
  <cell>8</cell>
  <cell> </cell>
- <cell>(583, 14)</cell>
+ <cell>(585, 12)</cell>
  <cell>8</cell>
 </row>
 </table>
@@ -201,11 +201,11 @@
 </row>
 <row>
  <cell>The number of clock signals through  Sector Global resources</cell>
- <cell>8</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell>The number of clock signals through Cluster Global resources</cell>
- <cell>70</cell>
+ <cell>91</cell>
 </row>
 </table>
 <text></text>

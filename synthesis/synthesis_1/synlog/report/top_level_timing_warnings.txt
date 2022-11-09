@@ -1,0 +1,3 @@
+@W: MT420 |Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.identify_clk_int.
+@W: MT420 |Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX.
+@W: MT420 |Found inferred clock jtag_interface_x|b9_nv_oQwfYF with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF.

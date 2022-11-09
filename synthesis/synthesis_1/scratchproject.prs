@@ -13,7 +13,9 @@ add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects
 add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd"
 add_file -fpga_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
 add_file -ident_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc"
@@ -22,8 +24,13 @@ add_file -ident_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/
 #implementation: "synthesis_1"
 impl -add /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1 -type fpga
 
+#
+#implementation attributes
+
+set_option -num_startend_points 5
+
 #device options
-set_option -technology POLARFIRE
+set_option -technology PolarFire
 set_option -part MPF300T
 set_option -package FCG1152
 set_option -speed_grade -1
@@ -88,6 +95,9 @@ set_option -act_wide_mul_size 35
 # NFilter
 set_option -no_sequential_opt 0
 
+# timing_analyst_options
+set_option -reporting_output_srm 0
+
 # sequential_optimization_options
 set_option -symbolic_fsm_compiler 1
 
@@ -100,6 +110,9 @@ set_option -auto_infer_blackbox 0
 
 # Compiler Options
 set_option -vhdl2008 1
+
+#timing report file option
+set_option -reporting_filename "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.ta"
 
 #automatic place and route (vendor) options
 set_option -write_apr_constraint 1

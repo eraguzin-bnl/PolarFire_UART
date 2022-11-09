@@ -22,10 +22,10 @@
 Starting:    /usr/local/microchip/Libero_SoC_v2022.2/Identify/linux_a_64/mbin/identify_debugger
 Install:     /usr/local/microchip/Libero_SoC_v2022.2/Identify
 Hostname:    eric-manjaro
-Date:        Thu Oct 27 13:57:09 2022
+Date:        Tue Nov  8 16:54:27 2022
 Version:     S-2021.09M-SP1
 
-Arguments:   -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log -family POLARFIRE -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname identify_debugger -ppid 2844343
+Arguments:   -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_debugger.log -family PolarFire -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -jobname identify_debugger -ppid 630371
 ProductType: identify_debugger
 
 License checkout: identdebugger_actel
@@ -55,37 +55,13 @@ Auto-detecting the device chain...
 Physical   Device ID     IICEs  Signature     
 Partition                                     
 --------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
+regular    dev_0_MPF300  IICE   0x947dd346    
 ============================================
 IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' No Trigger condition set for IICE, automatically triggering and downloading samples...
-trigger_addr: (13) 
-depth: 128  taddr_m: 39  m_rtrigger_position: 66  
-Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking port I/O ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-ok.
-Checking device chain setup ...
-ok.
-Checking Hardware ID ...
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-ok.
-Checking Hardware integrity ...
-ok.
-Setting up hardware driver ...
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (51) 
+depth: 128  taddr_m: 116  m_rtrigger_position: 66  
+630670Setting up hardware driver ...
  Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
  
 ok.
@@ -100,32 +76,38 @@ The hardware is responding correctly.
 Physical   Device ID     IICEs  Signature     
 Partition                                     
 --------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
+regular    dev_0_MPF300  IICE   0x947dd346    
 ============================================
 IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' No Trigger condition set for IICE, automatically triggering and downloading samples...
-trigger_addr: (40) 
-depth: 128  taddr_m: 29  m_rtrigger_position: 66  
-Warning: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
-Error: Execute fails: '' 'verdi' '-nWave -nologo -ssf IICE.fsdb -play IICE_fsdb.ctl'
-Error: Verdi waveform viewer failed on execute
-couldn't execute "verdi": no such file or directoryverdi (getsignals|instrument) [<options>...]:
-  getsignals  Get essential signals from Verdi's ESDB file
-  instrument  Instrument essential signals for sample and trigger
-Error: Execute fails: '' 'verdi' '-nWave -nologo -ssf IICE.fsdb -play IICE_fsdb.ctl'
-Error: Verdi waveform viewer failed on execute
-couldn't execute "verdi": no such file or directory/architecture_top_level/uart_reader_i/rxrdy enable in condition 0 in IICE 'IICE'
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (77) 
+depth: 128  taddr_m: 14  m_rtrigger_position: 66  
+630970Setting up hardware driver ...
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+ok.
+Checking debug IP state...
+ok.
+Checking device chain setup ...
+Auto-detecting port names...
+E2006ZGY1U 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+
+Physical   Device ID     IICEs  Signature     
+Partition                                     
+--------------------------------------------
+regular    dev_0_MPF300  IICE   0x947dd346    
+============================================
+IICE 'IICE' configured, waiting for trigger ... 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (21) 
+depth: 128  taddr_m: 86  m_rtrigger_position: 66  
+631151/architecture_top_level/uart_reader_i/rxrdy disabled in condition 0 in IICE 'IICE'
+Error: syntax error near '''
+Error: syntax error near '''
+Error: syntax error near '''
 /architecture_top_level/uart_reader_i/txrdy enable in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/txrdy disabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/txrdy enable in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/txrdy disabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/txrdy enable in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/txrdy disabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 enabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 disabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 enabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/architecture_uart_reader/process_52/if_53/if_71/case_79/if_94/uart_reader.vhd:95 disabled in condition 0 in IICE 'IICE'
-/architecture_top_level/uart_reader_i/rxrdy disabled in condition 0 in IICE 'IICE'
 Setting up hardware driver ...
  Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
  
@@ -141,248 +123,11 @@ The hardware is responding correctly.
 Physical   Device ID     IICEs  Signature     
 Partition                                     
 --------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
+regular    dev_0_MPF300  IICE   0x947dd346    
 ============================================
 IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' No Trigger condition set for IICE, automatically triggering and downloading samples...
-trigger_addr: (24) 
+IICE 'IICE' Trigger detected, downloading samples...
+trigger_addr: (48) 
 depth: 128  taddr_m: 113  m_rtrigger_position: 66  
-Warning: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
-Error: Execute fails: '' 'verdi' '-nWave -nologo -ssf IICE.fsdb -play IICE_fsdb.ctl'
-Error: Verdi waveform viewer failed on execute
-couldn't execute "verdi": no such file or directorySetting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' No Trigger condition set for IICE, automatically triggering and downloading samples...
-trigger_addr: (75) 
-depth: 128  taddr_m: 28  m_rtrigger_position: 66  
-2998006/architecture_top_level/uart_reader_i/rxrdy enable in condition 0 in IICE 'IICE'
-Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (90) 
-depth: 128  taddr_m: 27  m_rtrigger_position: 66  
-2998176Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (123) 
-depth: 128  taddr_m: 60  m_rtrigger_position: 66  
-2998438/architecture_top_level/uart_reader_i/txrdy enable in condition 0 in IICE 'IICE'
-Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (2) 
-depth: 128  taddr_m: 67  m_rtrigger_position: 66  
-2998740Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (45) 
-depth: 128  taddr_m: 110  m_rtrigger_position: 66  
-2998935Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (60) 
-depth: 128  taddr_m: 125  m_rtrigger_position: 66  
-2999307Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (113) 
-depth: 128  taddr_m: 50  m_rtrigger_position: 66  
-2999495Setting trigger time to 'early' for IICE 'IICE'
-Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (113) 
-depth: 128  taddr_m: 101  m_rtrigger_position: 117  
-2999918invalid command name "tb_run_verdi_fsdb"Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (45) 
-depth: 128  taddr_m: 33  m_rtrigger_position: 117  
-3003047Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (17) 
-depth: 128  taddr_m: 5  m_rtrigger_position: 117  
-3004391Setting up hardware driver ...
- Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E2006ZGY1U Info: Connection: usb2.0 Info: Revision: UndefRev  !
- 
-ok.
-Checking debug IP state...
-ok.
-Checking device chain setup ...
-Auto-detecting port names...
-E2006ZGY1U 
-Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
-The hardware is responding correctly.
-
-Physical   Device ID     IICEs  Signature     
-Partition                                     
---------------------------------------------
-regular    dev_0_MPF300  IICE   0x940f462c    
-============================================
-IICE 'IICE' configured, waiting for trigger ... 
-IICE 'IICE' Trigger detected, downloading samples...
-trigger_addr: (58) 
-depth: 128  taddr_m: 46  m_rtrigger_position: 117  
-3007222Saving activations to file 'last_run.adc'
+631746Saving activations to file 'last_run.adc'
 Unloading current instrumentation 'synthesis_1'

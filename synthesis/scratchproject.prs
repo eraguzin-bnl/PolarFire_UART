@@ -13,9 +13,11 @@ add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects
 add_file -vhdl -lib COREUART_LIB "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd"
 add_file -fpga_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
+add_file -ident_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc"
 
 
 #implementation: "synthesis"
@@ -98,6 +100,7 @@ set_option -auto_infer_blackbox 0
 
 # Compiler Options
 set_option -vhdl2008 1
+set_option -ident_constraint  ""
 
 #automatic place and route (vendor) options
 set_option -write_apr_constraint 1

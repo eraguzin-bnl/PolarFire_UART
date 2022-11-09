@@ -49,10 +49,10 @@ set_io -port_name LED4  \
     -DIRECTION OUTPUT
 
 
-set_io -port_name button1  \
-    -pin_name AK20         \
-    -fixed true            \
-    -DIRECTION INPUT
+#set_io -port_name button1  \
+    #-pin_name AK20         \
+    #-fixed true            \
+    #-DIRECTION INPUT
 
 
 #set_io -port_name button2  \

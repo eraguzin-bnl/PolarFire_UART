@@ -1,7 +1,7 @@
 %%% protect protected_file
-#OPTIONS:"|-bldtbl|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-bldtbl|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1666893395
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1668013805
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1655988488
@@ -18,11 +18,13 @@
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.vhd":1655988487
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1666721622
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1666728504
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1667856477
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":1667943000
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1668009620
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":1668013779
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1666724969
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1668009820
 @E8lFkRDC0_FbDCCPDH
 DLssN$FRIsH	
 M0bkR	ODRH4
@@ -116,10 +118,21 @@ F00bkRa7qqz_ma4R-
 0FkbRk0a-XR4k
 F00bkRqw)vtQh_) )R
 -4ClM8FD8kCF
-l8CkDRskN0C_sNs8C
+l8CkDRskN0s_IHs0C
 LDHs$NsRsIF	M
 HbRk0BRpi4M
 HbRk0)R1a4M
+HbRk01)aqa
+R4HkMb0XRa)R7Y4k
+F00bkR)zqam_Bhma)p
+R4Fbk0k70Rq_aqQUhR
+0FkbRk0WR h4M
+C88lFk
+DClkF8DkCRN_s0s8CNCDs
+HNLssI$RF
+s	HkMb0pRBi
+R4HkMb01R)a
+R4HkMb0aR1qR)a4M
 HbRk07qqa_amzRHU
 M0bkRqw)vtQh_) )RH4
 M0bkR me)mwpW
@@ -133,6 +146,13 @@ F00bkR7p 4
 R4Fbk0kp0R R7.4k
 F00bkR7p d
 R4Fbk0kp0R R7c4M
+C88lFk
+DClkF8D#CR$H#_M
+H0DsHLNRs$I	Fs
+bHMkO0RD4	R
+bHMks0RC0#C_RHM4k
+F00bkRN#0s40R
+0FkbRk0)_1amRza4M
 C88lFk
 DClkF8D8CRCkVNDP0_NCDk#H
 DLssN$FRIsH	

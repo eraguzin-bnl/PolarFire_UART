@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------------------------
-; Date:    Thu Oct 27 12:56:05 2022
+; Date:    Wed Nov  9 12:12:10 2022
 ; version: 2022.2 2022.2.0.10
 ; Design:  top_level
 ; Family:  PolarFire
@@ -31,13 +31,13 @@ Module  ICBMUXINGPC_SW_0                      584  1        714  1    ICBMUXING 
         BANKCLK_CW_SOURCE_SEL                 "30'h18C6318C"           D. 
         BANK_OUT_CCW_SEL                      "6'h3F"                  D. 
         BANK_OUT_CW_SEL                       "6'h3F"                  D. 
-        CLKSTOP_SOURCE_SEL                    "60'h19"                 U. 
+        CLKSTOP_SOURCE_SEL                    "60'hC00000000000000"    U. 
         DYNEN                                 "1'h1"                   D. 
         DYNEN_SOFT_RESET                      "1'h1"                   D. 
-        NMUX_SEL                              "72'h4FFFFFFFFFFFFFFFFF" U. 
+        NMUX_SEL                              "72'hFD3FFFFFFFFFFFFFFF" U. 
         SOFT_RESET                            "1'h0"                   D. 
         SOFT_RESET_PERIPH                     "1'h0"                   D. 
-        STOP_SEL                              "24'hFFFFFC"             U. 
+        STOP_SEL                              "24'h3FFFFF"             U. 
 End_Module.
 
 ; -------------------------------------

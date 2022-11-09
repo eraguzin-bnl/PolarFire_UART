@@ -49,11 +49,11 @@ architecture architecture_top_level of top_level is
     signal baud_val_s : std_logic_vector(12 downto 0);
     signal bit8_s : std_logic;
     signal csn_s : std_logic;
-    signal data_in_s : std_logic_vector(7 downto 0);
+    
     signal odd_n_even_s : std_logic;
     signal oen_s : std_logic;
     signal parity_en_s : std_logic;
-    signal wen_s : std_logic;
+    
     
     signal data_out_s : std_logic_vector(7 downto 0);
     signal framing_err_s : std_logic;
@@ -62,7 +62,18 @@ architecture architecture_top_level of top_level is
     signal rxrdy_s : std_logic;
     signal txrdy_s : std_logic;
     
+    signal reset_n : std_logic;
     signal start_s : std_logic;
+    
+    signal data_in_s : std_logic_vector(7 downto 0);
+    signal data_in_bootup : std_logic_vector(7 downto 0);
+    signal data_in_response : std_logic_vector(7 downto 0);
+    
+    signal wen_s : std_logic;
+    signal wen_bootup : std_logic;
+    signal wen_response : std_logic;
+    
+    signal uart_control_s : std_logic;
 
 begin
     process (CLK) begin
@@ -76,6 +87,17 @@ begin
         end if;
     end process;
     
+    sys_init_i : entity work.sys_init
+        port map (
+            CLK => clk,
+            reset_in => rstn,
+            start => start_s,
+            RST_OUT => reset_n
+            );
+            
+    data_in_s <= data_in_bootup when uart_control_s = '1' else data_in_response;
+    wen_s <= wen_bootup when uart_control_s = '1' else wen_response;
+    
     --https://www.microsemi.com/document-portal/doc_view/1245307-coreuart-hb
     uart_i : entity work.COREUART_C0
         port map (
@@ -83,12 +105,12 @@ begin
             --BAUD_VAL_FRACTION => open,    --Not used in this implementation
             BIT8 => bit8_s,
             CLK => clk,
-            CSN => csn_s,
+            CSN => '0',
             DATA_IN => data_in_s,
             ODD_N_EVEN => odd_n_even_s,
             OEN => oen_s,
             PARITY_EN => parity_en_s,
-            RESET_N => button1 or rstn,
+            RESET_N => reset_n,
             RX => rx,
             WEN => wen_s,
             
@@ -104,7 +126,7 @@ begin
     default_values_i : entity work.default_values
         port map (
             CLK => clk,
-            RST => rstn,
+            RST => reset_n,
             BUTTON => button2,
             
             TX_RDY => txrdy_s,
@@ -121,12 +143,13 @@ begin
     uart_reader_i : entity work.uart_reader
         port map (
             CLK => clk,
-            RST => rstn,
+            RST => reset_n,
             DATA_OUT => data_out_s,
+            START => start_s,
             
             OEN => oen_s,
-            DATA_IN => data_in_s,
-            WEN => wen_s,
+            DATA_IN => data_in_response,
+            WEN => wen_response,
             FRAMING_ERR => framing_err_s,
             OVERFLOW => overflow_s,
             PARITY_ERR => parity_err_s,
@@ -137,5 +160,16 @@ begin
             LED2 => LED2,
             LED3 => LED3,
             LED4 => LED4
+        );
+        
+    uart_writer_i : entity work.uart_writer
+        port map(
+            CLK => clk,
+            RST => reset_n,
+            START => start_s,
+            TXRDY => txrdy_s,
+            UART_CONTROL => uart_control_s,
+            DATA_IN => data_in_bootup,
+            WEN => wen_bootup
         );
 end architecture_top_level;

@@ -6,19 +6,19 @@ Selecting top level module syn_identify_core
    Generated name = syn_hyper_source_1s_ident_ihs_IICE_master_clock
 Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_IICE_master_clock .......
 Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_IICE_master_clock (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 134MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4440:7:4440:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4392:7:4392:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
 
 	b5_Dj4n7=32'b00000000000000000000000000000101
    Generated name = b16_n2FydH_ab_FH9_K4_5s
 Running optimization stage 1 on b16_n2FydH_ab_FH9_K4_5s .......
-Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 134MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4440:7:4440:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
+Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 135MB)
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4392:7:4392:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
 
 	b5_Dj4n7=32'b00000000000000000000000000000100
    Generated name = b16_n2FydH_ab_FH9_K4_4s
 Running optimization stage 1 on b16_n2FydH_ab_FH9_K4_4s .......
 Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5091:7:5091:17|Synthesizing module b8_nR_ymqrG in library work.
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5043:7:5043:17|Synthesizing module b8_nR_ymqrG in library work.
 
 	b7_nUTZIuY=32'b00000000000000000000000000000111
 	b8_Nr4_94ip=32'b00000000000000000000000000000101
@@ -30,7 +30,7 @@ Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, M
    Generated name = b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s
 Running optimization stage 1 on b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s .......
 Finished optimization stage 1 on b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4528:7:4528:16|Synthesizing module b7_OCByLXC in library work.
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4480:7:4480:16|Synthesizing module b7_OCByLXC in library work.
 
 	b7_nUTZIuY=32'b00000000000000000000000000000111
 	b10_c70EHoH6Cp=7'b0000001
@@ -84,15 +84,6 @@ Finished optimization stage 1 on b7_OCByLXC_Z1 (CPU Time 0h:00m:00s, Memory Used
    Generated name = syn_hyper_source_1s_Identify_IICE_trigger_ext
 Running optimization stage 1 on syn_hyper_source_1s_Identify_IICE_trigger_ext .......
 Finished optimization stage 1 on syn_hyper_source_1s_Identify_IICE_trigger_ext (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4148:7:4148:16|Synthesizing module b7_yFJNJCP in library work.
-Running optimization stage 1 on b7_yFJNJCP .......
-Finished optimization stage 1 on b7_yFJNJCP (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4280:7:4280:17|Synthesizing module b8_O2yyf_yE in library work.
-Running optimization stage 1 on b8_O2yyf_yE .......
-Finished optimization stage 1 on b8_O2yyf_yE (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4287:7:4287:23|Synthesizing module b13_CRGcTCua_xF_j in library work.
-Running optimization stage 1 on b13_CRGcTCua_xF_j .......
-Finished optimization stage 1 on b13_CRGcTCua_xF_j (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4173:7:4173:17|Synthesizing module b8_1LbcQDr1 in library work.
 
 	b8_0a_lc56p=1'b1
@@ -112,16 +103,16 @@ Finished optimization stage 1 on b9_O2yyf_fG2 (CPU Time 0h:00m:00s, Memory Used 
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4266:7:4266:24|Synthesizing module b14_CRGcTCua_eH4_2 in library work.
 Running optimization stage 1 on b14_CRGcTCua_eH4_2 .......
 Finished optimization stage 1 on b14_CRGcTCua_eH4_2 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4301:7:4301:23|Synthesizing module b13_PSyil9s1fkJ_K in library work.
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4280:7:4280:23|Synthesizing module b13_PSyil9s1fkJ_K in library work.
 Running optimization stage 1 on b13_PSyil9s1fkJ_K .......
 Finished optimization stage 1 on b13_PSyil9s1fkJ_K (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4214:7:4214:14|Synthesizing module b5_nvmFL in library work.
 
-	b5_2Rs0m=32'b00000000000000000000000000001110
-   Generated name = b5_nvmFL_14s
-Running optimization stage 1 on b5_nvmFL_14s .......
-Finished optimization stage 1 on b5_nvmFL_14s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4358:7:4358:17|Synthesizing module b8_PfFzrNYI in library work.
+	b5_2Rs0m=32'b00000000000000000000000000001001
+   Generated name = b5_nvmFL_9s
+Running optimization stage 1 on b5_nvmFL_9s .......
+Finished optimization stage 1 on b5_nvmFL_9s (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4318:7:4318:17|Synthesizing module b8_PfFzrNYI in library work.
 Running optimization stage 1 on b8_PfFzrNYI .......
 Finished optimization stage 1 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4073:7:4073:12|Synthesizing module b3_uKr in library work.
@@ -131,7 +122,7 @@ Finished optimization stage 1 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used c
 @W: CG290 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4134:30:4134:45|Referenced variable b12_ocsGfWYY_Lyh is not in sensitivity list.
 Running optimization stage 1 on b3_uKr .......
 Finished optimization stage 1 on b3_uKr (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 136MB)
-@W: CG168 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5556:1:5556:6|Type of parameter b18_6i_6aB87B_fAXHVtZh on the instance b3_SoW is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5572:1:5572:6|Type of parameter b18_6i_6aB87B_fAXHVtZh on the instance b3_SoW is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2954:7:2954:29|Synthesizing module b19_nczQ_DYg_YFaRM_oUoP in library work.
 
 	b5_Dj4n7=32'b00000000000000000000000000100000
@@ -154,18 +145,18 @@ Running optimization stage 1 on syn_hyper_source_internal_1s .......
 Finished optimization stage 1 on syn_hyper_source_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2683:7:2683:23|Synthesizing module b13_vFW_xNywD_EdR in library work.
 
-	b10_oFTt_arxt4=32'b00000000000000000000000000100011
+	b10_oFTt_arxt4=32'b00000000000000000000000001001110
 	b13_iLsGfWL_Gqyva=32'b00000000000000000000000000000111
 	b5_ooG0m=32'b00000000000000000000000010000000
 	b8_vFWZ3nCa=32'b00000000000000000000000000000000
-   Generated name = b13_vFW_xNywD_EdR_35s_7s_128s_0s
-Running optimization stage 1 on b13_vFW_xNywD_EdR_35s_7s_128s_0s .......
-@N: CL134 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2737:4:2737:9|Found RAM b3_SoW, depth=128, width=35
-Finished optimization stage 1 on b13_vFW_xNywD_EdR_35s_7s_128s_0s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+   Generated name = b13_vFW_xNywD_EdR_78s_7s_128s_0s
+Running optimization stage 1 on b13_vFW_xNywD_EdR_78s_7s_128s_0s .......
+@N: CL134 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2737:4:2737:9|Found RAM b3_SoW, depth=128, width=78
+Finished optimization stage 1 on b13_vFW_xNywD_EdR_78s_7s_128s_0s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
 @W: CG168 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2638:4:2638:12|Type of parameter b18_6i_6aB87B_fAXHVtZh on the instance b6_SoWyQD is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2751:7:2751:21|Synthesizing module b11_SoWyP0zEFKY in library work.
 
-	b9_Vjx_R4Xlx=32'b00000000000000000000000000100011
+	b9_Vjx_R4Xlx=32'b00000000000000000000000001001110
 	b7_crO_j2S=32'b00000000000000000000000000000000
 	b9_crO_R4Xlx=32'b00000000000000000000000000000110
 	b15_c70EHoH_rJ_KWLZ=32'b00000000000000000000000000000000
@@ -191,14 +182,14 @@ Finished optimization stage 1 on b13_vFW_xNywD_EdR_35s_7s_128s_0s (CPU Time 0h:0
 @W: CG133 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2802:7:2802:21|Object b11_db5G_vMEj_y is declared but not assigned. Either assign a value or remove the declaration.
 Running optimization stage 1 on b11_SoWyP0zEFKY_Z2 .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2849:4:2849:9|Pruning unused register genblk3[1].b13_oRB_MqCD2_EdR[1]. Make sure that there are no unused intermediate registers.
-@W: CL271 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2841:12:2841:17|Pruning unused bits 34 to 29 of genblk2.b5_oRB_C[34:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2841:12:2841:17|Pruning unused bits 77 to 72 of genblk2.b5_oRB_C[77:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Finished optimization stage 1 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2193:7:2193:21|Synthesizing module b11_OFWNT9s_8tZ in library work.
 
 	b9_Vjx_eo2lx=32'b00000000000000000000000010000000
-	b9_Vjx_R4Xlx=32'b00000000000000000000000000000100
+	b9_Vjx_R4Xlx=32'b00000000000000000000000000110001
 	b14_Vjx_c8XT_z6GeE=32'b00000000000000000000000000000111
-	b15_Vjx_p21ii_NC2XC=32'b00000000000000000000000000011001
+	b15_Vjx_p21ii_NC2XC=32'b00000000000000000000000000010111
 	b9_WjRr_jVdU=32'b01001001010010010100001101000101
 	b8_Nz1_94ip=32'b00000000000000000000000000000001
 	b7_crO_j2S=32'b00000000000000000000000000000000
@@ -220,52 +211,58 @@ Finished optimization stage 1 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory
 	b17_Wy0n_3VdJTq_21OJY=32'b00000000000000000000000001111111
 	b18_6i_6aB87B_fAXHVtZh=32'b11111111111111111111111111111111
 	b8_ssx9_SVd=32'b00000000000000000000000000000000
-	b13_crO_94q_hSaSV=32'b00000000000000000000000000100011
+	b13_crO_94q_hSaSV=32'b00000000000000000000000001001110
 	b11_9ik_ihB_A7m=32'b00000000000000000000000000000000
 	b20_9ik_e697_J4K7vZs02CK=32'b00000000000000000000000000000000
 	b7_ah_9e8H=6'b111000
 	b14_Vl8gboH_z88SbG=6'b111001
    Generated name = b11_OFWNT9s_8tZ_Z3
-@W: CS263 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2642:16:2642:34|Port-width mismatch for port b3_oRB. The port definition is 35 bits, but the actual port connection bit width is 29. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2644:18:2644:25|Port-width mismatch for port b5_ofmZd. The port definition is 35 bits, but the actual port connection bit width is 29. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2642:16:2642:34|Port-width mismatch for port b3_oRB. The port definition is 78 bits, but the actual port connection bit width is 72. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2644:18:2644:25|Port-width mismatch for port b5_ofmZd. The port definition is 78 bits, but the actual port connection bit width is 72. Adjust either the definition or the instantiation of this port.
 Running optimization stage 1 on b11_OFWNT9s_8tZ_Z3 .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Pruning unused register b14_2_St6KCa_jHv_9[6:0]. Make sure that there are no unused intermediate registers.
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2530:2:2530:7|Register bit b7_SZJ1fDs is always 0.
-Finished optimization stage 1 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5284:7:5284:10|Synthesizing module IICE in library work.
-@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5442:1:5442:8|Input b11_nUTZ3qM_tkL on instance b5_nUTGT is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5503:9:5503:19|Input b12_nYByBFtg_Lyh on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5503:9:5503:19|Input b10_ncrIKf_Y2x on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5503:9:5503:19|Input b11_PfzyLE4_tkL on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5333:7:5333:20|Removing wire b10_PbTt39_Y2x, as there is no assignment to it.
-@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5346:7:5346:21|Removing wire b11_nYByBFtg_XH, as there is no assignment to it.
-@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5422:7:5422:21|Removing wire b11_nUTZ3qM_tkL, as there is no assignment to it.
+Finished optimization stage 1 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5236:7:5236:10|Synthesizing module IICE in library work.
+@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5461:1:5461:8|Input b11_nUTZ3qM_tkL on instance b5_nUTGT is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5519:9:5519:19|Input b12_nYByBFtg_Lyh on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5519:9:5519:19|Input b10_ncrIKf_Y2x on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5519:9:5519:19|Input b11_PfzyLE4_tkL on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5319:7:5319:20|Removing wire b10_PbTt39_Y2x, as there is no assignment to it.
+@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5332:7:5332:21|Removing wire b11_nYByBFtg_XH, as there is no assignment to it.
+@W: CG360 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5441:7:5441:21|Removing wire b11_nUTZ3qM_tkL, as there is no assignment to it.
 Running optimization stage 1 on IICE .......
-Finished optimization stage 1 on IICE (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on IICE (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
+@N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000001101
+   Generated name = syn_hyper_connect_internal_13s
+Running optimization stage 1 on syn_hyper_connect_internal_13s .......
+Finished optimization stage 1 on syn_hyper_connect_internal_13s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
 
 	w=32'b00000000000000000000000000000001
    Generated name = syn_hyper_connect_internal_1s
 Running optimization stage 1 on syn_hyper_connect_internal_1s .......
-Finished optimization stage 1 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
 
 	w=32'b00000000000000000000000000001000
    Generated name = syn_hyper_connect_internal_8s
 Running optimization stage 1 on syn_hyper_connect_internal_8s .......
-Finished optimization stage 1 on syn_hyper_connect_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on syn_hyper_connect_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.v":1442:7:1442:11|Synthesizing module UJTAG in library work.
 Running optimization stage 1 on UJTAG .......
-Finished optimization stage 1 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/generic/acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":25:7:25:31|Synthesizing module syn_hyper_source_internal in library __hyper__lib__.
 
 	w=32'b00000000000000000000000000001000
    Generated name = syn_hyper_source_internal_8s
 Running optimization stage 1 on syn_hyper_source_internal_8s .......
-Finished optimization stage 1 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
 
 	w=32'b00000000000000000000000000000001
@@ -274,10 +271,10 @@ Finished optimization stage 1 on syn_hyper_source_internal_8s (CPU Time 0h:00m:0
 	mustconnect=1'b0
    Generated name = syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0
 Running optimization stage 1 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 .......
-Finished optimization stage 1 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":88:7:88:20|Synthesizing module jtag_interface in library work.
 Running optimization stage 1 on jtag_interface .......
-Finished optimization stage 1 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":302:7:302:26|Synthesizing module b16_Rcmi_qlx9_yHpm7y in library work.
 
 	b15_Ng27p_V9EG_BY6Z=32'b00000000000000000000000000000110
@@ -292,55 +289,57 @@ Finished optimization stage 1 on jtag_interface (CPU Time 0h:00m:00s, Memory Use
 	b12_Vjxmck6TU_7A=32'b00000000000000000000000000000111
    Generated name = b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s
 Running optimization stage 1 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s .......
-Finished optimization stage 1 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":43:7:43:18|Synthesizing module b9_ORbIwXaEF in library work.
 
 	b15_Vjxmck6TU_NC2XC=32'b00000000000000000000000000100000
-	b15_Vjxmck6TU_kEZUZ=32'b10010100000011110100011000101100
+	b15_Vjxmck6TU_kEZUZ=32'b10010100011011111101100111000100
 	b9_VNkO_AHpU=32'b00000000000000000000000000000000
-   Generated name = b9_ORbIwXaEF_32s_18446744071898613292_0s
-Running optimization stage 1 on b9_ORbIwXaEF_32s_18446744071898613292_0s .......
-Finished optimization stage 1 on b9_ORbIwXaEF_32s_18446744071898613292_0s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+   Generated name = b9_ORbIwXaEF_32s_18446744071904942532_0s
+Running optimization stage 1 on b9_ORbIwXaEF_32s_18446744071904942532_0s .......
+Finished optimization stage 1 on b9_ORbIwXaEF_32s_18446744071904942532_0s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 @N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":392:7:392:16|Synthesizing module comm_block in library work.
 Running optimization stage 1 on comm_block .......
-Finished optimization stage 1 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
-@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5577:7:5577:23|Synthesizing module syn_identify_core in library work.
+Finished optimization stage 1 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
+@N: CG364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5593:7:5593:23|Synthesizing module syn_identify_core in library work.
 Running optimization stage 1 on syn_identify_core .......
-Finished optimization stage 1 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 1 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on syn_identify_core .......
-Finished optimization stage 2 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on comm_block .......
-Finished optimization stage 2 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
-Running optimization stage 2 on b9_ORbIwXaEF_32s_18446744071898613292_0s .......
-Finished optimization stage 2 on b9_ORbIwXaEF_32s_18446744071898613292_0s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
+Running optimization stage 2 on b9_ORbIwXaEF_32s_18446744071904942532_0s .......
+Finished optimization stage 2 on b9_ORbIwXaEF_32s_18446744071904942532_0s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s .......
-Finished optimization stage 2 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on jtag_interface .......
-Finished optimization stage 2 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 .......
-Finished optimization stage 2 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on syn_hyper_source_internal_8s .......
-Finished optimization stage 2 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on CLKINT .......
-Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on UJTAG .......
-Finished optimization stage 2 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on syn_hyper_connect_internal_8s .......
-Finished optimization stage 2 on syn_hyper_connect_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_hyper_connect_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on syn_hyper_connect_internal_1s .......
-Finished optimization stage 2 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
+Running optimization stage 2 on syn_hyper_connect_internal_13s .......
+Finished optimization stage 2 on syn_hyper_connect_internal_13s (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on IICE .......
-@W: CL156 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5333:7:5333:20|*Input b10_PbTt39_Y2x to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
-@W: CL156 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5528:22:5528:37|*Input b12_ocsGfWYY_Lyh to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
-Finished optimization stage 2 on IICE (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+@W: CL156 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5319:7:5319:20|*Input b10_PbTt39_Y2x to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5544:22:5544:37|*Input b12_ocsGfWYY_Lyh to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Finished optimization stage 2 on IICE (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 147MB)
 Running optimization stage 2 on b11_OFWNT9s_8tZ_Z3 .......
-@W: CL247 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2256:34:2256:50|Input port bit 0 of b13_OFWNT9L_bx2TS[25:0] is unused
+@W: CL247 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2256:34:2256:50|Input port bit 0 of b13_OFWNT9L_bx2TS[23:0] is unused
 
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2243:8:2243:13|Input b3_PLy is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2245:8:2245:22|Input b11_nczQ_lzxWLb is unused.
-Finished optimization stage 2 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 147MB)
 Running optimization stage 2 on b11_SoWyP0zEFKY_Z2 .......
-@W: CL246 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2768:33:2768:38|Input port bits 34 to 29 of b3_oRB[34:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2768:33:2768:38|Input port bits 77 to 72 of b3_oRB[77:0] are unused. Assign logic for all port bits or change the input port size.
 @A: CL153 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2787:34:2787:43|*Unassigned bits of b7_PRWcJ_l[5:0] are referenced and tied to 0 -- simulation mismatch possible.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2766:14:2766:23|Input b7_voSc3_u is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2767:14:2767:45|Input b6_nZ5I_F is unused.
@@ -348,40 +347,34 @@ Running optimization stage 2 on b11_SoWyP0zEFKY_Z2 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2770:14:2770:29|Input b12_3AmQIEra2_bd is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2771:14:2771:24|Input b8_ofmZd_YG is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2773:14:2773:23|Input b7_PSyil9s is unused.
-Finished optimization stage 2 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
-Running optimization stage 2 on b13_vFW_xNywD_EdR_35s_7s_128s_0s .......
+Finished optimization stage 2 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 147MB)
+Running optimization stage 2 on b13_vFW_xNywD_EdR_78s_7s_128s_0s .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2691:7:2691:21|Input b11_jWS_3vW_sXP is unused.
-Finished optimization stage 2 on b13_vFW_xNywD_EdR_35s_7s_128s_0s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on b13_vFW_xNywD_EdR_78s_7s_128s_0s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 147MB)
 Running optimization stage 2 on syn_hyper_source_internal_1s .......
-Finished optimization stage 2 on syn_hyper_source_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 147MB)
+Finished optimization stage 2 on syn_hyper_source_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 147MB)
 Running optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_18s_1s .......
-Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_18s_1s (CPU Time 0h:00m:00s, Memory Used current: 144MB peak: 147MB)
+Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_18s_1s (CPU Time 0h:00m:00s, Memory Used current: 145MB peak: 147MB)
 Running optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s .......
-Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b3_uKr .......
-Finished optimization stage 2 on b3_uKr (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b3_uKr (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b8_PfFzrNYI .......
-Finished optimization stage 2 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
-Running optimization stage 2 on b5_nvmFL_14s .......
-Finished optimization stage 2 on b5_nvmFL_14s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+Running optimization stage 2 on b5_nvmFL_9s .......
+Finished optimization stage 2 on b5_nvmFL_9s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b13_PSyil9s1fkJ_K .......
-Finished optimization stage 2 on b13_PSyil9s1fkJ_K (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b13_PSyil9s1fkJ_K (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b14_CRGcTCua_eH4_2 .......
-Finished optimization stage 2 on b14_CRGcTCua_eH4_2 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b14_CRGcTCua_eH4_2 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b9_O2yyf_fG2 .......
-Finished optimization stage 2 on b9_O2yyf_fG2 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b9_O2yyf_fG2 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 .......
-Finished optimization stage 2 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
-Running optimization stage 2 on b13_CRGcTCua_xF_j .......
-Finished optimization stage 2 on b13_CRGcTCua_xF_j (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
-Running optimization stage 2 on b8_O2yyf_yE .......
-Finished optimization stage 2 on b8_O2yyf_yE (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
-Running optimization stage 2 on b7_yFJNJCP .......
-Finished optimization stage 2 on b7_yFJNJCP (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on syn_hyper_source_1s_Identify_IICE_trigger_ext .......
-Finished optimization stage 2 on syn_hyper_source_1s_Identify_IICE_trigger_ext (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on syn_hyper_source_1s_Identify_IICE_trigger_ext (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b7_OCByLXC_Z1 .......
-@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4800:2:4800:7|Trying to extract state machine for register b13_nAzGfFM_sLsv3.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4752:2:4752:7|Trying to extract state machine for register b13_nAzGfFM_sLsv3.
 Extracted state machine for register b13_nAzGfFM_sLsv3
 State machine has 14 reachable states with original encodings of:
    0000
@@ -398,15 +391,15 @@ State machine has 14 reachable states with original encodings of:
    1011
    1100
    1101
-@W: CL249 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4800:2:4800:7|Initial value is not supported on state machine b13_nAzGfFM_sLsv3
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4596:8:4596:22|Input b11_nUTZ3qM_tkL is unused.
-Finished optimization stage 2 on b7_OCByLXC_Z1 (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+@W: CL249 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4752:2:4752:7|Initial value is not supported on state machine b13_nAzGfFM_sLsv3
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4548:8:4548:22|Input b11_nUTZ3qM_tkL is unused.
+Finished optimization stage 2 on b7_OCByLXC_Z1 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s .......
-@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5124:8:5124:17|Input b7_nFG0rDY is unused.
-Finished optimization stage 2 on b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+@N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5076:8:5076:17|Input b7_nFG0rDY is unused.
+Finished optimization stage 2 on b8_nR_ymqrG_7s_5s_0_0s_0s_0_63s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b16_n2FydH_ab_FH9_K4_4s .......
-Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on b16_n2FydH_ab_FH9_K4_5s .......
-Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
 Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_IICE_master_clock .......
-Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_IICE_master_clock (CPU Time 0h:00m:00s, Memory Used current: 151MB peak: 151MB)
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_IICE_master_clock (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)

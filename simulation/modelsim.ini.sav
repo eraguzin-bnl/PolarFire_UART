@@ -3,6 +3,8 @@ others = $MODEL_TECH/../modelsim.ini
 PolarFire = /usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire
 syncad_vhdl_lib = /usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/actel/syncad_vhdl_lib
 
+presynth = presynth
+COREUART_LIB = COREUART_LIB
 [vcom]
 VHDL93 = 1
 

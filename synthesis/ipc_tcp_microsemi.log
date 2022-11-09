@@ -1,181 +1,49 @@
-1666893434 -13:57:14 -0 -Client create_ipc, start a new server process in mode B !
-1666893434 -13:57:14 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
-1666893434 -13:57:14 -0 -second timeout[ms] for myJTAGClient: long: -15000
-1666893434 -13:57:14 -0 -Check for server mode B !
-1666893434 -13:57:14 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
+1667944473 -16:54:33 -0 -Client create_ipc, start a new server process in mode B !
+1667944473 -16:54:33 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1667944473 -16:54:33 -0 -second timeout[ms] for myJTAGClient: long: -15000
+1667944473 -16:54:33 -0 -Check for server mode B !
+1667944474 -16:54:34 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
 
-1666893434 -13:57:14 -0 -Use a new started server process, switch to mode B !
-1666893434 -13:57:14 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666893434 -13:57:14 -0 -use a started server process in mode: not standalone
-1666893550 -13:59:10 -0 -Check for server mode B !
-1666893550 -13:59:10 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+1667944474 -16:54:34 -0 -Use a new started server process, switch to mode B !
+1667944474 -16:54:34 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1667944474 -16:54:34 -0 -use a started server process in mode: not standalone
+1667944647 -16:57:27 -0 -Check for server mode B !
+1667944647 -16:57:27 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
 ---- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
+ JTAG handle: 0x4c33de80, shared used: 1
  has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
  portnum is: 0, speed is: 0, portname is: usb
  error if any: none.
 
 
-1666893550 -13:59:10 -0 -Use a new started server process, switch to mode B !
-1666893550 -13:59:10 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666893550 -13:59:10 -0 -Client can use_ipc, use same running client & server (types) !
-1666894067 -14:07:47 -0 -Check for server mode B !
-1666894067 -14:07:47 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+1667944647 -16:57:27 -0 -Use a new started server process, switch to mode B !
+1667944647 -16:57:27 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1667944647 -16:57:27 -0 -Client can use_ipc, use same running client & server (types) !
+1667944710 -16:58:30 -0 -Check for server mode B !
+1667944710 -16:58:30 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
 ---- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
+ JTAG handle: 0x4c33de80, shared used: 1
  has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
  portnum is: 0, speed is: 0, portname is: usb
  error if any: none.
 
 
-1666894067 -14:07:47 -0 -Use a new started server process, switch to mode B !
-1666894067 -14:07:47 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666894067 -14:07:47 -0 -Client can use_ipc, use same running client & server (types) !
-1666895094 -14:24:54 -0 -Check for server mode B !
-1666895094 -14:24:54 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+1667944710 -16:58:30 -0 -Use a new started server process, switch to mode B !
+1667944710 -16:58:30 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1667944710 -16:58:30 -0 -Client can use_ipc, use same running client & server (types) !
+1667945171 -17:06:11 -0 -Check for server mode B !
+1667945171 -17:06:11 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
 ---- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
+ JTAG handle: 0x4c33de80, shared used: 1
  has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
  portnum is: 0, speed is: 0, portname is: usb
  error if any: none.
 
 
-1666895094 -14:24:54 -0 -Use a new started server process, switch to mode B !
-1666895094 -14:24:54 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895094 -14:24:54 -0 -Client can use_ipc, use same running client & server (types) !
-1666895121 -14:25:21 -0 -Check for server mode B !
-1666895121 -14:25:21 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895121 -14:25:21 -0 -Use a new started server process, switch to mode B !
-1666895121 -14:25:21 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895121 -14:25:21 -0 -Client can use_ipc, use same running client & server (types) !
-1666895162 -14:26:02 -0 -Check for server mode B !
-1666895162 -14:26:02 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895162 -14:26:02 -0 -Use a new started server process, switch to mode B !
-1666895162 -14:26:02 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895162 -14:26:02 -0 -Client can use_ipc, use same running client & server (types) !
-1666895249 -14:27:29 -0 -Check for server mode B !
-1666895249 -14:27:29 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895249 -14:27:29 -0 -Use a new started server process, switch to mode B !
-1666895249 -14:27:29 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895249 -14:27:29 -0 -Client can use_ipc, use same running client & server (types) !
-1666895399 -14:29:59 -0 -Check for server mode B !
-1666895399 -14:29:59 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895399 -14:29:59 -0 -Use a new started server process, switch to mode B !
-1666895399 -14:29:59 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895399 -14:29:59 -0 -Client can use_ipc, use same running client & server (types) !
-1666895462 -14:31:02 -0 -Check for server mode B !
-1666895462 -14:31:02 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895462 -14:31:02 -0 -Use a new started server process, switch to mode B !
-1666895462 -14:31:02 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895462 -14:31:02 -0 -Client can use_ipc, use same running client & server (types) !
-1666895688 -14:34:48 -0 -Check for server mode B !
-1666895688 -14:34:48 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895688 -14:34:48 -0 -Use a new started server process, switch to mode B !
-1666895688 -14:34:48 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895688 -14:34:48 -0 -Client can use_ipc, use same running client & server (types) !
-1666895739 -14:35:39 -0 -Check for server mode B !
-1666895739 -14:35:39 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895739 -14:35:39 -0 -Use a new started server process, switch to mode B !
-1666895739 -14:35:39 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895739 -14:35:39 -0 -Client can use_ipc, use same running client & server (types) !
-1666895933 -14:38:53 -0 -Check for server mode B !
-1666895933 -14:38:53 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666895933 -14:38:53 -0 -Use a new started server process, switch to mode B !
-1666895933 -14:38:53 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666895933 -14:38:53 -0 -Client can use_ipc, use same running client & server (types) !
-1666896810 -14:53:30 -0 -Check for server mode B !
-1666896810 -14:53:30 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666896810 -14:53:30 -0 -Use a new started server process, switch to mode B !
-1666896810 -14:53:30 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666896810 -14:53:30 -0 -Client can use_ipc, use same running client & server (types) !
-1666897807 -15:10:07 -0 -Check for server mode B !
-1666897807 -15:10:07 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666897807 -15:10:07 -0 -Use a new started server process, switch to mode B !
-1666897807 -15:10:07 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666897807 -15:10:07 -0 -Client can use_ipc, use same running client & server (types) !
-1666899806 -15:43:26 -0 -Check for server mode B !
-1666899806 -15:43:26 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
----- JTAG-client 0 ------
- JTAG handle: 0xa4335260, shared used: 1
- has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
- portnum is: 0, speed is: 0, portname is: usb
- error if any: none.
-
-
-1666899806 -15:43:26 -0 -Use a new started server process, switch to mode B !
-1666899806 -15:43:26 -0 -Use a new started server process in mode B (exit after ends last connection)!
-1666899806 -15:43:26 -0 -Client can use_ipc, use same running client & server (types) !
-1666899891 -15:44:51 -0 -Call shutdown_connection_and_server !
-1666899891 -15:44:51 -0 -Call comlinkhw->close() !
-1666899891 -15:44:51 -0 -Client jtagexit (server shutdown if last connection, running in mode B) !
-1666899891 -15:44:51 -0 -Client shutdown (jtagapi_c::g_pmC == NULL) !
+1667945171 -17:06:11 -0 -Use a new started server process, switch to mode B !
+1667945171 -17:06:11 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1667945171 -17:06:11 -0 -Client can use_ipc, use same running client & server (types) !
+1667945284 -17:08:04 -0 -Call shutdown_connection_and_server !
+1667945284 -17:08:04 -0 -Call comlinkhw->close() !
+1667945284 -17:08:04 -0 -Client jtagexit (server shutdown if last connection, running in mode B) !
+1667945284 -17:08:04 -0 -Client shutdown (jtagapi_c::g_pmC == NULL) !

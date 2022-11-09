@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>clk_main</data>
 <data>50.0 MHz</data>
-<data>246.0 MHz</data>
-<data>15.935</data>
+<data>266.5 MHz</data>
+<data>16.248</data>
 </row>
 <row>
 <data>ident_coreinst.comm_block_INST.dr2_tck</data>
@@ -35,19 +35,19 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>jtag_interface_x|b10_8Kz_rKlrtX</data>
 <data>100.0 MHz</data>
-<data>225.2 MHz</data>
-<data>5.560</data>
+<data>219.5 MHz</data>
+<data>5.444</data>
 </row>
 <row>
 <data>jtag_interface_x|identify_clk_int_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>217.1 MHz</data>
-<data>5.394</data>
+<data>215.8 MHz</data>
+<data>5.366</data>
 </row>
 <row>
 <data>System</data>
 <data>100.0 MHz</data>
-<data>208.8 MHz</data>
-<data>5.210</data>
+<data>212.4 MHz</data>
+<data>5.291</data>
 </row>
 </report_table>

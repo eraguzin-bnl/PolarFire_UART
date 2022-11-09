@@ -1,6 +1,6 @@
 KEY LIBERO "2022.2"
 KEY CAPTURE "2022.2.0.10"
-KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
@@ -194,8 +194,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/user1.pdc,io_pdc"
 STATE="utd"
-TIME="1666725092"
-SIZE="3370"
+TIME="1667943367"
+SIZE="3374"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/constraint/user.sdc,sdc"
@@ -205,37 +205,72 @@ SIZE="118"
 ENDFILE
 VALUE "<project>/hdl/default_values.vhd,hdl"
 STATE="utd"
-TIME="1666721622"
+TIME="1667856477"
 SIZE="2320"
+ENDFILE
+VALUE "<project>/hdl/sys_init.vhd,hdl"
+STATE="utd"
+TIME="1667943000"
+SIZE="1844"
 ENDFILE
 VALUE "<project>/hdl/top_level.vhd,hdl"
 STATE="utd"
-TIME="1666724969"
-SIZE="4100"
+TIME="1668009820"
+SIZE="5088"
 ENDFILE
 VALUE "<project>/hdl/uart_reader.vhd,hdl"
 STATE="utd"
-TIME="1666728501"
-SIZE="3277"
+TIME="1668009620"
+SIZE="3240"
+ENDFILE
+VALUE "<project>/hdl/uart_writer.vhd,hdl"
+STATE="utd"
+TIME="1668013779"
+SIZE="3435"
+ENDFILE
+VALUE "<project>/simulation/run.do,do"
+STATE="utd"
+TIME="1667943084"
+SIZE="2175"
+ENDFILE
+VALUE "<project>/stimulus/uart_tester.vhd,tb_hdl"
+STATE="utd"
+TIME="1668013218"
+SIZE="4810"
+ENDFILE
+VALUE "<project>/synthesis/synthesis_1/top_level.so,so"
+STATE="utd"
+TIME="1667943893"
+SIZE="250"
+ENDFILE
+VALUE "<project>/synthesis/synthesis_1/top_level.vm,syn_vm"
+STATE="utd"
+TIME="1667943892"
+SIZE="302306"
+ENDFILE
+VALUE "<project>/synthesis/synthesis_1/top_level_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1667943893"
+SIZE="2017"
 ENDFILE
 VALUE "<project>/synthesis/top_level.so,so"
 STATE="utd"
-TIME="1666646231"
+TIME="1667943159"
 SIZE="238"
 ENDFILE
 VALUE "<project>/synthesis/top_level.vm,syn_vm"
 STATE="ood"
-TIME="1666724977"
-SIZE="55711"
+TIME="1667943159"
+SIZE="64219"
 ENDFILE
 VALUE "<project>/synthesis/top_level_syn.prj,prj"
 STATE="utd"
-TIME="1666646231"
-SIZE="4094"
+TIME="1667944406"
+SIZE="6257"
 ENDFILE
 VALUE "<project>/synthesis/top_level_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1666646230"
+TIME="1667943159"
 SIZE="847"
 ENDFILE
 ENDLIST
@@ -244,6 +279,9 @@ ENDLIST
 LIST NewModulesInfo
 LIST "top_level::work"
 FILE "<project>/hdl/top_level.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>/stimulus/uart_tester.vhd,tb_hdl"
+ENDLIST
 LIST SynthesisConstraints
 VALUE "<project>/constraint/user.sdc,sdc"
 ENDLIST
@@ -253,6 +291,33 @@ ENDLIST
 LIST PNRConstraints
 VALUE "<project>/constraint/user.sdc,sdc"
 VALUE "<project>/constraint/io/user1.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/synthesis_1/top_level.vm,syn_vm)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>/synthesis/top_level.edn,syn_edn"
+VALUE "<project>/phy_synthesis/top_level_palace.edn,palace_edn"
+VALUE "<project>/phy_synthesis/top_level_palace.gcf,palace_gcf"
+VALUE "<project>/phy_synthesis/top_level_palace.pdc,palace_pdc"
+VALUE "<project>/phy_synthesis/top_level_palace.sdc,palace_sdc"
+VALUE "<project>/phy_synthesis/top_level_palace.vhd,palace_hdl"
+VALUE "<project>/designer/impl1/top_level.adb,adb"
+VALUE "<project>/designer/impl1/top_level.fdb,fdb"
+VALUE "<project>/designer/impl1/top_level.pdb,pdb"
+VALUE "<project>/designer/impl1/top_level.stp,stp"
+VALUE "<project>/designer/impl1/top_level_fp/top_level.pro,pro"
+VALUE "<project>/synthesis/synthesis_1/top_level.vm,syn_vm"
+VALUE "<project>/synthesis/synthesis_1/top_level_sdc.sdc,syn_sdc"
+VALUE "<project>/synthesis/synthesis_1/top_level.vhd,syn_hdl"
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib"
@@ -268,6 +333,9 @@ ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST top_level
+VALUE "<project>/stimulus/uart_tester.vhd,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
 LIST COREUART_C0_COREUART_C0_0_COREUART
@@ -286,7 +354,7 @@ Type=max
 RunTime=1000ns
 Resolution=1ps
 VsimOpt=
-EntityName=testbench
+EntityName=uart_tester
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -359,7 +427,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2022.2/ModelSimPro/modeltech/linuxacoem/vsim"
-PARAM=""
+PARAM=" -l uart_tester_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -375,6 +443,33 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "top_level::work"
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/synthesis_1/top_level.vm,syn_vm)=StateSuccess
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>/synthesis/top_level.edn,syn_edn"
+VALUE "<project>/phy_synthesis/top_level_palace.edn,palace_edn"
+VALUE "<project>/phy_synthesis/top_level_palace.gcf,palace_gcf"
+VALUE "<project>/phy_synthesis/top_level_palace.pdc,palace_pdc"
+VALUE "<project>/phy_synthesis/top_level_palace.sdc,palace_sdc"
+VALUE "<project>/phy_synthesis/top_level_palace.vhd,palace_hdl"
+VALUE "<project>/designer/impl1/top_level.adb,adb"
+VALUE "<project>/designer/impl1/top_level.fdb,fdb"
+VALUE "<project>/designer/impl1/top_level.pdb,pdb"
+VALUE "<project>/designer/impl1/top_level.stp,stp"
+VALUE "<project>/designer/impl1/top_level_fp/top_level.pro,pro"
+VALUE "<project>/synthesis/synthesis_1/top_level.vm,syn_vm"
+VALUE "<project>/synthesis/synthesis_1/top_level_sdc.sdc,syn_sdc"
+VALUE "<project>/synthesis/synthesis_1/top_level.vhd,syn_hdl"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -390,13 +485,13 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Run Programming Action:top_level_PROGRAM.log
+HDL;hdl/sys_init.vhd;0
 HDL;hdl/top_level.vhd;0
-HDL;hdl/default_values.vhd;0
 HDL;hdl/uart_reader.vhd;0
-Constraint Manager;Constraint Manager;0
-HDL;constraint/io/user1.pdc;0
-StartPage;StartPage;0
-ACTIVEVIEW;hdl/uart_reader.vhd
+HDL;hdl/uart_writer.vhd;0
+HDL;stimulus/uart_tester.vhd;0
+HDL;component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"
@@ -404,12 +499,21 @@ SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component/work/CORE
 ENDLIST
 LIST "default_values::work","hdl/default_values.vhd","FALSE","FALSE"
 ENDLIST
+LIST "sys_init::work","hdl/sys_init.vhd","FALSE","FALSE"
+ENDLIST
 LIST "top_level::work","hdl/top_level.vhd","FALSE","FALSE"
 SUBBLOCK "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"
 SUBBLOCK "default_values::work","hdl/default_values.vhd","FALSE","FALSE"
+SUBBLOCK "sys_init::work","hdl/sys_init.vhd","FALSE","FALSE"
 SUBBLOCK "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
+SUBBLOCK "uart_writer::work","hdl/uart_writer.vhd","FALSE","FALSE"
 ENDLIST
 LIST "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
+ENDLIST
+LIST "uart_writer::work","hdl/uart_writer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "uart_tester::work","stimulus/uart_tester.vhd","FALSE","TRUE"
+SUBBLOCK "top_level::work","hdl/top_level.vhd","FALSE","FALSE"
 ENDLIST
 LIST "COREUART_C0_COREUART_C0_0_Clock_gen::coreuart_lib","component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd","FALSE","FALSE"
 ENDLIST

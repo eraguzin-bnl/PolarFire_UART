@@ -1,4 +1,4 @@
-# Tue Oct 25 16:09:09 2022
+# Tue Nov  8 16:32:37 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -63,12 +63,13 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
-@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":104:30:104:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
+@N: BN115 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":113:30:113:48|Removing instance default_values_i (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Removing sequential instance fifo_write_xhdl6 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[0] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance DATA_IN_1[7:5] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance WEN (in view: work.default_values(architecture_default_values)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":49:16:49:17|Removing sequential instance start (in view: work.sys_init(sys_init_arch)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing sequential instance uart_wr_state[0:1] (in view: work.default_values(architecture_default_values)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
 @N: FP130 |Promoting Net clk on CLKINT  I_1 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
@@ -83,7 +84,7 @@ Clock Summary
           Start        Requested     Requested     Clock        Clock                Clock
 Level     Clock        Frequency     Period        Type         Group                Load 
 ------------------------------------------------------------------------------------------
-0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     121  
+0 -       clk_main     50.0 MHz      20.000        declared     default_clkgroup     138  
 ==========================================================================================
 
 
@@ -94,7 +95,7 @@ Clock Load Summary
              Clock     Source        Clock Pin             Non-clock Pin     Non-clock Pin
 Clock        Load      Pin           Seq Example           Seq Example       Comb Example 
 ------------------------------------------------------------------------------------------
-clk_main     121       clk(port)     framing_err_out.C     -                 I_1.A(CLKINT)
+clk_main     138       clk(port)     framing_err_out.C     -                 I_1.A(CLKINT)
 ==========================================================================================
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
@@ -134,6 +135,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Oct 25 16:09:10 2022
+# Tue Nov  8 16:32:38 2022
 
 ###########################################################]
