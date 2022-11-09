@@ -1,9 +1,9 @@
 /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell  -idb  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db  -synplify_install  /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro  -synplify_tool  synplify_pro  -log  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_compile.log  -family  PolarFire  -prj  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/top_level_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2021.09  -idc  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc  -f  /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identifylaunch.tcl  -jobname  "identify_compile" 
 relcom:/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell -idb ../identify.db -synplify_install /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro -synplify_tool synplify_pro -log ../synlog/top_level_identify_compile.log -family PolarFire -prj ../../top_level_syn.prj -curimpl synthesis_1 -dbgimpl synthesis_1 -fver 2021.09 -idc ../identify.idc -f ../identifylaunch.tcl -jobname "identify_compile"
 rc:0 success:1 runtime:0
-file:../identify.db|io:i|time:1668013805|size:110954|exec:0|csum:28276E396B77682F9EDB2F89483C19AC
-file:../synlog/top_level_identify_compile.log|io:o|time:1668013805|size:2165|exec:0|csum:
-file:../../top_level_syn.prj|io:i|time:1668013804|size:6339|exec:0|csum:FD7C846749BF8355BE013E4EE6FFE4B4
+file:../identify.db|io:i|time:1668027982|size:113239|exec:0|csum:840038C66D43BDBDF07FC429237F66DE
+file:../synlog/top_level_identify_compile.log|io:o|time:1668027982|size:2165|exec:0|csum:
+file:../../top_level_syn.prj|io:i|time:1668027981|size:6428|exec:0|csum:5254F2E6E75EE77C7A89D7E21CFC8698
 file:../identify.idc|io:i|time:1667941554|size:2815|exec:0|csum:FB4157E19E51710203856E9BA0D2E56C
-file:../identifylaunch.tcl|io:o|time:1668013805|size:122|exec:0|csum:
+file:../identifylaunch.tcl|io:o|time:1668027982|size:122|exec:0|csum:
 file:/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell|io:i|time:1655988480|size:399|exec:1|csum:974D425B715AFC5E51FFDAEDFA252E81

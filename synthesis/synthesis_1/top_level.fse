@@ -37,17 +37,27 @@ fsm_state_encoding {18538534} s_send {10}
 
 fsm_registers {18538534} {uart_wr_state[1]}  {uart_wr_state[0]} 
 
-fsm_encoding {19558555} sequential
+fsm_encoding {22568565} onehot
 
-fsm_state_encoding {19558555} s_idle {00}
+fsm_state_encoding {22568565} s_idle {000000000}
 
-fsm_state_encoding {19558555} s_first {01}
+fsm_state_encoding {22568565} s_first {000000011}
 
-fsm_state_encoding {19558555} s_wait {10}
+fsm_state_encoding {22568565} s_wait {000000101}
 
-fsm_state_encoding {19558555} s_finish {11}
+fsm_state_encoding {22568565} s_new_line {000001001}
 
-fsm_registers {19558555} {sequence_wr_state[1]}  {sequence_wr_state[0]} 
+fsm_state_encoding {22568565} s_carriage_return {000010001}
+
+fsm_state_encoding {22568565} s_wait2 {000100001}
+
+fsm_state_encoding {22568565} s_line_feed {001000001}
+
+fsm_state_encoding {22568565} s_wait3 {010000001}
+
+fsm_state_encoding {22568565} s_finish {100000001}
+
+fsm_registers {22568565} {sequence_wr_state[0]}  {sequence_wr_state[1]}  {sequence_wr_state[2]}  {sequence_wr_state[3]}  {sequence_wr_state[4]}  {sequence_wr_state[5]}  {sequence_wr_state[6]}  {sequence_wr_state[7]}  {sequence_wr_state_i[8]} 
 
 fsm_encoding {54752247521} onehot
 

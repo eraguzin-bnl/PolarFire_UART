@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version S-2021.09M-SP1
 #--  Project file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/run_options.txt
-#--  Written on Wed Nov  9 12:10:04 2022
+#--  Written on Wed Nov  9 16:06:21 2022
 
 
 #project files
@@ -17,6 +17,7 @@ add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/co
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd"
+add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd"
 add_file -vhdl -lib work "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd"
 add_file -fpga_constraint "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"

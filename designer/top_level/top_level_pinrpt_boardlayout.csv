@@ -1,6 +1,6 @@
 Device Selection
 Report Version,Date,Product,Release,Version,Design Name,Family,Die,Package
-0.1,Wed Nov  9 12:12:03 2022,Designer,v2022.2,2022.2.0.10,top_level,PolarFire,MPF300T,FCG1152
+0.1,Wed Nov  9 16:09:21 2022,Designer,v2022.2,2022.2.0.10,top_level,PolarFire,MPF300T,FCG1152
 Pin Report
 Pin,Port,Function,Bank,State,I/O Std,Direction,Used I/O Reg,User I/O Lock Down,Clamp Diode,Resistor Pull,Use I/O Calibration from the lane,Schmitt Trigger,Vcm Input Range,On Die Termination,Odt Value (Ohm),Input Delay,Slew,Output Drive (mA),Impedance (ohm),Output Load (pF),Source Termination (Ohm),Output Delay,Board Layout
 A2,---,GPIO251PB2,Bank2,Unassigned,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,---,"DNC, Libero Defined High-Z with weak pull up ON,CLAMP=OFF"

@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-Arguments:   -srs_gen_hw /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log -tsl LhqMDnme -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+Arguments:   -srs_gen_hw /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v -prj /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs -idb /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log -tsl NmeSOiqn -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
 ProductType: identify_instrumentor
 
 

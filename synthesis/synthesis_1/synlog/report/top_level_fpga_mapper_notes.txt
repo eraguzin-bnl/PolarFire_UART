@@ -4,10 +4,12 @@
 @N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5319:7:5319:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
 @N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5544:22:5544:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5488:2:5488:7|Removing sequential instance b13_PSyil9s_FMZ_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@N: MO106 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":78:56:78:67|Found ROM DATA_IN_1_1[6:0] (in view: work.uart_writer(architecture_uart_writer)) with 12 words by 7 bits.
+@N: MO106 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":80:44:80:61|Found ROM un88_current_line[0:1599] (in view: work.uart_writer(architecture_uart_writer)) with 77 words by 1600 bits.
 @N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found counter in view:coreuart_lib.COREUART_C0_COREUART_C0_0_Clock_gen_0_0(rtl) instance baud_cntr[12:0] 
 @N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|There are no possible illegal states for state machine rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async_0_0(translated)); safe FSM implementation is not required.
-@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|There are no possible illegal states for state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "0" on instance sequence_wr_state_i[8].
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found counter in view:work.uart_writer(architecture_uart_writer) instance line_index[6:0] 
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found counter in view:work.uart_writer(architecture_uart_writer) instance message_index[7:0] 
 @N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4729:3:4729:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance genblk4\.b7_nYhI39s[6:0] 
 @N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
 @N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.

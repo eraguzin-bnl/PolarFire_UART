@@ -14,7 +14,7 @@ Z1 w1666631262
 Z2 DPx12 coreuart_lib 36 coreuart_c0_coreuart_c0_0_components 0 22 o[U1dWND^2Rn=8Tj2Me1n3
 Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
 Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
-!i122 195
+!i122 290
 R0
 Z5 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd
 Z6 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd
@@ -24,9 +24,9 @@ V]@Oz5NMR@JHc?dGIzYkKg2
 !s100 ^zTe_@V:PRa:S0lOVGJn51
 Z7 OW;C;2022.2;75
 33
-Z8 !s110 1668013675
+Z8 !s110 1668027947
 !i10b 1
-Z9 !s108 1668013675.000000
+Z9 !s108 1668027947.000000
 Z10 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd|
 Z11 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R2
 R3
 R4
 Z14 DEx4 work 11 coreuart_c0 0 22 ]@Oz5NMR@JHc?dGIzYkKg2
-!i122 195
+!i122 290
 l123
 L63 119
 Vh1BXEckbZ6cDkDEJ18]XO0
@@ -56,7 +56,7 @@ Edefault_values
 Z15 w1667856477
 R3
 R4
-!i122 196
+!i122 291
 R0
 Z16 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd
 Z17 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd
@@ -78,7 +78,7 @@ Aarchitecture_default_values
 R3
 R4
 Z21 DEx4 work 14 default_values 0 22 6M:__z^Y4bWJA[j2b?bnN2
-!i122 196
+!i122 291
 l45
 L41 38
 VU3AEa>6ohkIK52Ok0zDQ;2
@@ -99,7 +99,7 @@ Z23 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
 Z24 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
 R3
 R4
-!i122 197
+!i122 292
 R0
 Z25 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd
 Z26 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd
@@ -123,7 +123,7 @@ R24
 R3
 R4
 Z29 DEx4 work 8 sys_init 0 22 ;>RB6MB`TGf=3gJB>[j2J2
-!i122 197
+!i122 292
 l44
 L40 34
 VYbQbgn`:c2lB_CFd0B;A;0
@@ -142,7 +142,7 @@ Etop_level
 Z30 w1668009820
 R3
 R4
-!i122 200
+!i122 296
 R0
 Z31 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd
 Z32 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd
@@ -161,9 +161,10 @@ Z34 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd|
 R12
 R13
 Aarchitecture_top_level
-Z35 DEx4 work 11 uart_writer 0 22 3B57kWFnRO36]`cV0`Y6^0
-Z36 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
-Z37 DEx4 work 11 uart_reader 0 22 DjW7zHonm^DZi9d2Z0S::1
+Z35 DPx4 work 12 uart_picture 0 22 ^djjC]d@VCzcDF:0n?1b81
+Z36 DEx4 work 11 uart_writer 0 22 WKOKAhWm<9=LOin`F<foO3
+Z37 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z38 DEx4 work 11 uart_reader 0 22 DjW7zHonm^DZi9d2Z0S::1
 R21
 R2
 R14
@@ -173,7 +174,7 @@ R29
 R3
 R4
 DEx4 work 9 top_level 0 22 k?Vi8:?nGJ`<FXlCIYULR0
-!i122 200
+!i122 296
 l78
 L48 128
 VWnRUOKEARkkzFfMNj;bGo1
@@ -188,15 +189,37 @@ R34
 !i113 1
 R12
 R13
-Euart_reader
-Z38 w1668009620
-R36
+Puart_picture
 R3
 R4
-!i122 198
+!i122 294
+w1668027936
 R0
-Z39 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
-Z40 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
+8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd
+F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd
+l0
+L24 166
+V^djjC]d@VCzcDF:0n?1b81
+!s100 QeFM2P75;?HhY08^1T^Y]3
+R7
+33
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd|
+!s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd|
+!i113 1
+R12
+R13
+Euart_reader
+Z39 w1668009620
+R37
+R3
+R4
+!i122 293
+R0
+Z40 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
+Z41 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
 l0
 L24 1
 VDjW7zHonm^DZi9d2Z0S::1
@@ -206,17 +229,17 @@ R7
 R8
 !i10b 1
 R9
-Z41 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd|
-Z42 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd|
+Z42 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd|
+Z43 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd|
 !i113 1
 R12
 R13
 Aarchitecture_uart_reader
-R36
+R37
 R3
 R4
-R37
-!i122 198
+R38
+!i122 293
 l51
 L47 65
 VFS:4jg;1DjOl:cKFA3XZ00
@@ -226,19 +249,19 @@ R7
 R8
 !i10b 1
 R9
-R41
 R42
+R43
 !i113 1
 R12
 R13
 Euart_tester
-Z43 w1668013218
+Z44 w1668013218
 R3
 R4
-!i122 201
+!i122 297
 R0
-Z44 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd
-Z45 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd
+Z45 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd
+Z46 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd
 l0
 L32 1
 VFmY[M@7Gll3]nOj2?ETA_3
@@ -248,70 +271,72 @@ R7
 R8
 !i10b 1
 R9
-Z46 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd|
-Z47 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd|
+Z47 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd|
+Z48 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd|
 !i113 1
 R12
 R13
 Abehavioral
 R3
 R4
-Z48 DEx4 work 11 uart_tester 0 22 FmY[M@7Gll3]nOj2?ETA_3
-!i122 201
+Z49 DEx4 work 11 uart_tester 0 22 FmY[M@7Gll3]nOj2?ETA_3
+!i122 297
 l88
-Z49 L35 136
-Z50 VWL2Y^Dg2glPX47E@9mMRg0
-Z51 !s100 AR_S22_8m9<`W:?fjcQk32
+Z50 L35 136
+Z51 VWL2Y^Dg2glPX47E@9mMRg0
+Z52 !s100 AR_S22_8m9<`W:?fjcQk32
 R7
 33
 R8
 !i10b 1
 R9
-R46
 R47
+R48
 !i113 1
 R12
 R13
 Euart_writer
-Z52 w1668013659
+Z53 w1668026729
+R35
 R4
 R3
-R36
-!i122 199
+R37
+!i122 295
 R0
-Z53 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
-Z54 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
+Z54 8/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
+Z55 F/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
 l0
-R18
-V3B57kWFnRO36]`cV0`Y6^0
-!s100 zH^Oki^`Hi<GnhCm7nNU43
+L26 1
+VWKOKAhWm<9=LOin`F<foO3
+!s100 mnAz;bzIQ]HfUX?ff@:`c1
 R7
 33
 R8
 !i10b 1
 R9
-Z55 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd|
-Z56 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd|
+Z56 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd|
+Z57 !s107 /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd|
 !i113 1
 R12
 R13
 Aarchitecture_uart_writer
+R35
 R4
 R3
+R37
 R36
-R35
-!i122 199
+!i122 295
 l50
-L37 70
-VTR8QHzoK@FeaA@oEi[IU@0
-!s100 NmGW6]UZ5gRVR3OMXH>5F1
+L40 105
+V?7gc0bjz_OZDQS@57zSjH3
+!s100 ]O?ITQCk_]h7AdgoRQ[o@1
 R7
 33
 R8
 !i10b 1
 R9
-R55
 R56
+R57
 !i113 1
 R12
 R13

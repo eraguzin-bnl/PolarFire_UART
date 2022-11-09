@@ -70,7 +70,6 @@
 @W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12830:13:12830:25|User defined pragma syn_black_box detected
 @W: CG100 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/polarfire_syn_comps.v":12843:13:12843:25|User defined pragma syn_black_box detected
 @W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":126:30:126:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
-@W: CL260 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Pruning register bit 7 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:34:265:49|Signal parity_err_xhdl1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.

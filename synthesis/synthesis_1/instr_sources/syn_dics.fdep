@@ -5,7 +5,7 @@
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/umr_capim.v":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_objects.v":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vlog/scemi_pipes.svh":1655988488
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":1668013807
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":1668027986
 #numinternalfiles:5
 #defaultlanguage:verilog
 0			"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" verilog

@@ -12,9 +12,10 @@
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N|Running in 64-bit mode
@@ -32,16 +33,16 @@
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
-@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":23:7:23:17|Synthesizing work.uart_writer.architecture_uart_writer.
-@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":47:29:47:30|Using sequential encoding for type sequence_state_type.
-@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":95:20:95:33|OTHERS clause is not synthesized.
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Register bit DATA_IN(7) is always 0.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":26:7:26:17|Synthesizing work.uart_writer.architecture_uart_writer.
+@N: CD231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":47:29:47:30|Using onehot encoding for type sequence_state_type. For example, enumeration s_idle is mapped to "100000000".
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":135:20:135:33|OTHERS clause is not synthesized.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
 @N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":104:20:104:33|OTHERS clause is not synthesized.
@@ -92,7 +93,7 @@
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":29:4:29:8|Input START is unused.
-@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Trying to extract state machine for register sequence_wr_state.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Trying to extract state machine for register sequence_wr_state.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":29:4:29:10|Input button1 is unused.
 @N|Running in 64-bit mode
 

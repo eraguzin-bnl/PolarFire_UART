@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
-Date: Wed Nov  9 12:10:16 2022
+Date: Wed Nov  9 16:06:49 2022
 
 Device Selection
 +--------------------------------------------+-------------+
@@ -30,8 +30,8 @@ Resource Usage
 +---------------------------+------+--------+------------+
 | Type                      | Used | Total  | Percentage |
 +---------------------------+------+--------+------------+
-| 4LUT                      | 587  | 299544 | 0.20       |
-| DFF                       | 822  | 299544 | 0.27       |
+| 4LUT                      | 6392 | 299544 | 2.13       |
+| DFF                       | 839  | 299544 | 0.28       |
 | I/O Register              | 0    | 1536   | 0.00       |
 | User I/O                  | 21   | 512    | 4.10       |
 | -- Single-ended I/O       | 21   | 512    | 4.10       |
@@ -52,27 +52,32 @@ Detailed Logic Resource Usage
 +-----------------------+------+-----+
 | Type                  | 4LUT | DFF |
 +-----------------------+------+-----+
-| Fabric Logic          | 515  | 750 |
+| Fabric Logic          | 6320 | 767 |
 | uSRAM Interface Logic | 0    | 0   |
 | LSRAM Interface Logic | 72   | 72  |
 | Math Interface Logic  | 0    | 0   |
-| Total Used            | 587  | 822 |
+| Total Used            | 6392 | 839 |
 +-----------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 8      | 2    |
+| 8      | 3    |
+| 9      | 1    |
 | 14     | 1    |
 | 16     | 1    |
-| Total  | 4    |
+| Total  | 6    |
 +--------+------+
 
 Detailed 4LUT Groups Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 2    |
-| Total  | 2    |
+| 2      | 23   |
+| 5      | 16   |
+| 10     | 1    |
+| 22     | 3    |
+| 46     | 3    |
+| Total  | 46   |
 +--------+------+
 
 I/O Function
@@ -90,7 +95,7 @@ Nets assigned to chip global resources
 +--------+---------+-----------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                        |
 +--------+---------+-----------------------------------------------------------------------------+
-| 378    | INT_NET | Net   : NN_1                                                                |
+| 395    | INT_NET | Net   : NN_1                                                                |
 |        |         | Driver: I_1/U0_RGB1                                                         |
 |        |         | Source: NETLIST                                                             |
 | 355    | INT_NET | Net   : ident_coreinst/IICE_comm2iice[11]                                   |
@@ -111,54 +116,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                         |
-+--------+---------+------------------------------------------------------------------------------+
-| 109    | INT_NET | Net   : sys_init_i_RST_OUT                                                   |
-|        |         | Driver: sys_init_i/RST_OUT                                                   |
-| 106    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_voSc3                                    |
-|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb                   |
-| 79     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or                  |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or          |
-| 74     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]                       |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]               |
-| 74     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2                      |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2              |
-| 73     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2                     |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2             |
-| 52     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]                       |
-|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]      |
-| 44     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                                     |
-|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                  |
-| 33     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z        |
-|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa          |
-| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or        |
-|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61 |
-+--------+---------+------------------------------------------------------------------------------+
++--------+---------+------------------------------------------+
+| Fanout | Type    | Name                                     |
++--------+---------+------------------------------------------+
+| 344    | INT_NET | Net   : uart_writer_i/message_index_Z[7] |
+|        |         | Driver: uart_writer_i/message_index[7]   |
+| 273    | INT_NET | Net   : uart_writer_i/line_index_Z[5]    |
+|        |         | Driver: uart_writer_i/line_index[5]      |
+| 243    | INT_NET | Net   : uart_writer_i/line_index_Z[4]    |
+|        |         | Driver: uart_writer_i/line_index[4]      |
+| 235    | INT_NET | Net   : uart_writer_i/line_index_Z[6]    |
+|        |         | Driver: uart_writer_i/line_index[6]      |
+| 234    | INT_NET | Net   : uart_writer_i/message_index_Z[2] |
+|        |         | Driver: uart_writer_i/message_index[2]   |
+| 226    | INT_NET | Net   : uart_writer_i/message_index_Z[1] |
+|        |         | Driver: uart_writer_i/message_index[1]   |
+| 224    | INT_NET | Net   : uart_writer_i/line_index_Z[1]    |
+|        |         | Driver: uart_writer_i/line_index[1]      |
+| 216    | INT_NET | Net   : uart_writer_i/line_index_Z[3]    |
+|        |         | Driver: uart_writer_i/line_index[3]      |
+| 199    | INT_NET | Net   : uart_writer_i/line_index_Z[0]    |
+|        |         | Driver: uart_writer_i/line_index[0]      |
+| 182    | INT_NET | Net   : uart_writer_i/line_index_Z[2]    |
+|        |         | Driver: uart_writer_i/line_index[2]      |
++--------+---------+------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                         |
-+--------+---------+------------------------------------------------------------------------------+
-| 109    | INT_NET | Net   : sys_init_i_RST_OUT                                                   |
-|        |         | Driver: sys_init_i/RST_OUT                                                   |
-| 106    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_voSc3                                    |
-|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb                   |
-| 79     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or                  |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or          |
-| 74     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]                       |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]               |
-| 74     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2                      |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2              |
-| 73     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2                     |
-|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2             |
-| 52     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]                       |
-|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]      |
-| 44     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                                     |
-|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                  |
-| 33     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z        |
-|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa          |
-| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or        |
-|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61 |
-+--------+---------+------------------------------------------------------------------------------+
++--------+---------+------------------------------------------+
+| Fanout | Type    | Name                                     |
++--------+---------+------------------------------------------+
+| 344    | INT_NET | Net   : uart_writer_i/message_index_Z[7] |
+|        |         | Driver: uart_writer_i/message_index[7]   |
+| 273    | INT_NET | Net   : uart_writer_i/line_index_Z[5]    |
+|        |         | Driver: uart_writer_i/line_index[5]      |
+| 243    | INT_NET | Net   : uart_writer_i/line_index_Z[4]    |
+|        |         | Driver: uart_writer_i/line_index[4]      |
+| 235    | INT_NET | Net   : uart_writer_i/line_index_Z[6]    |
+|        |         | Driver: uart_writer_i/line_index[6]      |
+| 234    | INT_NET | Net   : uart_writer_i/message_index_Z[2] |
+|        |         | Driver: uart_writer_i/message_index[2]   |
+| 226    | INT_NET | Net   : uart_writer_i/message_index_Z[1] |
+|        |         | Driver: uart_writer_i/message_index[1]   |
+| 224    | INT_NET | Net   : uart_writer_i/line_index_Z[1]    |
+|        |         | Driver: uart_writer_i/line_index[1]      |
+| 216    | INT_NET | Net   : uart_writer_i/line_index_Z[3]    |
+|        |         | Driver: uart_writer_i/line_index[3]      |
+| 199    | INT_NET | Net   : uart_writer_i/line_index_Z[0]    |
+|        |         | Driver: uart_writer_i/line_index[0]      |
+| 182    | INT_NET | Net   : uart_writer_i/line_index_Z[2]    |
+|        |         | Driver: uart_writer_i/line_index[2]      |
++--------+---------+------------------------------------------+
 

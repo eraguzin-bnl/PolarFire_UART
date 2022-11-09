@@ -1,7 +1,7 @@
 %%% protect protected_file
-#OPTIONS:"|-bldtbl|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-bldtbl|-instrdir|/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-srs_instrumentation|-ignore_undefined_lib|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/linux_a_64/c_vhdl":1655988489
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1668013805
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc":1668027982
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/location.map":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std.vhd":1655988488
 #CUR:"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1655988488
@@ -21,9 +21,10 @@
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":1667856477
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":1667943000
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":1668009620
-#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":1668013779
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd":1668027936
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":1666631262
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":1666631262
+#CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":1668026729
 #CUR:"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":1668009820
 @E8lFkRDC0_FbDCCPDH
 DLssN$FRIsH	
@@ -44,89 +45,89 @@ R4Fbk0k00RG$s8_0FkRH4
 M0bkRRsG4k
 F00bkRR0G4M
 C88lFk
-DClkF8DBCRmz) q_)aBDj
+DClkF8DkCRN_s0I0sHCDs
 HNLssI$RF
-s	HkMb0qRAze7_q4pRdM
-HbRk0AUQaRH4
-M0bkRiBpRH4
-M0bkRhB1RH4
-M0bkRa7qqh_QRHU
-M0bkR7m7_ h_eR h4M
-HbRk0mR h4M
-HbRk0uQq)a Y_h
-R4HkMb0 R)1_ ah
-R4HkMb0XR)RH4
-M0bkRhW RF4
-kk0b0qR7amq_zUaR
-0FkbRk0wv)qQ_ht R))4k
-F00bkR me)mwpW
-R4Fbk0ku0Rqa)QY)_ )
-R4Fbk0k)0RXY)7RF4
-kk0b0XRaRF4
-kk0b0XRa)R7Y4M
-C88lFk
-DClkF8DBCRmz) q_)aBBj_mz) q_)aBjj__)Bm )zqaH
-DLssN$FROsNCksD0_HbL
-NlsNCs0CRvwqQRpYHCM0o
-CsbNNslCC0sXRa_wwQmMRH0CCosN
-bsCNl0RCs)wX_QRwmHCM0o
-CsbNNslCC0sXR)_tp q_BYv m7R0HMCsoC
-sbNN0lCCAsRq_z7e_qpwa)Bhh_ R0HMCsoC
-bHMk)0R a1 _-hR4M
-HbRk0BRpi-H4
-M0bkRhW R
--4HkMb0 Rmh4R-
-bHMkB0R1-hR4M
-HbRk07qqa_RQh-H4
-M0bkRR)X-H4
-M0bkRzAq7q_ep4R-
-bHMkA0RQRaU-H4
-M0bkR)uqQ_aY -hR4M
-HbRk0m_77he_  -hR4M
-HbRk0A7qz_peq_qw)BmaQh4R-
-0FkbRk0uQq)a Y_)-)R4k
-F00bkR me)mwpW4R-
-0FkbRk0a7X)Y4R-
-0FkbRk0)7X)Y4R-
-0FkbRk07qqa_amzR
--4Fbk0ka0RX4R-
-0FkbRk0wv)qQ_ht R))-C4
-MF8l8CkD
-8lFkRDCOCFsk0Ns_LDH3)Bm )zqaj_B_)Bm )zqaj_B_Bj_mz) q
-)abNNslCC0sqRwvYQpR0HMCsoC
-sbNN0lCCasRXQ_wwHmRMo0CCbs
-NlsNCs0CR_)XwmQwR0HMCsoC
-sbNN0lCC)sRX _ptYqB_7vm MRH0CCosN
-bsCNl0RCsA7qz_peq_Bw)a h_hMRH0CCosM
-HbRk0)  1aR_h-H4
-M0bkRiBpR
--4HkMb0 RWh4R-
-bHMkm0R -hR4M
-HbRk0BR1h-H4
-M0bkRa7qqh_QR
--4HkMb0XR)R
--4HkMb0qRAze7_q-pR4M
-HbRk0AUQaR
--4HkMb0qRu)YQa_R h-H4
-M0bkR7m7_ h_eR h-H4
-M0bkRzAq7q_ep)_wqQBam-hR4k
-F00bkR)uqQ_aY R))-F4
-kk0b0eRm p)wm-WR4k
-F00bkR)aX7-YR4k
-F00bkR))X7-YR4k
-F00bkRa7qqz_ma4R-
-0FkbRk0a-XR4k
-F00bkRqw)vtQh_) )R
--4ClM8FD8kCF
-l8CkDRskN0s_IHs0C
+s	HkMb0pRBi
+R4HkMb01R)a
+R4HkMb0aR1qR)a4M
+HbRk0a7X)Y
+R4Fbk0kz0Rq_)aBamh)Rmp4k
+F00bkRa7qqh_QRFU
+kk0b0 RWh
+R4ClM8FD8kCF
+l8CkDR)Bm )zqaj_B
 LDHs$NsRsIF	M
-HbRk0BRpi4M
-HbRk0)R1a4M
-HbRk01)aqa
-R4HkMb0XRa)R7Y4k
-F00bkR)zqam_Bhma)p
-R4Fbk0k70Rq_aqQUhR
-0FkbRk0WR h4M
+HbRk0A7qz_peqR
+4dHkMb0QRAa4UR
+bHMkB0Rp4iR
+bHMkB0R14hR
+bHMk70Rq_aqQUhR
+bHMkm0R7h7__  eh
+R4HkMb0 Rmh
+R4HkMb0qRu)YQa_R h4M
+HbRk0)  1aR_h4M
+HbRk0)4XR
+bHMkW0R 4hR
+0FkbRk07qqa_amzRFU
+kk0b0)RwqhvQt)_ )
+R4Fbk0km0Rew )pRmW4k
+F00bkR)uqQ_aY R))4k
+F00bkR))X74YR
+0FkbRk0a4XR
+0FkbRk0a7X)Y
+R4ClM8FD8kCF
+l8CkDR)Bm )zqaj_B_)Bm )zqaj_B_Bj_mz) q
+)aDsHLNRs$OCFsk0Ns_LDH
+sbNN0lCCwsRqpvQYMRH0CCosN
+bsCNl0RCsawX_QRwmHCM0o
+CsbNNslCC0sXR)_wwQmMRH0CCosN
+bsCNl0RCs)pX_ BtqYm_v7H RMo0CCbs
+NlsNCs0CRzAq7q_ep)_wB_ah HhRMo0CCHs
+M0bkR1)  ha_R
+-4HkMb0pRBi4R-
+bHMkW0R -hR4M
+HbRk0mR h-H4
+M0bkRhB1R
+-4HkMb0qR7aQq_h4R-
+bHMk)0RX4R-
+bHMkA0Rq_z7eRqp-H4
+M0bkRaAQU4R-
+bHMku0Rqa)QYh_ R
+-4HkMb07Rm7__h he R
+-4HkMb0qRAze7_qwp_)aqBQRmh-F4
+kk0b0qRu)YQa_) )R
+-4Fbk0km0Rew )pRmW-F4
+kk0b0XRa)R7Y-F4
+kk0b0XR))R7Y-F4
+kk0b0qR7amq_z-aR4k
+F00bkRRaX-F4
+kk0b0)RwqhvQt)_ )4R-
+8CMlkF8DlC
+FD8kCFROsNCksD0_HBL3mz) q_)aBBj_mz) q_)aBjj__)Bm )zqaN
+bsCNl0RCswQqvpHYRMo0CCbs
+NlsNCs0CR_aXwmQwR0HMCsoC
+sbNN0lCC)sRXQ_wwHmRMo0CCbs
+NlsNCs0CR_)Xpq tBvY_mR7 HCM0o
+CsbNNslCC0sqRAze7_qwp_)hBa_R hHCM0o
+CsHkMb0 R)1_ ah4R-
+bHMkB0Rp-iR4M
+HbRk0WR h-H4
+M0bkRhm R
+-4HkMb01RBh4R-
+bHMk70Rq_aqQ-hR4M
+HbRk0)-XR4M
+HbRk0A7qz_peqR
+-4HkMb0QRAa-UR4M
+HbRk0uQq)a Y_h4R-
+bHMkm0R7h7__  eh4R-
+bHMkA0Rq_z7e_qpwB)qahQmR
+-4Fbk0ku0Rqa)QY)_ )4R-
+0FkbRk0m)e wWpmR
+-4Fbk0ka0RXY)7R
+-4Fbk0k)0RXY)7R
+-4Fbk0k70Rq_aqmRza-F4
+kk0b0XRaR
+-4Fbk0kw0R)Qqvh t_)-)R4M
 C88lFk
 DClkF8DkCRN_s0s8CNCDs
 HNLssI$RF

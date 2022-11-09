@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)</text>
-<text>Date: Wed Nov  9 12:10:16 2022
+<text>Date: Wed Nov  9 16:06:49 2022
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -78,15 +78,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>587</cell>
+ <cell>6392</cell>
  <cell>299544</cell>
- <cell>0.20</cell>
+ <cell>2.13</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>822</cell>
+ <cell>839</cell>
  <cell>299544</cell>
- <cell>0.27</cell>
+ <cell>0.28</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -182,8 +182,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>515</cell>
- <cell>750</cell>
+ <cell>6320</cell>
+ <cell>767</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -202,8 +202,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>587</cell>
- <cell>822</cell>
+ <cell>6392</cell>
+ <cell>839</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -216,7 +216,11 @@
 </row>
 <row>
  <cell>8</cell>
- <cell>2</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>14</cell>
@@ -228,7 +232,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>4</cell>
+ <cell>6</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -241,11 +245,27 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>2</cell>
+ <cell>23</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>46</cell>
+ <cell>3</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>2</cell>
+ <cell>46</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -295,7 +315,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>378</cell>
+ <cell>395</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -371,104 +391,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>109</cell>
+ <cell>344</cell>
  <cell>INT_NET</cell>
- <cell>Net   : sys_init_i_RST_OUT</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: sys_init_i/RST_OUT</cell>
+ <cell>Driver: uart_writer_i/message_index[7]</cell>
 </row>
 <row>
- <cell>106</cell>
+ <cell>273</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[5]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
+ <cell>Driver: uart_writer_i/line_index[5]</cell>
 </row>
 <row>
- <cell>79</cell>
+ <cell>243</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
+ <cell>Driver: uart_writer_i/line_index[4]</cell>
 </row>
 <row>
- <cell>74</cell>
+ <cell>235</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[6]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]</cell>
+ <cell>Driver: uart_writer_i/line_index[6]</cell>
 </row>
 <row>
- <cell>74</cell>
+ <cell>234</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+ <cell>Driver: uart_writer_i/message_index[2]</cell>
 </row>
 <row>
- <cell>73</cell>
+ <cell>226</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2</cell>
+ <cell>Driver: uart_writer_i/message_index[1]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>224</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]</cell>
+ <cell>Driver: uart_writer_i/line_index[1]</cell>
 </row>
 <row>
- <cell>44</cell>
+ <cell>216</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
+ <cell>Driver: uart_writer_i/line_index[3]</cell>
 </row>
 <row>
- <cell>33</cell>
+ <cell>199</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa</cell>
+ <cell>Driver: uart_writer_i/line_index[0]</cell>
 </row>
 <row>
- <cell>32</cell>
+ <cell>182</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
+ <cell>Driver: uart_writer_i/line_index[2]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -479,104 +499,104 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>109</cell>
+ <cell>344</cell>
  <cell>INT_NET</cell>
- <cell>Net   : sys_init_i_RST_OUT</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[7]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: sys_init_i/RST_OUT</cell>
+ <cell>Driver: uart_writer_i/message_index[7]</cell>
 </row>
 <row>
- <cell>106</cell>
+ <cell>273</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b5_voSc3</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[5]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
+ <cell>Driver: uart_writer_i/line_index[5]</cell>
 </row>
 <row>
- <cell>79</cell>
+ <cell>243</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_1_or</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[4]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_1_or</cell>
+ <cell>Driver: uart_writer_i/line_index[4]</cell>
 </row>
 <row>
- <cell>74</cell>
+ <cell>235</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[78]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[6]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[78]</cell>
+ <cell>Driver: uart_writer_i/line_index[6]</cell>
 </row>
 <row>
- <cell>74</cell>
+ <cell>234</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+ <cell>Driver: uart_writer_i/message_index[2]</cell>
 </row>
 <row>
- <cell>73</cell>
+ <cell>226</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_PKJa_9u_2</cell>
+ <cell>Net   : uart_writer_i/message_index_Z[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_PKJa_9u_2</cell>
+ <cell>Driver: uart_writer_i/message_index[1]</cell>
 </row>
 <row>
- <cell>52</cell>
+ <cell>224</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]</cell>
+ <cell>Driver: uart_writer_i/line_index[1]</cell>
 </row>
 <row>
- <cell>44</cell>
+ <cell>216</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X</cell>
+ <cell>Driver: uart_writer_i/line_index[3]</cell>
 </row>
 <row>
- <cell>33</cell>
+ <cell>199</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_Z</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa</cell>
+ <cell>Driver: uart_writer_i/line_index[0]</cell>
 </row>
 <row>
- <cell>32</cell>
+ <cell>182</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or</cell>
+ <cell>Net   : uart_writer_i/line_index_Z[2]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_RNIQRI61</cell>
+ <cell>Driver: uart_writer_i/line_index[2]</cell>
 </row>
 </table>
 </doc>

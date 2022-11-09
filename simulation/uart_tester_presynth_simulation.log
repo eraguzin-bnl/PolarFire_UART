@@ -1,0 +1,295 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap PolarFire /usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library COREUART_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2022.2 Lib Mapping Utility 2022.04 Apr 26 2022
+# vmap COREUART_LIB COREUART_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:46 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity COREUART_C0_COREUART_C0_0_Clock_gen
+# -- Compiling architecture rtl of COREUART_C0_COREUART_C0_0_Clock_gen
+# End time: 16:05:46 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:46 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity COREUART_C0_COREUART_C0_0_Rx_async
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_Rx_async
+# End time: 16:05:46 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:46 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity COREUART_C0_COREUART_C0_0_Tx_async
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_Tx_async
+# End time: 16:05:46 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:46 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8_g5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity COREUART_C0_COREUART_C0_0_fifo_256x8
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_fifo_256x8
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity COREUART_C0_COREUART_C0_0_fifo_ctrl_256
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_fifo_ctrl_256
+# -- Compiling entity COREUART_C0_COREUART_C0_0_ram256x8_g5
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_ram256x8_g5
+# End time: 16:05:46 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:46 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package COREUART_C0_COREUART_C0_0_coreuart_pkg
+# -- Compiling package body COREUART_C0_COREUART_C0_0_coreuart_pkg
+# -- Loading package COREUART_C0_COREUART_C0_0_coreuart_pkg
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package COREUART_C0_COREUART_C0_0_coreuart_pkg
+# -- Compiling entity COREUART_C0_COREUART_C0_0_COREUART
+# -- Compiling architecture translated of COREUART_C0_COREUART_C0_0_COREUART
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work COREUART_LIB /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package COREUART_C0_COREUART_C0_0_components
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package COREUART_C0_COREUART_C0_0_components
+# -- Compiling entity COREUART_C0
+# -- Compiling architecture RTL of COREUART_C0
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity default_values
+# -- Compiling architecture architecture_default_values of default_values
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity sys_init
+# -- Compiling architecture sys_init_arch of sys_init
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uart_reader
+# -- Compiling architecture architecture_uart_reader of uart_reader
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package uart_picture
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package uart_picture
+# -- Compiling entity uart_writer
+# -- Compiling architecture architecture_uart_writer of uart_writer
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_level
+# -- Compiling architecture architecture_top_level of top_level
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity sys_init
+# -- Loading package COREUART_C0_COREUART_C0_0_components
+# -- Loading entity COREUART_C0
+# -- Loading entity default_values
+# -- Loading package NUMERIC_STD
+# -- Loading entity uart_reader
+# -- Loading package uart_picture
+# -- Loading entity uart_writer
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2022.2 Compiler 2022.04 Apr 26 2022
+# Start time: 16:05:47 on Nov 09,2022
+# vcom -reportprogress 300 -2008 -explicit -work presynth /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/stimulus/uart_tester.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uart_tester
+# -- Compiling architecture behavioral of uart_tester
+# End time: 16:05:47 on Nov 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L PolarFire -L presynth -L COREUART_LIB -t 1ps -pli "/usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so" presynth.uart_tester 
+# Start time: 16:05:47 on Nov 09,2022
+# //  ModelSim Microsemi Pro 2022.2 Apr 26 2022 Linux 5.10.148-1-MANJARO
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi Pro and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.uart_tester(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_components
+# Loading ieee.numeric_std(body)
+# Loading presynth.uart_picture
+# Loading presynth.top_level(architecture_top_level)
+# Loading presynth.sys_init(sys_init_arch)
+# Loading presynth.coreuart_c0(rtl)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_coreuart_pkg(body)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_coreuart(translated)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_clock_gen(rtl)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_tx_async(translated)
+# Loading COREUART_LIB.coreuart_c0_coreuart_c0_0_rx_async(translated)
+# Loading presynth.default_values(architecture_default_values)
+# Loading presynth.uart_reader(architecture_uart_reader)
+# Loading presynth.uart_writer(architecture_uart_writer)
+# Loading /usr/local/microchip/Libero_SoC_v2022.2/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Region: /uart_tester/top_level_0/uart_i/COREUART_C0_0/make_COREUART_C0_COREUART_C0_0_Clock_gen/UG10
+run -all
+# End time: 16:06:13 on Nov 09,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 33

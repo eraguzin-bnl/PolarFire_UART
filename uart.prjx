@@ -218,6 +218,11 @@ STATE="utd"
 TIME="1668009820"
 SIZE="5088"
 ENDFILE
+VALUE "<project>/hdl/uart_picture.vhd,hdl"
+STATE="utd"
+TIME="1668015517"
+SIZE="1099"
+ENDFILE
 VALUE "<project>/hdl/uart_reader.vhd,hdl"
 STATE="utd"
 TIME="1668009620"
@@ -225,13 +230,18 @@ SIZE="3240"
 ENDFILE
 VALUE "<project>/hdl/uart_writer.vhd,hdl"
 STATE="utd"
-TIME="1668013779"
-SIZE="3435"
+TIME="1668026729"
+SIZE="5067"
 ENDFILE
 VALUE "<project>/simulation/run.do,do"
 STATE="utd"
 TIME="1667943084"
 SIZE="2175"
+ENDFILE
+VALUE "<project>/simulation/uart_tester_presynth_simulation.log,log"
+STATE="utd"
+TIME="1668026742"
+SIZE="19963"
 ENDFILE
 VALUE "<project>/stimulus/uart_tester.vhd,tb_hdl"
 STATE="utd"
@@ -244,7 +254,7 @@ TIME="1667943893"
 SIZE="250"
 ENDFILE
 VALUE "<project>/synthesis/synthesis_1/top_level.vm,syn_vm"
-STATE="utd"
+STATE="ood"
 TIME="1667943892"
 SIZE="302306"
 ENDFILE
@@ -294,7 +304,6 @@ VALUE "<project>/constraint/io/user1.pdc,io_pdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-ideSYNTHESIS(<project>/synthesis/synthesis_1/top_level.vm,syn_vm)=StateSuccess
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -445,7 +454,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST "top_level::work"
 LIST Impl1
-ideSYNTHESIS(<project>/synthesis/synthesis_1/top_level.vm,syn_vm)=StateSuccess
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -484,14 +492,15 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:top_level_PROGRAM.log
+ReportsCurrentItem;Pre-Synthesis Simulate:uart_tester_presynth_simulation.log
 HDL;hdl/sys_init.vhd;0
 HDL;hdl/top_level.vhd;0
 HDL;hdl/uart_reader.vhd;0
 HDL;hdl/uart_writer.vhd;0
+HDL;hdl/uart_picture.vhd;0
 HDL;stimulus/uart_tester.vhd;0
 HDL;component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;hdl/uart_writer.vhd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COREUART_C0::work","component/work/COREUART_C0/COREUART_C0.vhd","TRUE","FALSE"
@@ -507,6 +516,8 @@ SUBBLOCK "default_values::work","hdl/default_values.vhd","FALSE","FALSE"
 SUBBLOCK "sys_init::work","hdl/sys_init.vhd","FALSE","FALSE"
 SUBBLOCK "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
 SUBBLOCK "uart_writer::work","hdl/uart_writer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "uart_picture::work","hdl/uart_picture.vhd","FALSE","FALSE"
 ENDLIST
 LIST "uart_reader::work","hdl/uart_reader.vhd","FALSE","FALSE"
 ENDLIST

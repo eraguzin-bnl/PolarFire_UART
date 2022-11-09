@@ -1,3 +1,11 @@
+parity_en_s
+oen_s
+odd_n_even_s
+csn_s
+bit8_s
+baud_val_s
+tx
+rx
 uart_i.tx
 uart_i.rxrdy
 uart_i.rx
@@ -10,11 +18,6 @@ uart_reader_i.oen
 uart_reader_i.wen
 uart_reader_i.data_in
 uart_reader_i.txrdy
-csn_s
-bit8_s
-baud_val_s
-tx
-rx
 uart_reader_i.rxrdy
 uart_reader_i.parity_err
 uart_reader_i.overflow
@@ -29,6 +32,3 @@ parity_err_s
 overflow_s
 framing_err_s
 data_out_s
-parity_en_s
-oen_s
-odd_n_even_s

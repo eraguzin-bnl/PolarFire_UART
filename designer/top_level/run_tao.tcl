@@ -10,6 +10,7 @@ read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/c
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd}
+read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd}
 read_vhdl -mode vhdl_2008 {/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd}
 set_top_level {top_level}

@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-# Written on Wed Nov  9 12:10:07 2022
+# Written on Wed Nov  9 16:06:25 2022
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/designer/top_level/synthesis.fdc"
@@ -37,7 +37,7 @@ Clock Summary
           Start                                                Requested     Requested     Clock        Clock                     Clock
 Level     Clock                                                Frequency     Period        Type         Group                     Load 
 ---------------------------------------------------------------------------------------------------------------------------------------
-0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          462  
+0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          479  
                                                                                                                                        
 0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      8    
                                                                                                                                        
@@ -57,7 +57,7 @@ Clock Load Summary
                                                      Clock     Source                                                             Clock Pin                                                                    Non-clock Pin     Non-clock Pin                                                
 Clock                                                Load      Pin                                                                Seq Example                                                                  Seq Example       Comb Example                                                 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_main                                             462       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
+clk_main                                             479       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
                                                                                                                                                                                                                                                                                               
 ident_coreinst.comm_block_INST.dr2_tck               8         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7:0].C                -                 -                                                            
                                                                                                                                                                                                                                                                                               

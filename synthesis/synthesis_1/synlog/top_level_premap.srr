@@ -1,4 +1,4 @@
-# Wed Nov  9 12:10:07 2022
+# Wed Nov  9 16:06:25 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -54,8 +54,8 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED1 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED3 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
-@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Found instance uart_writer_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
-@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Found instance uart_writer_i.UART_CONTROL with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found instance uart_writer_i.UART_CONTROL with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found instance uart_writer_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 
 Making connections to hyper_source modules
 
@@ -63,7 +63,7 @@ Making connections to hyper_source modules
 
 #### END OF SSF LOG MESSAGES ####
 @N: MF625 |Insert Identify debug core
-*** Launch instrumentor shell: "/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell" -srs_gen_hw "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" -prj "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs" -idb "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db" -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log  -tsl SonTQhgi -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+*** Launch instrumentor shell: "/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell" -srs_gen_hw "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" -prj "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs" -idb "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db" -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log  -tsl PbkLIqng -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":64:2:64:7|Found instance b3_ORb[32:1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_FZFFLXYE[6:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
@@ -125,10 +125,10 @@ Choosing : ident_hs_rx
 @N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5681:28:5681:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_bit8_s_IICE_13, tag ident_ihs_bit8_s to syn_hyper_source ident_hs_bit8_s
 @N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5674:28:5674:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_baud_val_s_IICE_0, tag ident_ihs_baud_val_s to syn_hyper_source ident_hs_baud_val_s
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
 
 
 Making connections to hyper_source modules
@@ -148,7 +148,7 @@ Making connections to hyper_source modules
 @N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX on CLKINT  I_2 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
 
 @W: Z241 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
 
@@ -159,7 +159,7 @@ Clock Summary
           Start                                                Requested     Requested     Clock        Clock                     Clock
 Level     Clock                                                Frequency     Period        Type         Group                     Load 
 ---------------------------------------------------------------------------------------------------------------------------------------
-0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          462  
+0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          479  
                                                                                                                                        
 0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      8    
                                                                                                                                        
@@ -180,7 +180,7 @@ Clock Load Summary
                                                      Clock     Source                                                             Clock Pin                                                                    Non-clock Pin     Non-clock Pin                                                
 Clock                                                Load      Pin                                                                Seq Example                                                                  Seq Example       Comb Example                                                 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_main                                             462       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
+clk_main                                             479       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
                                                                                                                                                                                                                                                                                               
 ident_coreinst.comm_block_INST.dr2_tck               8         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7:0].C                -                 -                                                            
                                                                                                                                                                                                                                                                                               
@@ -201,7 +201,7 @@ jtag_interface_x|b10_8Kz_rKlrtX                      8         ident_coreinst.co
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
 
 Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
 original code -> new code
@@ -223,13 +223,17 @@ original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-Encoding state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer))
+Encoding state machine sequence_wr_state[0:8] (in view: work.uart_writer(architecture_uart_writer))
 original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|There are no possible illegal states for state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer)); safe FSM implementation is not required.
+   000000001 -> 000000000
+   000000010 -> 000000011
+   000000100 -> 000000101
+   000001000 -> 000001001
+   000010000 -> 000010001
+   000100000 -> 000100001
+   001000000 -> 001000001
+   010000000 -> 010000001
+   100000000 -> 100000001
 Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
 original code -> new code
    0000 -> 00000000000000
@@ -247,17 +251,17 @@ original code -> new code
    1100 -> 01000000000001
    1101 -> 10000000000001
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 270MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Nov  9 12:10:08 2022
+# Wed Nov  9 16:06:26 2022
 
 ###########################################################]

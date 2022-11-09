@@ -17,7 +17,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-Arguments:   -tsl NpsXLpsf -af _CMD_IDENTIFY_COMPILE.CML
+Arguments:   -tsl NmeSOiqn -af _CMD_IDENTIFY_COMPILE.CML
 ProductType: identify_instrumentor
 
 

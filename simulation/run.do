@@ -28,6 +28,7 @@ vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/component/work/COREUART_C0/
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/default_values.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/sys_init.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/uart_reader.vhd"
+vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/uart_picture.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/uart_writer.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/top_level.vhd"
 vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/stimulus/uart_tester.vhd"

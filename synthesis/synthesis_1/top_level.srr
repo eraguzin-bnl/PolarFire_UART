@@ -3,13 +3,13 @@
 #OS: Linux 
 #Hostname: eric-manjaro
 
-# Wed Nov  9 12:10:04 2022
+# Wed Nov  9 16:06:21 2022
 
 #Implementation: synthesis_1
 
 $ Running Identify Instrumentor. See log file:
 @N::"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synlog/top_level_identify_compile.log"|
-#Wed Nov  9 12:10:04 2022
+#Wed Nov  9 16:06:21 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -31,7 +31,7 @@ Implementation : synthesis_1
 Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:50:29, @4302666
 
 @N|Running in 64-bit mode
-File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd changed - recompiling
 ###########################################################[
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -73,21 +73,23 @@ Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:04 2022
+# Wed Nov  9 16:06:21 2022
 
 ###########################################################]
 ###########################################################[
@@ -266,7 +268,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:05 2022
+# Wed Nov  9 16:06:22 2022
 
 ###########################################################]
 ###########################################################[
@@ -290,12 +292,14 @@ Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 Parsing /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
@@ -303,21 +307,21 @@ VHDL syntax check successful!
 @W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":126:30:126:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":68:11:68:19|Signal data_in_s is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":72:11:72:15|Signal wen_s is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":23:7:23:17|Synthesizing work.uart_writer.architecture_uart_writer.
-@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":95:20:95:33|OTHERS clause is not synthesized.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":26:7:26:17|Synthesizing work.uart_writer.architecture_uart_writer.
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":135:20:135:33|OTHERS clause is not synthesized.
 Post processing for work.uart_writer.architecture_uart_writer
 Running optimization stage 1 on uart_writer .......
-Finished optimization stage 1 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 176MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
 @N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":104:20:104:33|OTHERS clause is not synthesized.
 Post processing for work.uart_reader.architecture_uart_reader
 Running optimization stage 1 on uart_reader .......
-Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 176MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
 Post processing for work.default_values.architecture_default_values
 Running optimization stage 1 on default_values .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 176MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -349,7 +353,7 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":95:10:95:16|Signal sresetn is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":94:10:94:16|Signal aresetn is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":52:6:52:16|Signal rx_idle_out is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 176MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
 @N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":78:9:78:15|Signal aresetn is undriven. Either assign the signal a value or remove the signal declaration.
@@ -358,7 +362,7 @@ Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":79:9:79:15|Signal sresetn is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":78:9:78:15|Signal aresetn is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":54:7:54:19|Signal baud_cntr_one is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":55:7:55:13|Signal aresetn is undriven. Either assign the signal a value or remove the signal declaration.
@@ -367,7 +371,7 @@ Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":56:7:56:13|Signal sresetn is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":55:7:55:13|Signal aresetn is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":139:10:139:16|Signal sresetn is floating; a simulation mismatch is possible.
@@ -387,14 +391,14 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":120:10:120:19|Signal temp_xhdl7 is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":116:10:116:23|Signal clear_overflow is floating; a simulation mismatch is possible.
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":107:10:107:28|Signal clear_framing_error is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 Post processing for work.coreuart_c0.rtl
 Running optimization stage 1 on COREUART_C0 .......
-Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":27:7:27:14|Synthesizing work.sys_init.sys_init_arch.
 Post processing for work.sys_init.sys_init_arch
 Running optimization stage 1 on sys_init .......
-Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":72:11:72:15|Signal wen_s is floating; a simulation mismatch is possible.
@@ -407,13 +411,13 @@ Running optimization stage 1 on top_level .......
 @W: CL252 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":68:11:68:19|Bit 6 of signal data_in_s is floating -- simulation mismatch possible.
 @W: CL252 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":68:11:68:19|Bit 7 of signal data_in_s is floating -- simulation mismatch possible.
 @W: CL168 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":165:27:165:42|Removing instance uart_writer_i because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 177MB)
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 177MB peak: 177MB)
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:05 2022
+# Wed Nov  9 16:06:22 2022
 
 ###########################################################]
 @END
@@ -423,7 +427,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov  9 12:10:05 2022
+# Wed Nov  9 16:06:22 2022
 
 ###########################################################]
 Running in restricted mode: identify_job
@@ -445,7 +449,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis_1
 
-Arguments:   -tsl SonTQhgi -af _CMD_IDENTIFY_COMPILE.CML
+Arguments:   -tsl PbkLIqng -af _CMD_IDENTIFY_COMPILE.CML
 ProductType: identify_instrumentor
 
 
@@ -527,20 +531,21 @@ Synopsys VHDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 1
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
-File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd changed - recompiling
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 158MB)
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:05 2022
+# Wed Nov  9 16:06:22 2022
 
 ###########################################################]
 ###########################################################[
@@ -720,7 +725,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:05 2022
+# Wed Nov  9 16:06:23 2022
 
 ###########################################################]
 ###########################################################[
@@ -733,9 +738,10 @@ File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd changed - recompiling
-File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd changed - recompiling
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
@@ -760,13 +766,14 @@ File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd c
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd'.
 VHDL syntax check successful!
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.cdc changed - recompiling
-File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd changed - recompiling
+File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_picture.vhd changed - recompiling
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
 File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd changed - recompiling
@@ -784,54 +791,52 @@ File /usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd/hyperents.vhd c
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":23:7:23:15|Synthesizing work.top_level.architecture_top_level.
 @W: CD326 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":126:30:126:48|Port oen of entity work.default_values is unconnected. If a port needs to remain unconnected, use the keyword open.
-@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":23:7:23:17|Synthesizing work.uart_writer.architecture_uart_writer.
-@N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":47:29:47:30|Using sequential encoding for type sequence_state_type.
-@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":95:20:95:33|OTHERS clause is not synthesized.
+@N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":26:7:26:17|Synthesizing work.uart_writer.architecture_uart_writer.
+@N: CD231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":47:29:47:30|Using onehot encoding for type sequence_state_type. For example, enumeration s_idle is mapped to "100000000".
+@N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":135:20:135:33|OTHERS clause is not synthesized.
 Post processing for work.uart_writer.architecture_uart_writer
 Running optimization stage 1 on uart_writer .......
-@N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Register bit DATA_IN(7) is always 0.
-@W: CL260 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Pruning register bit 7 of DATA_IN(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-Finished optimization stage 1 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":24:7:24:17|Synthesizing work.uart_reader.architecture_uart_reader.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":48:25:48:26|Using sequential encoding for type uart_state_type.
 @N: CD604 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":104:20:104:33|OTHERS clause is not synthesized.
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 Post processing for work.uart_reader.architecture_uart_reader
 Running optimization stage 1 on uart_reader .......
-Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 137MB peak: 137MB)
+Finished optimization stage 1 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":23:7:23:20|Synthesizing work.default_values.architecture_default_values.
 @N: CD233 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":42:25:42:26|Using sequential encoding for type uart_state_type.
 Post processing for work.default_values.architecture_default_values
 Running optimization stage 1 on default_values .......
 @W: CL240 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":36:4:36:6|Signal OEN is floating; a simulation mismatch is possible.
-Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
 @W: CD434 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
@@ -848,19 +853,19 @@ Finished optimization stage 1 on default_values (CPU Time 0h:00m:00s, Memory Use
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
 @W: CL177 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
 @N: CD364 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":311:12:311:20|Removing redundant assignment.
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
 @W: CL190 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Optimizing register bit fifo_read_en0 to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Pruning unused register fifo_read_en0. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
 @W: CD638 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":54:7:54:19|Signal baud_cntr_one is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":439:7:439:8|Pruning unused register overflow_reg_3. Make sure that there are no unused intermediate registers.
@@ -872,102 +877,102 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
 @W: CL169 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd":245:6:245:7|Pruning unused register fifo_write_tx_4. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Post processing for work.coreuart_c0.rtl
 Running optimization stage 1 on COREUART_C0 .......
-Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 @N: CD630 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/sys_init.vhd":27:7:27:14|Synthesizing work.sys_init.sys_init_arch.
 Post processing for work.sys_init.sys_init_arch
 Running optimization stage 1 on sys_init .......
-Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 1 on syn_hyper_source .......
-Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on syn_hyper_source (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Post processing for work.top_level.architecture_top_level
 Running optimization stage 1 on top_level .......
-Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 1 on top_level (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_wen_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in_s .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out_s .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_en_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_en_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_en_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_oen_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_odd_n_even_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_odd_n_even_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_odd_n_even_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_csn_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_csn_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_csn_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_bit8_s .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_bit8_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_bit8_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_13_ident_ihs_baud_val_s .......
-Finished optimization stage 2 on syn_hyper_source_13_ident_ihs_baud_val_s (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_13_ident_ihs_baud_val_s (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_tx .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rx .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on sys_init .......
-Finished optimization stage 2 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on sys_init (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_tx .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_tx (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rx .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rx (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_clk .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 140MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":41:20:41:36|Input BAUD_VAL_FRACTION is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 141MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_0_0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
 Extracted state machine for register xmit_state
@@ -981,7 +986,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":45:9:45:19|Input tx_dout_reg is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":46:9:46:18|Input fifo_empty is unused.
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd":47:9:47:17|Input fifo_full is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 141MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 .......
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
 Extracted state machine for register rx_state
@@ -990,11 +995,11 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0_0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 .......
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_26_0_0_0_0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on COREUART_C0 .......
-Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on default_values .......
 @W: CL138 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Removing register 'CSN' because it is only assigned 0 or its original value.
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/default_values.vhd":47:8:47:9|Register bit BIT8 is always 1.
@@ -1023,35 +1028,35 @@ Extracted state machine for register uart_wr_state
 State machine has 2 reachable states with original encodings of:
    00
    10
-Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on default_values (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led4 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led3 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led2 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_led1 (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_oen .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_oen (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_wen .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_wen (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_in (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_txrdy (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rxrdy (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_parity_err (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_overflow (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_framing_err (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out .......
-Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_8_ident_ihs_data_out (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on syn_hyper_source_1_ident_ihs_rst .......
-Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rst (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on syn_hyper_source_1_ident_ihs_rst (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on uart_reader .......
 @N: CL189 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Register bit LED4 is always 1.
 @N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Trying to extract state machine for register uart_wr_state.
@@ -1061,30 +1066,35 @@ State machine has 3 reachable states with original encodings of:
    01
    10
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":29:4:29:8|Input START is unused.
-Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on uart_reader (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on uart_writer .......
-@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Trying to extract state machine for register sequence_wr_state.
+@N: CL201 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Trying to extract state machine for register sequence_wr_state.
 Extracted state machine for register sequence_wr_state
-State machine has 4 reachable states with original encodings of:
-   00
-   01
-   10
-   11
-Finished optimization stage 2 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+Finished optimization stage 2 on uart_writer (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 Running optimization stage 2 on top_level .......
 @N: CL159 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/top_level.vhd":29:4:29:10|Input button1 is unused.
-Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 142MB)
+Finished optimization stage 2 on top_level (CPU Time 0h:00m:00s, Memory Used current: 177MB peak: 181MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
 @L: /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 181MB)
 
 
 Process completed successfully.
-# Wed Nov  9 12:10:06 2022
+# Wed Nov  9 16:06:24 2022
 
 ###########################################################]
 ###########################################################[
@@ -1110,12 +1120,12 @@ Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun
 @N|Running in 64-bit mode
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/layer0.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov  9 12:10:06 2022
+# Wed Nov  9 16:06:24 2022
 
 ###########################################################]
 
@@ -1125,12 +1135,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 42MB peak: 42MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 42MB peak: 42MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov  9 12:10:06 2022
+# Wed Nov  9 16:06:24 2022
 
 ###########################################################]
 ###########################################################[
@@ -1156,17 +1166,17 @@ Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun
 @N|Running in 64-bit mode
 File /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 124MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Nov  9 12:10:07 2022
+# Wed Nov  9 16:06:25 2022
 
 ###########################################################]
 Premap Report
 
-# Wed Nov  9 12:10:07 2022
+# Wed Nov  9 16:06:25 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -1222,8 +1232,8 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED1 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED3 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_reader.vhd":53:8:53:9|Found instance uart_reader_i.LED2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
-@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Found instance uart_writer_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
-@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|Found instance uart_writer_i.UART_CONTROL with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found instance uart_writer_i.UART_CONTROL with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found instance uart_writer_i.WEN with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 
 Making connections to hyper_source modules
 
@@ -1231,7 +1241,7 @@ Making connections to hyper_source modules
 
 #### END OF SSF LOG MESSAGES ####
 @N: MF625 |Insert Identify debug core
-*** Launch instrumentor shell: "/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell" -srs_gen_hw "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" -prj "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs" -idb "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db" -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log  -tsl SonTQhgi -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
+*** Launch instrumentor shell: "/usr/local/microchip/Libero_SoC_v2022.2/SynplifyPro/bin/identify_instrumentor_shell" -srs_gen_hw "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v" -prj "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/scratchproject.prs" -idb "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.db" -isrs /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_mult.srs -curimpl synthesis_1 -write_fdc -log /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.log  -tsl PbkLIqng -fidc /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/identify.idc
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":64:2:64:7|Found instance b3_ORb[32:1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_FZFFLXYE[6:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @N: FX1171 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2539:2:2539:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
@@ -1293,10 +1303,10 @@ Choosing : ident_hs_rx
 @N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5681:28:5681:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_bit8_s_IICE_13, tag ident_ihs_bit8_s to syn_hyper_source ident_hs_bit8_s
 @N: BN397 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5674:28:5674:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_baud_val_s_IICE_0, tag ident_ihs_baud_val_s to syn_hyper_source ident_hs_baud_val_s
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 265MB peak: 265MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
 
 
 Making connections to hyper_source modules
@@ -1316,7 +1326,7 @@ Making connections to hyper_source modules
 @N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX on CLKINT  I_2 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist top_level 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 266MB peak: 266MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
 
 @W: Z241 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
 
@@ -1327,7 +1337,7 @@ Clock Summary
           Start                                                Requested     Requested     Clock        Clock                     Clock
 Level     Clock                                                Frequency     Period        Type         Group                     Load 
 ---------------------------------------------------------------------------------------------------------------------------------------
-0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          462  
+0 -       clk_main                                             50.0 MHz      20.000        declared     default_clkgroup          479  
                                                                                                                                        
 0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      8    
                                                                                                                                        
@@ -1348,7 +1358,7 @@ Clock Load Summary
                                                      Clock     Source                                                             Clock Pin                                                                    Non-clock Pin     Non-clock Pin                                                
 Clock                                                Load      Pin                                                                Seq Example                                                                  Seq Example       Comb Example                                                 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_main                                             462       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
+clk_main                                             479       clk(port)                                                          framing_err_out.C                                                            -                 I_1.A(CLKINT)                                                
                                                                                                                                                                                                                                                                                               
 ident_coreinst.comm_block_INST.dr2_tck               8         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7:0].C                -                 -                                                            
                                                                                                                                                                                                                                                                                               
@@ -1369,7 +1379,7 @@ jtag_interface_x|b10_8Kz_rKlrtX                      8         ident_coreinst.co
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
 
 Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
 original code -> new code
@@ -1391,13 +1401,17 @@ original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-Encoding state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer))
+Encoding state machine sequence_wr_state[0:8] (in view: work.uart_writer(architecture_uart_writer))
 original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|There are no possible illegal states for state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer)); safe FSM implementation is not required.
+   000000001 -> 000000000
+   000000010 -> 000000011
+   000000100 -> 000000101
+   000001000 -> 000001001
+   000010000 -> 000010001
+   000100000 -> 000100001
+   001000000 -> 001000001
+   010000000 -> 010000001
+   100000000 -> 100000001
 Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
 original code -> new code
    0000 -> 00000000000000
@@ -1415,23 +1429,23 @@ original code -> new code
    1100 -> 01000000000001
    1101 -> 10000000000001
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 267MB peak: 267MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 270MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/top_level_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Nov  9 12:10:08 2022
+# Wed Nov  9 16:06:26 2022
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Nov  9 12:10:08 2022
+# Wed Nov  9 16:06:26 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -1472,7 +1486,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
 
 @N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5319:7:5319:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
 @N: MO111 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5544:22:5544:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_x(verilog)) has its enable tied to GND.
@@ -1542,11 +1556,10 @@ Deleting unused hyper source hypers_ujtag_wrapper_utdi (in view: VhdlGenLib.jtag
 
 #### END OF SSF LOG MESSAGES ####
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":5488:2:5488:7|Removing sequential instance b13_PSyil9s_FMZ_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
-@W: FA239 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":78:56:78:67|ROM DATA_IN_1_1[6:0] (in view: work.uart_writer(architecture_uart_writer)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":78:56:78:67|ROM DATA_IN_1_1[6:0] (in view: work.uart_writer(architecture_uart_writer)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@N: MO106 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":78:56:78:67|Found ROM DATA_IN_1_1[6:0] (in view: work.uart_writer(architecture_uart_writer)) with 12 words by 7 bits.
+@W: FA239 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":80:44:80:61|ROM un88_current_line[0:1599] (in view: work.uart_writer(architecture_uart_writer)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":80:44:80:61|Found ROM un88_current_line[0:1599] (in view: work.uart_writer(architecture_uart_writer)) with 77 words by 1600 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 344MB peak: 344MB)
 
 @N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd":214:11:214:12|Found counter in view:coreuart_lib.COREUART_C0_COREUART_C0_0_Clock_gen_0_0(rtl) instance baud_cntr[12:0] 
 Encoding state machine xmit_state[0:5] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async_0_0(translated))
@@ -1573,13 +1586,22 @@ original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-Encoding state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer))
+Encoding state machine sequence_wr_state[0:8] (in view: work.uart_writer(architecture_uart_writer))
 original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":55:8:55:9|There are no possible illegal states for state machine sequence_wr_state[0:3] (in view: work.uart_writer(architecture_uart_writer)); safe FSM implementation is not required.
+   000000001 -> 000000000
+   000000010 -> 000000011
+   000000100 -> 000000101
+   000001000 -> 000001001
+   000010000 -> 000010001
+   000100000 -> 000100001
+   001000000 -> 001000001
+   010000000 -> 010000001
+   100000000 -> 100000001
+@N: FX493 |Applying initial value "0" on instance sequence_wr_state_i[8].
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found counter in view:work.uart_writer(architecture_uart_writer) instance line_index[6:0] 
+@N: MO231 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Found counter in view:work.uart_writer(architecture_uart_writer) instance message_index[7:0] 
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Register bit DATA_IN[7] (in view view:work.uart_writer(architecture_uart_writer)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/hdl/uart_writer.vhd":56:8:56:9|Register bit DATA_IN[4] (in view view:work.uart_writer(architecture_uart_writer)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
 original code -> new code
    0000 -> 00000000000000
@@ -1629,37 +1651,37 @@ original code -> new code
 @W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[74] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 @W: MO160 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":2611:10:2611:15|Register bit genblk9\.b3_PfG[73] (in view view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 267MB peak: 267MB)
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 344MB peak: 344MB)
 
 @W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4191:2:4191:7|Removing instance ident_coreinst.IICE_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKG.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4191:2:4191:7|Removing instance ident_coreinst.IICE_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKF.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4762:2:4762:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_x(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 350MB peak: 350MB)
 
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4424:3:4424:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b8_uUT_CqMr[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.v":4452:3:4452:8|Removing sequential instance ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[4] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 274MB peak: 274MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 392MB peak: 392MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 274MB peak: 274MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 392MB peak: 392MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 274MB peak: 274MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 392MB peak: 392MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 275MB peak: 275MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 392MB peak: 392MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 275MB peak: 275MB)
+Finished preparing to map (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 392MB peak: 392MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 415MB peak: 415MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     3.10ns		 516 /       822
+   1		0h:00m:12s		     3.39ns		6391 /       839
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[0] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[1] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
 @N: BN362 :|Removing sequential instance ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1_OLDA[2] (in view: work.top_level(architecture_top_level)) because it does not drive other instances.
@@ -1738,10 +1760,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 415MB peak: 415MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 415MB peak: 415MB)
 
 
 
@@ -1751,7 +1773,7 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-3 non-gated/non-generated clock tree(s) driving 733 clock pin(s) of sequential element(s)
+3 non-gated/non-generated clock tree(s) driving 750 clock pin(s) of sequential element(s)
 2 gated/generated clock tree(s) driving 21 clock pin(s) of sequential element(s)
 0 instances converted, 21 sequential instances remain driven by gated/generated clocks
 
@@ -1759,13 +1781,13 @@ Clock optimization not enabled
 Clock Tree ID     Driving Element                                       Drive Element Type              Fanout     Sample Instance                                          
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 @K:CKID0003       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     UJTAG                           347        ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]    
-@K:CKID0004       clk                                                   clock definition on port        378        overflow_err_out                                         
+@K:CKID0004       clk                                                   clock definition on port        395        overflow_err_out                                         
 @K:CKID0005       ident_coreinst.comm_block_INST.dr2_tck_keep           clock definition on keepbuf     8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]
 ============================================================================================================================================================================
 =========================================================================================================== Gated/Generated Clocks ===========================================================================================================
 Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                                          Explanation                                            
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3       CFG2                   13         ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[6]         No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0001       ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3       CFG3                   13         ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[6]         No gated clock conversion method for cell cell:ACG4.SLE
 @K:CKID0002       ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3     CFG2                   8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     No gated clock conversion method for cell cell:ACG4.SLE
 ==============================================================================================================================================================================================================================================
 
@@ -1773,11 +1795,11 @@ Clock Tree ID     Driving Element                                           Driv
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 415MB peak: 415MB)
 
 Writing Analyst data base /home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/synwork/top_level_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 415MB peak: 415MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -1791,13 +1813,13 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 285MB peak: 285MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 285MB peak: 285MB)
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
 @N: MT615 |Found clock clk_main with period 20.00ns 
 @N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
@@ -1807,7 +1829,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Nov  9 12:10:10 2022
+# Timing report written on Wed Nov  9 16:06:42 2022
 #
 
 
@@ -1828,17 +1850,17 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 5.291
+Worst slack in design: 4.515
 
                                                      Requested     Estimated      Requested     Estimated                 Clock        Clock                
 Starting Clock                                       Frequency     Frequency      Period        Period        Slack       Type         Group                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-clk_main                                             50.0 MHz      266.5 MHz      20.000        3.752         16.248      declared     default_clkgroup     
+clk_main                                             50.0 MHz      129.6 MHz      20.000        7.715         12.285      declared     default_clkgroup     
 ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       2922.3 MHz     1000.000      0.342         999.658     declared     identify_jtag_group1 
 jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     508.9 MHz      10.000        1.965         8.035       inferred     Inferred_clkgroup_0_3
-jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     219.5 MHz      10.000        4.556         5.444       inferred     Inferred_clkgroup_0_2
-jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     215.8 MHz      10.000        4.634         5.366       inferred     Inferred_clkgroup_0_1
-System                                               100.0 MHz     212.4 MHz      10.000        4.709         5.291       system       system_clkgroup      
+jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     221.8 MHz      10.000        4.508         5.492       inferred     Inferred_clkgroup_0_2
+jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     232.6 MHz      10.000        4.300         5.700       inferred     Inferred_clkgroup_0_1
+System                                               100.0 MHz     197.5 MHz      10.000        5.064         4.936       system       system_clkgroup      
 ============================================================================================================================================================
 @W: Z241 :"/home/eraguzin/nextcloud/LuSEE/Libero/projects/uart/synthesis/synthesis_1/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
 
@@ -1853,21 +1875,21 @@ Clocks                                                                          
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                          Ending                                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                                            System                                            |  10.000      5.291    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            System                                            |  10.000      4.936    |  No paths    -      |  No paths    -      |  No paths    -    
 System                                            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    997.620  |  No paths    -      |  No paths    -      |  No paths    -    
-System                                            jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      5.332    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      4.515    |  No paths    -      |  No paths    -      |  No paths    -    
 System                                            jtag_interface_x|b10_8Kz_rKlrtX                   |  10.000      8.098    |  No paths    -      |  No paths    -      |  No paths    -    
-System                                            jtag_interface_x|b9_nv_oQwfYF                     |  10.000      7.151    |  No paths    -      |  No paths    -      |  No paths    -    
-clk_main                                          clk_main                                          |  20.000      16.248   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b9_nv_oQwfYF                     |  10.000      6.576    |  No paths    -      |  No paths    -      |  No paths    -    
+clk_main                                          clk_main                                          |  20.000      12.285   |  No paths    -      |  No paths    -      |  No paths    -    
 clk_main                                          jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 ident_coreinst.comm_block_INST.dr2_tck            System                                            |  1000.000    998.296  |  No paths    -      |  No paths    -      |  No paths    -    
 ident_coreinst.comm_block_INST.dr2_tck            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    999.658  |  No paths    -      |  No paths    -      |  No paths    -    
 ident_coreinst.comm_block_INST.dr2_tck            jtag_interface_x|b10_8Kz_rKlrtX                   |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
-jtag_interface_x|identify_clk_int_inferred_clock  System                                            |  10.000      6.929    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  System                                            |  10.000      7.264    |  No paths    -      |  No paths    -      |  No paths    -    
 jtag_interface_x|identify_clk_int_inferred_clock  clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
-jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      5.366    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      5.700    |  No paths    -      |  No paths    -      |  No paths    -    
 jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
-jtag_interface_x|b10_8Kz_rKlrtX                   System                                            |  10.000      5.444    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   System                                            |  10.000      5.492    |  No paths    -      |  No paths    -      |  No paths    -    
 jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 jtag_interface_x|b9_nv_oQwfYF                     clk_main                                          |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
@@ -1895,31 +1917,31 @@ Detailed Report for Clock: clk_main
 Starting Points with Worst Slack
 ********************************
 
-                                                            Starting                                                 Arrival           
-Instance                                                    Reference     Type     Pin     Net                       Time        Slack 
-                                                            Clock                                                                      
----------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0]                 clk_main      SLE      Q       b3_nfs[0]                 0.201       16.248
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[2]                 clk_main      SLE      Q       b3_nfs[2]                 0.201       16.347
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[3]                 clk_main      SLE      Q       b3_nfs[3]                 0.218       16.414
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[4]                 clk_main      SLE      Q       b3_nfs[4]                 0.201       16.475
-ident_coreinst.IICE_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[10]     clk_main      SLE      Q       b13_nAzGfFM_sLsv3[10]     0.218       16.690
-=======================================================================================================================================
+                                Starting                                         Arrival           
+Instance                        Reference     Type     Pin     Net               Time        Slack 
+                                Clock                                                              
+---------------------------------------------------------------------------------------------------
+uart_writer_i.line_index[6]     clk_main      SLE      Q       line_index[6]     0.201       12.285
+uart_writer_i.line_index[4]     clk_main      SLE      Q       line_index[4]     0.218       12.294
+uart_writer_i.line_index[0]     clk_main      SLE      Q       line_index[0]     0.218       12.300
+uart_writer_i.line_index[1]     clk_main      SLE      Q       line_index[1]     0.218       12.308
+uart_writer_i.line_index[3]     clk_main      SLE      Q       line_index[3]     0.218       12.349
+===================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                             Starting                                           Required           
-Instance                                                     Reference     Type     Pin     Net                 Time         Slack 
-                                                             Clock                                                                 
------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]     clk_main      SLE      D       b7_nYhI39s_s[6]     20.000       16.248
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[5]     clk_main      SLE      D       b7_nYhI39s_s[5]     20.000       16.256
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4]     clk_main      SLE      D       b7_nYhI39s_s[4]     20.000       16.264
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[3]     clk_main      SLE      D       b7_nYhI39s_s[3]     20.000       16.272
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[2]     clk_main      SLE      D       b7_nYhI39s_s[2]     20.000       16.280
-===================================================================================================================================
+                             Starting                                        Required           
+Instance                     Reference     Type     Pin     Net              Time         Slack 
+                             Clock                                                              
+------------------------------------------------------------------------------------------------
+uart_writer_i.DATA_IN[2]     clk_main      SLE      D       N_94_i           20.000       12.285
+uart_writer_i.DATA_IN[0]     clk_main      SLE      D       N_16287_i        20.000       12.405
+uart_writer_i.DATA_IN[3]     clk_main      SLE      D       DATA_IN_8[3]     20.000       12.420
+uart_writer_i.DATA_IN[1]     clk_main      SLE      D       N_96_i           20.000       12.567
+uart_writer_i.DATA_IN[5]     clk_main      SLE      D       DATA_IN_8[5]     20.000       12.703
+================================================================================================
 
 
 
@@ -1933,54 +1955,69 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         20.000
 
-    - Propagation time:                      3.752
+    - Propagation time:                      7.715
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 16.248
+    = Slack (non-critical) :                 12.285
 
-    Number of logic level(s):                10
-    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0] / Q
-    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6] / D
+    Number of logic level(s):                15
+    Starting point:                          uart_writer_i.line_index[6] / Q
+    Ending point:                            uart_writer_i.DATA_IN[2] / D
     The start point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
     The end   point is clocked by            clk_main [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
 
-Instance / Net                                                            Pin      Pin               Arrival     No. of    
-Name                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0]                      SLE      Q        Out     0.201     0.201 f     -         
-b3_nfs[0]                                                        Net      -        -       0.662     -           11        
-ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2                   CFG4     D        In      -         0.863 f     -         
-ident_coreinst.IICE_INST.b5_nUTGT.un1_b3_nfs_2                   CFG4     Y        Out     0.192     1.054 f     -         
-un1_b3_nfs_2                                                     Net      -        -       0.124     -           2         
-ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG4     D        In      -         1.179 f     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b6_Ocm0rW_i_o2[1]              CFG4     Y        Out     0.232     1.410 r     -         
-N_146                                                            Net      -        -       0.623     -           8         
-ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     C        In      -         2.033 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b8_nUT_TJfx_0_o3               CFG4     Y        Out     0.132     2.166 f     -         
-b8_nUT_TJfx                                                      Net      -        -       0.637     -           9         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIRPH93[0]             ARI1     D        In      -         2.802 f     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIRPH93[0]             ARI1     FCO      Out     0.492     3.294 r     -         
-b7_nYhI39s_cry[0]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNISSC85[1]             ARI1     FCI      In      -         3.294 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNISSC85[1]             ARI1     FCO      Out     0.008     3.302 r     -         
-b7_nYhI39s_cry[1]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIV1877[2]             ARI1     FCI      In      -         3.302 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIV1877[2]             ARI1     FCO      Out     0.008     3.310 r     -         
-b7_nYhI39s_cry[2]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI49369[3]             ARI1     FCI      In      -         3.310 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNI49369[3]             ARI1     FCO      Out     0.008     3.318 r     -         
-b7_nYhI39s_cry[3]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIBIU4B[4]             ARI1     FCI      In      -         3.318 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIBIU4B[4]             ARI1     FCO      Out     0.008     3.326 r     -         
-b7_nYhI39s_cry[4]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIKTP3D[5]             ARI1     FCI      In      -         3.326 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.b3_nUT_RNIKTP3D[5]             ARI1     FCO      Out     0.008     3.334 r     -         
-b7_nYhI39s_cry[5]                                                Net      -        -       0.000     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     FCI      In      -         3.334 r     -         
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s_RNO[6]     ARI1     S        Out     0.300     3.634 r     -         
-b7_nYhI39s_s[6]                                                  Net      -        -       0.118     -           1         
-ident_coreinst.IICE_INST.b5_nUTGT.genblk4\.b7_nYhI39s[6]         SLE      D        In      -         3.752 r     -         
-===========================================================================================================================
-Total path delay (propagation time + setup) of 3.752 is 1.588(42.3%) logic and 2.164(57.7%) route.
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+uart_writer_i.line_index[6]                          SLE      Q        Out     0.201     0.201 f     -         
+line_index[6]                                        Net      -        -       1.251     -           235       
+uart_writer_i.un88_current_line_0_0_a11_4_2[13]      CFG2     B        In      -         1.452 f     -         
+uart_writer_i.un88_current_line_0_0_a11_4_2[13]      CFG2     Y        Out     0.077     1.529 f     -         
+N_9831_2                                             Net      -        -       1.063     -           112       
+uart_writer_i.un88_current_line_0_a2_i_o3[1103]      CFG2     A        In      -         2.592 f     -         
+uart_writer_i.un88_current_line_0_a2_i_o3[1103]      CFG2     Y        Out     0.047     2.639 r     -         
+N_718                                                Net      -        -       0.594     -           6         
+uart_writer_i.un88_current_line_i_a4_3_0_a3[510]     CFG4     C        In      -         3.233 r     -         
+uart_writer_i.un88_current_line_i_a4_3_0_a3[510]     CFG4     Y        Out     0.132     3.365 f     -         
+N_7233                                               Net      -        -       0.547     -           3         
+uart_writer_i.un88_current_line_0_0_o2_1[197]        CFG4     D        In      -         3.912 f     -         
+uart_writer_i.un88_current_line_0_0_o2_1[197]        CFG4     Y        Out     0.192     4.104 f     -         
+N_657                                                Net      -        -       0.124     -           2         
+uart_writer_i.un88_current_line_0_0_a3[197]          CFG4     D        In      -         4.228 f     -         
+uart_writer_i.un88_current_line_0_0_a3[197]          CFG4     Y        Out     0.192     4.420 f     -         
+N_1046                                               Net      -        -       0.118     -           1         
+uart_writer_i.un88_current_line_0_0_4[197]           CFG4     D        In      -         4.538 f     -         
+uart_writer_i.un88_current_line_0_0_4[197]           CFG4     Y        Out     0.192     4.729 f     -         
+un88_current_line_0_0_4[197]                         Net      -        -       0.118     -           1         
+uart_writer_i.un88_current_line_0_0[197]             CFG3     C        In      -         4.848 f     -         
+uart_writer_i.un88_current_line_0_0[197]             CFG3     Y        Out     0.145     4.993 f     -         
+N_1404                                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_45[2]                        CFG4     B        In      -         5.111 f     -         
+uart_writer_i.DATA_IN_1_45[2]                        CFG4     Y        Out     0.077     5.188 f     -         
+N_8901                                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_59_2_0_wmux[2]               ARI1     C        In      -         5.306 f     -         
+uart_writer_i.DATA_IN_1_59_2_0_wmux[2]               ARI1     Y        Out     0.307     5.613 f     -         
+DATA_IN_1_59_2_0_y0[2]                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_59_2_wmux_0[2]               ARI1     A        In      -         5.731 f     -         
+uart_writer_i.DATA_IN_1_59_2_wmux_0[2]               ARI1     Y        Out     0.126     5.857 r     -         
+DATA_IN_1_59_2_0_y1[2]                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_59_2_wmux_3[2]               ARI1     B        In      -         5.975 r     -         
+uart_writer_i.DATA_IN_1_59_2_wmux_3[2]               ARI1     Y        Out     0.207     6.182 r     -         
+N_8985                                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_125_1_wmux_21[2]             ARI1     D        In      -         6.300 r     -         
+uart_writer_i.DATA_IN_1_125_1_wmux_21[2]             ARI1     Y        Out     0.363     6.663 r     -         
+DATA_IN_1_125_1_wmux_21_Y[2]                         Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_197_1_0_wmux[2]              ARI1     C        In      -         6.781 r     -         
+uart_writer_i.DATA_IN_1_197_1_0_wmux[2]              ARI1     Y        Out     0.307     7.088 r     -         
+DATA_IN_1_197_1_0_y0[2]                              Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_1_197_1_wmux_0[2]              ARI1     A        In      -         7.205 r     -         
+uart_writer_i.DATA_IN_1_197_1_wmux_0[2]              ARI1     Y        Out     0.126     7.331 r     -         
+DATA_IN_1[2]                                         Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN_RNO[2]                         CFG3     C        In      -         7.449 r     -         
+uart_writer_i.DATA_IN_RNO[2]                         CFG3     Y        Out     0.148     7.597 r     -         
+N_94_i                                               Net      -        -       0.118     -           1         
+uart_writer_i.DATA_IN[2]                             SLE      D        In      -         7.715 r     -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 7.715 is 2.838(36.8%) logic and 4.877(63.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -2143,11 +2180,11 @@ Starting Points with Worst Slack
 Instance                                                                 Reference                           Type     Pin     Net                      Time        Slack
                                                                          Clock                                                                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[4]     0.218       5.444
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[6]     0.218       5.489
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[1]        0.218       5.498
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[4]        0.218       5.633
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[3]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[3]     0.201       5.748
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[4]     0.218       5.492
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[6]     0.218       5.537
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[1]        0.218       5.562
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b11_uRrc_WYOFjZ[0]       0.201       5.719
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       IICE_comm2iice[4]        0.218       6.027
 ========================================================================================================================================================================
 
 
@@ -2158,7 +2195,7 @@ Ending Points with Worst Slack
 Instance                                              Reference                           Type      Pin      Net              Time         Slack
                                                       Clock                                                                                     
 ------------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     jtag_interface_x|b10_8Kz_rKlrtX     UJTAG     UTDO     b9_PLF_6lNa2     10.000       5.444
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     jtag_interface_x|b10_8Kz_rKlrtX     UJTAG     UTDO     b9_PLF_6lNa2     10.000       5.492
 ================================================================================================================================================
 
 
@@ -2174,9 +2211,9 @@ Path information for path number 1:
     + Estimated clock delay at ending point: 0.000
     = Required time:                         10.000
 
-    - Propagation time:                      4.556
+    - Propagation time:                      4.508
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 5.444
+    = Slack (non-critical) :                 5.492
 
     Number of logic level(s):                8
     Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4] / Q
@@ -2191,31 +2228,31 @@ ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     SLE    
 b13_nvmFL_fx2rbuQ[4]                                                     Net       -        -       0.547     -           3         
 ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      C        In      -         0.765 r     -         
 ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1                 CFG3      Y        Out     0.132     0.897 f     -         
-b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.547     -           3         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0                   CFG4      A        In      -         1.444 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0                   CFG4      Y        Out     0.048     1.492 f     -         
-N_68                                                                     Net       -        -       0.623     -           8         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_PSyi_9u_0_a2                     CFG4      C        In      -         2.115 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_PSyi_9u_0_a2                     CFG4      Y        Out     0.145     2.260 f     -         
-b7_PSyi_9u                                                               Net       -        -       0.124     -           2         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                          CFG4      D        In      -         2.384 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                          CFG4      Y        Out     0.192     2.576 f     -         
-b3_PLF_0_1                                                               Net       -        -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      C        In      -         2.694 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.145     2.839 f     -         
+b7_nUTQ_9u_0_a2_0_1                                                      Net       -        -       0.124     -           2         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      A        In      -         1.021 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN         CFG4      Y        Out     0.048     1.069 f     -         
+N_68                                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      A        In      -         1.663 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_vbTtJX_ab_0_a2_0                 CFG2      Y        Out     0.048     1.711 f     -         
+N_69                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      D        In      -         2.290 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_a2_3                       CFG4      Y        Out     0.192     2.482 f     -         
+N_65                                                                     Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      D        In      -         2.599 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1                     CFG4      Y        Out     0.192     2.791 f     -         
 b3_PLF_1_0                                                               Net       -        -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.957 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.149 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      D        In      -         2.909 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0                     CFG4      Y        Out     0.192     3.101 f     -         
 b6_PLF_Bq_1                                                              Net       -        -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.267 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.345 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      B        In      -         3.219 f     -         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                         CFG3      Y        Out     0.077     3.296 f     -         
 b6_PLF_Bq                                                                Net       -        -       0.118     -           1         
-ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      C        In      -         3.462 f     -         
-ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.145     3.608 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      C        In      -         3.414 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2                        CFG4      Y        Out     0.145     3.560 f     -         
 b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.556 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.508 f     -         
 ====================================================================================================================================
-Total path delay (propagation time + setup) of 4.556 is 1.295(28.4%) logic and 3.261(71.6%) route.
+Total path delay (propagation time + setup) of 4.508 is 1.243(27.6%) logic and 3.264(72.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -2234,11 +2271,11 @@ Starting Points with Worst Slack
 Instance                                                     Reference                                            Type     Pin     Net                 Time        Slack
                                                              Clock                                                                                                      
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.201       5.366
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[5]     0.218       5.397
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[3]     0.218       5.402
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[2]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[2]     0.218       5.478
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[4]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[4]     0.218       5.666
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[1]     0.201       5.700
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[2]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[2]     0.201       5.762
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[3]     0.201       5.830
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[5]     0.201       5.860
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.218       6.062
 ========================================================================================================================================================================
 
 
@@ -2249,11 +2286,11 @@ Ending Points with Worst Slack
 Instance                                                     Reference                                            Type        Pin            Net                   Time         Slack
                                                              Clock                                                                                                                   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.366
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.366
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.366
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.366
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[4]     9.385        5.502
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.700
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[6]     9.385        5.700
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.778
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[5]     9.385        5.778
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[4]     9.385        6.117
 =====================================================================================================================================================================================
 
 
@@ -2268,42 +2305,42 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.385
 
-    - Propagation time:                      4.018
+    - Propagation time:                      3.684
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 5.366
+    = Slack (non-critical) :                 5.700
 
     Number of logic level(s):                6
-    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0] / Q
-    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[10]
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[11]
     The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
     The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
 
-Instance / Net                                                                           Pin            Pin               Arrival     No. of    
-Name                                                                         Type        Name           Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]                     SLE         Q              Out     0.201     0.201 f     -         
-b9_v_mzCDYXs[0]                                                              Net         -              -       0.563     -           4         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4                    CFG4        D              In      -         0.764 f     -         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_4                    CFG4        Y              Out     0.192     0.956 f     -         
-b9_v_mzCDYXs13_4                                                             Net         -              -       0.118     -           1         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13                      CFG4        D              In      -         1.074 f     -         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13                      CFG4        Y              Out     0.192     1.266 f     -         
-b9_v_mzCDYXs13                                                               Net         -              -       0.563     -           4         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIFPEU1             CFG4        C              In      -         1.829 f     -         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNIFPEU1             CFG4        Y              Out     0.130     1.959 r     -         
-un1_m6_0_a2_5                                                                Net         -              -       0.118     -           1         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs17_1_0_RNIR7P62         CFG4        D              In      -         2.077 r     -         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs17_1_0_RNIR7P62         CFG4        Y              Out     0.168     2.245 r     -         
-b9_v_mzCDYXs_c3                                                              Net         -              -       0.594     -           6         
-ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7              CFG3        B              In      -         2.839 r     -         
-ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7              CFG3        Y              Out     0.083     2.922 r     -         
-b9_v_mzCDYXs_c5                                                              Net         -              -       0.124     -           2         
-ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7_RNIUKN84     CFG4        C              In      -         3.046 r     -         
-ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7_RNIUKN84     CFG4        Y              Out     0.148     3.194 r     -         
-b9_v_mzCDYXs_4[5]                                                            Net         -              -       0.824     -           2         
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0                     RAM1K20     A_ADDR[10]     In      -         4.018 r     -         
-================================================================================================================================================
-Total path delay (propagation time + setup) of 4.634 is 1.728(37.3%) logic and 2.905(62.7%) route.
+Instance / Net                                                                    Pin            Pin               Arrival     No. of    
+Name                                                                  Type        Name           Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]              SLE         Q              Out     0.201     0.201 f     -         
+b9_v_mzCDYXs[1]                                                       Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNINOMC1[2]     CFG4        D              In      -         0.780 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNINOMC1[2]     CFG4        Y              Out     0.192     0.972 f     -         
+N_245_a2_4                                                            Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13               CFG4        D              In      -         1.096 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13               CFG4        Y              Out     0.192     1.287 f     -         
+b9_v_mzCDYXs13                                                        Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNILNAE1      CFG4        A              In      -         1.411 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs13_RNILNAE1      CFG4        Y              Out     0.047     1.458 r     -         
+un1_m4_0_a2_2                                                         Net         -              -       0.579     -           5         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7       CFG3        A              In      -         2.038 r     -         
+ident_coreinst.IICE_INST.b3_SoW.un1_genblk9\.b9_v_mzCDYXs_ac0_7       CFG3        Y              Out     0.051     2.088 r     -         
+b9_v_mzCDYXs_c5                                                       Net         -              -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_5              CFG4        A              In      -         2.635 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_5              CFG4        Y              Out     0.051     2.686 r     -         
+b9_v_mzCDYXsc_5                                                       Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_5_RNIQ26I      CFG2        A              In      -         2.810 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_5_RNIQ26I      CFG2        Y              Out     0.051     2.861 r     -         
+b9_v_mzCDYXs_4[6]                                                     Net         -              -       0.824     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0              RAM1K20     A_ADDR[11]     In      -         3.684 r     -         
+=========================================================================================================================================
+Total path delay (propagation time + setup) of 4.300 is 1.399(32.5%) logic and 2.901(67.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -2322,11 +2359,11 @@ Starting Points with Worst Slack
 Instance                                              Reference     Type      Pin          Net              Time        Slack
                                                       Clock                                                                  
 -----------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[4]     b6_uS_MrX[3]     0.000       5.291
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[3]     b6_uS_MrX[2]     0.000       5.332
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[5]     b6_uS_MrX[4]     0.000       5.556
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[2]     b6_uS_MrX[1]     0.000       5.601
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[1]     b6_uS_MrX[0]     0.000       5.641
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[4]     b6_uS_MrX[3]     0.000       4.515
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[3]     b6_uS_MrX[2]     0.000       4.557
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[2]     b6_uS_MrX[1]     0.000       4.586
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[5]     b6_uS_MrX[4]     0.000       4.666
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[1]     b6_uS_MrX[0]     0.000       4.751
 =============================================================================================================================
 
 
@@ -2337,11 +2374,11 @@ Ending Points with Worst Slack
 Instance                                                     Reference     Type        Pin           Net                   Time         Slack
                                                              Clock                                                                           
 ---------------------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw            System        UJTAG       UTDO          b9_PLF_6lNa2          10.000       5.291
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[9]     b9_v_mzCDYXs_4[4]     9.385        5.332
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     System        RAM1K20     A_ADDR[9]     b9_v_mzCDYXs_4[4]     9.385        5.332
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[6]     b9_v_mzCDYXs_4[1]     9.385        5.352
-ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[7]     b9_v_mzCDYXs_4[2]     9.385        5.352
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[5]     b9_v_mzCDYXs_4[0]     9.385        4.515
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     System        RAM1K20     A_ADDR[5]     b9_v_mzCDYXs_4[0]     9.385        4.515
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[6]     b9_v_mzCDYXs_4[1]     9.385        4.617
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0     System        RAM1K20     A_ADDR[9]     b9_v_mzCDYXs_4[4]     9.385        4.617
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_1     System        RAM1K20     A_ADDR[6]     b9_v_mzCDYXs_4[1]     9.385        4.617
 =============================================================================================================================================
 
 
@@ -2352,57 +2389,50 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      10.000
-    - Setup time:                            0.000
+    - Setup time:                            0.615
     + Clock delay at ending point:           0.000 (ideal)
-    + Estimated clock delay at ending point: 0.000
-    = Required time:                         10.000
+    = Required time:                         9.385
 
-    - Propagation time:                      4.709
+    - Propagation time:                      4.869
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (critical) :                     5.291
+    = Slack (critical) :                     4.515
 
-    Number of logic level(s):                9
+    Number of logic level(s):                7
     Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[4]
-    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0 / A_ADDR[5]
     The start point is clocked by            System [rising]
-    The end   point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
 
-Instance / Net                                                            Pin          Pin               Arrival     No. of    
-Name                                                            Type      Name         Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------------------
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw               UJTAG     UIREG[4]     Out     0.000     0.000 r     -         
-b6_uS_MrX[3]                                                    Net       -            -       0.118     -           1         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_3     CFG2      B            In      -         0.118 r     -         
-ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_3     CFG2      Y            Out     0.088     0.206 f     -         
-b9_96_cLqgOF5_2                                                 Net       -            -       0.547     -           3         
-ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5              CFG4      D            In      -         0.752 f     -         
-ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5              CFG4      Y            Out     0.192     0.944 f     -         
-b9_96_cLqgOF5                                                   Net       -            -       0.623     -           8         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0          CFG4      B            In      -         1.567 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0          CFG4      Y            Out     0.077     1.645 f     -         
-N_68                                                            Net       -            -       0.623     -           8         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_PSyi_9u_0_a2            CFG4      C            In      -         2.268 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_PSyi_9u_0_a2            CFG4      Y            Out     0.145     2.413 f     -         
-b7_PSyi_9u                                                      Net       -            -       0.124     -           2         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                 CFG4      D            In      -         2.537 f     -         
-ident_coreinst.IICE_INST.b8_uKr_IFLY.b3_PLF_0_1                 CFG4      Y            Out     0.192     2.729 f     -         
-b3_PLF_0_1                                                      Net       -            -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1            CFG4      C            In      -         2.847 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_0_1            CFG4      Y            Out     0.145     2.993 f     -         
-b3_PLF_1_0                                                      Net       -            -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0            CFG4      D            In      -         3.111 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF_1_0            CFG4      Y            Out     0.192     3.302 f     -         
-b6_PLF_Bq_1                                                     Net       -            -       0.118     -           1         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                CFG3      B            In      -         3.420 f     -         
-ident_coreinst.comm_block_INST.b7_Rcmi_ql.b3_PLF                CFG3      Y            Out     0.077     3.498 f     -         
-b6_PLF_Bq                                                       Net       -            -       0.118     -           1         
-ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2               CFG4      C            In      -         3.616 f     -         
-ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2               CFG4      Y            Out     0.145     3.761 f     -         
-b9_PLF_6lNa2                                                    Net       -            -       0.948     -           1         
-ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw               UJTAG     UTDO         In      -         4.709 f     -         
-===============================================================================================================================
-Total path delay (propagation time + setup) of 4.709 is 1.254(26.6%) logic and 3.455(73.4%) route.
+Instance / Net                                                                   Pin           Pin               Arrival     No. of    
+Name                                                                 Type        Name          Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                    UJTAG       UIREG[4]      Out     0.000     0.000 r     -         
+b6_uS_MrX[3]                                                         Net         -             -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_1          CFG2        B             In      -         0.118 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_1          CFG2        Y             Out     0.088     0.206 f     -         
+b9_96_cLqgOF5_2                                                      Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        B             In      -         0.752 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                   CFG4        Y             Out     0.077     0.830 f     -         
+b9_96_cLqgOF5                                                        Net         -             -       0.650     -           10        
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        C             In      -         1.480 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b7_nUTQ_9u_0_a2_0_1_RNI8STN     CFG4        Y             Out     0.145     1.625 f     -         
+N_68                                                                 Net         -             -       0.594     -           6         
+ident_coreinst.IICE_INST.b3_SoW.N_245_a2_1                           CFG3        B             In      -         2.219 f     -         
+ident_coreinst.IICE_INST.b3_SoW.N_245_a2_1                           CFG3        Y             Out     0.077     2.297 f     -         
+N_257_i_1                                                            Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG3        C             In      -         2.844 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIF1JE3[0]      CFG3        Y             Out     0.145     2.989 f     -         
+N_257_i                                                              Net         -             -       0.650     -           10        
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc               CFG4        D             In      -         3.639 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc               CFG4        Y             Out     0.232     3.871 r     -         
+b9_v_mzCDYXsc                                                        Net         -             -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_RNI6JME       CFG2        A             In      -         3.995 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXsc_RNI6JME       CFG2        Y             Out     0.051     4.045 r     -         
+b9_v_mzCDYXs_4[0]                                                    Net         -             -       0.824     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b3_SoW_b3_SoW_0_0             RAM1K20     A_ADDR[5]     In      -         4.869 r     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 5.485 is 1.431(26.1%) logic and 4.053(73.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -2411,10 +2441,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 285MB peak: 285MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 285MB peak: 285MB)
+Finished timing report (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
 ---------------------------------------
 Resource Usage Report for top_level 
@@ -2423,19 +2453,19 @@ Mapping to part: mpf300tfcg1152-1
 Cell usage:
 CLKINT          4 uses
 UJTAG           1 use
-CFG1           7 uses
-CFG2           72 uses
-CFG3           135 uses
-CFG4           225 uses
+CFG1           5 uses
+CFG2           1962 uses
+CFG3           934 uses
+CFG4           2989 uses
 
 Carry cells:
-ARI1            46 uses - used for arithmetic functions
-ARI1            4 uses - used for Wide-Mux implementation
-Total ARI1      50 uses
+ARI1            63 uses - used for arithmetic functions
+ARI1            340 uses - used for Wide-Mux implementation
+Total ARI1      403 uses
 
 
 Sequential Cells: 
-SLE            750 uses
+SLE            767 uses
 
 DSP Blocks:    0 of 924 (0%)
 
@@ -2450,7 +2480,7 @@ Global Clock Buffers: 4
 RAM/ROM usage summary
 Total Block RAMs (RAM1K20) : 2 of 952 (0%)
 
-Total LUTs:    489
+Total LUTs:    6293
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -2459,14 +2489,14 @@ RAM1K20  Interface Logic : SLEs = 72; LUTs = 72;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  750 + 0 + 72 + 0 = 822;
-Total number of LUTs after P&R:  489 + 0 + 72 + 0 = 561;
+Total number of SLEs after P&R:  767 + 0 + 72 + 0 = 839;
+Total number of LUTs after P&R:  6293 + 0 + 72 + 0 = 6365;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 285MB peak: 285MB)
+At Mapper Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 415MB peak: 415MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Nov  9 12:10:10 2022
+Process took 0h:00m:15s realtime, 0h:00m:15s cputime
+# Wed Nov  9 16:06:42 2022
 
 ###########################################################]

@@ -17,10 +17,10 @@ INSTANTIATED     RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     MAPPED_I
 
 #####  REG/LOGIC REPORT  #####
 
-RTL_INSTANCE                       PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                            
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-uart_writer_i.DATA_IN_1_1[6:0]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
-=============================================================================================================================================================
+RTL_INSTANCE                                PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+uart_writer_i.un88_current_line[0:1599]     ROM                NA                 Mapping ROM instance using logic since value for switch "rom_map_logic" is set to 1.
+======================================================================================================================================================================
 
 #####  END OF RAM REPORT  #####
 
